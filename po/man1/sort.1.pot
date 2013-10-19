@@ -1,0 +1,561 @@
+# LCTT man-pages Translate Project
+# Copyright (C) 2013 LCTT
+# This file is distributed under the same license as the PACKAGE package.
+# LCTT <lctt@linux.cn>, 2013.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: LCTT man-pages coreutils-8.21\n"
+"POT-Creation-Date: 2013-10-19 17:34+0800\n"
+"PO-Revision-Date: 2013-10-19 17:50+0800\n"
+"Last-Translator: LCTT <lctt@linux.cn>\n"
+"Language-Team: LCTT <lctt@linux.cn>\n"
+"Language: zh_CN.UTF-8\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+
+#. type: TH
+#: sort.1:2
+#, no-wrap
+msgid "SORT"
+msgstr ""
+
+#. type: TH
+#: sort.1:2
+#, no-wrap
+msgid "October 2013"
+msgstr ""
+
+#. type: TH
+#: sort.1:2
+#, no-wrap
+msgid "GNU coreutils 8.21"
+msgstr ""
+
+#. type: TH
+#: sort.1:2
+#, no-wrap
+msgid "User Commands"
+msgstr ""
+
+#. type: SH
+#: sort.1:3
+#, no-wrap
+msgid "NAME"
+msgstr ""
+
+#. type: Plain text
+#: sort.1:5
+msgid "sort - sort lines of text files"
+msgstr ""
+
+#. type: SH
+#: sort.1:5
+#, no-wrap
+msgid "SYNOPSIS"
+msgstr ""
+
+#. type: Plain text
+#: sort.1:8
+msgid "B<sort> [I<OPTION>]... [I<FILE>]..."
+msgstr ""
+
+#. type: Plain text
+#: sort.1:11
+msgid "B<sort> [I<OPTION>]... I<--files0-from=F>"
+msgstr ""
+
+#. type: SH
+#: sort.1:11
+#, no-wrap
+msgid "DESCRIPTION"
+msgstr ""
+
+#. type: Plain text
+#: sort.1:15
+msgid "Write sorted concatenation of all FILE(s) to standard output."
+msgstr ""
+
+#. type: Plain text
+#: sort.1:18
+msgid ""
+"Mandatory arguments to long options are mandatory for short options too.  "
+"Ordering options:"
+msgstr ""
+
+#. type: TP
+#: sort.1:18
+#, no-wrap
+msgid "B<-b>, B<--ignore-leading-blanks>"
+msgstr ""
+
+#. type: Plain text
+#: sort.1:21
+msgid "ignore leading blanks"
+msgstr ""
+
+#. type: TP
+#: sort.1:21
+#, no-wrap
+msgid "B<-d>, B<--dictionary-order>"
+msgstr ""
+
+#. type: Plain text
+#: sort.1:24
+msgid "consider only blanks and alphanumeric characters"
+msgstr ""
+
+#. type: TP
+#: sort.1:24
+#, no-wrap
+msgid "B<-f>, B<--ignore-case>"
+msgstr ""
+
+#. type: Plain text
+#: sort.1:27
+msgid "fold lower case to upper case characters"
+msgstr ""
+
+#. type: TP
+#: sort.1:27
+#, no-wrap
+msgid "B<-g>, B<--general-numeric-sort>"
+msgstr ""
+
+#. type: Plain text
+#: sort.1:30
+msgid "compare according to general numerical value"
+msgstr ""
+
+#. type: TP
+#: sort.1:30
+#, no-wrap
+msgid "B<-i>, B<--ignore-nonprinting>"
+msgstr ""
+
+#. type: Plain text
+#: sort.1:33
+msgid "consider only printable characters"
+msgstr ""
+
+#. type: TP
+#: sort.1:33
+#, no-wrap
+msgid "B<-M>, B<--month-sort>"
+msgstr ""
+
+#. type: Plain text
+#: sort.1:36
+msgid "compare (unknown) E<lt> 'JAN' E<lt> ... E<lt> 'DEC'"
+msgstr ""
+
+#. type: TP
+#: sort.1:36
+#, no-wrap
+msgid "B<-h>, B<--human-numeric-sort>"
+msgstr ""
+
+#. type: Plain text
+#: sort.1:39
+msgid "compare human readable numbers (e.g., 2K 1G)"
+msgstr ""
+
+#. type: TP
+#: sort.1:39
+#, no-wrap
+msgid "B<-n>, B<--numeric-sort>"
+msgstr ""
+
+#. type: Plain text
+#: sort.1:42
+msgid "compare according to string numerical value"
+msgstr ""
+
+#. type: TP
+#: sort.1:42
+#, no-wrap
+msgid "B<-R>, B<--random-sort>"
+msgstr ""
+
+#. type: Plain text
+#: sort.1:45
+msgid "sort by random hash of keys"
+msgstr ""
+
+#. type: TP
+#: sort.1:45
+#, no-wrap
+msgid "B<--random-source>=I<FILE>"
+msgstr ""
+
+#. type: Plain text
+#: sort.1:48
+msgid "get random bytes from FILE"
+msgstr ""
+
+#. type: TP
+#: sort.1:48
+#, no-wrap
+msgid "B<-r>, B<--reverse>"
+msgstr ""
+
+#. type: Plain text
+#: sort.1:51
+msgid "reverse the result of comparisons"
+msgstr ""
+
+#. type: TP
+#: sort.1:51
+#, no-wrap
+msgid "B<--sort>=I<WORD>"
+msgstr ""
+
+#. type: Plain text
+#: sort.1:56
+msgid ""
+"sort according to WORD: general-numeric B<-g>, human-numeric B<-h>, month "
+"B<-M>, numeric B<-n>, random B<-R>, version B<-V>"
+msgstr ""
+
+#. type: TP
+#: sort.1:56
+#, no-wrap
+msgid "B<-V>, B<--version-sort>"
+msgstr ""
+
+#. type: Plain text
+#: sort.1:59
+msgid "natural sort of (version) numbers within text"
+msgstr ""
+
+#. type: Plain text
+#: sort.1:61
+msgid "Other options:"
+msgstr ""
+
+#. type: TP
+#: sort.1:61
+#, no-wrap
+msgid "B<--batch-size>=I<NMERGE>"
+msgstr ""
+
+#. type: Plain text
+#: sort.1:65
+msgid "merge at most NMERGE inputs at once; for more use temp files"
+msgstr ""
+
+#. type: TP
+#: sort.1:65
+#, no-wrap
+msgid "B<-c>, B<--check>, B<--check>=I<diagnose-first>"
+msgstr ""
+
+#. type: Plain text
+#: sort.1:68
+msgid "check for sorted input; do not sort"
+msgstr ""
+
+#. type: TP
+#: sort.1:68
+#, no-wrap
+msgid "B<-C>, B<--check>=I<quiet>, B<--check>=I<silent>"
+msgstr ""
+
+#. type: Plain text
+#: sort.1:71
+msgid "like B<-c>, but do not report first bad line"
+msgstr ""
+
+#. type: TP
+#: sort.1:71
+#, no-wrap
+msgid "B<--compress-program>=I<PROG>"
+msgstr ""
+
+#. type: Plain text
+#: sort.1:75
+msgid "compress temporaries with PROG; decompress them with PROG B<-d>"
+msgstr ""
+
+#. type: TP
+#: sort.1:75
+#, no-wrap
+msgid "B<--debug>"
+msgstr ""
+
+#. type: Plain text
+#: sort.1:79
+msgid ""
+"annotate the part of the line used to sort, and warn about questionable "
+"usage to stderr"
+msgstr ""
+
+#. type: TP
+#: sort.1:79
+#, no-wrap
+msgid "B<--files0-from>=I<F>"
+msgstr ""
+
+#. type: Plain text
+#: sort.1:84
+msgid ""
+"read input from the files specified by NUL-terminated names in file F; If F "
+"is - then read names from standard input"
+msgstr ""
+
+#. type: TP
+#: sort.1:84
+#, no-wrap
+msgid "B<-k>, B<--key>=I<KEYDEF>"
+msgstr ""
+
+#. type: Plain text
+#: sort.1:87
+msgid "sort via a key; KEYDEF gives location and type"
+msgstr ""
+
+#. type: TP
+#: sort.1:87
+#, no-wrap
+msgid "B<-m>, B<--merge>"
+msgstr ""
+
+#. type: Plain text
+#: sort.1:90
+msgid "merge already sorted files; do not sort"
+msgstr ""
+
+#. type: TP
+#: sort.1:90
+#, no-wrap
+msgid "B<-o>, B<--output>=I<FILE>"
+msgstr ""
+
+#. type: Plain text
+#: sort.1:93
+msgid "write result to FILE instead of standard output"
+msgstr ""
+
+#. type: TP
+#: sort.1:93
+#, no-wrap
+msgid "B<-s>, B<--stable>"
+msgstr ""
+
+#. type: Plain text
+#: sort.1:96
+msgid "stabilize sort by disabling last-resort comparison"
+msgstr ""
+
+#. type: TP
+#: sort.1:96
+#, no-wrap
+msgid "B<-S>, B<--buffer-size>=I<SIZE>"
+msgstr ""
+
+#. type: Plain text
+#: sort.1:99
+msgid "use SIZE for main memory buffer"
+msgstr ""
+
+#. type: TP
+#: sort.1:99
+#, no-wrap
+msgid "B<-t>, B<--field-separator>=I<SEP>"
+msgstr ""
+
+#. type: Plain text
+#: sort.1:102
+msgid "use SEP instead of non-blank to blank transition"
+msgstr ""
+
+#. type: TP
+#: sort.1:102
+#, no-wrap
+msgid "B<-T>, B<--temporary-directory>=I<DIR>"
+msgstr ""
+
+#. type: Plain text
+#: sort.1:106
+msgid ""
+"use DIR for temporaries, not $TMPDIR or /tmp; multiple options specify "
+"multiple directories"
+msgstr ""
+
+#. type: TP
+#: sort.1:106
+#, no-wrap
+msgid "B<--parallel>=I<N>"
+msgstr ""
+
+#. type: Plain text
+#: sort.1:109
+msgid "change the number of sorts run concurrently to N"
+msgstr ""
+
+#. type: TP
+#: sort.1:109
+#, no-wrap
+msgid "B<-u>, B<--unique>"
+msgstr ""
+
+#. type: Plain text
+#: sort.1:113
+msgid ""
+"with B<-c>, check for strict ordering; without B<-c>, output only the first "
+"of an equal run"
+msgstr ""
+
+#. type: TP
+#: sort.1:113
+#, no-wrap
+msgid "B<-z>, B<--zero-terminated>"
+msgstr ""
+
+#. type: Plain text
+#: sort.1:116
+msgid "end lines with 0 byte, not newline"
+msgstr ""
+
+#. type: TP
+#: sort.1:116
+#, no-wrap
+msgid "B<--help>"
+msgstr ""
+
+#. type: Plain text
+#: sort.1:119
+msgid "display this help and exit"
+msgstr ""
+
+#. type: TP
+#: sort.1:119
+#, no-wrap
+msgid "B<--version>"
+msgstr ""
+
+#. type: Plain text
+#: sort.1:122
+msgid "output version information and exit"
+msgstr ""
+
+#. type: Plain text
+#: sort.1:130
+msgid ""
+"KEYDEF is F[.C][OPTS][,F[.C][OPTS]] for start and stop position, where F is "
+"a field number and C a character position in the field; both are origin 1, "
+"and the stop position defaults to the line's end.  If neither B<-t> nor "
+"B<-b> is in effect, characters in a field are counted from the beginning of "
+"the preceding whitespace.  OPTS is one or more single-letter ordering "
+"options [bdfgiMhnRrV], which override global ordering options for that key.  "
+"If no key is given, use the entire line as the key."
+msgstr ""
+
+#. type: Plain text
+#: sort.1:133
+msgid ""
+"SIZE may be followed by the following multiplicative suffixes: % 1% of "
+"memory, b 1, K 1024 (default), and so on for M, G, T, P, E, Z, Y."
+msgstr ""
+
+#. type: Plain text
+#: sort.1:135
+msgid "With no FILE, or when FILE is -, read standard input."
+msgstr ""
+
+#. type: Plain text
+#: sort.1:140
+msgid ""
+"*** WARNING *** The locale specified by the environment affects sort order.  "
+"Set LC_ALL=C to get the traditional sort order that uses native byte values."
+msgstr ""
+
+#. type: SH
+#: sort.1:140
+#, no-wrap
+msgid "AUTHOR"
+msgstr ""
+
+#. type: Plain text
+#: sort.1:142
+msgid "Written by Mike Haertel and Paul Eggert."
+msgstr ""
+
+#. type: SH
+#: sort.1:142
+#, no-wrap
+msgid "REPORTING BUGS"
+msgstr ""
+
+#. type: Plain text
+#: sort.1:144
+msgid "Report sort bugs to bug-coreutils@gnu.org"
+msgstr ""
+
+#. type: Plain text
+#: sort.1:146
+msgid "GNU coreutils home page: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+msgstr ""
+
+#. type: Plain text
+#: sort.1:148
+msgid "General help using GNU software: E<lt>http://www.gnu.org/gethelp/E<gt>"
+msgstr ""
+
+#. type: Plain text
+#: sort.1:150
+msgid ""
+"Report sort translation bugs to "
+"E<lt>http://translationproject.org/team/E<gt>"
+msgstr ""
+
+#. type: SH
+#: sort.1:150
+#, no-wrap
+msgid "COPYRIGHT"
+msgstr ""
+
+#. type: Plain text
+#: sort.1:153
+msgid ""
+"Copyright \\(co 2013 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
+msgstr ""
+
+#. type: Plain text
+#: sort.1:156
+msgid ""
+"This is free software: you are free to change and redistribute it.  There is "
+"NO WARRANTY, to the extent permitted by law."
+msgstr ""
+
+#. type: SH
+#: sort.1:156
+#, no-wrap
+msgid "SEE ALSO"
+msgstr ""
+
+#. type: Plain text
+#: sort.1:158
+msgid "uniq(1)"
+msgstr ""
+
+#. type: Plain text
+#: sort.1:166
+msgid ""
+"The full documentation for B<sort> is maintained as a Texinfo manual.  If "
+"the B<info> and B<sort> programs are properly installed at your site, the "
+"command"
+msgstr ""
+
+#. type: Plain text
+#: sort.1:168
+msgid "B<info coreutils \\(aqsort invocation\\(aq>"
+msgstr ""
+
+#. type: Plain text
+#: sort.1:169
+msgid "should give you access to the complete manual."
+msgstr ""

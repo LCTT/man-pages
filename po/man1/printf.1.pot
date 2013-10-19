@@ -1,0 +1,398 @@
+# LCTT man-pages Translate Project
+# Copyright (C) 2013 LCTT
+# This file is distributed under the same license as the PACKAGE package.
+# LCTT <lctt@linux.cn>, 2013.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: LCTT man-pages coreutils-8.21\n"
+"POT-Creation-Date: 2013-10-19 17:34+0800\n"
+"PO-Revision-Date: 2013-10-19 17:50+0800\n"
+"Last-Translator: LCTT <lctt@linux.cn>\n"
+"Language-Team: LCTT <lctt@linux.cn>\n"
+"Language: zh_CN.UTF-8\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+
+#. type: TH
+#: printf.1:2
+#, no-wrap
+msgid "PRINTF"
+msgstr ""
+
+#. type: TH
+#: printf.1:2
+#, no-wrap
+msgid "October 2013"
+msgstr ""
+
+#. type: TH
+#: printf.1:2
+#, no-wrap
+msgid "GNU coreutils 8.21"
+msgstr ""
+
+#. type: TH
+#: printf.1:2
+#, no-wrap
+msgid "User Commands"
+msgstr ""
+
+#. type: SH
+#: printf.1:3
+#, no-wrap
+msgid "NAME"
+msgstr ""
+
+#. type: Plain text
+#: printf.1:5
+msgid "printf - format and print data"
+msgstr ""
+
+#. type: SH
+#: printf.1:5
+#, no-wrap
+msgid "SYNOPSIS"
+msgstr ""
+
+#. type: Plain text
+#: printf.1:8
+msgid "B<printf> I<FORMAT >[I<ARGUMENT>]..."
+msgstr ""
+
+#. type: Plain text
+#: printf.1:11
+msgid "B<printf> I<OPTION>"
+msgstr ""
+
+#. type: SH
+#: printf.1:11
+#, no-wrap
+msgid "DESCRIPTION"
+msgstr ""
+
+#. type: Plain text
+#: printf.1:15
+msgid "Print ARGUMENT(s) according to FORMAT, or execute according to OPTION:"
+msgstr ""
+
+#. type: TP
+#: printf.1:15
+#, no-wrap
+msgid "B<--help>"
+msgstr ""
+
+#. type: Plain text
+#: printf.1:18
+msgid "display this help and exit"
+msgstr ""
+
+#. type: TP
+#: printf.1:18
+#, no-wrap
+msgid "B<--version>"
+msgstr ""
+
+#. type: Plain text
+#: printf.1:21
+msgid "output version information and exit"
+msgstr ""
+
+#. type: Plain text
+#: printf.1:23
+msgid "FORMAT controls the output as in C printf.  Interpreted sequences are:"
+msgstr ""
+
+#. type: TP
+#: printf.1:23
+#, no-wrap
+msgid "\\e\""
+msgstr ""
+
+#. type: Plain text
+#: printf.1:26
+msgid "double quote"
+msgstr ""
+
+#. type: TP
+#: printf.1:26
+#, no-wrap
+msgid "\\e\\e"
+msgstr ""
+
+#. type: Plain text
+#: printf.1:29
+msgid "backslash"
+msgstr ""
+
+#. type: TP
+#: printf.1:29
+#, no-wrap
+msgid "\\ea"
+msgstr ""
+
+#. type: Plain text
+#: printf.1:32
+msgid "alert (BEL)"
+msgstr ""
+
+#. type: TP
+#: printf.1:32
+#, no-wrap
+msgid "\\eb"
+msgstr ""
+
+#. type: Plain text
+#: printf.1:35
+msgid "backspace"
+msgstr ""
+
+#. type: TP
+#: printf.1:35
+#, no-wrap
+msgid "\\ec"
+msgstr ""
+
+#. type: Plain text
+#: printf.1:38
+msgid "produce no further output"
+msgstr ""
+
+#. type: TP
+#: printf.1:38
+#, no-wrap
+msgid "\\ee"
+msgstr ""
+
+#. type: Plain text
+#: printf.1:41
+msgid "escape"
+msgstr ""
+
+#. type: TP
+#: printf.1:41
+#, no-wrap
+msgid "\\ef"
+msgstr ""
+
+#. type: Plain text
+#: printf.1:44
+msgid "form feed"
+msgstr ""
+
+#. type: TP
+#: printf.1:44
+#, no-wrap
+msgid "\\en"
+msgstr ""
+
+#. type: Plain text
+#: printf.1:47
+msgid "new line"
+msgstr ""
+
+#. type: TP
+#: printf.1:47
+#, no-wrap
+msgid "\\er"
+msgstr ""
+
+#. type: Plain text
+#: printf.1:50
+msgid "carriage return"
+msgstr ""
+
+#. type: TP
+#: printf.1:50
+#, no-wrap
+msgid "\\et"
+msgstr ""
+
+#. type: Plain text
+#: printf.1:53
+msgid "horizontal tab"
+msgstr ""
+
+#. type: TP
+#: printf.1:53
+#, no-wrap
+msgid "\\ev"
+msgstr ""
+
+#. type: Plain text
+#: printf.1:56
+msgid "vertical tab"
+msgstr ""
+
+#. type: TP
+#: printf.1:56
+#, no-wrap
+msgid "\\eNNN"
+msgstr ""
+
+#. type: Plain text
+#: printf.1:59
+msgid "byte with octal value NNN (1 to 3 digits)"
+msgstr ""
+
+#. type: TP
+#: printf.1:59
+#, no-wrap
+msgid "\\exHH"
+msgstr ""
+
+#. type: Plain text
+#: printf.1:62
+msgid "byte with hexadecimal value HH (1 to 2 digits)"
+msgstr ""
+
+#. type: TP
+#: printf.1:62
+#, no-wrap
+msgid "\\euHHHH"
+msgstr ""
+
+#. type: Plain text
+#: printf.1:65
+msgid "Unicode (ISO/IEC 10646) character with hex value HHHH (4 digits)"
+msgstr ""
+
+#. type: TP
+#: printf.1:65
+#, no-wrap
+msgid "\\eUHHHHHHHH"
+msgstr ""
+
+#. type: Plain text
+#: printf.1:68
+msgid "Unicode character with hex value HHHHHHHH (8 digits)"
+msgstr ""
+
+#. type: TP
+#: printf.1:68
+#, no-wrap
+msgid "%%"
+msgstr ""
+
+#. type: Plain text
+#: printf.1:71
+msgid "a single %"
+msgstr ""
+
+#. type: TP
+#: printf.1:71
+#, no-wrap
+msgid "%b"
+msgstr ""
+
+#. type: Plain text
+#: printf.1:75
+msgid ""
+"ARGUMENT as a string with '\\e' escapes interpreted, except that octal "
+"escapes are of the form \\e0 or \\e0NNN"
+msgstr ""
+
+#. type: Plain text
+#: printf.1:78
+msgid ""
+"and all C format specifications ending with one of diouxXfeEgGcs, with "
+"ARGUMENTs converted to proper type first.  Variable widths are handled."
+msgstr ""
+
+#. type: Plain text
+#: printf.1:82
+msgid ""
+"NOTE: your shell may have its own version of printf, which usually "
+"supersedes the version described here.  Please refer to your shell's "
+"documentation for details about the options it supports."
+msgstr ""
+
+#. type: SH
+#: printf.1:82
+#, no-wrap
+msgid "AUTHOR"
+msgstr ""
+
+#. type: Plain text
+#: printf.1:84
+msgid "Written by David MacKenzie."
+msgstr ""
+
+#. type: SH
+#: printf.1:84
+#, no-wrap
+msgid "REPORTING BUGS"
+msgstr ""
+
+#. type: Plain text
+#: printf.1:86
+msgid "Report printf bugs to bug-coreutils@gnu.org"
+msgstr ""
+
+#. type: Plain text
+#: printf.1:88
+msgid "GNU coreutils home page: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+msgstr ""
+
+#. type: Plain text
+#: printf.1:90
+msgid "General help using GNU software: E<lt>http://www.gnu.org/gethelp/E<gt>"
+msgstr ""
+
+#. type: Plain text
+#: printf.1:92
+msgid ""
+"Report printf translation bugs to "
+"E<lt>http://translationproject.org/team/E<gt>"
+msgstr ""
+
+#. type: SH
+#: printf.1:92
+#, no-wrap
+msgid "COPYRIGHT"
+msgstr ""
+
+#. type: Plain text
+#: printf.1:95
+msgid ""
+"Copyright \\(co 2013 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
+msgstr ""
+
+#. type: Plain text
+#: printf.1:98
+msgid ""
+"This is free software: you are free to change and redistribute it.  There is "
+"NO WARRANTY, to the extent permitted by law."
+msgstr ""
+
+#. type: SH
+#: printf.1:98
+#, no-wrap
+msgid "SEE ALSO"
+msgstr ""
+
+#. type: Plain text
+#: printf.1:100
+msgid "printf(3)"
+msgstr ""
+
+#. type: Plain text
+#: printf.1:108
+msgid ""
+"The full documentation for B<printf> is maintained as a Texinfo manual.  If "
+"the B<info> and B<printf> programs are properly installed at your site, the "
+"command"
+msgstr ""
+
+#. type: Plain text
+#: printf.1:110
+msgid "B<info coreutils \\(aqprintf invocation\\(aq>"
+msgstr ""
+
+#. type: Plain text
+#: printf.1:111
+msgid "should give you access to the complete manual."
+msgstr ""

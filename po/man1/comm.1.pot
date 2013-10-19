@@ -1,0 +1,293 @@
+# LCTT man-pages Translate Project
+# Copyright (C) 2013 LCTT
+# This file is distributed under the same license as the PACKAGE package.
+# LCTT <lctt@linux.cn>, 2013.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: LCTT man-pages coreutils-8.21\n"
+"POT-Creation-Date: 2013-10-19 17:34+0800\n"
+"PO-Revision-Date: 2013-10-19 17:50+0800\n"
+"Last-Translator: LCTT <lctt@linux.cn>\n"
+"Language-Team: LCTT <lctt@linux.cn>\n"
+"Language: zh_CN.UTF-8\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+
+#. type: TH
+#: comm.1:2
+#, no-wrap
+msgid "COMM"
+msgstr ""
+
+#. type: TH
+#: comm.1:2
+#, no-wrap
+msgid "October 2013"
+msgstr ""
+
+#. type: TH
+#: comm.1:2
+#, no-wrap
+msgid "GNU coreutils 8.21"
+msgstr ""
+
+#. type: TH
+#: comm.1:2
+#, no-wrap
+msgid "User Commands"
+msgstr ""
+
+#. type: SH
+#: comm.1:3
+#, no-wrap
+msgid "NAME"
+msgstr ""
+
+#. type: Plain text
+#: comm.1:5
+msgid "comm - compare two sorted files line by line"
+msgstr ""
+
+#. type: SH
+#: comm.1:5
+#, no-wrap
+msgid "SYNOPSIS"
+msgstr ""
+
+#. type: Plain text
+#: comm.1:8
+msgid "B<comm> [I<OPTION>]... I<FILE1 FILE2>"
+msgstr ""
+
+#. type: SH
+#: comm.1:8
+#, no-wrap
+msgid "DESCRIPTION"
+msgstr ""
+
+#. type: Plain text
+#: comm.1:12
+msgid "Compare sorted files FILE1 and FILE2 line by line."
+msgstr ""
+
+#. type: Plain text
+#: comm.1:16
+msgid ""
+"With no options, produce three-column output.  Column one contains lines "
+"unique to FILE1, column two contains lines unique to FILE2, and column three "
+"contains lines common to both files."
+msgstr ""
+
+#. type: TP
+#: comm.1:16
+#, no-wrap
+msgid "B<-1>"
+msgstr ""
+
+#. type: Plain text
+#: comm.1:19
+msgid "suppress column 1 (lines unique to FILE1)"
+msgstr ""
+
+#. type: TP
+#: comm.1:19
+#, no-wrap
+msgid "B<-2>"
+msgstr ""
+
+#. type: Plain text
+#: comm.1:22
+msgid "suppress column 2 (lines unique to FILE2)"
+msgstr ""
+
+#. type: TP
+#: comm.1:22
+#, no-wrap
+msgid "B<-3>"
+msgstr ""
+
+#. type: Plain text
+#: comm.1:25
+msgid "suppress column 3 (lines that appear in both files)"
+msgstr ""
+
+#. type: TP
+#: comm.1:25
+#, no-wrap
+msgid "B<--check-order>"
+msgstr ""
+
+#. type: Plain text
+#: comm.1:29
+msgid ""
+"check that the input is correctly sorted, even if all input lines are "
+"pairable"
+msgstr ""
+
+#. type: TP
+#: comm.1:29
+#, no-wrap
+msgid "B<--nocheck-order>"
+msgstr ""
+
+#. type: Plain text
+#: comm.1:32
+msgid "do not check that the input is correctly sorted"
+msgstr ""
+
+#. type: TP
+#: comm.1:32
+#, no-wrap
+msgid "B<--output-delimiter>=I<STR>"
+msgstr ""
+
+#. type: Plain text
+#: comm.1:35
+msgid "separate columns with STR"
+msgstr ""
+
+#. type: TP
+#: comm.1:35
+#, no-wrap
+msgid "B<--help>"
+msgstr ""
+
+#. type: Plain text
+#: comm.1:38
+msgid "display this help and exit"
+msgstr ""
+
+#. type: TP
+#: comm.1:38
+#, no-wrap
+msgid "B<--version>"
+msgstr ""
+
+#. type: Plain text
+#: comm.1:41
+msgid "output version information and exit"
+msgstr ""
+
+#. type: Plain text
+#: comm.1:43
+msgid "Note, comparisons honor the rules specified by 'LC_COLLATE'."
+msgstr ""
+
+#. type: SH
+#: comm.1:43
+#, no-wrap
+msgid "EXAMPLES"
+msgstr ""
+
+#. type: TP
+#: comm.1:44
+#, no-wrap
+msgid "comm B<-12> file1 file2"
+msgstr ""
+
+#. type: Plain text
+#: comm.1:47
+msgid "Print only lines present in both file1 and file2."
+msgstr ""
+
+#. type: TP
+#: comm.1:47
+#, no-wrap
+msgid "comm B<-3> file1 file2"
+msgstr ""
+
+#. type: Plain text
+#: comm.1:50
+msgid "Print lines in file1 not in file2, and vice versa."
+msgstr ""
+
+#. type: SH
+#: comm.1:50
+#, no-wrap
+msgid "AUTHOR"
+msgstr ""
+
+#. type: Plain text
+#: comm.1:52
+msgid "Written by Richard M. Stallman and David MacKenzie."
+msgstr ""
+
+#. type: SH
+#: comm.1:52
+#, no-wrap
+msgid "REPORTING BUGS"
+msgstr ""
+
+#. type: Plain text
+#: comm.1:54
+msgid "Report comm bugs to bug-coreutils@gnu.org"
+msgstr ""
+
+#. type: Plain text
+#: comm.1:56
+msgid "GNU coreutils home page: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+msgstr ""
+
+#. type: Plain text
+#: comm.1:58
+msgid "General help using GNU software: E<lt>http://www.gnu.org/gethelp/E<gt>"
+msgstr ""
+
+#. type: Plain text
+#: comm.1:60
+msgid ""
+"Report comm translation bugs to "
+"E<lt>http://translationproject.org/team/E<gt>"
+msgstr ""
+
+#. type: SH
+#: comm.1:60
+#, no-wrap
+msgid "COPYRIGHT"
+msgstr ""
+
+#. type: Plain text
+#: comm.1:63
+msgid ""
+"Copyright \\(co 2013 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
+msgstr ""
+
+#. type: Plain text
+#: comm.1:66
+msgid ""
+"This is free software: you are free to change and redistribute it.  There is "
+"NO WARRANTY, to the extent permitted by law."
+msgstr ""
+
+#. type: SH
+#: comm.1:66
+#, no-wrap
+msgid "SEE ALSO"
+msgstr ""
+
+#. type: Plain text
+#: comm.1:68
+msgid "join(1), uniq(1)"
+msgstr ""
+
+#. type: Plain text
+#: comm.1:76
+msgid ""
+"The full documentation for B<comm> is maintained as a Texinfo manual.  If "
+"the B<info> and B<comm> programs are properly installed at your site, the "
+"command"
+msgstr ""
+
+#. type: Plain text
+#: comm.1:78
+msgid "B<info coreutils \\(aqcomm invocation\\(aq>"
+msgstr ""
+
+#. type: Plain text
+#: comm.1:79
+msgid "should give you access to the complete manual."
+msgstr ""

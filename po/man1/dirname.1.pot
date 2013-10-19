@@ -1,0 +1,237 @@
+# LCTT man-pages Translate Project
+# Copyright (C) 2013 LCTT
+# This file is distributed under the same license as the PACKAGE package.
+# LCTT <lctt@linux.cn>, 2013.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: LCTT man-pages coreutils-8.21\n"
+"POT-Creation-Date: 2013-10-19 17:34+0800\n"
+"PO-Revision-Date: 2013-10-19 17:50+0800\n"
+"Last-Translator: LCTT <lctt@linux.cn>\n"
+"Language-Team: LCTT <lctt@linux.cn>\n"
+"Language: zh_CN.UTF-8\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+
+#. type: TH
+#: dirname.1:2
+#, no-wrap
+msgid "DIRNAME"
+msgstr ""
+
+#. type: TH
+#: dirname.1:2
+#, no-wrap
+msgid "October 2013"
+msgstr ""
+
+#. type: TH
+#: dirname.1:2
+#, no-wrap
+msgid "GNU coreutils 8.21"
+msgstr ""
+
+#. type: TH
+#: dirname.1:2
+#, no-wrap
+msgid "User Commands"
+msgstr ""
+
+#. type: SH
+#: dirname.1:3
+#, no-wrap
+msgid "NAME"
+msgstr ""
+
+#. type: Plain text
+#: dirname.1:5
+msgid "dirname - strip last component from file name"
+msgstr ""
+
+#. type: SH
+#: dirname.1:5
+#, no-wrap
+msgid "SYNOPSIS"
+msgstr ""
+
+#. type: Plain text
+#: dirname.1:8
+msgid "B<dirname> [I<OPTION>] I<NAME>..."
+msgstr ""
+
+#. type: SH
+#: dirname.1:8
+#, no-wrap
+msgid "DESCRIPTION"
+msgstr ""
+
+#. type: Plain text
+#: dirname.1:13
+msgid ""
+"Output each NAME with its last non-slash component and trailing slashes "
+"removed; if NAME contains no /'s, output '.' (meaning the current "
+"directory)."
+msgstr ""
+
+#. type: TP
+#: dirname.1:13
+#, no-wrap
+msgid "B<-z>, B<--zero>"
+msgstr ""
+
+#. type: Plain text
+#: dirname.1:16
+msgid "separate output with NUL rather than newline"
+msgstr ""
+
+#. type: TP
+#: dirname.1:16
+#, no-wrap
+msgid "B<--help>"
+msgstr ""
+
+#. type: Plain text
+#: dirname.1:19
+msgid "display this help and exit"
+msgstr ""
+
+#. type: TP
+#: dirname.1:19
+#, no-wrap
+msgid "B<--version>"
+msgstr ""
+
+#. type: Plain text
+#: dirname.1:22
+msgid "output version information and exit"
+msgstr ""
+
+#. type: SH
+#: dirname.1:22
+#, no-wrap
+msgid "EXAMPLES"
+msgstr ""
+
+#. type: TP
+#: dirname.1:23
+#, no-wrap
+msgid "dirname /usr/bin/"
+msgstr ""
+
+#. type: Plain text
+#: dirname.1:26
+msgid "-E<gt> \"/usr\""
+msgstr ""
+
+#. type: TP
+#: dirname.1:26
+#, no-wrap
+msgid "dirname dir1/str dir2/str"
+msgstr ""
+
+#. type: Plain text
+#: dirname.1:29
+msgid "-E<gt> \"dir1\" followed by \"dir2\""
+msgstr ""
+
+#. type: TP
+#: dirname.1:29
+#, no-wrap
+msgid "dirname stdio.h"
+msgstr ""
+
+#. type: Plain text
+#: dirname.1:32
+msgid "-E<gt> \".\""
+msgstr ""
+
+#. type: SH
+#: dirname.1:32
+#, no-wrap
+msgid "AUTHOR"
+msgstr ""
+
+#. type: Plain text
+#: dirname.1:34
+msgid "Written by David MacKenzie and Jim Meyering."
+msgstr ""
+
+#. type: SH
+#: dirname.1:34
+#, no-wrap
+msgid "REPORTING BUGS"
+msgstr ""
+
+#. type: Plain text
+#: dirname.1:36
+msgid "Report dirname bugs to bug-coreutils@gnu.org"
+msgstr ""
+
+#. type: Plain text
+#: dirname.1:38
+msgid "GNU coreutils home page: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+msgstr ""
+
+#. type: Plain text
+#: dirname.1:40
+msgid "General help using GNU software: E<lt>http://www.gnu.org/gethelp/E<gt>"
+msgstr ""
+
+#. type: Plain text
+#: dirname.1:42
+msgid ""
+"Report dirname translation bugs to "
+"E<lt>http://translationproject.org/team/E<gt>"
+msgstr ""
+
+#. type: SH
+#: dirname.1:42
+#, no-wrap
+msgid "COPYRIGHT"
+msgstr ""
+
+#. type: Plain text
+#: dirname.1:45
+msgid ""
+"Copyright \\(co 2013 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
+msgstr ""
+
+#. type: Plain text
+#: dirname.1:48
+msgid ""
+"This is free software: you are free to change and redistribute it.  There is "
+"NO WARRANTY, to the extent permitted by law."
+msgstr ""
+
+#. type: SH
+#: dirname.1:48
+#, no-wrap
+msgid "SEE ALSO"
+msgstr ""
+
+#. type: Plain text
+#: dirname.1:50
+msgid "basename(1), readlink(1)"
+msgstr ""
+
+#. type: Plain text
+#: dirname.1:58
+msgid ""
+"The full documentation for B<dirname> is maintained as a Texinfo manual.  If "
+"the B<info> and B<dirname> programs are properly installed at your site, the "
+"command"
+msgstr ""
+
+#. type: Plain text
+#: dirname.1:60
+msgid "B<info coreutils \\(aqdirname invocation\\(aq>"
+msgstr ""
+
+#. type: Plain text
+#: dirname.1:61
+msgid "should give you access to the complete manual."
+msgstr ""

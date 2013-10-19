@@ -1,0 +1,611 @@
+# LCTT man-pages Translate Project
+# Copyright (C) 2013 LCTT
+# This file is distributed under the same license as the PACKAGE package.
+# LCTT <lctt@linux.cn>, 2013.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: LCTT man-pages coreutils-8.21\n"
+"POT-Creation-Date: 2013-10-19 17:34+0800\n"
+"PO-Revision-Date: 2013-10-19 17:50+0800\n"
+"Last-Translator: LCTT <lctt@linux.cn>\n"
+"Language-Team: LCTT <lctt@linux.cn>\n"
+"Language: zh_CN.UTF-8\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+
+#. type: TH
+#: od.1:2
+#, no-wrap
+msgid "OD"
+msgstr ""
+
+#. type: TH
+#: od.1:2
+#, no-wrap
+msgid "October 2013"
+msgstr ""
+
+#. type: TH
+#: od.1:2
+#, no-wrap
+msgid "GNU coreutils 8.21"
+msgstr ""
+
+#. type: TH
+#: od.1:2
+#, no-wrap
+msgid "User Commands"
+msgstr ""
+
+#. type: SH
+#: od.1:3
+#, no-wrap
+msgid "NAME"
+msgstr ""
+
+#. type: Plain text
+#: od.1:5
+msgid "od - dump files in octal and other formats"
+msgstr ""
+
+#. type: SH
+#: od.1:5
+#, no-wrap
+msgid "SYNOPSIS"
+msgstr ""
+
+#. type: Plain text
+#: od.1:8
+msgid "B<od> [I<OPTION>]... [I<FILE>]..."
+msgstr ""
+
+#. type: Plain text
+#: od.1:11
+msgid "B<od> [I<-abcdfilosx>]... [I<FILE>] [[I<+>]I<OFFSET>[I<.>][I<b>]]"
+msgstr ""
+
+#. type: Plain text
+#: od.1:14
+msgid ""
+"B<od> I<--traditional >[I<OPTION>]... [I<FILE>] [[I<+>]I<OFFSET>[I<.>][I<b>] "
+"[I<+>][I<LABEL>][I<.>][I<b>]]"
+msgstr ""
+
+#. type: SH
+#: od.1:14
+#, no-wrap
+msgid "DESCRIPTION"
+msgstr ""
+
+#. type: Plain text
+#: od.1:21
+msgid ""
+"Write an unambiguous representation, octal bytes by default, of FILE to "
+"standard output.  With more than one FILE argument, concatenate them in the "
+"listed order to form the input.  With no FILE, or when FILE is -, read "
+"standard input."
+msgstr ""
+
+#. type: Plain text
+#: od.1:28
+msgid ""
+"If first and second call formats both apply, the second format is assumed if "
+"the last operand begins with + or (if there are 2 operands) a digit.  An "
+"OFFSET operand means B<-j> OFFSET.  LABEL is the pseudo-address at first "
+"byte printed, incremented when dump is progressing.  For OFFSET and LABEL, a "
+"0x or 0X prefix indicates hexadecimal; suffixes may be . for octal and b for "
+"multiply by 512."
+msgstr ""
+
+#. type: Plain text
+#: od.1:30
+msgid "Mandatory arguments to long options are mandatory for short options too."
+msgstr ""
+
+#. type: TP
+#: od.1:30
+#, no-wrap
+msgid "B<-A>, B<--address-radix>=I<RADIX>"
+msgstr ""
+
+#. type: Plain text
+#: od.1:34
+msgid ""
+"output format for file offsets.  RADIX is one of [doxn], for Decimal, Octal, "
+"Hex or None"
+msgstr ""
+
+#. type: TP
+#: od.1:34
+#, no-wrap
+msgid "B<-j>, B<--skip-bytes>=I<BYTES>"
+msgstr ""
+
+#. type: Plain text
+#: od.1:37
+msgid "skip BYTES input bytes first"
+msgstr ""
+
+#. type: TP
+#: od.1:37
+#, no-wrap
+msgid "B<-N>, B<--read-bytes>=I<BYTES>"
+msgstr ""
+
+#. type: Plain text
+#: od.1:40
+msgid "limit dump to BYTES input bytes"
+msgstr ""
+
+#. type: TP
+#: od.1:40
+#, no-wrap
+msgid "B<-S> BYTES, B<--strings>[=I<BYTES>]"
+msgstr ""
+
+#. type: Plain text
+#: od.1:44
+msgid ""
+"output strings of at least BYTES graphic chars.  3 is implied when BYTES is "
+"not specified"
+msgstr ""
+
+#. type: TP
+#: od.1:44
+#, no-wrap
+msgid "B<-t>, B<--format>=I<TYPE>"
+msgstr ""
+
+#. type: Plain text
+#: od.1:47
+msgid "select output format or formats"
+msgstr ""
+
+#. type: TP
+#: od.1:47
+#, no-wrap
+msgid "B<-v>, B<--output-duplicates>"
+msgstr ""
+
+#. type: Plain text
+#: od.1:50
+msgid "do not use * to mark line suppression"
+msgstr ""
+
+#. type: TP
+#: od.1:50
+#, no-wrap
+msgid "B<-w[BYTES]>, B<--width>[=I<BYTES>]"
+msgstr ""
+
+#. type: Plain text
+#: od.1:54
+msgid ""
+"output BYTES bytes per output line.  32 is implied when BYTES is not "
+"specified"
+msgstr ""
+
+#. type: TP
+#: od.1:54
+#, no-wrap
+msgid "B<--traditional>"
+msgstr ""
+
+#. type: Plain text
+#: od.1:57
+msgid "accept arguments in third form above"
+msgstr ""
+
+#. type: TP
+#: od.1:57
+#, no-wrap
+msgid "B<--help>"
+msgstr ""
+
+#. type: Plain text
+#: od.1:60
+msgid "display this help and exit"
+msgstr ""
+
+#. type: TP
+#: od.1:60
+#, no-wrap
+msgid "B<--version>"
+msgstr ""
+
+#. type: Plain text
+#: od.1:63
+msgid "output version information and exit"
+msgstr ""
+
+#. type: SS
+#: od.1:63
+#, no-wrap
+msgid "Traditional format specifications may be intermixed; they accumulate:"
+msgstr ""
+
+#. type: TP
+#: od.1:64
+#, no-wrap
+msgid "B<-a>"
+msgstr ""
+
+#. type: Plain text
+#: od.1:67
+msgid "same as B<-t> a, select named characters, ignoring high-order bit"
+msgstr ""
+
+#. type: TP
+#: od.1:67
+#, no-wrap
+msgid "B<-b>"
+msgstr ""
+
+#. type: Plain text
+#: od.1:70
+msgid "same as B<-t> o1, select octal bytes"
+msgstr ""
+
+#. type: TP
+#: od.1:70
+#, no-wrap
+msgid "B<-c>"
+msgstr ""
+
+#. type: Plain text
+#: od.1:73
+msgid "same as B<-t> c, select ASCII characters or backslash escapes"
+msgstr ""
+
+#. type: TP
+#: od.1:73
+#, no-wrap
+msgid "B<-d>"
+msgstr ""
+
+#. type: Plain text
+#: od.1:76
+msgid "same as B<-t> u2, select unsigned decimal 2-byte units"
+msgstr ""
+
+#. type: TP
+#: od.1:76
+#, no-wrap
+msgid "B<-f>"
+msgstr ""
+
+#. type: Plain text
+#: od.1:79
+msgid "same as B<-t> fF, select floats"
+msgstr ""
+
+#. type: TP
+#: od.1:79
+#, no-wrap
+msgid "B<-i>"
+msgstr ""
+
+#. type: Plain text
+#: od.1:82
+msgid "same as B<-t> dI, select decimal ints"
+msgstr ""
+
+#. type: TP
+#: od.1:82
+#, no-wrap
+msgid "B<-l>"
+msgstr ""
+
+#. type: Plain text
+#: od.1:85
+msgid "same as B<-t> dL, select decimal longs"
+msgstr ""
+
+#. type: TP
+#: od.1:85
+#, no-wrap
+msgid "B<-o>"
+msgstr ""
+
+#. type: Plain text
+#: od.1:88
+msgid "same as B<-t> o2, select octal 2-byte units"
+msgstr ""
+
+#. type: TP
+#: od.1:88
+#, no-wrap
+msgid "B<-s>"
+msgstr ""
+
+#. type: Plain text
+#: od.1:91
+msgid "same as B<-t> d2, select decimal 2-byte units"
+msgstr ""
+
+#. type: TP
+#: od.1:91
+#, no-wrap
+msgid "B<-x>"
+msgstr ""
+
+#. type: Plain text
+#: od.1:94
+msgid "same as B<-t> x2, select hexadecimal 2-byte units"
+msgstr ""
+
+#. type: SS
+#: od.1:94
+#, no-wrap
+msgid "TYPE is made up of one or more of these specifications:"
+msgstr ""
+
+#. type: TP
+#: od.1:95
+#, no-wrap
+msgid "a"
+msgstr ""
+
+#. type: Plain text
+#: od.1:98
+msgid "named character, ignoring high-order bit"
+msgstr ""
+
+#. type: TP
+#: od.1:98
+#, no-wrap
+msgid "c"
+msgstr ""
+
+#. type: Plain text
+#: od.1:101
+msgid "ASCII character or backslash escape"
+msgstr ""
+
+#. type: TP
+#: od.1:101
+#, no-wrap
+msgid "d[SIZE]"
+msgstr ""
+
+#. type: Plain text
+#: od.1:104
+msgid "signed decimal, SIZE bytes per integer"
+msgstr ""
+
+#. type: TP
+#: od.1:104
+#, no-wrap
+msgid "f[SIZE]"
+msgstr ""
+
+#. type: Plain text
+#: od.1:107
+msgid "floating point, SIZE bytes per integer"
+msgstr ""
+
+#. type: TP
+#: od.1:107
+#, no-wrap
+msgid "o[SIZE]"
+msgstr ""
+
+#. type: Plain text
+#: od.1:110
+msgid "octal, SIZE bytes per integer"
+msgstr ""
+
+#. type: TP
+#: od.1:110
+#, no-wrap
+msgid "u[SIZE]"
+msgstr ""
+
+#. type: Plain text
+#: od.1:113
+msgid "unsigned decimal, SIZE bytes per integer"
+msgstr ""
+
+#. type: TP
+#: od.1:113
+#, no-wrap
+msgid "x[SIZE]"
+msgstr ""
+
+#. type: Plain text
+#: od.1:116
+msgid "hexadecimal, SIZE bytes per integer"
+msgstr ""
+
+#. type: Plain text
+#: od.1:121
+msgid ""
+"SIZE is a number.  For TYPE in [doux], SIZE may also be C for sizeof(char), "
+"S for sizeof(short), I for sizeof(int) or L for sizeof(long).  If TYPE is f, "
+"SIZE may also be F for sizeof(float), D for sizeof(double) or L for "
+"sizeof(long double)."
+msgstr ""
+
+#. type: Plain text
+#: od.1:124
+msgid ""
+"Adding a z suffix to any type displays printable characters at the end of "
+"each output line."
+msgstr ""
+
+#. type: SS
+#: od.1:124
+#, no-wrap
+msgid "BYTES is hex with 0x or 0X prefix, and may have a multiplier suffix:"
+msgstr ""
+
+#. type: TP
+#: od.1:125
+#, no-wrap
+msgid "b"
+msgstr ""
+
+#. type: Plain text
+#: od.1:128
+msgid "512"
+msgstr ""
+
+#. type: TP
+#: od.1:128
+#, no-wrap
+msgid "KB"
+msgstr ""
+
+#. type: Plain text
+#: od.1:131
+msgid "1000"
+msgstr ""
+
+#. type: TP
+#: od.1:131
+#, no-wrap
+msgid "K"
+msgstr ""
+
+#. type: Plain text
+#: od.1:134
+msgid "1024"
+msgstr ""
+
+#. type: TP
+#: od.1:134
+#, no-wrap
+msgid "MB"
+msgstr ""
+
+#. type: Plain text
+#: od.1:137
+msgid "1000*1000"
+msgstr ""
+
+#. type: TP
+#: od.1:137
+#, no-wrap
+msgid "M"
+msgstr ""
+
+#. type: Plain text
+#: od.1:140
+msgid "1024*1024"
+msgstr ""
+
+#. type: Plain text
+#: od.1:142
+msgid "and so on for G, T, P, E, Z, Y."
+msgstr ""
+
+#. type: SH
+#: od.1:142
+#, no-wrap
+msgid "EXAMPLES"
+msgstr ""
+
+#. type: TP
+#: od.1:143
+#, no-wrap
+msgid "B<od -A x -t x1z -v>"
+msgstr ""
+
+#. type: Plain text
+#: od.1:146
+msgid "Display hexdump format output"
+msgstr ""
+
+#. type: TP
+#: od.1:146
+#, no-wrap
+msgid "B<od -A o -t oS -w16>"
+msgstr ""
+
+#. type: Plain text
+#: od.1:149
+msgid "The default output format used by od"
+msgstr ""
+
+#. type: SH
+#: od.1:149
+#, no-wrap
+msgid "AUTHOR"
+msgstr ""
+
+#. type: Plain text
+#: od.1:151
+msgid "Written by Jim Meyering."
+msgstr ""
+
+#. type: SH
+#: od.1:151
+#, no-wrap
+msgid "REPORTING BUGS"
+msgstr ""
+
+#. type: Plain text
+#: od.1:153
+msgid "Report od bugs to bug-coreutils@gnu.org"
+msgstr ""
+
+#. type: Plain text
+#: od.1:155
+msgid "GNU coreutils home page: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+msgstr ""
+
+#. type: Plain text
+#: od.1:157
+msgid "General help using GNU software: E<lt>http://www.gnu.org/gethelp/E<gt>"
+msgstr ""
+
+#. type: Plain text
+#: od.1:159
+msgid "Report od translation bugs to E<lt>http://translationproject.org/team/E<gt>"
+msgstr ""
+
+#. type: SH
+#: od.1:159
+#, no-wrap
+msgid "COPYRIGHT"
+msgstr ""
+
+#. type: Plain text
+#: od.1:162
+msgid ""
+"Copyright \\(co 2013 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
+msgstr ""
+
+#. type: Plain text
+#: od.1:165
+msgid ""
+"This is free software: you are free to change and redistribute it.  There is "
+"NO WARRANTY, to the extent permitted by law."
+msgstr ""
+
+#. type: SH
+#: od.1:165
+#, no-wrap
+msgid "SEE ALSO"
+msgstr ""
+
+#. type: Plain text
+#: od.1:173
+msgid ""
+"The full documentation for B<od> is maintained as a Texinfo manual.  If the "
+"B<info> and B<od> programs are properly installed at your site, the command"
+msgstr ""
+
+#. type: Plain text
+#: od.1:175
+msgid "B<info coreutils \\(aqod invocation\\(aq>"
+msgstr ""
+
+#. type: Plain text
+#: od.1:176
+msgid "should give you access to the complete manual."
+msgstr ""

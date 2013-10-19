@@ -1,0 +1,598 @@
+# LCTT man-pages Translate Project
+# Copyright (C) 2013 LCTT
+# This file is distributed under the same license as the PACKAGE package.
+# LCTT <lctt@linux.cn>, 2013.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: LCTT man-pages coreutils-8.21\n"
+"POT-Creation-Date: 2013-10-19 17:34+0800\n"
+"PO-Revision-Date: 2013-10-19 17:50+0800\n"
+"Last-Translator: LCTT <lctt@linux.cn>\n"
+"Language-Team: LCTT <lctt@linux.cn>\n"
+"Language: zh_CN.UTF-8\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+
+#. type: TH
+#: cp.1:2
+#, no-wrap
+msgid "CP"
+msgstr ""
+
+#. type: TH
+#: cp.1:2
+#, no-wrap
+msgid "October 2013"
+msgstr ""
+
+#. type: TH
+#: cp.1:2
+#, no-wrap
+msgid "GNU coreutils 8.21"
+msgstr ""
+
+#. type: TH
+#: cp.1:2
+#, no-wrap
+msgid "User Commands"
+msgstr ""
+
+#. type: SH
+#: cp.1:3
+#, no-wrap
+msgid "NAME"
+msgstr ""
+
+#. type: Plain text
+#: cp.1:5
+msgid "cp - copy files and directories"
+msgstr ""
+
+#. type: SH
+#: cp.1:5
+#, no-wrap
+msgid "SYNOPSIS"
+msgstr ""
+
+#. type: Plain text
+#: cp.1:8
+msgid "B<cp> [I<OPTION>]... [I<-T>] I<SOURCE DEST>"
+msgstr ""
+
+#. type: Plain text
+#: cp.1:11
+msgid "B<cp> [I<OPTION>]... I<SOURCE>... I<DIRECTORY>"
+msgstr ""
+
+#. type: Plain text
+#: cp.1:14
+msgid "B<cp> [I<OPTION>]... I<-t DIRECTORY SOURCE>..."
+msgstr ""
+
+#. type: SH
+#: cp.1:14
+#, no-wrap
+msgid "DESCRIPTION"
+msgstr ""
+
+#. type: Plain text
+#: cp.1:18
+msgid "Copy SOURCE to DEST, or multiple SOURCE(s) to DIRECTORY."
+msgstr ""
+
+#. type: Plain text
+#: cp.1:20
+msgid "Mandatory arguments to long options are mandatory for short options too."
+msgstr ""
+
+#. type: TP
+#: cp.1:20
+#, no-wrap
+msgid "B<-a>, B<--archive>"
+msgstr ""
+
+#. type: Plain text
+#: cp.1:23
+msgid "same as B<-dR> B<--preserve>=I<all>"
+msgstr ""
+
+#. type: TP
+#: cp.1:23
+#, no-wrap
+msgid "B<--attributes-only>"
+msgstr ""
+
+#. type: Plain text
+#: cp.1:26
+msgid "don't copy the file data, just the attributes"
+msgstr ""
+
+#. type: TP
+#: cp.1:26
+#, no-wrap
+msgid "B<--backup>[=I<CONTROL>]"
+msgstr ""
+
+#. type: Plain text
+#: cp.1:29
+msgid "make a backup of each existing destination file"
+msgstr ""
+
+#. type: TP
+#: cp.1:29
+#, no-wrap
+msgid "B<-b>"
+msgstr ""
+
+#. type: Plain text
+#: cp.1:32
+msgid "like B<--backup> but does not accept an argument"
+msgstr ""
+
+#. type: TP
+#: cp.1:32
+#, no-wrap
+msgid "B<--copy-contents>"
+msgstr ""
+
+#. type: Plain text
+#: cp.1:35
+msgid "copy contents of special files when recursive"
+msgstr ""
+
+#. type: TP
+#: cp.1:35
+#, no-wrap
+msgid "B<-d>"
+msgstr ""
+
+#. type: Plain text
+#: cp.1:38
+msgid "same as B<--no-dereference> B<--preserve>=I<links>"
+msgstr ""
+
+#. type: TP
+#: cp.1:38
+#, no-wrap
+msgid "B<-f>, B<--force>"
+msgstr ""
+
+#. type: Plain text
+#: cp.1:43
+msgid ""
+"if an existing destination file cannot be opened, remove it and try again "
+"(this option is ignored when the B<-n> option is also used)"
+msgstr ""
+
+#. type: TP
+#: cp.1:43
+#, no-wrap
+msgid "B<-i>, B<--interactive>"
+msgstr ""
+
+#. type: Plain text
+#: cp.1:47
+msgid "prompt before overwrite (overrides a previous B<-n> option)"
+msgstr ""
+
+#. type: TP
+#: cp.1:47
+#, no-wrap
+msgid "B<-H>"
+msgstr ""
+
+#. type: Plain text
+#: cp.1:50
+msgid "follow command-line symbolic links in SOURCE"
+msgstr ""
+
+#. type: TP
+#: cp.1:50
+#, no-wrap
+msgid "B<-l>, B<--link>"
+msgstr ""
+
+#. type: Plain text
+#: cp.1:53
+msgid "hard link files instead of copying"
+msgstr ""
+
+#. type: TP
+#: cp.1:53
+#, no-wrap
+msgid "B<-L>, B<--dereference>"
+msgstr ""
+
+#. type: Plain text
+#: cp.1:56
+msgid "always follow symbolic links in SOURCE"
+msgstr ""
+
+#. type: TP
+#: cp.1:56
+#, no-wrap
+msgid "B<-n>, B<--no-clobber>"
+msgstr ""
+
+#. type: Plain text
+#: cp.1:60
+msgid "do not overwrite an existing file (overrides a previous B<-i> option)"
+msgstr ""
+
+#. type: TP
+#: cp.1:60
+#, no-wrap
+msgid "B<-P>, B<--no-dereference>"
+msgstr ""
+
+#. type: Plain text
+#: cp.1:63
+msgid "never follow symbolic links in SOURCE"
+msgstr ""
+
+#. type: TP
+#: cp.1:63
+#, no-wrap
+msgid "B<-p>"
+msgstr ""
+
+#. type: Plain text
+#: cp.1:66
+msgid "same as B<--preserve>=I<mode>,ownership,timestamps"
+msgstr ""
+
+#. type: TP
+#: cp.1:66
+#, no-wrap
+msgid "B<--preserve>[=I<ATTR_LIST>]"
+msgstr ""
+
+#. type: Plain text
+#: cp.1:72
+msgid ""
+"preserve the specified attributes (default: mode,ownership,timestamps), if "
+"possible additional attributes: context, links, xattr, all"
+msgstr ""
+
+#. type: TP
+#: cp.1:72
+#, no-wrap
+msgid "B<--no-preserve>=I<ATTR_LIST>"
+msgstr ""
+
+#. type: Plain text
+#: cp.1:75
+msgid "don't preserve the specified attributes"
+msgstr ""
+
+#. type: TP
+#: cp.1:75
+#, no-wrap
+msgid "B<--parents>"
+msgstr ""
+
+#. type: Plain text
+#: cp.1:78
+msgid "use full source file name under DIRECTORY"
+msgstr ""
+
+#. type: TP
+#: cp.1:78
+#, no-wrap
+msgid "B<-R>, B<-r>, B<--recursive>"
+msgstr ""
+
+#. type: Plain text
+#: cp.1:81
+msgid "copy directories recursively"
+msgstr ""
+
+#. type: TP
+#: cp.1:81
+#, no-wrap
+msgid "B<--reflink>[=I<WHEN>]"
+msgstr ""
+
+#. type: Plain text
+#: cp.1:84
+msgid "control clone/CoW copies. See below"
+msgstr ""
+
+#. type: TP
+#: cp.1:84
+#, no-wrap
+msgid "B<--remove-destination>"
+msgstr ""
+
+#. type: Plain text
+#: cp.1:88
+msgid ""
+"remove each existing destination file before attempting to open it (contrast "
+"with B<--force>)"
+msgstr ""
+
+#. type: TP
+#: cp.1:88
+#, no-wrap
+msgid "B<--sparse>=I<WHEN>"
+msgstr ""
+
+#. type: Plain text
+#: cp.1:91
+msgid "control creation of sparse files. See below"
+msgstr ""
+
+#. type: TP
+#: cp.1:91
+#, no-wrap
+msgid "B<--strip-trailing-slashes>"
+msgstr ""
+
+#. type: Plain text
+#: cp.1:95
+msgid "remove any trailing slashes from each SOURCE argument"
+msgstr ""
+
+#. type: TP
+#: cp.1:95
+#, no-wrap
+msgid "B<-s>, B<--symbolic-link>"
+msgstr ""
+
+#. type: Plain text
+#: cp.1:98
+msgid "make symbolic links instead of copying"
+msgstr ""
+
+#. type: TP
+#: cp.1:98
+#, no-wrap
+msgid "B<-S>, B<--suffix>=I<SUFFIX>"
+msgstr ""
+
+#. type: Plain text
+#: cp.1:101
+msgid "override the usual backup suffix"
+msgstr ""
+
+#. type: TP
+#: cp.1:101
+#, no-wrap
+msgid "B<-t>, B<--target-directory>=I<DIRECTORY>"
+msgstr ""
+
+#. type: Plain text
+#: cp.1:104
+msgid "copy all SOURCE arguments into DIRECTORY"
+msgstr ""
+
+#. type: TP
+#: cp.1:104
+#, no-wrap
+msgid "B<-T>, B<--no-target-directory>"
+msgstr ""
+
+#. type: Plain text
+#: cp.1:107
+msgid "treat DEST as a normal file"
+msgstr ""
+
+#. type: TP
+#: cp.1:107
+#, no-wrap
+msgid "B<-u>, B<--update>"
+msgstr ""
+
+#. type: Plain text
+#: cp.1:112
+msgid ""
+"copy only when the SOURCE file is newer than the destination file or when "
+"the destination file is missing"
+msgstr ""
+
+#. type: TP
+#: cp.1:112
+#, no-wrap
+msgid "B<-v>, B<--verbose>"
+msgstr ""
+
+#. type: Plain text
+#: cp.1:115
+msgid "explain what is being done"
+msgstr ""
+
+#. type: TP
+#: cp.1:115
+#, no-wrap
+msgid "B<-x>, B<--one-file-system>"
+msgstr ""
+
+#. type: Plain text
+#: cp.1:118
+msgid "stay on this file system"
+msgstr ""
+
+#. type: TP
+#: cp.1:118
+#, no-wrap
+msgid "B<--help>"
+msgstr ""
+
+#. type: Plain text
+#: cp.1:121
+msgid "display this help and exit"
+msgstr ""
+
+#. type: TP
+#: cp.1:121
+#, no-wrap
+msgid "B<--version>"
+msgstr ""
+
+#. type: Plain text
+#: cp.1:124
+msgid "output version information and exit"
+msgstr ""
+
+#. type: Plain text
+#: cp.1:130
+msgid ""
+"By default, sparse SOURCE files are detected by a crude heuristic and the "
+"corresponding DEST file is made sparse as well.  That is the behavior "
+"selected by B<--sparse>=I<auto>.  Specify B<--sparse>=I<always> to create a "
+"sparse DEST file whenever the SOURCE file contains a long enough sequence of "
+"zero bytes.  Use B<--sparse>=I<never> to inhibit creation of sparse files."
+msgstr ""
+
+#. type: Plain text
+#: cp.1:134
+msgid ""
+"When B<--reflink>[=I<always>] is specified, perform a lightweight copy, "
+"where the data blocks are copied only when modified.  If this is not "
+"possible the copy fails, or if B<--reflink>=I<auto> is specified, fall back "
+"to a standard copy."
+msgstr ""
+
+#. type: Plain text
+#: cp.1:138
+msgid ""
+"The backup suffix is '~', unless set with B<--suffix> or "
+"SIMPLE_BACKUP_SUFFIX.  The version control method may be selected via the "
+"B<--backup> option or through the VERSION_CONTROL environment variable.  "
+"Here are the values:"
+msgstr ""
+
+#. type: TP
+#: cp.1:138
+#, no-wrap
+msgid "none, off"
+msgstr ""
+
+#. type: Plain text
+#: cp.1:141
+msgid "never make backups (even if B<--backup> is given)"
+msgstr ""
+
+#. type: TP
+#: cp.1:141
+#, no-wrap
+msgid "numbered, t"
+msgstr ""
+
+#. type: Plain text
+#: cp.1:144
+msgid "make numbered backups"
+msgstr ""
+
+#. type: TP
+#: cp.1:144
+#, no-wrap
+msgid "existing, nil"
+msgstr ""
+
+#. type: Plain text
+#: cp.1:147
+msgid "numbered if numbered backups exist, simple otherwise"
+msgstr ""
+
+#. type: TP
+#: cp.1:147
+#, no-wrap
+msgid "simple, never"
+msgstr ""
+
+#. type: Plain text
+#: cp.1:150
+msgid "always make simple backups"
+msgstr ""
+
+#. type: Plain text
+#: cp.1:154
+msgid ""
+"As a special case, cp makes a backup of SOURCE when the force and backup "
+"options are given and SOURCE and DEST are the same name for an existing, "
+"regular file."
+msgstr ""
+
+#. type: SH
+#: cp.1:154
+#, no-wrap
+msgid "AUTHOR"
+msgstr ""
+
+#. type: Plain text
+#: cp.1:156
+msgid "Written by Torbjorn Granlund, David MacKenzie, and Jim Meyering."
+msgstr ""
+
+#. type: SH
+#: cp.1:156
+#, no-wrap
+msgid "REPORTING BUGS"
+msgstr ""
+
+#. type: Plain text
+#: cp.1:158
+msgid "Report cp bugs to bug-coreutils@gnu.org"
+msgstr ""
+
+#. type: Plain text
+#: cp.1:160
+msgid "GNU coreutils home page: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+msgstr ""
+
+#. type: Plain text
+#: cp.1:162
+msgid "General help using GNU software: E<lt>http://www.gnu.org/gethelp/E<gt>"
+msgstr ""
+
+#. type: Plain text
+#: cp.1:164
+msgid "Report cp translation bugs to E<lt>http://translationproject.org/team/E<gt>"
+msgstr ""
+
+#. type: SH
+#: cp.1:164
+#, no-wrap
+msgid "COPYRIGHT"
+msgstr ""
+
+#. type: Plain text
+#: cp.1:167
+msgid ""
+"Copyright \\(co 2013 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
+msgstr ""
+
+#. type: Plain text
+#: cp.1:170
+msgid ""
+"This is free software: you are free to change and redistribute it.  There is "
+"NO WARRANTY, to the extent permitted by law."
+msgstr ""
+
+#. type: SH
+#: cp.1:170
+#, no-wrap
+msgid "SEE ALSO"
+msgstr ""
+
+#. type: Plain text
+#: cp.1:178
+msgid ""
+"The full documentation for B<cp> is maintained as a Texinfo manual.  If the "
+"B<info> and B<cp> programs are properly installed at your site, the command"
+msgstr ""
+
+#. type: Plain text
+#: cp.1:180
+msgid "B<info coreutils \\(aqcp invocation\\(aq>"
+msgstr ""
+
+#. type: Plain text
+#: cp.1:181
+msgid "should give you access to the complete manual."
+msgstr ""

@@ -1,0 +1,260 @@
+# LCTT man-pages Translate Project
+# Copyright (C) 2013 LCTT
+# This file is distributed under the same license as the PACKAGE package.
+# LCTT <lctt@linux.cn>, 2013.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: LCTT man-pages coreutils-8.21\n"
+"POT-Creation-Date: 2013-10-19 17:34+0800\n"
+"PO-Revision-Date: 2013-10-19 17:50+0800\n"
+"Last-Translator: LCTT <lctt@linux.cn>\n"
+"Language-Team: LCTT <lctt@linux.cn>\n"
+"Language: zh_CN.UTF-8\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+
+#. type: TH
+#: id.1:2
+#, no-wrap
+msgid "ID"
+msgstr ""
+
+#. type: TH
+#: id.1:2
+#, no-wrap
+msgid "October 2013"
+msgstr ""
+
+#. type: TH
+#: id.1:2
+#, no-wrap
+msgid "GNU coreutils 8.21"
+msgstr ""
+
+#. type: TH
+#: id.1:2
+#, no-wrap
+msgid "User Commands"
+msgstr ""
+
+#. type: SH
+#: id.1:3
+#, no-wrap
+msgid "NAME"
+msgstr ""
+
+#. type: Plain text
+#: id.1:5
+msgid "id - print real and effective user and group IDs"
+msgstr ""
+
+#. type: SH
+#: id.1:5
+#, no-wrap
+msgid "SYNOPSIS"
+msgstr ""
+
+#. type: Plain text
+#: id.1:8
+msgid "B<id> [I<OPTION>]... [I<USERNAME>]"
+msgstr ""
+
+#. type: SH
+#: id.1:8
+#, no-wrap
+msgid "DESCRIPTION"
+msgstr ""
+
+#. type: Plain text
+#: id.1:13
+msgid ""
+"Print user and group information for the specified USERNAME, or (when "
+"USERNAME omitted) for the current user."
+msgstr ""
+
+#. type: TP
+#: id.1:13
+#, no-wrap
+msgid "B<-a>"
+msgstr ""
+
+#. type: Plain text
+#: id.1:16
+msgid "ignore, for compatibility with other versions"
+msgstr ""
+
+#. type: TP
+#: id.1:16
+#, no-wrap
+msgid "B<-Z>, B<--context>"
+msgstr ""
+
+#. type: Plain text
+#: id.1:19
+msgid "print only the security context of the current user"
+msgstr ""
+
+#. type: TP
+#: id.1:19
+#, no-wrap
+msgid "B<-g>, B<--group>"
+msgstr ""
+
+#. type: Plain text
+#: id.1:22
+msgid "print only the effective group ID"
+msgstr ""
+
+#. type: TP
+#: id.1:22
+#, no-wrap
+msgid "B<-G>, B<--groups>"
+msgstr ""
+
+#. type: Plain text
+#: id.1:25
+msgid "print all group IDs"
+msgstr ""
+
+#. type: TP
+#: id.1:25
+#, no-wrap
+msgid "B<-n>, B<--name>"
+msgstr ""
+
+#. type: Plain text
+#: id.1:28
+msgid "print a name instead of a number, for B<-ugG>"
+msgstr ""
+
+#. type: TP
+#: id.1:28
+#, no-wrap
+msgid "B<-r>, B<--real>"
+msgstr ""
+
+#. type: Plain text
+#: id.1:31
+msgid "print the real ID instead of the effective ID, with B<-ugG>"
+msgstr ""
+
+#. type: TP
+#: id.1:31
+#, no-wrap
+msgid "B<-u>, B<--user>"
+msgstr ""
+
+#. type: Plain text
+#: id.1:34
+msgid "print only the effective user ID"
+msgstr ""
+
+#. type: TP
+#: id.1:34
+#, no-wrap
+msgid "B<--help>"
+msgstr ""
+
+#. type: Plain text
+#: id.1:37
+msgid "display this help and exit"
+msgstr ""
+
+#. type: TP
+#: id.1:37
+#, no-wrap
+msgid "B<--version>"
+msgstr ""
+
+#. type: Plain text
+#: id.1:40
+msgid "output version information and exit"
+msgstr ""
+
+#. type: Plain text
+#: id.1:42
+msgid "Without any OPTION, print some useful set of identified information."
+msgstr ""
+
+#. type: SH
+#: id.1:42
+#, no-wrap
+msgid "AUTHOR"
+msgstr ""
+
+#. type: Plain text
+#: id.1:44
+msgid "Written by Arnold Robbins and David MacKenzie."
+msgstr ""
+
+#. type: SH
+#: id.1:44
+#, no-wrap
+msgid "REPORTING BUGS"
+msgstr ""
+
+#. type: Plain text
+#: id.1:46
+msgid "Report id bugs to bug-coreutils@gnu.org"
+msgstr ""
+
+#. type: Plain text
+#: id.1:48
+msgid "GNU coreutils home page: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+msgstr ""
+
+#. type: Plain text
+#: id.1:50
+msgid "General help using GNU software: E<lt>http://www.gnu.org/gethelp/E<gt>"
+msgstr ""
+
+#. type: Plain text
+#: id.1:52
+msgid "Report id translation bugs to E<lt>http://translationproject.org/team/E<gt>"
+msgstr ""
+
+#. type: SH
+#: id.1:52
+#, no-wrap
+msgid "COPYRIGHT"
+msgstr ""
+
+#. type: Plain text
+#: id.1:55
+msgid ""
+"Copyright \\(co 2013 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
+msgstr ""
+
+#. type: Plain text
+#: id.1:58
+msgid ""
+"This is free software: you are free to change and redistribute it.  There is "
+"NO WARRANTY, to the extent permitted by law."
+msgstr ""
+
+#. type: SH
+#: id.1:58
+#, no-wrap
+msgid "SEE ALSO"
+msgstr ""
+
+#. type: Plain text
+#: id.1:66
+msgid ""
+"The full documentation for B<id> is maintained as a Texinfo manual.  If the "
+"B<info> and B<id> programs are properly installed at your site, the command"
+msgstr ""
+
+#. type: Plain text
+#: id.1:68
+msgid "B<info coreutils \\(aqid invocation\\(aq>"
+msgstr ""
+
+#. type: Plain text
+#: id.1:69
+msgid "should give you access to the complete manual."
+msgstr ""

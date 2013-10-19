@@ -1,0 +1,362 @@
+# LCTT man-pages Translate Project
+# Copyright (C) 2013 LCTT
+# This file is distributed under the same license as the PACKAGE package.
+# LCTT <lctt@linux.cn>, 2013.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: LCTT man-pages coreutils-8.21\n"
+"POT-Creation-Date: 2013-10-19 17:34+0800\n"
+"PO-Revision-Date: 2013-10-19 17:50+0800\n"
+"Last-Translator: LCTT <lctt@linux.cn>\n"
+"Language-Team: LCTT <lctt@linux.cn>\n"
+"Language: zh_CN.UTF-8\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+
+#. type: TH
+#: echo.1:2
+#, no-wrap
+msgid "ECHO"
+msgstr ""
+
+#. type: TH
+#: echo.1:2
+#, no-wrap
+msgid "October 2013"
+msgstr ""
+
+#. type: TH
+#: echo.1:2
+#, no-wrap
+msgid "GNU coreutils 8.21"
+msgstr ""
+
+#. type: TH
+#: echo.1:2
+#, no-wrap
+msgid "User Commands"
+msgstr ""
+
+#. type: SH
+#: echo.1:3
+#, no-wrap
+msgid "NAME"
+msgstr ""
+
+#. type: Plain text
+#: echo.1:5
+msgid "echo - display a line of text"
+msgstr ""
+
+#. type: SH
+#: echo.1:5
+#, no-wrap
+msgid "SYNOPSIS"
+msgstr ""
+
+#. type: Plain text
+#: echo.1:8
+msgid "B<echo> [I<SHORT-OPTION>]... [I<STRING>]..."
+msgstr ""
+
+#. type: Plain text
+#: echo.1:11
+msgid "B<echo> I<LONG-OPTION>"
+msgstr ""
+
+#. type: SH
+#: echo.1:11
+#, no-wrap
+msgid "DESCRIPTION"
+msgstr ""
+
+#. type: Plain text
+#: echo.1:15
+msgid "Echo the STRING(s) to standard output."
+msgstr ""
+
+#. type: TP
+#: echo.1:15
+#, no-wrap
+msgid "B<-n>"
+msgstr ""
+
+#. type: Plain text
+#: echo.1:18
+msgid "do not output the trailing newline"
+msgstr ""
+
+#. type: TP
+#: echo.1:18
+#, no-wrap
+msgid "B<-e>"
+msgstr ""
+
+#. type: Plain text
+#: echo.1:21
+msgid "enable interpretation of backslash escapes"
+msgstr ""
+
+#. type: TP
+#: echo.1:21
+#, no-wrap
+msgid "B<-E>"
+msgstr ""
+
+#. type: Plain text
+#: echo.1:24
+msgid "disable interpretation of backslash escapes (default)"
+msgstr ""
+
+#. type: TP
+#: echo.1:24
+#, no-wrap
+msgid "B<--help>"
+msgstr ""
+
+#. type: Plain text
+#: echo.1:27
+msgid "display this help and exit"
+msgstr ""
+
+#. type: TP
+#: echo.1:27
+#, no-wrap
+msgid "B<--version>"
+msgstr ""
+
+#. type: Plain text
+#: echo.1:30
+msgid "output version information and exit"
+msgstr ""
+
+#. type: Plain text
+#: echo.1:32
+msgid "If B<-e> is in effect, the following sequences are recognized:"
+msgstr ""
+
+#. type: TP
+#: echo.1:32
+#, no-wrap
+msgid "\\e\\e"
+msgstr ""
+
+#. type: Plain text
+#: echo.1:35
+msgid "backslash"
+msgstr ""
+
+#. type: TP
+#: echo.1:35
+#, no-wrap
+msgid "\\ea"
+msgstr ""
+
+#. type: Plain text
+#: echo.1:38
+msgid "alert (BEL)"
+msgstr ""
+
+#. type: TP
+#: echo.1:38
+#, no-wrap
+msgid "\\eb"
+msgstr ""
+
+#. type: Plain text
+#: echo.1:41
+msgid "backspace"
+msgstr ""
+
+#. type: TP
+#: echo.1:41
+#, no-wrap
+msgid "\\ec"
+msgstr ""
+
+#. type: Plain text
+#: echo.1:44
+msgid "produce no further output"
+msgstr ""
+
+#. type: TP
+#: echo.1:44
+#, no-wrap
+msgid "\\ee"
+msgstr ""
+
+#. type: Plain text
+#: echo.1:47
+msgid "escape"
+msgstr ""
+
+#. type: TP
+#: echo.1:47
+#, no-wrap
+msgid "\\ef"
+msgstr ""
+
+#. type: Plain text
+#: echo.1:50
+msgid "form feed"
+msgstr ""
+
+#. type: TP
+#: echo.1:50
+#, no-wrap
+msgid "\\en"
+msgstr ""
+
+#. type: Plain text
+#: echo.1:53
+msgid "new line"
+msgstr ""
+
+#. type: TP
+#: echo.1:53
+#, no-wrap
+msgid "\\er"
+msgstr ""
+
+#. type: Plain text
+#: echo.1:56
+msgid "carriage return"
+msgstr ""
+
+#. type: TP
+#: echo.1:56
+#, no-wrap
+msgid "\\et"
+msgstr ""
+
+#. type: Plain text
+#: echo.1:59
+msgid "horizontal tab"
+msgstr ""
+
+#. type: TP
+#: echo.1:59
+#, no-wrap
+msgid "\\ev"
+msgstr ""
+
+#. type: Plain text
+#: echo.1:62
+msgid "vertical tab"
+msgstr ""
+
+#. type: TP
+#: echo.1:62
+#, no-wrap
+msgid "\\e0NNN"
+msgstr ""
+
+#. type: Plain text
+#: echo.1:65
+msgid "byte with octal value NNN (1 to 3 digits)"
+msgstr ""
+
+#. type: TP
+#: echo.1:65
+#, no-wrap
+msgid "\\exHH"
+msgstr ""
+
+#. type: Plain text
+#: echo.1:68
+msgid "byte with hexadecimal value HH (1 to 2 digits)"
+msgstr ""
+
+#. type: Plain text
+#: echo.1:72
+msgid ""
+"NOTE: your shell may have its own version of echo, which usually supersedes "
+"the version described here.  Please refer to your shell's documentation for "
+"details about the options it supports."
+msgstr ""
+
+#. type: SH
+#: echo.1:72
+#, no-wrap
+msgid "AUTHOR"
+msgstr ""
+
+#. type: Plain text
+#: echo.1:74
+msgid "Written by Brian Fox and Chet Ramey."
+msgstr ""
+
+#. type: SH
+#: echo.1:74
+#, no-wrap
+msgid "REPORTING BUGS"
+msgstr ""
+
+#. type: Plain text
+#: echo.1:76
+msgid "Report echo bugs to bug-coreutils@gnu.org"
+msgstr ""
+
+#. type: Plain text
+#: echo.1:78
+msgid "GNU coreutils home page: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+msgstr ""
+
+#. type: Plain text
+#: echo.1:80
+msgid "General help using GNU software: E<lt>http://www.gnu.org/gethelp/E<gt>"
+msgstr ""
+
+#. type: Plain text
+#: echo.1:82
+msgid ""
+"Report echo translation bugs to "
+"E<lt>http://translationproject.org/team/E<gt>"
+msgstr ""
+
+#. type: SH
+#: echo.1:82
+#, no-wrap
+msgid "COPYRIGHT"
+msgstr ""
+
+#. type: Plain text
+#: echo.1:85
+msgid ""
+"Copyright \\(co 2013 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
+msgstr ""
+
+#. type: Plain text
+#: echo.1:88
+msgid ""
+"This is free software: you are free to change and redistribute it.  There is "
+"NO WARRANTY, to the extent permitted by law."
+msgstr ""
+
+#. type: SH
+#: echo.1:88
+#, no-wrap
+msgid "SEE ALSO"
+msgstr ""
+
+#. type: Plain text
+#: echo.1:96
+msgid ""
+"The full documentation for B<echo> is maintained as a Texinfo manual.  If "
+"the B<info> and B<echo> programs are properly installed at your site, the "
+"command"
+msgstr ""
+
+#. type: Plain text
+#: echo.1:98
+msgid "B<info coreutils \\(aqecho invocation\\(aq>"
+msgstr ""
+
+#. type: Plain text
+#: echo.1:99
+msgid "should give you access to the complete manual."
+msgstr ""

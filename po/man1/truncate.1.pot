@@ -1,0 +1,261 @@
+# LCTT man-pages Translate Project
+# Copyright (C) 2013 LCTT
+# This file is distributed under the same license as the PACKAGE package.
+# LCTT <lctt@linux.cn>, 2013.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: LCTT man-pages coreutils-8.21\n"
+"POT-Creation-Date: 2013-10-19 17:34+0800\n"
+"PO-Revision-Date: 2013-10-19 17:50+0800\n"
+"Last-Translator: LCTT <lctt@linux.cn>\n"
+"Language-Team: LCTT <lctt@linux.cn>\n"
+"Language: zh_CN.UTF-8\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+
+#. type: TH
+#: truncate.1:2
+#, no-wrap
+msgid "TRUNCATE"
+msgstr ""
+
+#. type: TH
+#: truncate.1:2
+#, no-wrap
+msgid "October 2013"
+msgstr ""
+
+#. type: TH
+#: truncate.1:2
+#, no-wrap
+msgid "GNU coreutils 8.21"
+msgstr ""
+
+#. type: TH
+#: truncate.1:2
+#, no-wrap
+msgid "User Commands"
+msgstr ""
+
+#. type: SH
+#: truncate.1:3
+#, no-wrap
+msgid "NAME"
+msgstr ""
+
+#. type: Plain text
+#: truncate.1:5
+msgid "truncate - shrink or extend the size of a file to the specified size"
+msgstr ""
+
+#. type: SH
+#: truncate.1:5
+#, no-wrap
+msgid "SYNOPSIS"
+msgstr ""
+
+#. type: Plain text
+#: truncate.1:8
+msgid "B<truncate> I<OPTION>... I<FILE>..."
+msgstr ""
+
+#. type: SH
+#: truncate.1:8
+#, no-wrap
+msgid "DESCRIPTION"
+msgstr ""
+
+#. type: Plain text
+#: truncate.1:12
+msgid "Shrink or extend the size of each FILE to the specified size"
+msgstr ""
+
+#. type: Plain text
+#: truncate.1:14
+msgid "A FILE argument that does not exist is created."
+msgstr ""
+
+#. type: Plain text
+#: truncate.1:18
+msgid ""
+"If a FILE is larger than the specified size, the extra data is lost.  If a "
+"FILE is shorter, it is extended and the extended part (hole)  reads as zero "
+"bytes."
+msgstr ""
+
+#. type: Plain text
+#: truncate.1:20
+msgid "Mandatory arguments to long options are mandatory for short options too."
+msgstr ""
+
+#. type: TP
+#: truncate.1:20
+#, no-wrap
+msgid "B<-c>, B<--no-create>"
+msgstr ""
+
+#. type: Plain text
+#: truncate.1:23
+msgid "do not create any files"
+msgstr ""
+
+#. type: TP
+#: truncate.1:23
+#, no-wrap
+msgid "B<-o>, B<--io-blocks>"
+msgstr ""
+
+#. type: Plain text
+#: truncate.1:26
+msgid "treat SIZE as number of IO blocks instead of bytes"
+msgstr ""
+
+#. type: TP
+#: truncate.1:26
+#, no-wrap
+msgid "B<-r>, B<--reference>=I<RFILE>"
+msgstr ""
+
+#. type: Plain text
+#: truncate.1:29
+msgid "base size on RFILE"
+msgstr ""
+
+#. type: TP
+#: truncate.1:29
+#, no-wrap
+msgid "B<-s>, B<--size>=I<SIZE>"
+msgstr ""
+
+#. type: Plain text
+#: truncate.1:32
+msgid "set or adjust the file size by SIZE"
+msgstr ""
+
+#. type: TP
+#: truncate.1:32
+#, no-wrap
+msgid "B<--help>"
+msgstr ""
+
+#. type: Plain text
+#: truncate.1:35
+msgid "display this help and exit"
+msgstr ""
+
+#. type: TP
+#: truncate.1:35
+#, no-wrap
+msgid "B<--version>"
+msgstr ""
+
+#. type: Plain text
+#: truncate.1:38
+msgid "output version information and exit"
+msgstr ""
+
+#. type: Plain text
+#: truncate.1:41
+msgid ""
+"SIZE is an integer and optional unit (example: 10M is 10*1024*1024).  Units "
+"are K, M, G, T, P, E, Z, Y (powers of 1024) or KB, MB, ... (powers of 1000)."
+msgstr ""
+
+#. type: Plain text
+#: truncate.1:45
+msgid ""
+"SIZE may also be prefixed by one of the following modifying characters: "
+"\\&'+' extend by, '-' reduce by, 'E<lt>' at most, 'E<gt>' at least, \\&'/' "
+"round down to multiple of, '%' round up to multiple of."
+msgstr ""
+
+#. type: SH
+#: truncate.1:45
+#, no-wrap
+msgid "AUTHOR"
+msgstr ""
+
+#. type: Plain text
+#: truncate.1:47
+msgid "Written by Padraig Brady."
+msgstr ""
+
+#. type: SH
+#: truncate.1:47
+#, no-wrap
+msgid "REPORTING BUGS"
+msgstr ""
+
+#. type: Plain text
+#: truncate.1:49
+msgid "Report truncate bugs to bug-coreutils@gnu.org"
+msgstr ""
+
+#. type: Plain text
+#: truncate.1:51
+msgid "GNU coreutils home page: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+msgstr ""
+
+#. type: Plain text
+#: truncate.1:53
+msgid "General help using GNU software: E<lt>http://www.gnu.org/gethelp/E<gt>"
+msgstr ""
+
+#. type: Plain text
+#: truncate.1:55
+msgid ""
+"Report truncate translation bugs to "
+"E<lt>http://translationproject.org/team/E<gt>"
+msgstr ""
+
+#. type: SH
+#: truncate.1:55
+#, no-wrap
+msgid "COPYRIGHT"
+msgstr ""
+
+#. type: Plain text
+#: truncate.1:58
+msgid ""
+"Copyright \\(co 2013 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
+msgstr ""
+
+#. type: Plain text
+#: truncate.1:61
+msgid ""
+"This is free software: you are free to change and redistribute it.  There is "
+"NO WARRANTY, to the extent permitted by law."
+msgstr ""
+
+#. type: SH
+#: truncate.1:61
+#, no-wrap
+msgid "SEE ALSO"
+msgstr ""
+
+#. type: Plain text
+#: truncate.1:63
+msgid "dd(1), truncate(2), ftruncate(2)"
+msgstr ""
+
+#. type: Plain text
+#: truncate.1:71
+msgid ""
+"The full documentation for B<truncate> is maintained as a Texinfo manual.  "
+"If the B<info> and B<truncate> programs are properly installed at your site, "
+"the command"
+msgstr ""
+
+#. type: Plain text
+#: truncate.1:73
+msgid "B<info coreutils \\(aqtruncate invocation\\(aq>"
+msgstr ""
+
+#. type: Plain text
+#: truncate.1:74
+msgid "should give you access to the complete manual."
+msgstr ""

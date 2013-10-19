@@ -1,0 +1,669 @@
+# LCTT man-pages Translate Project
+# Copyright (C) 2013 LCTT
+# This file is distributed under the same license as the PACKAGE package.
+# LCTT <lctt@linux.cn>, 2013.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: LCTT man-pages coreutils-8.21\n"
+"POT-Creation-Date: 2013-10-19 17:34+0800\n"
+"PO-Revision-Date: 2013-10-19 17:50+0800\n"
+"Last-Translator: LCTT <lctt@linux.cn>\n"
+"Language-Team: LCTT <lctt@linux.cn>\n"
+"Language: zh_CN.UTF-8\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+
+#. type: TH
+#: stat.1:2
+#, no-wrap
+msgid "STAT"
+msgstr ""
+
+#. type: TH
+#: stat.1:2
+#, no-wrap
+msgid "October 2013"
+msgstr ""
+
+#. type: TH
+#: stat.1:2
+#, no-wrap
+msgid "GNU coreutils 8.21"
+msgstr ""
+
+#. type: TH
+#: stat.1:2
+#, no-wrap
+msgid "User Commands"
+msgstr ""
+
+#. type: SH
+#: stat.1:3
+#, no-wrap
+msgid "NAME"
+msgstr ""
+
+#. type: Plain text
+#: stat.1:5
+msgid "stat - display file or file system status"
+msgstr ""
+
+#. type: SH
+#: stat.1:5
+#, no-wrap
+msgid "SYNOPSIS"
+msgstr ""
+
+#. type: Plain text
+#: stat.1:8
+msgid "B<stat> [I<OPTION>]... I<FILE>..."
+msgstr ""
+
+#. type: SH
+#: stat.1:8
+#, no-wrap
+msgid "DESCRIPTION"
+msgstr ""
+
+#. type: Plain text
+#: stat.1:12
+msgid "Display file or file system status."
+msgstr ""
+
+#. type: Plain text
+#: stat.1:14
+msgid "Mandatory arguments to long options are mandatory for short options too."
+msgstr ""
+
+#. type: TP
+#: stat.1:14
+#, no-wrap
+msgid "B<-L>, B<--dereference>"
+msgstr ""
+
+#. type: Plain text
+#: stat.1:17
+msgid "follow links"
+msgstr ""
+
+#. type: TP
+#: stat.1:17
+#, no-wrap
+msgid "B<-f>, B<--file-system>"
+msgstr ""
+
+#. type: Plain text
+#: stat.1:20
+msgid "display file system status instead of file status"
+msgstr ""
+
+#. type: TP
+#: stat.1:20
+#, no-wrap
+msgid "B<-c>  B<--format>=I<FORMAT>"
+msgstr ""
+
+#. type: Plain text
+#: stat.1:24
+msgid ""
+"use the specified FORMAT instead of the default; output a newline after each "
+"use of FORMAT"
+msgstr ""
+
+#. type: TP
+#: stat.1:24
+#, no-wrap
+msgid "B<--printf>=I<FORMAT>"
+msgstr ""
+
+#. type: Plain text
+#: stat.1:29
+msgid ""
+"like B<--format>, but interpret backslash escapes, and do not output a "
+"mandatory trailing newline.  If you want a newline, include \\en in FORMAT"
+msgstr ""
+
+#. type: TP
+#: stat.1:29
+#, no-wrap
+msgid "B<-t>, B<--terse>"
+msgstr ""
+
+#. type: Plain text
+#: stat.1:32
+msgid "print the information in terse form"
+msgstr ""
+
+#. type: TP
+#: stat.1:32
+#, no-wrap
+msgid "B<--help>"
+msgstr ""
+
+#. type: Plain text
+#: stat.1:35
+msgid "display this help and exit"
+msgstr ""
+
+#. type: TP
+#: stat.1:35
+#, no-wrap
+msgid "B<--version>"
+msgstr ""
+
+#. type: Plain text
+#: stat.1:38
+msgid "output version information and exit"
+msgstr ""
+
+#. type: Plain text
+#: stat.1:40
+msgid "The valid format sequences for files (without B<--file-system>):"
+msgstr ""
+
+#. type: TP
+#: stat.1:40 stat.1:132
+#, no-wrap
+msgid "%a"
+msgstr ""
+
+#. type: Plain text
+#: stat.1:43
+msgid "access rights in octal"
+msgstr ""
+
+#. type: TP
+#: stat.1:43
+#, no-wrap
+msgid "%A"
+msgstr ""
+
+#. type: Plain text
+#: stat.1:46
+msgid "access rights in human readable form"
+msgstr ""
+
+#. type: TP
+#: stat.1:46 stat.1:135
+#, no-wrap
+msgid "%b"
+msgstr ""
+
+#. type: Plain text
+#: stat.1:49
+msgid "number of blocks allocated (see %B)"
+msgstr ""
+
+#. type: TP
+#: stat.1:49
+#, no-wrap
+msgid "%B"
+msgstr ""
+
+#. type: Plain text
+#: stat.1:52
+msgid "the size in bytes of each block reported by %b"
+msgstr ""
+
+#. type: TP
+#: stat.1:52
+#, no-wrap
+msgid "%C"
+msgstr ""
+
+#. type: Plain text
+#: stat.1:55
+msgid "SELinux security context string"
+msgstr ""
+
+#. type: TP
+#: stat.1:55 stat.1:141
+#, no-wrap
+msgid "%d"
+msgstr ""
+
+#. type: Plain text
+#: stat.1:58
+msgid "device number in decimal"
+msgstr ""
+
+#. type: TP
+#: stat.1:58
+#, no-wrap
+msgid "%D"
+msgstr ""
+
+#. type: Plain text
+#: stat.1:61
+msgid "device number in hex"
+msgstr ""
+
+#. type: TP
+#: stat.1:61 stat.1:144
+#, no-wrap
+msgid "%f"
+msgstr ""
+
+#. type: Plain text
+#: stat.1:64
+msgid "raw mode in hex"
+msgstr ""
+
+#. type: TP
+#: stat.1:64
+#, no-wrap
+msgid "%F"
+msgstr ""
+
+#. type: Plain text
+#: stat.1:67
+msgid "file type"
+msgstr ""
+
+#. type: TP
+#: stat.1:67
+#, no-wrap
+msgid "%g"
+msgstr ""
+
+#. type: Plain text
+#: stat.1:70
+msgid "group ID of owner"
+msgstr ""
+
+#. type: TP
+#: stat.1:70
+#, no-wrap
+msgid "%G"
+msgstr ""
+
+#. type: Plain text
+#: stat.1:73
+msgid "group name of owner"
+msgstr ""
+
+#. type: TP
+#: stat.1:73
+#, no-wrap
+msgid "%h"
+msgstr ""
+
+#. type: Plain text
+#: stat.1:76
+msgid "number of hard links"
+msgstr ""
+
+#. type: TP
+#: stat.1:76 stat.1:147
+#, no-wrap
+msgid "%i"
+msgstr ""
+
+#. type: Plain text
+#: stat.1:79
+msgid "inode number"
+msgstr ""
+
+#. type: TP
+#: stat.1:79
+#, no-wrap
+msgid "%m"
+msgstr ""
+
+#. type: Plain text
+#: stat.1:82
+msgid "mount point"
+msgstr ""
+
+#. type: TP
+#: stat.1:82 stat.1:153
+#, no-wrap
+msgid "%n"
+msgstr ""
+
+#. type: Plain text
+#: stat.1:85 stat.1:156
+msgid "file name"
+msgstr ""
+
+#. type: TP
+#: stat.1:85
+#, no-wrap
+msgid "%N"
+msgstr ""
+
+#. type: Plain text
+#: stat.1:88
+msgid "quoted file name with dereference if symbolic link"
+msgstr ""
+
+#. type: TP
+#: stat.1:88
+#, no-wrap
+msgid "%o"
+msgstr ""
+
+#. type: Plain text
+#: stat.1:91
+msgid "optimal I/O transfer size hint"
+msgstr ""
+
+#. type: TP
+#: stat.1:91 stat.1:156
+#, no-wrap
+msgid "%s"
+msgstr ""
+
+#. type: Plain text
+#: stat.1:94
+msgid "total size, in bytes"
+msgstr ""
+
+#. type: TP
+#: stat.1:94 stat.1:162
+#, no-wrap
+msgid "%t"
+msgstr ""
+
+#. type: Plain text
+#: stat.1:97
+msgid "major device type in hex"
+msgstr ""
+
+#. type: TP
+#: stat.1:97 stat.1:165
+#, no-wrap
+msgid "%T"
+msgstr ""
+
+#. type: Plain text
+#: stat.1:100
+msgid "minor device type in hex"
+msgstr ""
+
+#. type: TP
+#: stat.1:100
+#, no-wrap
+msgid "%u"
+msgstr ""
+
+#. type: Plain text
+#: stat.1:103
+msgid "user ID of owner"
+msgstr ""
+
+#. type: TP
+#: stat.1:103
+#, no-wrap
+msgid "%U"
+msgstr ""
+
+#. type: Plain text
+#: stat.1:106
+msgid "user name of owner"
+msgstr ""
+
+#. type: TP
+#: stat.1:106
+#, no-wrap
+msgid "%w"
+msgstr ""
+
+#. type: Plain text
+#: stat.1:109
+msgid "time of file birth, human-readable; - if unknown"
+msgstr ""
+
+#. type: TP
+#: stat.1:109
+#, no-wrap
+msgid "%W"
+msgstr ""
+
+#. type: Plain text
+#: stat.1:112
+msgid "time of file birth, seconds since Epoch; 0 if unknown"
+msgstr ""
+
+#. type: TP
+#: stat.1:112
+#, no-wrap
+msgid "%x"
+msgstr ""
+
+#. type: Plain text
+#: stat.1:115
+msgid "time of last access, human-readable"
+msgstr ""
+
+#. type: TP
+#: stat.1:115
+#, no-wrap
+msgid "%X"
+msgstr ""
+
+#. type: Plain text
+#: stat.1:118
+msgid "time of last access, seconds since Epoch"
+msgstr ""
+
+#. type: TP
+#: stat.1:118
+#, no-wrap
+msgid "%y"
+msgstr ""
+
+#. type: Plain text
+#: stat.1:121
+msgid "time of last modification, human-readable"
+msgstr ""
+
+#. type: TP
+#: stat.1:121
+#, no-wrap
+msgid "%Y"
+msgstr ""
+
+#. type: Plain text
+#: stat.1:124
+msgid "time of last modification, seconds since Epoch"
+msgstr ""
+
+#. type: TP
+#: stat.1:124
+#, no-wrap
+msgid "%z"
+msgstr ""
+
+#. type: Plain text
+#: stat.1:127
+msgid "time of last change, human-readable"
+msgstr ""
+
+#. type: TP
+#: stat.1:127
+#, no-wrap
+msgid "%Z"
+msgstr ""
+
+#. type: Plain text
+#: stat.1:130
+msgid "time of last change, seconds since Epoch"
+msgstr ""
+
+#. type: Plain text
+#: stat.1:132
+msgid "Valid format sequences for file systems:"
+msgstr ""
+
+#. type: Plain text
+#: stat.1:135
+msgid "free blocks available to non-superuser"
+msgstr ""
+
+#. type: Plain text
+#: stat.1:138
+msgid "total data blocks in file system"
+msgstr ""
+
+#. type: TP
+#: stat.1:138
+#, no-wrap
+msgid "%c"
+msgstr ""
+
+#. type: Plain text
+#: stat.1:141
+msgid "total file nodes in file system"
+msgstr ""
+
+#. type: Plain text
+#: stat.1:144
+msgid "free file nodes in file system"
+msgstr ""
+
+#. type: Plain text
+#: stat.1:147
+msgid "free blocks in file system"
+msgstr ""
+
+#. type: Plain text
+#: stat.1:150
+msgid "file system ID in hex"
+msgstr ""
+
+#. type: TP
+#: stat.1:150
+#, no-wrap
+msgid "%l"
+msgstr ""
+
+#. type: Plain text
+#: stat.1:153
+msgid "maximum length of filenames"
+msgstr ""
+
+#. type: Plain text
+#: stat.1:159
+msgid "block size (for faster transfers)"
+msgstr ""
+
+#. type: TP
+#: stat.1:159
+#, no-wrap
+msgid "%S"
+msgstr ""
+
+#. type: Plain text
+#: stat.1:162
+msgid "fundamental block size (for block counts)"
+msgstr ""
+
+#. type: Plain text
+#: stat.1:165
+msgid "file system type in hex"
+msgstr ""
+
+#. type: Plain text
+#: stat.1:168
+msgid "file system type in human readable form"
+msgstr ""
+
+#. type: Plain text
+#: stat.1:172
+msgid ""
+"NOTE: your shell may have its own version of stat, which usually supersedes "
+"the version described here.  Please refer to your shell's documentation for "
+"details about the options it supports."
+msgstr ""
+
+#. type: SH
+#: stat.1:172
+#, no-wrap
+msgid "AUTHOR"
+msgstr ""
+
+#. type: Plain text
+#: stat.1:174
+msgid "Written by Michael Meskes."
+msgstr ""
+
+#. type: SH
+#: stat.1:174
+#, no-wrap
+msgid "REPORTING BUGS"
+msgstr ""
+
+#. type: Plain text
+#: stat.1:176
+msgid "Report stat bugs to bug-coreutils@gnu.org"
+msgstr ""
+
+#. type: Plain text
+#: stat.1:178
+msgid "GNU coreutils home page: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+msgstr ""
+
+#. type: Plain text
+#: stat.1:180
+msgid "General help using GNU software: E<lt>http://www.gnu.org/gethelp/E<gt>"
+msgstr ""
+
+#. type: Plain text
+#: stat.1:182
+msgid ""
+"Report stat translation bugs to "
+"E<lt>http://translationproject.org/team/E<gt>"
+msgstr ""
+
+#. type: SH
+#: stat.1:182
+#, no-wrap
+msgid "COPYRIGHT"
+msgstr ""
+
+#. type: Plain text
+#: stat.1:185
+msgid ""
+"Copyright \\(co 2013 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
+msgstr ""
+
+#. type: Plain text
+#: stat.1:188
+msgid ""
+"This is free software: you are free to change and redistribute it.  There is "
+"NO WARRANTY, to the extent permitted by law."
+msgstr ""
+
+#. type: SH
+#: stat.1:188
+#, no-wrap
+msgid "SEE ALSO"
+msgstr ""
+
+#. type: Plain text
+#: stat.1:190
+msgid "stat(2)"
+msgstr ""
+
+#. type: Plain text
+#: stat.1:198
+msgid ""
+"The full documentation for B<stat> is maintained as a Texinfo manual.  If "
+"the B<info> and B<stat> programs are properly installed at your site, the "
+"command"
+msgstr ""
+
+#. type: Plain text
+#: stat.1:200
+msgid "B<info coreutils \\(aqstat invocation\\(aq>"
+msgstr ""
+
+#. type: Plain text
+#: stat.1:201
+msgid "should give you access to the complete manual."
+msgstr ""

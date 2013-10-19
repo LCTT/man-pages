@@ -1,0 +1,699 @@
+# LCTT man-pages Translate Project
+# Copyright (C) 2013 LCTT
+# This file is distributed under the same license as the PACKAGE package.
+# LCTT <lctt@linux.cn>, 2013.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: LCTT man-pages coreutils-8.21\n"
+"POT-Creation-Date: 2013-10-19 17:34+0800\n"
+"PO-Revision-Date: 2013-10-19 17:50+0800\n"
+"Last-Translator: LCTT <lctt@linux.cn>\n"
+"Language-Team: LCTT <lctt@linux.cn>\n"
+"Language: zh_CN.UTF-8\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+
+#. type: TH
+#: dd.1:2
+#, no-wrap
+msgid "DD"
+msgstr ""
+
+#. type: TH
+#: dd.1:2
+#, no-wrap
+msgid "October 2013"
+msgstr ""
+
+#. type: TH
+#: dd.1:2
+#, no-wrap
+msgid "GNU coreutils 8.21"
+msgstr ""
+
+#. type: TH
+#: dd.1:2
+#, no-wrap
+msgid "User Commands"
+msgstr ""
+
+#. type: SH
+#: dd.1:3
+#, no-wrap
+msgid "NAME"
+msgstr ""
+
+#. type: Plain text
+#: dd.1:5
+msgid "dd - convert and copy a file"
+msgstr ""
+
+#. type: SH
+#: dd.1:5
+#, no-wrap
+msgid "SYNOPSIS"
+msgstr ""
+
+#. type: Plain text
+#: dd.1:8
+msgid "B<dd> [I<OPERAND>]..."
+msgstr ""
+
+#. type: Plain text
+#: dd.1:11
+msgid "B<dd> I<OPTION>"
+msgstr ""
+
+#. type: SH
+#: dd.1:11
+#, no-wrap
+msgid "DESCRIPTION"
+msgstr ""
+
+#. type: Plain text
+#: dd.1:15
+msgid "Copy a file, converting and formatting according to the operands."
+msgstr ""
+
+#. type: TP
+#: dd.1:15
+#, no-wrap
+msgid "bs=BYTES"
+msgstr ""
+
+#. type: Plain text
+#: dd.1:18
+msgid "read and write up to BYTES bytes at a time"
+msgstr ""
+
+#. type: TP
+#: dd.1:18
+#, no-wrap
+msgid "cbs=BYTES"
+msgstr ""
+
+#. type: Plain text
+#: dd.1:21
+msgid "convert BYTES bytes at a time"
+msgstr ""
+
+#. type: TP
+#: dd.1:21
+#, no-wrap
+msgid "conv=CONVS"
+msgstr ""
+
+#. type: Plain text
+#: dd.1:24
+msgid "convert the file as per the comma separated symbol list"
+msgstr ""
+
+#. type: TP
+#: dd.1:24
+#, no-wrap
+msgid "count=N"
+msgstr ""
+
+#. type: Plain text
+#: dd.1:27
+msgid "copy only N input blocks"
+msgstr ""
+
+#. type: TP
+#: dd.1:27
+#, no-wrap
+msgid "ibs=BYTES"
+msgstr ""
+
+#. type: Plain text
+#: dd.1:30
+msgid "read up to BYTES bytes at a time (default: 512)"
+msgstr ""
+
+#. type: TP
+#: dd.1:30
+#, no-wrap
+msgid "if=FILE"
+msgstr ""
+
+#. type: Plain text
+#: dd.1:33
+msgid "read from FILE instead of stdin"
+msgstr ""
+
+#. type: TP
+#: dd.1:33
+#, no-wrap
+msgid "iflag=FLAGS"
+msgstr ""
+
+#. type: Plain text
+#: dd.1:36
+msgid "read as per the comma separated symbol list"
+msgstr ""
+
+#. type: TP
+#: dd.1:36
+#, no-wrap
+msgid "obs=BYTES"
+msgstr ""
+
+#. type: Plain text
+#: dd.1:39
+msgid "write BYTES bytes at a time (default: 512)"
+msgstr ""
+
+#. type: TP
+#: dd.1:39
+#, no-wrap
+msgid "of=FILE"
+msgstr ""
+
+#. type: Plain text
+#: dd.1:42
+msgid "write to FILE instead of stdout"
+msgstr ""
+
+#. type: TP
+#: dd.1:42
+#, no-wrap
+msgid "oflag=FLAGS"
+msgstr ""
+
+#. type: Plain text
+#: dd.1:45
+msgid "write as per the comma separated symbol list"
+msgstr ""
+
+#. type: TP
+#: dd.1:45
+#, no-wrap
+msgid "seek=N"
+msgstr ""
+
+#. type: Plain text
+#: dd.1:48
+msgid "skip N obs-sized blocks at start of output"
+msgstr ""
+
+#. type: TP
+#: dd.1:48
+#, no-wrap
+msgid "skip=N"
+msgstr ""
+
+#. type: Plain text
+#: dd.1:51
+msgid "skip N ibs-sized blocks at start of input"
+msgstr ""
+
+#. type: TP
+#: dd.1:51
+#, no-wrap
+msgid "status=WHICH"
+msgstr ""
+
+#. type: Plain text
+#: dd.1:55
+msgid ""
+"WHICH info to suppress outputting to stderr; \\&'noxfer' suppresses transfer "
+"stats, 'none' suppresses all"
+msgstr ""
+
+#. type: Plain text
+#: dd.1:59
+msgid ""
+"N and BYTES may be followed by the following multiplicative suffixes: c =1, "
+"w =2, b =512, kB =1000, K =1024, MB =1000*1000, M =1024*1024, xM =M GB "
+"=1000*1000*1000, G =1024*1024*1024, and so on for T, P, E, Z, Y."
+msgstr ""
+
+#. type: Plain text
+#: dd.1:61
+msgid "Each CONV symbol may be:"
+msgstr ""
+
+#. type: TP
+#: dd.1:61
+#, no-wrap
+msgid "ascii"
+msgstr ""
+
+#. type: Plain text
+#: dd.1:64
+msgid "from EBCDIC to ASCII"
+msgstr ""
+
+#. type: TP
+#: dd.1:64
+#, no-wrap
+msgid "ebcdic"
+msgstr ""
+
+#. type: Plain text
+#: dd.1:67
+msgid "from ASCII to EBCDIC"
+msgstr ""
+
+#. type: TP
+#: dd.1:67
+#, no-wrap
+msgid "ibm"
+msgstr ""
+
+#. type: Plain text
+#: dd.1:70
+msgid "from ASCII to alternate EBCDIC"
+msgstr ""
+
+#. type: TP
+#: dd.1:70
+#, no-wrap
+msgid "block"
+msgstr ""
+
+#. type: Plain text
+#: dd.1:73
+msgid "pad newline-terminated records with spaces to cbs-size"
+msgstr ""
+
+#. type: TP
+#: dd.1:73
+#, no-wrap
+msgid "unblock"
+msgstr ""
+
+#. type: Plain text
+#: dd.1:76
+msgid "replace trailing spaces in cbs-size records with newline"
+msgstr ""
+
+#. type: TP
+#: dd.1:76
+#, no-wrap
+msgid "lcase"
+msgstr ""
+
+#. type: Plain text
+#: dd.1:79
+msgid "change upper case to lower case"
+msgstr ""
+
+#. type: TP
+#: dd.1:79
+#, no-wrap
+msgid "ucase"
+msgstr ""
+
+#. type: Plain text
+#: dd.1:82
+msgid "change lower case to upper case"
+msgstr ""
+
+#. type: TP
+#: dd.1:82
+#, no-wrap
+msgid "sparse"
+msgstr ""
+
+#. type: Plain text
+#: dd.1:85
+msgid "try to seek rather than write the output for NUL input blocks"
+msgstr ""
+
+#. type: TP
+#: dd.1:85
+#, no-wrap
+msgid "swab"
+msgstr ""
+
+#. type: Plain text
+#: dd.1:88
+msgid "swap every pair of input bytes"
+msgstr ""
+
+#. type: TP
+#: dd.1:88 dd.1:124
+#, no-wrap
+msgid "sync"
+msgstr ""
+
+#. type: Plain text
+#: dd.1:92
+msgid ""
+"pad every input block with NULs to ibs-size; when used with block or "
+"unblock, pad with spaces rather than NULs"
+msgstr ""
+
+#. type: TP
+#: dd.1:92
+#, no-wrap
+msgid "excl"
+msgstr ""
+
+#. type: Plain text
+#: dd.1:95
+msgid "fail if the output file already exists"
+msgstr ""
+
+#. type: TP
+#: dd.1:95
+#, no-wrap
+msgid "nocreat"
+msgstr ""
+
+#. type: Plain text
+#: dd.1:98
+msgid "do not create the output file"
+msgstr ""
+
+#. type: TP
+#: dd.1:98
+#, no-wrap
+msgid "notrunc"
+msgstr ""
+
+#. type: Plain text
+#: dd.1:101
+msgid "do not truncate the output file"
+msgstr ""
+
+#. type: TP
+#: dd.1:101
+#, no-wrap
+msgid "noerror"
+msgstr ""
+
+#. type: Plain text
+#: dd.1:104
+msgid "continue after read errors"
+msgstr ""
+
+#. type: TP
+#: dd.1:104
+#, no-wrap
+msgid "fdatasync"
+msgstr ""
+
+#. type: Plain text
+#: dd.1:107
+msgid "physically write output file data before finishing"
+msgstr ""
+
+#. type: TP
+#: dd.1:107
+#, no-wrap
+msgid "fsync"
+msgstr ""
+
+#. type: Plain text
+#: dd.1:110
+msgid "likewise, but also write metadata"
+msgstr ""
+
+#. type: Plain text
+#: dd.1:112
+msgid "Each FLAG symbol may be:"
+msgstr ""
+
+#. type: TP
+#: dd.1:112
+#, no-wrap
+msgid "append"
+msgstr ""
+
+#. type: Plain text
+#: dd.1:115
+msgid "append mode (makes sense only for output; conv=notrunc suggested)"
+msgstr ""
+
+#. type: TP
+#: dd.1:115
+#, no-wrap
+msgid "direct"
+msgstr ""
+
+#. type: Plain text
+#: dd.1:118
+msgid "use direct I/O for data"
+msgstr ""
+
+#. type: TP
+#: dd.1:118
+#, no-wrap
+msgid "directory"
+msgstr ""
+
+#. type: Plain text
+#: dd.1:121
+msgid "fail unless a directory"
+msgstr ""
+
+#. type: TP
+#: dd.1:121
+#, no-wrap
+msgid "dsync"
+msgstr ""
+
+#. type: Plain text
+#: dd.1:124
+msgid "use synchronized I/O for data"
+msgstr ""
+
+#. type: Plain text
+#: dd.1:127
+msgid "likewise, but also for metadata"
+msgstr ""
+
+#. type: TP
+#: dd.1:127
+#, no-wrap
+msgid "fullblock"
+msgstr ""
+
+#. type: Plain text
+#: dd.1:130
+msgid "accumulate full blocks of input (iflag only)"
+msgstr ""
+
+#. type: TP
+#: dd.1:130
+#, no-wrap
+msgid "nonblock"
+msgstr ""
+
+#. type: Plain text
+#: dd.1:133
+msgid "use non-blocking I/O"
+msgstr ""
+
+#. type: TP
+#: dd.1:133
+#, no-wrap
+msgid "noatime"
+msgstr ""
+
+#. type: Plain text
+#: dd.1:136
+msgid "do not update access time"
+msgstr ""
+
+#. type: TP
+#: dd.1:136
+#, no-wrap
+msgid "nocache"
+msgstr ""
+
+#. type: Plain text
+#: dd.1:139
+msgid "discard cached data"
+msgstr ""
+
+#. type: TP
+#: dd.1:139
+#, no-wrap
+msgid "noctty"
+msgstr ""
+
+#. type: Plain text
+#: dd.1:142
+msgid "do not assign controlling terminal from file"
+msgstr ""
+
+#. type: TP
+#: dd.1:142
+#, no-wrap
+msgid "nofollow"
+msgstr ""
+
+#. type: Plain text
+#: dd.1:145
+msgid "do not follow symlinks"
+msgstr ""
+
+#. type: TP
+#: dd.1:145
+#, no-wrap
+msgid "count_bytes"
+msgstr ""
+
+#. type: Plain text
+#: dd.1:148
+msgid "treat 'count=N' as a byte count (iflag only)"
+msgstr ""
+
+#. type: TP
+#: dd.1:148
+#, no-wrap
+msgid "skip_bytes"
+msgstr ""
+
+#. type: Plain text
+#: dd.1:151
+msgid "treat 'skip=N' as a byte count (iflag only)"
+msgstr ""
+
+#. type: TP
+#: dd.1:151
+#, no-wrap
+msgid "seek_bytes"
+msgstr ""
+
+#. type: Plain text
+#: dd.1:154
+msgid "treat 'seek=N' as a byte count (oflag only)"
+msgstr ""
+
+#. type: Plain text
+#: dd.1:157
+msgid ""
+"Sending a USR1 signal to a running 'dd' process makes it print I/O "
+"statistics to standard error and then resume copying."
+msgstr ""
+
+#. type: Plain text
+#: dd.1:159
+msgid "CW<$ dd if=/dev/zero of=/dev/null& pid=$!>"
+msgstr ""
+
+#. type: Plain text
+#: dd.1:161
+msgid "CW<$ kill -USR1 $pid; sleep 1; kill $pid>"
+msgstr ""
+
+#. type: Plain text
+#: dd.1:165
+msgid ""
+"18335302+0 records in 18335302+0 records out 9387674624 bytes (9.4 GB) "
+"copied, 34.6279 seconds, 271 MB/s"
+msgstr ""
+
+#. type: Plain text
+#: dd.1:167
+msgid "Options are:"
+msgstr ""
+
+#. type: TP
+#: dd.1:167
+#, no-wrap
+msgid "B<--help>"
+msgstr ""
+
+#. type: Plain text
+#: dd.1:170
+msgid "display this help and exit"
+msgstr ""
+
+#. type: TP
+#: dd.1:170
+#, no-wrap
+msgid "B<--version>"
+msgstr ""
+
+#. type: Plain text
+#: dd.1:173
+msgid "output version information and exit"
+msgstr ""
+
+#. type: SH
+#: dd.1:173
+#, no-wrap
+msgid "AUTHOR"
+msgstr ""
+
+#. type: Plain text
+#: dd.1:175
+msgid "Written by Paul Rubin, David MacKenzie, and Stuart Kemp."
+msgstr ""
+
+#. type: SH
+#: dd.1:175
+#, no-wrap
+msgid "REPORTING BUGS"
+msgstr ""
+
+#. type: Plain text
+#: dd.1:177
+msgid "Report dd bugs to bug-coreutils@gnu.org"
+msgstr ""
+
+#. type: Plain text
+#: dd.1:179
+msgid "GNU coreutils home page: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+msgstr ""
+
+#. type: Plain text
+#: dd.1:181
+msgid "General help using GNU software: E<lt>http://www.gnu.org/gethelp/E<gt>"
+msgstr ""
+
+#. type: Plain text
+#: dd.1:183
+msgid "Report dd translation bugs to E<lt>http://translationproject.org/team/E<gt>"
+msgstr ""
+
+#. type: SH
+#: dd.1:183
+#, no-wrap
+msgid "COPYRIGHT"
+msgstr ""
+
+#. type: Plain text
+#: dd.1:186
+msgid ""
+"Copyright \\(co 2013 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
+msgstr ""
+
+#. type: Plain text
+#: dd.1:189
+msgid ""
+"This is free software: you are free to change and redistribute it.  There is "
+"NO WARRANTY, to the extent permitted by law."
+msgstr ""
+
+#. type: SH
+#: dd.1:189
+#, no-wrap
+msgid "SEE ALSO"
+msgstr ""
+
+#. type: Plain text
+#: dd.1:197
+msgid ""
+"The full documentation for B<dd> is maintained as a Texinfo manual.  If the "
+"B<info> and B<dd> programs are properly installed at your site, the command"
+msgstr ""
+
+#. type: Plain text
+#: dd.1:199
+msgid "B<info coreutils \\(aqdd invocation\\(aq>"
+msgstr ""
+
+#. type: Plain text
+#: dd.1:200
+msgid "should give you access to the complete manual."
+msgstr ""

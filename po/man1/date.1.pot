@@ -1,0 +1,911 @@
+# LCTT man-pages Translate Project
+# Copyright (C) 2013 LCTT
+# This file is distributed under the same license as the PACKAGE package.
+# LCTT <lctt@linux.cn>, 2013.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: LCTT man-pages coreutils-8.21\n"
+"POT-Creation-Date: 2013-10-19 17:34+0800\n"
+"PO-Revision-Date: 2013-10-19 17:50+0800\n"
+"Last-Translator: LCTT <lctt@linux.cn>\n"
+"Language-Team: LCTT <lctt@linux.cn>\n"
+"Language: zh_CN.UTF-8\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+
+#. type: TH
+#: date.1:2
+#, no-wrap
+msgid "DATE"
+msgstr ""
+
+#. type: TH
+#: date.1:2
+#, no-wrap
+msgid "October 2013"
+msgstr ""
+
+#. type: TH
+#: date.1:2
+#, no-wrap
+msgid "GNU coreutils 8.21"
+msgstr ""
+
+#. type: TH
+#: date.1:2
+#, no-wrap
+msgid "User Commands"
+msgstr ""
+
+#. type: SH
+#: date.1:3
+#, no-wrap
+msgid "NAME"
+msgstr ""
+
+#. type: Plain text
+#: date.1:5
+msgid "date - print or set the system date and time"
+msgstr ""
+
+#. type: SH
+#: date.1:5
+#, no-wrap
+msgid "SYNOPSIS"
+msgstr ""
+
+#. type: Plain text
+#: date.1:8
+msgid "B<date> [I<OPTION>]... [I<+FORMAT>]"
+msgstr ""
+
+#. type: Plain text
+#: date.1:11
+msgid "B<date> [I<-u|--utc|--universal>] [I<MMDDhhmm>[[I<CC>]I<YY>][I<.ss>]]"
+msgstr ""
+
+#. type: SH
+#: date.1:11
+#, no-wrap
+msgid "DESCRIPTION"
+msgstr ""
+
+#. type: Plain text
+#: date.1:15
+msgid "Display the current time in the given FORMAT, or set the system date."
+msgstr ""
+
+#. type: Plain text
+#: date.1:17
+msgid "Mandatory arguments to long options are mandatory for short options too."
+msgstr ""
+
+#. type: TP
+#: date.1:17
+#, no-wrap
+msgid "B<-d>, B<--date>=I<STRING>"
+msgstr ""
+
+#. type: Plain text
+#: date.1:20
+msgid "display time described by STRING, not 'now'"
+msgstr ""
+
+#. type: TP
+#: date.1:20
+#, no-wrap
+msgid "B<-f>, B<--file>=I<DATEFILE>"
+msgstr ""
+
+#. type: Plain text
+#: date.1:23
+msgid "like B<--date> once for each line of DATEFILE"
+msgstr ""
+
+#. type: TP
+#: date.1:23
+#, no-wrap
+msgid "B<-I[TIMESPEC]>, B<--iso-8601>[=I<TIMESPEC>]"
+msgstr ""
+
+#. type: Plain text
+#: date.1:29
+msgid ""
+"output date/time in ISO 8601 format.  TIMESPEC='date' for date only (the "
+"default), \\&'hours', 'minutes', 'seconds', or 'ns' for date and time to the "
+"indicated precision."
+msgstr ""
+
+#. type: TP
+#: date.1:29
+#, no-wrap
+msgid "B<-r>, B<--reference>=I<FILE>"
+msgstr ""
+
+#. type: Plain text
+#: date.1:32
+msgid "display the last modification time of FILE"
+msgstr ""
+
+#. type: TP
+#: date.1:32
+#, no-wrap
+msgid "B<-R>, B<--rfc-2822>"
+msgstr ""
+
+#. type: Plain text
+#: date.1:36
+msgid ""
+"output date and time in RFC 2822 format.  Example: Mon, 07 Aug 2006 12:34:56 "
+"B<-0600>"
+msgstr ""
+
+#. type: TP
+#: date.1:36
+#, no-wrap
+msgid "B<--rfc-3339>=I<TIMESPEC>"
+msgstr ""
+
+#. type: Plain text
+#: date.1:43
+msgid ""
+"output date and time in RFC 3339 format.  TIMESPEC='date', 'seconds', or "
+"'ns' for date and time to the indicated precision.  Date and time components "
+"are separated by a single space: 2006-08-07 12:34:56-06:00"
+msgstr ""
+
+#. type: TP
+#: date.1:43
+#, no-wrap
+msgid "B<-s>, B<--set>=I<STRING>"
+msgstr ""
+
+#. type: Plain text
+#: date.1:46
+msgid "set time described by STRING"
+msgstr ""
+
+#. type: TP
+#: date.1:46
+#, no-wrap
+msgid "B<-u>, B<--utc>, B<--universal>"
+msgstr ""
+
+#. type: Plain text
+#: date.1:49
+msgid "print or set Coordinated Universal Time"
+msgstr ""
+
+#. type: TP
+#: date.1:49
+#, no-wrap
+msgid "B<--help>"
+msgstr ""
+
+#. type: Plain text
+#: date.1:52
+msgid "display this help and exit"
+msgstr ""
+
+#. type: TP
+#: date.1:52
+#, no-wrap
+msgid "B<--version>"
+msgstr ""
+
+#. type: Plain text
+#: date.1:55
+msgid "output version information and exit"
+msgstr ""
+
+#. type: Plain text
+#: date.1:57
+msgid "FORMAT controls the output.  Interpreted sequences are:"
+msgstr ""
+
+#. type: TP
+#: date.1:57
+#, no-wrap
+msgid "%%"
+msgstr ""
+
+#. type: Plain text
+#: date.1:60
+msgid "a literal %"
+msgstr ""
+
+#. type: TP
+#: date.1:60
+#, no-wrap
+msgid "%a"
+msgstr ""
+
+#. type: Plain text
+#: date.1:63
+msgid "locale's abbreviated weekday name (e.g., Sun)"
+msgstr ""
+
+#. type: TP
+#: date.1:63
+#, no-wrap
+msgid "%A"
+msgstr ""
+
+#. type: Plain text
+#: date.1:66
+msgid "locale's full weekday name (e.g., Sunday)"
+msgstr ""
+
+#. type: TP
+#: date.1:66
+#, no-wrap
+msgid "%b"
+msgstr ""
+
+#. type: Plain text
+#: date.1:69
+msgid "locale's abbreviated month name (e.g., Jan)"
+msgstr ""
+
+#. type: TP
+#: date.1:69
+#, no-wrap
+msgid "%B"
+msgstr ""
+
+#. type: Plain text
+#: date.1:72
+msgid "locale's full month name (e.g., January)"
+msgstr ""
+
+#. type: TP
+#: date.1:72
+#, no-wrap
+msgid "%c"
+msgstr ""
+
+#. type: Plain text
+#: date.1:75
+msgid "locale's date and time (e.g., Thu Mar 3 23:05:25 2005)"
+msgstr ""
+
+#. type: TP
+#: date.1:75
+#, no-wrap
+msgid "%C"
+msgstr ""
+
+#. type: Plain text
+#: date.1:78
+msgid "century; like %Y, except omit last two digits (e.g., 20)"
+msgstr ""
+
+#. type: TP
+#: date.1:78
+#, no-wrap
+msgid "%d"
+msgstr ""
+
+#. type: Plain text
+#: date.1:81
+msgid "day of month (e.g., 01)"
+msgstr ""
+
+#. type: TP
+#: date.1:81
+#, no-wrap
+msgid "%D"
+msgstr ""
+
+#. type: Plain text
+#: date.1:84
+msgid "date; same as %m/%d/%y"
+msgstr ""
+
+#. type: TP
+#: date.1:84
+#, no-wrap
+msgid "%e"
+msgstr ""
+
+#. type: Plain text
+#: date.1:87
+msgid "day of month, space padded; same as %_d"
+msgstr ""
+
+#. type: TP
+#: date.1:87
+#, no-wrap
+msgid "%F"
+msgstr ""
+
+#. type: Plain text
+#: date.1:90
+msgid "full date; same as %Y-%m-%d"
+msgstr ""
+
+#. type: TP
+#: date.1:90
+#, no-wrap
+msgid "%g"
+msgstr ""
+
+#. type: Plain text
+#: date.1:93
+msgid "last two digits of year of ISO week number (see %G)"
+msgstr ""
+
+#. type: TP
+#: date.1:93
+#, no-wrap
+msgid "%G"
+msgstr ""
+
+#. type: Plain text
+#: date.1:96
+msgid "year of ISO week number (see %V); normally useful only with %V"
+msgstr ""
+
+#. type: TP
+#: date.1:96
+#, no-wrap
+msgid "%h"
+msgstr ""
+
+#. type: Plain text
+#: date.1:99
+msgid "same as %b"
+msgstr ""
+
+#. type: TP
+#: date.1:99
+#, no-wrap
+msgid "%H"
+msgstr ""
+
+#. type: Plain text
+#: date.1:102
+msgid "hour (00..23)"
+msgstr ""
+
+#. type: TP
+#: date.1:102
+#, no-wrap
+msgid "%I"
+msgstr ""
+
+#. type: Plain text
+#: date.1:105
+msgid "hour (01..12)"
+msgstr ""
+
+#. type: TP
+#: date.1:105
+#, no-wrap
+msgid "%j"
+msgstr ""
+
+#. type: Plain text
+#: date.1:108
+msgid "day of year (001..366)"
+msgstr ""
+
+#. type: TP
+#: date.1:108
+#, no-wrap
+msgid "%k"
+msgstr ""
+
+#. type: Plain text
+#: date.1:111
+msgid "hour, space padded ( 0..23); same as %_H"
+msgstr ""
+
+#. type: TP
+#: date.1:111
+#, no-wrap
+msgid "%l"
+msgstr ""
+
+#. type: Plain text
+#: date.1:114
+msgid "hour, space padded ( 1..12); same as %_I"
+msgstr ""
+
+#. type: TP
+#: date.1:114
+#, no-wrap
+msgid "%m"
+msgstr ""
+
+#. type: Plain text
+#: date.1:117
+msgid "month (01..12)"
+msgstr ""
+
+#. type: TP
+#: date.1:117
+#, no-wrap
+msgid "%M"
+msgstr ""
+
+#. type: Plain text
+#: date.1:120
+msgid "minute (00..59)"
+msgstr ""
+
+#. type: TP
+#: date.1:120
+#, no-wrap
+msgid "%n"
+msgstr ""
+
+#. type: Plain text
+#: date.1:123
+msgid "a newline"
+msgstr ""
+
+#. type: TP
+#: date.1:123
+#, no-wrap
+msgid "%N"
+msgstr ""
+
+#. type: Plain text
+#: date.1:126
+msgid "nanoseconds (000000000..999999999)"
+msgstr ""
+
+#. type: TP
+#: date.1:126
+#, no-wrap
+msgid "%p"
+msgstr ""
+
+#. type: Plain text
+#: date.1:129
+msgid "locale's equivalent of either AM or PM; blank if not known"
+msgstr ""
+
+#. type: TP
+#: date.1:129
+#, no-wrap
+msgid "%P"
+msgstr ""
+
+#. type: Plain text
+#: date.1:132
+msgid "like %p, but lower case"
+msgstr ""
+
+#. type: TP
+#: date.1:132
+#, no-wrap
+msgid "%r"
+msgstr ""
+
+#. type: Plain text
+#: date.1:135
+msgid "locale's 12-hour clock time (e.g., 11:11:04 PM)"
+msgstr ""
+
+#. type: TP
+#: date.1:135
+#, no-wrap
+msgid "%R"
+msgstr ""
+
+#. type: Plain text
+#: date.1:138
+msgid "24-hour hour and minute; same as %H:%M"
+msgstr ""
+
+#. type: TP
+#: date.1:138
+#, no-wrap
+msgid "%s"
+msgstr ""
+
+#. type: Plain text
+#: date.1:141
+msgid "seconds since 1970-01-01 00:00:00 UTC"
+msgstr ""
+
+#. type: TP
+#: date.1:141
+#, no-wrap
+msgid "%S"
+msgstr ""
+
+#. type: Plain text
+#: date.1:144
+msgid "second (00..60)"
+msgstr ""
+
+#. type: TP
+#: date.1:144
+#, no-wrap
+msgid "%t"
+msgstr ""
+
+#. type: Plain text
+#: date.1:147
+msgid "a tab"
+msgstr ""
+
+#. type: TP
+#: date.1:147
+#, no-wrap
+msgid "%T"
+msgstr ""
+
+#. type: Plain text
+#: date.1:150
+msgid "time; same as %H:%M:%S"
+msgstr ""
+
+#. type: TP
+#: date.1:150
+#, no-wrap
+msgid "%u"
+msgstr ""
+
+#. type: Plain text
+#: date.1:153
+msgid "day of week (1..7); 1 is Monday"
+msgstr ""
+
+#. type: TP
+#: date.1:153
+#, no-wrap
+msgid "%U"
+msgstr ""
+
+#. type: Plain text
+#: date.1:156
+msgid "week number of year, with Sunday as first day of week (00..53)"
+msgstr ""
+
+#. type: TP
+#: date.1:156
+#, no-wrap
+msgid "%V"
+msgstr ""
+
+#. type: Plain text
+#: date.1:159
+msgid "ISO week number, with Monday as first day of week (01..53)"
+msgstr ""
+
+#. type: TP
+#: date.1:159
+#, no-wrap
+msgid "%w"
+msgstr ""
+
+#. type: Plain text
+#: date.1:162
+msgid "day of week (0..6); 0 is Sunday"
+msgstr ""
+
+#. type: TP
+#: date.1:162
+#, no-wrap
+msgid "%W"
+msgstr ""
+
+#. type: Plain text
+#: date.1:165
+msgid "week number of year, with Monday as first day of week (00..53)"
+msgstr ""
+
+#. type: TP
+#: date.1:165
+#, no-wrap
+msgid "%x"
+msgstr ""
+
+#. type: Plain text
+#: date.1:168
+msgid "locale's date representation (e.g., 12/31/99)"
+msgstr ""
+
+#. type: TP
+#: date.1:168
+#, no-wrap
+msgid "%X"
+msgstr ""
+
+#. type: Plain text
+#: date.1:171
+msgid "locale's time representation (e.g., 23:13:48)"
+msgstr ""
+
+#. type: TP
+#: date.1:171
+#, no-wrap
+msgid "%y"
+msgstr ""
+
+#. type: Plain text
+#: date.1:174
+msgid "last two digits of year (00..99)"
+msgstr ""
+
+#. type: TP
+#: date.1:174
+#, no-wrap
+msgid "%Y"
+msgstr ""
+
+#. type: Plain text
+#: date.1:177
+msgid "year"
+msgstr ""
+
+#. type: TP
+#: date.1:177
+#, no-wrap
+msgid "%z"
+msgstr ""
+
+#. type: Plain text
+#: date.1:180
+msgid "+hhmm numeric time zone (e.g., B<-0400>)"
+msgstr ""
+
+#. type: TP
+#: date.1:180
+#, no-wrap
+msgid "%:z"
+msgstr ""
+
+#. type: Plain text
+#: date.1:183
+msgid "+hh:mm numeric time zone (e.g., B<-04>:00)"
+msgstr ""
+
+#. type: TP
+#: date.1:183
+#, no-wrap
+msgid "%::z"
+msgstr ""
+
+#. type: Plain text
+#: date.1:186
+msgid "+hh:mm:ss numeric time zone (e.g., B<-04>:00:00)"
+msgstr ""
+
+#. type: TP
+#: date.1:186
+#, no-wrap
+msgid "%:::z"
+msgstr ""
+
+#. type: Plain text
+#: date.1:189
+msgid "numeric time zone with : to necessary precision (e.g., B<-04>, +05:30)"
+msgstr ""
+
+#. type: TP
+#: date.1:189
+#, no-wrap
+msgid "%Z"
+msgstr ""
+
+#. type: Plain text
+#: date.1:192
+msgid "alphabetic time zone abbreviation (e.g., EDT)"
+msgstr ""
+
+#. type: Plain text
+#: date.1:195
+msgid ""
+"By default, date pads numeric fields with zeroes.  The following optional "
+"flags may follow '%':"
+msgstr ""
+
+#. type: TP
+#: date.1:195
+#, no-wrap
+msgid "-"
+msgstr ""
+
+#. type: Plain text
+#: date.1:198
+msgid "(hyphen) do not pad the field"
+msgstr ""
+
+#. type: TP
+#: date.1:198
+#, no-wrap
+msgid "_"
+msgstr ""
+
+#. type: Plain text
+#: date.1:201
+msgid "(underscore) pad with spaces"
+msgstr ""
+
+#. type: TP
+#: date.1:201
+#, no-wrap
+msgid "0"
+msgstr ""
+
+#. type: Plain text
+#: date.1:204
+msgid "(zero) pad with zeros"
+msgstr ""
+
+#. type: TP
+#: date.1:204
+#, no-wrap
+msgid "^"
+msgstr ""
+
+#. type: Plain text
+#: date.1:207
+msgid "use upper case if possible"
+msgstr ""
+
+#. type: TP
+#: date.1:207
+#, no-wrap
+msgid "#"
+msgstr ""
+
+#. type: Plain text
+#: date.1:210
+msgid "use opposite case if possible"
+msgstr ""
+
+#. type: Plain text
+#: date.1:215
+msgid ""
+"After any flags comes an optional field width, as a decimal number; then an "
+"optional modifier, which is either E to use the locale's alternate "
+"representations if available, or O to use the locale's alternate numeric "
+"symbols if available."
+msgstr ""
+
+#. type: SH
+#: date.1:215
+#, no-wrap
+msgid "EXAMPLES"
+msgstr ""
+
+#. type: Plain text
+#: date.1:217
+msgid "Convert seconds since the epoch (1970-01-01 UTC) to a date"
+msgstr ""
+
+#. type: Plain text
+#: date.1:219
+msgid "CW<$ date --date='@2147483647'>"
+msgstr ""
+
+#. type: Plain text
+#: date.1:221
+msgid "Show the time on the west coast of the US (use tzselect(1) to find TZ)"
+msgstr ""
+
+#. type: Plain text
+#: date.1:223
+msgid "CW<$ TZ='America/Los_Angeles' date>"
+msgstr ""
+
+#. type: Plain text
+#: date.1:225
+msgid "Show the local time for 9AM next Friday on the west coast of the US"
+msgstr ""
+
+#. type: Plain text
+#: date.1:227
+msgid "CW<$ date --date='TZ=\"America/Los_Angeles\" 09:00 next Fri'>"
+msgstr ""
+
+#. type: SH
+#: date.1:227
+#, no-wrap
+msgid "DATE STRING"
+msgstr ""
+
+#.  NOTE: keep this paragraph in sync with the one in touch.x
+#. type: Plain text
+#: date.1:236
+msgid ""
+"The --date=STRING is a mostly free format human readable date string such as "
+"\"Sun, 29 Feb 2004 16:21:42 -0800\" or \"2004-02-29 16:21:42\" or even "
+"\"next Thursday\".  A date string may contain items indicating calendar "
+"date, time of day, time zone, day of week, relative time, relative date, and "
+"numbers.  An empty string indicates the beginning of the day.  The date "
+"string format is more complex than is easily documented here but is fully "
+"described in the info documentation."
+msgstr ""
+
+#. type: SH
+#: date.1:236
+#, no-wrap
+msgid "AUTHOR"
+msgstr ""
+
+#. type: Plain text
+#: date.1:238
+msgid "Written by David MacKenzie."
+msgstr ""
+
+#. type: SH
+#: date.1:238
+#, no-wrap
+msgid "REPORTING BUGS"
+msgstr ""
+
+#. type: Plain text
+#: date.1:240
+msgid "Report date bugs to bug-coreutils@gnu.org"
+msgstr ""
+
+#. type: Plain text
+#: date.1:242
+msgid "GNU coreutils home page: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+msgstr ""
+
+#. type: Plain text
+#: date.1:244
+msgid "General help using GNU software: E<lt>http://www.gnu.org/gethelp/E<gt>"
+msgstr ""
+
+#. type: Plain text
+#: date.1:246
+msgid ""
+"Report date translation bugs to "
+"E<lt>http://translationproject.org/team/E<gt>"
+msgstr ""
+
+#. type: SH
+#: date.1:246
+#, no-wrap
+msgid "COPYRIGHT"
+msgstr ""
+
+#. type: Plain text
+#: date.1:249
+msgid ""
+"Copyright \\(co 2013 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
+msgstr ""
+
+#. type: Plain text
+#: date.1:252
+msgid ""
+"This is free software: you are free to change and redistribute it.  There is "
+"NO WARRANTY, to the extent permitted by law."
+msgstr ""
+
+#. type: SH
+#: date.1:252
+#, no-wrap
+msgid "SEE ALSO"
+msgstr ""
+
+#. type: Plain text
+#: date.1:260
+msgid ""
+"The full documentation for B<date> is maintained as a Texinfo manual.  If "
+"the B<info> and B<date> programs are properly installed at your site, the "
+"command"
+msgstr ""
+
+#. type: Plain text
+#: date.1:262
+msgid "B<info coreutils \\(aqdate invocation\\(aq>"
+msgstr ""
+
+#. type: Plain text
+#: date.1:263
+msgid "should give you access to the complete manual."
+msgstr ""

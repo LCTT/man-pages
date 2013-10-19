@@ -1,0 +1,189 @@
+# LCTT man-pages Translate Project
+# Copyright (C) 2013 LCTT
+# This file is distributed under the same license as the PACKAGE package.
+# LCTT <lctt@linux.cn>, 2013.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: LCTT man-pages coreutils-8.21\n"
+"POT-Creation-Date: 2013-10-19 17:34+0800\n"
+"PO-Revision-Date: 2013-10-19 17:50+0800\n"
+"Last-Translator: LCTT <lctt@linux.cn>\n"
+"Language-Team: LCTT <lctt@linux.cn>\n"
+"Language: zh_CN.UTF-8\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+
+#. type: TH
+#: unlink.1:2
+#, no-wrap
+msgid "UNLINK"
+msgstr ""
+
+#. type: TH
+#: unlink.1:2
+#, no-wrap
+msgid "October 2013"
+msgstr ""
+
+#. type: TH
+#: unlink.1:2
+#, no-wrap
+msgid "GNU coreutils 8.21"
+msgstr ""
+
+#. type: TH
+#: unlink.1:2
+#, no-wrap
+msgid "User Commands"
+msgstr ""
+
+#. type: SH
+#: unlink.1:3
+#, no-wrap
+msgid "NAME"
+msgstr ""
+
+#. type: Plain text
+#: unlink.1:5
+msgid "unlink - call the unlink function to remove the specified file"
+msgstr ""
+
+#. type: SH
+#: unlink.1:5
+#, no-wrap
+msgid "SYNOPSIS"
+msgstr ""
+
+#. type: Plain text
+#: unlink.1:8
+msgid "B<unlink> I<FILE>"
+msgstr ""
+
+#. type: Plain text
+#: unlink.1:11
+msgid "B<unlink> I<OPTION>"
+msgstr ""
+
+#. type: SH
+#: unlink.1:11
+#, no-wrap
+msgid "DESCRIPTION"
+msgstr ""
+
+#. type: Plain text
+#: unlink.1:15
+msgid "Call the unlink function to remove the specified FILE."
+msgstr ""
+
+#. type: TP
+#: unlink.1:15
+#, no-wrap
+msgid "B<--help>"
+msgstr ""
+
+#. type: Plain text
+#: unlink.1:18
+msgid "display this help and exit"
+msgstr ""
+
+#. type: TP
+#: unlink.1:18
+#, no-wrap
+msgid "B<--version>"
+msgstr ""
+
+#. type: Plain text
+#: unlink.1:21
+msgid "output version information and exit"
+msgstr ""
+
+#. type: SH
+#: unlink.1:21
+#, no-wrap
+msgid "AUTHOR"
+msgstr ""
+
+#. type: Plain text
+#: unlink.1:23
+msgid "Written by Michael Stone."
+msgstr ""
+
+#. type: SH
+#: unlink.1:23
+#, no-wrap
+msgid "REPORTING BUGS"
+msgstr ""
+
+#. type: Plain text
+#: unlink.1:25
+msgid "Report unlink bugs to bug-coreutils@gnu.org"
+msgstr ""
+
+#. type: Plain text
+#: unlink.1:27
+msgid "GNU coreutils home page: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+msgstr ""
+
+#. type: Plain text
+#: unlink.1:29
+msgid "General help using GNU software: E<lt>http://www.gnu.org/gethelp/E<gt>"
+msgstr ""
+
+#. type: Plain text
+#: unlink.1:31
+msgid ""
+"Report unlink translation bugs to "
+"E<lt>http://translationproject.org/team/E<gt>"
+msgstr ""
+
+#. type: SH
+#: unlink.1:31
+#, no-wrap
+msgid "COPYRIGHT"
+msgstr ""
+
+#. type: Plain text
+#: unlink.1:34
+msgid ""
+"Copyright \\(co 2013 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
+msgstr ""
+
+#. type: Plain text
+#: unlink.1:37
+msgid ""
+"This is free software: you are free to change and redistribute it.  There is "
+"NO WARRANTY, to the extent permitted by law."
+msgstr ""
+
+#. type: SH
+#: unlink.1:37
+#, no-wrap
+msgid "SEE ALSO"
+msgstr ""
+
+#. type: Plain text
+#: unlink.1:39
+msgid "unlink(2)"
+msgstr ""
+
+#. type: Plain text
+#: unlink.1:47
+msgid ""
+"The full documentation for B<unlink> is maintained as a Texinfo manual.  If "
+"the B<info> and B<unlink> programs are properly installed at your site, the "
+"command"
+msgstr ""
+
+#. type: Plain text
+#: unlink.1:49
+msgid "B<info coreutils \\(aqunlink invocation\\(aq>"
+msgstr ""
+
+#. type: Plain text
+#: unlink.1:50
+msgid "should give you access to the complete manual."
+msgstr ""

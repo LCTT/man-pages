@@ -1,0 +1,407 @@
+# LCTT man-pages Translate Project
+# Copyright (C) 2013 LCTT
+# This file is distributed under the same license as the PACKAGE package.
+# LCTT <lctt@linux.cn>, 2013.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: LCTT man-pages coreutils-8.21\n"
+"POT-Creation-Date: 2013-10-19 17:34+0800\n"
+"PO-Revision-Date: 2013-10-19 17:50+0800\n"
+"Last-Translator: LCTT <lctt@linux.cn>\n"
+"Language-Team: LCTT <lctt@linux.cn>\n"
+"Language: zh_CN.UTF-8\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+
+#. type: TH
+#: chmod.1:2
+#, no-wrap
+msgid "CHMOD"
+msgstr ""
+
+#. type: TH
+#: chmod.1:2
+#, no-wrap
+msgid "October 2013"
+msgstr ""
+
+#. type: TH
+#: chmod.1:2
+#, no-wrap
+msgid "GNU coreutils 8.21"
+msgstr ""
+
+#. type: TH
+#: chmod.1:2
+#, no-wrap
+msgid "User Commands"
+msgstr ""
+
+#. type: SH
+#: chmod.1:3
+#, no-wrap
+msgid "NAME"
+msgstr ""
+
+#. type: Plain text
+#: chmod.1:5
+msgid "chmod - change file mode bits"
+msgstr ""
+
+#. type: SH
+#: chmod.1:5
+#, no-wrap
+msgid "SYNOPSIS"
+msgstr ""
+
+#. type: Plain text
+#: chmod.1:8
+msgid "B<chmod> [I<OPTION>]... I<MODE>[I<,MODE>]... I<FILE>..."
+msgstr ""
+
+#. type: Plain text
+#: chmod.1:11
+msgid "B<chmod> [I<OPTION>]... I<OCTAL-MODE FILE>..."
+msgstr ""
+
+#. type: Plain text
+#: chmod.1:14
+msgid "B<chmod> [I<OPTION>]... I<--reference=RFILE FILE>..."
+msgstr ""
+
+#. type: SH
+#: chmod.1:14
+#, no-wrap
+msgid "DESCRIPTION"
+msgstr ""
+
+#. type: Plain text
+#: chmod.1:23
+msgid ""
+"This manual page documents the GNU version of B<chmod>.  B<chmod> changes "
+"the file mode bits of each given file according to I<mode>, which can be "
+"either a symbolic representation of changes to make, or an octal number "
+"representing the bit pattern for the new mode bits."
+msgstr ""
+
+#. type: Plain text
+#: chmod.1:32
+msgid ""
+"The format of a symbolic mode is "
+"[B<ugoa>.\\|.\\|.][[B<+-=>][I<perms>.\\|.\\|.].\\|.\\|.], where I<perms> is "
+"either zero or more letters from the set B<rwxXst>, or a single letter from "
+"the set B<ugo>.  Multiple symbolic modes can be given, separated by commas."
+msgstr ""
+
+#. type: Plain text
+#: chmod.1:39
+msgid ""
+"A combination of the letters B<ugoa> controls which users' access to the "
+"file will be changed: the user who owns it (B<u>), other users in the file's "
+"group (B<g>), other users not in the file's group (B<o>), or all users "
+"(B<a>).  If none of these are given, the effect is as if B<a> were given, "
+"but bits that are set in the umask are not affected."
+msgstr ""
+
+#. type: Plain text
+#: chmod.1:45
+msgid ""
+"The operator B<+> causes the selected file mode bits to be added to the "
+"existing file mode bits of each file; B<-> causes them to be removed; and "
+"B<=> causes them to be added and causes unmentioned bits to be removed "
+"except that a directory's unmentioned set user and group ID bits are not "
+"affected."
+msgstr ""
+
+#. type: Plain text
+#: chmod.1:57
+msgid ""
+"The letters B<rwxXst> select file mode bits for the affected users: read "
+"(B<r>), write (B<w>), execute (or search for directories)  (B<x>), "
+"execute/search only if the file is a directory or already has execute "
+"permission for some user (B<X>), set user or group ID on execution (B<s>), "
+"restricted deletion flag or sticky bit (B<t>).  Instead of one or more of "
+"these letters, you can specify exactly one of the letters B<ugo>: the "
+"permissions granted to the user who owns the file (B<u>), the permissions "
+"granted to other users who are members of the file's group (B<g>), and the "
+"permissions granted to users that are in neither of the two preceding "
+"categories (B<o>)."
+msgstr ""
+
+#. type: Plain text
+#: chmod.1:67
+msgid ""
+"A numeric mode is from one to four octal digits (0-7), derived by adding up "
+"the bits with values 4, 2, and 1.  Omitted digits are assumed to be leading "
+"zeros.  The first digit selects the set user ID (4) and set group ID (2) and "
+"restricted deletion or sticky (1) attributes.  The second digit selects "
+"permissions for the user who owns the file: read (4), write (2), and execute "
+"(1); the third selects permissions for other users in the file's group, with "
+"the same values; and the fourth for other users not in the file's group, "
+"with the same values."
+msgstr ""
+
+#. type: Plain text
+#: chmod.1:80
+msgid ""
+"B<chmod> never changes the permissions of symbolic links; the B<chmod> "
+"system call cannot change their permissions.  This is not a problem since "
+"the permissions of symbolic links are never used.  However, for each "
+"symbolic link listed on the command line, B<chmod> changes the permissions "
+"of the pointed-to file.  In contrast, B<chmod> ignores symbolic links "
+"encountered during recursive directory traversals."
+msgstr ""
+
+#. type: SH
+#: chmod.1:80
+#, no-wrap
+msgid "SETUID AND SETGID BITS"
+msgstr ""
+
+#. type: Plain text
+#: chmod.1:95
+msgid ""
+"B<chmod> clears the set-group-ID bit of a regular file if the file's group "
+"ID does not match the user's effective group ID or one of the user's "
+"supplementary group IDs, unless the user has appropriate privileges.  "
+"Additional restrictions may cause the set-user-ID and set-group-ID bits of "
+"I<MODE> or I<RFILE> to be ignored.  This behavior depends on the policy and "
+"functionality of the underlying B<chmod> system call.  When in doubt, check "
+"the underlying system behavior."
+msgstr ""
+
+#. type: Plain text
+#: chmod.1:104
+msgid ""
+"B<chmod> preserves a directory's set-user-ID and set-group-ID bits unless "
+"you explicitly specify otherwise.  You can set or clear the bits with "
+"symbolic modes like B<u+s> and B<g-s>, and you can set (but not clear) the "
+"bits with a numeric mode."
+msgstr ""
+
+#. type: SH
+#: chmod.1:104
+#, no-wrap
+msgid "RESTRICTED DELETION FLAG OR STICKY BIT"
+msgstr ""
+
+#. type: Plain text
+#: chmod.1:115
+msgid ""
+"The restricted deletion flag or sticky bit is a single bit, whose "
+"interpretation depends on the file type.  For directories, it prevents "
+"unprivileged users from removing or renaming a file in the directory unless "
+"they own the file or the directory; this is called the I<restricted deletion "
+"flag> for the directory, and is commonly found on world-writable directories "
+"like B</tmp>.  For regular files on some older systems, the bit saves the "
+"program's text image on the swap device so it will load more quickly when "
+"run; this is called the I<sticky bit>."
+msgstr ""
+
+#. type: SH
+#: chmod.1:115
+#, no-wrap
+msgid "OPTIONS"
+msgstr ""
+
+#. type: Plain text
+#: chmod.1:119
+msgid ""
+"Change the mode of each FILE to MODE.  With B<--reference>, change the mode "
+"of each FILE to that of RFILE."
+msgstr ""
+
+#. type: TP
+#: chmod.1:119
+#, no-wrap
+msgid "B<-c>, B<--changes>"
+msgstr ""
+
+#. type: Plain text
+#: chmod.1:122
+msgid "like verbose but report only when a change is made"
+msgstr ""
+
+#. type: TP
+#: chmod.1:122
+#, no-wrap
+msgid "B<-f>, B<--silent>, B<--quiet>"
+msgstr ""
+
+#. type: Plain text
+#: chmod.1:125
+msgid "suppress most error messages"
+msgstr ""
+
+#. type: TP
+#: chmod.1:125
+#, no-wrap
+msgid "B<-v>, B<--verbose>"
+msgstr ""
+
+#. type: Plain text
+#: chmod.1:128
+msgid "output a diagnostic for every file processed"
+msgstr ""
+
+#. type: TP
+#: chmod.1:128
+#, no-wrap
+msgid "B<--no-preserve-root>"
+msgstr ""
+
+#. type: Plain text
+#: chmod.1:131
+msgid "do not treat '/' specially (the default)"
+msgstr ""
+
+#. type: TP
+#: chmod.1:131
+#, no-wrap
+msgid "B<--preserve-root>"
+msgstr ""
+
+#. type: Plain text
+#: chmod.1:134
+msgid "fail to operate recursively on '/'"
+msgstr ""
+
+#. type: TP
+#: chmod.1:134
+#, no-wrap
+msgid "B<--reference>=I<RFILE>"
+msgstr ""
+
+#. type: Plain text
+#: chmod.1:137
+msgid "use RFILE's mode instead of MODE values"
+msgstr ""
+
+#. type: TP
+#: chmod.1:137
+#, no-wrap
+msgid "B<-R>, B<--recursive>"
+msgstr ""
+
+#. type: Plain text
+#: chmod.1:140
+msgid "change files and directories recursively"
+msgstr ""
+
+#. type: TP
+#: chmod.1:140
+#, no-wrap
+msgid "B<--help>"
+msgstr ""
+
+#. type: Plain text
+#: chmod.1:143
+msgid "display this help and exit"
+msgstr ""
+
+#. type: TP
+#: chmod.1:143
+#, no-wrap
+msgid "B<--version>"
+msgstr ""
+
+#. type: Plain text
+#: chmod.1:146
+msgid "output version information and exit"
+msgstr ""
+
+#. type: Plain text
+#: chmod.1:148
+msgid "Each MODE is of the form '[ugoa]*([-+=]([rwxXst]*|[ugo]))+|[-+=][0-7]+'."
+msgstr ""
+
+#. type: SH
+#: chmod.1:148
+#, no-wrap
+msgid "AUTHOR"
+msgstr ""
+
+#. type: Plain text
+#: chmod.1:150
+msgid "Written by David MacKenzie and Jim Meyering."
+msgstr ""
+
+#. type: SH
+#: chmod.1:150
+#, no-wrap
+msgid "REPORTING BUGS"
+msgstr ""
+
+#. type: Plain text
+#: chmod.1:152
+msgid "Report chmod bugs to bug-coreutils@gnu.org"
+msgstr ""
+
+#. type: Plain text
+#: chmod.1:154
+msgid "GNU coreutils home page: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+msgstr ""
+
+#. type: Plain text
+#: chmod.1:156
+msgid "General help using GNU software: E<lt>http://www.gnu.org/gethelp/E<gt>"
+msgstr ""
+
+#. type: Plain text
+#: chmod.1:158
+msgid ""
+"Report chmod translation bugs to "
+"E<lt>http://translationproject.org/team/E<gt>"
+msgstr ""
+
+#. type: SH
+#: chmod.1:158
+#, no-wrap
+msgid "COPYRIGHT"
+msgstr ""
+
+#. type: Plain text
+#: chmod.1:161
+msgid ""
+"Copyright \\(co 2013 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
+msgstr ""
+
+#. type: Plain text
+#: chmod.1:164
+msgid ""
+"This is free software: you are free to change and redistribute it.  There is "
+"NO WARRANTY, to the extent permitted by law."
+msgstr ""
+
+#. type: SH
+#: chmod.1:164
+#, no-wrap
+msgid "SEE ALSO"
+msgstr ""
+
+#. type: Plain text
+#: chmod.1:166
+msgid "chmod(2)"
+msgstr ""
+
+#. type: Plain text
+#: chmod.1:174
+msgid ""
+"The full documentation for B<chmod> is maintained as a Texinfo manual.  If "
+"the B<info> and B<chmod> programs are properly installed at your site, the "
+"command"
+msgstr ""
+
+#. type: Plain text
+#: chmod.1:176
+msgid "B<info coreutils \\(aqchmod invocation\\(aq>"
+msgstr ""
+
+#. type: Plain text
+#: chmod.1:177
+msgid "should give you access to the complete manual."
+msgstr ""

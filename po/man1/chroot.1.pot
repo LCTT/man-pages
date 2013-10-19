@@ -1,0 +1,216 @@
+# LCTT man-pages Translate Project
+# Copyright (C) 2013 LCTT
+# This file is distributed under the same license as the PACKAGE package.
+# LCTT <lctt@linux.cn>, 2013.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: LCTT man-pages coreutils-8.21\n"
+"POT-Creation-Date: 2013-10-19 17:34+0800\n"
+"PO-Revision-Date: 2013-10-19 17:50+0800\n"
+"Last-Translator: LCTT <lctt@linux.cn>\n"
+"Language-Team: LCTT <lctt@linux.cn>\n"
+"Language: zh_CN.UTF-8\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+
+#. type: TH
+#: chroot.1:2
+#, no-wrap
+msgid "CHROOT"
+msgstr ""
+
+#. type: TH
+#: chroot.1:2
+#, no-wrap
+msgid "October 2013"
+msgstr ""
+
+#. type: TH
+#: chroot.1:2
+#, no-wrap
+msgid "GNU coreutils 8.21"
+msgstr ""
+
+#. type: TH
+#: chroot.1:2
+#, no-wrap
+msgid "User Commands"
+msgstr ""
+
+#. type: SH
+#: chroot.1:3
+#, no-wrap
+msgid "NAME"
+msgstr ""
+
+#. type: Plain text
+#: chroot.1:5
+msgid "chroot - run command or interactive shell with special root directory"
+msgstr ""
+
+#. type: SH
+#: chroot.1:5
+#, no-wrap
+msgid "SYNOPSIS"
+msgstr ""
+
+#. type: Plain text
+#: chroot.1:8
+msgid "B<chroot> [I<OPTION>] I<NEWROOT >[I<COMMAND >[I<ARG>]...]"
+msgstr ""
+
+#. type: Plain text
+#: chroot.1:11
+msgid "B<chroot> I<OPTION>"
+msgstr ""
+
+#. type: SH
+#: chroot.1:11
+#, no-wrap
+msgid "DESCRIPTION"
+msgstr ""
+
+#. type: Plain text
+#: chroot.1:15
+msgid "Run COMMAND with root directory set to NEWROOT."
+msgstr ""
+
+#. type: TP
+#: chroot.1:15
+#, no-wrap
+msgid "B<--userspec>=I<USER>:GROUP"
+msgstr ""
+
+#. type: Plain text
+#: chroot.1:18
+msgid "specify user and group (ID or name) to use"
+msgstr ""
+
+#. type: TP
+#: chroot.1:18
+#, no-wrap
+msgid "B<--groups>=I<G_LIST>"
+msgstr ""
+
+#. type: Plain text
+#: chroot.1:21
+msgid "specify supplementary groups as g1,g2,..,gN"
+msgstr ""
+
+#. type: TP
+#: chroot.1:21
+#, no-wrap
+msgid "B<--help>"
+msgstr ""
+
+#. type: Plain text
+#: chroot.1:24
+msgid "display this help and exit"
+msgstr ""
+
+#. type: TP
+#: chroot.1:24
+#, no-wrap
+msgid "B<--version>"
+msgstr ""
+
+#. type: Plain text
+#: chroot.1:27
+msgid "output version information and exit"
+msgstr ""
+
+#. type: Plain text
+#: chroot.1:29
+msgid "If no command is given, run '${SHELL} B<-i>' (default: '/bin/sh B<-i>')."
+msgstr ""
+
+#. type: SH
+#: chroot.1:29
+#, no-wrap
+msgid "AUTHOR"
+msgstr ""
+
+#. type: Plain text
+#: chroot.1:31
+msgid "Written by Roland McGrath."
+msgstr ""
+
+#. type: SH
+#: chroot.1:31
+#, no-wrap
+msgid "REPORTING BUGS"
+msgstr ""
+
+#. type: Plain text
+#: chroot.1:33
+msgid "Report chroot bugs to bug-coreutils@gnu.org"
+msgstr ""
+
+#. type: Plain text
+#: chroot.1:35
+msgid "GNU coreutils home page: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+msgstr ""
+
+#. type: Plain text
+#: chroot.1:37
+msgid "General help using GNU software: E<lt>http://www.gnu.org/gethelp/E<gt>"
+msgstr ""
+
+#. type: Plain text
+#: chroot.1:39
+msgid ""
+"Report chroot translation bugs to "
+"E<lt>http://translationproject.org/team/E<gt>"
+msgstr ""
+
+#. type: SH
+#: chroot.1:39
+#, no-wrap
+msgid "COPYRIGHT"
+msgstr ""
+
+#. type: Plain text
+#: chroot.1:42
+msgid ""
+"Copyright \\(co 2013 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
+msgstr ""
+
+#. type: Plain text
+#: chroot.1:45
+msgid ""
+"This is free software: you are free to change and redistribute it.  There is "
+"NO WARRANTY, to the extent permitted by law."
+msgstr ""
+
+#. type: SH
+#: chroot.1:45
+#, no-wrap
+msgid "SEE ALSO"
+msgstr ""
+
+#. type: Plain text
+#: chroot.1:47
+msgid "chroot(2)"
+msgstr ""
+
+#. type: Plain text
+#: chroot.1:55
+msgid ""
+"The full documentation for B<chroot> is maintained as a Texinfo manual.  If "
+"the B<info> and B<chroot> programs are properly installed at your site, the "
+"command"
+msgstr ""
+
+#. type: Plain text
+#: chroot.1:57
+msgid "B<info coreutils \\(aqchroot invocation\\(aq>"
+msgstr ""
+
+#. type: Plain text
+#: chroot.1:58
+msgid "should give you access to the complete manual."
+msgstr ""

@@ -1,0 +1,1495 @@
+# LCTT man-pages Translate Project
+# Copyright (C) 2013 LCTT
+# This file is distributed under the same license as the PACKAGE package.
+# LCTT <lctt@linux.cn>, 2013.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: LCTT man-pages coreutils-8.21\n"
+"POT-Creation-Date: 2013-10-19 17:34+0800\n"
+"PO-Revision-Date: 2013-10-19 17:50+0800\n"
+"Last-Translator: LCTT <lctt@linux.cn>\n"
+"Language-Team: LCTT <lctt@linux.cn>\n"
+"Language: zh_CN.UTF-8\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+
+#. type: TH
+#: stty.1:2
+#, no-wrap
+msgid "STTY"
+msgstr ""
+
+#. type: TH
+#: stty.1:2
+#, no-wrap
+msgid "October 2013"
+msgstr ""
+
+#. type: TH
+#: stty.1:2
+#, no-wrap
+msgid "GNU coreutils 8.21"
+msgstr ""
+
+#. type: TH
+#: stty.1:2
+#, no-wrap
+msgid "User Commands"
+msgstr ""
+
+#. type: SH
+#: stty.1:3
+#, no-wrap
+msgid "NAME"
+msgstr ""
+
+#. type: Plain text
+#: stty.1:5
+msgid "stty - change and print terminal line settings"
+msgstr ""
+
+#. type: SH
+#: stty.1:5
+#, no-wrap
+msgid "SYNOPSIS"
+msgstr ""
+
+#. type: Plain text
+#: stty.1:8
+msgid "B<stty> [I<-F DEVICE | --file=DEVICE>] [I<SETTING>]..."
+msgstr ""
+
+#. type: Plain text
+#: stty.1:11
+msgid "B<stty> [I<-F DEVICE | --file=DEVICE>] [I<-a|--all>]"
+msgstr ""
+
+#. type: Plain text
+#: stty.1:14
+msgid "B<stty> [I<-F DEVICE | --file=DEVICE>] [I<-g|--save>]"
+msgstr ""
+
+#. type: SH
+#: stty.1:14
+#, no-wrap
+msgid "DESCRIPTION"
+msgstr ""
+
+#. type: Plain text
+#: stty.1:18
+msgid "Print or change terminal characteristics."
+msgstr ""
+
+#. type: Plain text
+#: stty.1:20
+msgid "Mandatory arguments to long options are mandatory for short options too."
+msgstr ""
+
+#. type: TP
+#: stty.1:20
+#, no-wrap
+msgid "B<-a>, B<--all>"
+msgstr ""
+
+#. type: Plain text
+#: stty.1:23
+msgid "print all current settings in human-readable form"
+msgstr ""
+
+#. type: TP
+#: stty.1:23
+#, no-wrap
+msgid "B<-g>, B<--save>"
+msgstr ""
+
+#. type: Plain text
+#: stty.1:26
+msgid "print all current settings in a stty-readable form"
+msgstr ""
+
+#. type: TP
+#: stty.1:26
+#, no-wrap
+msgid "B<-F>, B<--file>=I<DEVICE>"
+msgstr ""
+
+#. type: Plain text
+#: stty.1:29
+msgid "open and use the specified DEVICE instead of stdin"
+msgstr ""
+
+#. type: TP
+#: stty.1:29
+#, no-wrap
+msgid "B<--help>"
+msgstr ""
+
+#. type: Plain text
+#: stty.1:32
+msgid "display this help and exit"
+msgstr ""
+
+#. type: TP
+#: stty.1:32
+#, no-wrap
+msgid "B<--version>"
+msgstr ""
+
+#. type: Plain text
+#: stty.1:35
+msgid "output version information and exit"
+msgstr ""
+
+#. type: Plain text
+#: stty.1:38
+msgid ""
+"Optional - before SETTING indicates negation.  An * marks non-POSIX "
+"settings.  The underlying system defines which settings are available."
+msgstr ""
+
+#. type: SS
+#: stty.1:38
+#, no-wrap
+msgid "Special characters:"
+msgstr ""
+
+#. type: TP
+#: stty.1:39
+#, no-wrap
+msgid "* dsusp CHAR"
+msgstr ""
+
+#. type: Plain text
+#: stty.1:42
+msgid "CHAR will send a terminal stop signal once input flushed"
+msgstr ""
+
+#. type: TP
+#: stty.1:42
+#, no-wrap
+msgid "eof CHAR"
+msgstr ""
+
+#. type: Plain text
+#: stty.1:45
+msgid "CHAR will send an end of file (terminate the input)"
+msgstr ""
+
+#. type: TP
+#: stty.1:45
+#, no-wrap
+msgid "eol CHAR"
+msgstr ""
+
+#. type: Plain text
+#: stty.1:48
+msgid "CHAR will end the line"
+msgstr ""
+
+#. type: TP
+#: stty.1:48
+#, no-wrap
+msgid "* eol2 CHAR"
+msgstr ""
+
+#. type: Plain text
+#: stty.1:51
+msgid "alternate CHAR for ending the line"
+msgstr ""
+
+#. type: TP
+#: stty.1:51
+#, no-wrap
+msgid "erase CHAR"
+msgstr ""
+
+#. type: Plain text
+#: stty.1:54
+msgid "CHAR will erase the last character typed"
+msgstr ""
+
+#. type: TP
+#: stty.1:54
+#, no-wrap
+msgid "intr CHAR"
+msgstr ""
+
+#. type: Plain text
+#: stty.1:57
+msgid "CHAR will send an interrupt signal"
+msgstr ""
+
+#. type: TP
+#: stty.1:57
+#, no-wrap
+msgid "kill CHAR"
+msgstr ""
+
+#. type: Plain text
+#: stty.1:60
+msgid "CHAR will erase the current line"
+msgstr ""
+
+#. type: TP
+#: stty.1:60
+#, no-wrap
+msgid "* lnext CHAR"
+msgstr ""
+
+#. type: Plain text
+#: stty.1:63
+msgid "CHAR will enter the next character quoted"
+msgstr ""
+
+#. type: TP
+#: stty.1:63
+#, no-wrap
+msgid "quit CHAR"
+msgstr ""
+
+#. type: Plain text
+#: stty.1:66
+msgid "CHAR will send a quit signal"
+msgstr ""
+
+#. type: TP
+#: stty.1:66
+#, no-wrap
+msgid "* rprnt CHAR"
+msgstr ""
+
+#. type: Plain text
+#: stty.1:69
+msgid "CHAR will redraw the current line"
+msgstr ""
+
+#. type: TP
+#: stty.1:69
+#, no-wrap
+msgid "start CHAR"
+msgstr ""
+
+#. type: Plain text
+#: stty.1:72
+msgid "CHAR will restart the output after stopping it"
+msgstr ""
+
+#. type: TP
+#: stty.1:72
+#, no-wrap
+msgid "stop CHAR"
+msgstr ""
+
+#. type: Plain text
+#: stty.1:75
+msgid "CHAR will stop the output"
+msgstr ""
+
+#. type: TP
+#: stty.1:75
+#, no-wrap
+msgid "susp CHAR"
+msgstr ""
+
+#. type: Plain text
+#: stty.1:78
+msgid "CHAR will send a terminal stop signal"
+msgstr ""
+
+#. type: TP
+#: stty.1:78
+#, no-wrap
+msgid "* swtch CHAR"
+msgstr ""
+
+#. type: Plain text
+#: stty.1:81
+msgid "CHAR will switch to a different shell layer"
+msgstr ""
+
+#. type: TP
+#: stty.1:81
+#, no-wrap
+msgid "* werase CHAR"
+msgstr ""
+
+#. type: Plain text
+#: stty.1:84
+msgid "CHAR will erase the last word typed"
+msgstr ""
+
+#. type: SS
+#: stty.1:84
+#, no-wrap
+msgid "Special settings:"
+msgstr ""
+
+#. type: TP
+#: stty.1:85
+#, no-wrap
+msgid "N"
+msgstr ""
+
+#. type: Plain text
+#: stty.1:88
+msgid "set the input and output speeds to N bauds"
+msgstr ""
+
+#. type: TP
+#: stty.1:88
+#, no-wrap
+msgid "* cols N"
+msgstr ""
+
+#. type: Plain text
+#: stty.1:91
+msgid "tell the kernel that the terminal has N columns"
+msgstr ""
+
+#. type: TP
+#: stty.1:91
+#, no-wrap
+msgid "* columns N"
+msgstr ""
+
+#. type: Plain text
+#: stty.1:94
+msgid "same as cols N"
+msgstr ""
+
+#. type: TP
+#: stty.1:94
+#, no-wrap
+msgid "ispeed N"
+msgstr ""
+
+#. type: Plain text
+#: stty.1:97
+msgid "set the input speed to N"
+msgstr ""
+
+#. type: TP
+#: stty.1:97
+#, no-wrap
+msgid "* line N"
+msgstr ""
+
+#. type: Plain text
+#: stty.1:100
+msgid "use line discipline N"
+msgstr ""
+
+#. type: TP
+#: stty.1:100
+#, no-wrap
+msgid "min N"
+msgstr ""
+
+#. type: Plain text
+#: stty.1:103
+msgid "with B<-icanon>, set N characters minimum for a completed read"
+msgstr ""
+
+#. type: TP
+#: stty.1:103
+#, no-wrap
+msgid "ospeed N"
+msgstr ""
+
+#. type: Plain text
+#: stty.1:106
+msgid "set the output speed to N"
+msgstr ""
+
+#. type: TP
+#: stty.1:106
+#, no-wrap
+msgid "* rows N"
+msgstr ""
+
+#. type: Plain text
+#: stty.1:109
+msgid "tell the kernel that the terminal has N rows"
+msgstr ""
+
+#. type: TP
+#: stty.1:109
+#, no-wrap
+msgid "* size"
+msgstr ""
+
+#. type: Plain text
+#: stty.1:112
+msgid "print the number of rows and columns according to the kernel"
+msgstr ""
+
+#. type: TP
+#: stty.1:112
+#, no-wrap
+msgid "speed"
+msgstr ""
+
+#. type: Plain text
+#: stty.1:115
+msgid "print the terminal speed"
+msgstr ""
+
+#. type: TP
+#: stty.1:115
+#, no-wrap
+msgid "time N"
+msgstr ""
+
+#. type: Plain text
+#: stty.1:118
+msgid "with B<-icanon>, set read timeout of N tenths of a second"
+msgstr ""
+
+#. type: SS
+#: stty.1:118
+#, no-wrap
+msgid "Control settings:"
+msgstr ""
+
+#. type: TP
+#: stty.1:119
+#, no-wrap
+msgid "[-]clocal"
+msgstr ""
+
+#. type: Plain text
+#: stty.1:122
+msgid "disable modem control signals"
+msgstr ""
+
+#. type: TP
+#: stty.1:122
+#, no-wrap
+msgid "[-]cread"
+msgstr ""
+
+#. type: Plain text
+#: stty.1:125
+msgid "allow input to be received"
+msgstr ""
+
+#. type: TP
+#: stty.1:125
+#, no-wrap
+msgid "* [-]crtscts"
+msgstr ""
+
+#. type: Plain text
+#: stty.1:128
+msgid "enable RTS/CTS handshaking"
+msgstr ""
+
+#. type: TP
+#: stty.1:128
+#, no-wrap
+msgid "* [-]cdtrdsr"
+msgstr ""
+
+#. type: Plain text
+#: stty.1:131
+msgid "enable DTR/DSR handshaking"
+msgstr ""
+
+#. type: TP
+#: stty.1:131
+#, no-wrap
+msgid "csN"
+msgstr ""
+
+#. type: Plain text
+#: stty.1:134
+msgid "set character size to N bits, N in [5..8]"
+msgstr ""
+
+#. type: TP
+#: stty.1:134
+#, no-wrap
+msgid "[-]cstopb"
+msgstr ""
+
+#. type: Plain text
+#: stty.1:137
+msgid "use two stop bits per character (one with '-')"
+msgstr ""
+
+#. type: TP
+#: stty.1:137
+#, no-wrap
+msgid "[-]hup"
+msgstr ""
+
+#. type: Plain text
+#: stty.1:140
+msgid "send a hangup signal when the last process closes the tty"
+msgstr ""
+
+#. type: TP
+#: stty.1:140
+#, no-wrap
+msgid "[-]hupcl"
+msgstr ""
+
+#. type: Plain text
+#: stty.1:143
+msgid "same as [-]hup"
+msgstr ""
+
+#. type: TP
+#: stty.1:143
+#, no-wrap
+msgid "[-]parenb"
+msgstr ""
+
+#. type: Plain text
+#: stty.1:146
+msgid "generate parity bit in output and expect parity bit in input"
+msgstr ""
+
+#. type: TP
+#: stty.1:146
+#, no-wrap
+msgid "[-]parodd"
+msgstr ""
+
+#. type: Plain text
+#: stty.1:149
+msgid "set odd parity (or even parity with '-')"
+msgstr ""
+
+#. type: SS
+#: stty.1:149
+#, no-wrap
+msgid "Input settings:"
+msgstr ""
+
+#. type: TP
+#: stty.1:150
+#, no-wrap
+msgid "[-]brkint"
+msgstr ""
+
+#. type: Plain text
+#: stty.1:153
+msgid "breaks cause an interrupt signal"
+msgstr ""
+
+#. type: TP
+#: stty.1:153
+#, no-wrap
+msgid "[-]icrnl"
+msgstr ""
+
+#. type: Plain text
+#: stty.1:156 stty.1:214
+msgid "translate carriage return to newline"
+msgstr ""
+
+#. type: TP
+#: stty.1:156
+#, no-wrap
+msgid "[-]ignbrk"
+msgstr ""
+
+#. type: Plain text
+#: stty.1:159
+msgid "ignore break characters"
+msgstr ""
+
+#. type: TP
+#: stty.1:159
+#, no-wrap
+msgid "[-]igncr"
+msgstr ""
+
+#. type: Plain text
+#: stty.1:162
+msgid "ignore carriage return"
+msgstr ""
+
+#. type: TP
+#: stty.1:162
+#, no-wrap
+msgid "[-]ignpar"
+msgstr ""
+
+#. type: Plain text
+#: stty.1:165
+msgid "ignore characters with parity errors"
+msgstr ""
+
+#. type: TP
+#: stty.1:165
+#, no-wrap
+msgid "* [-]imaxbel"
+msgstr ""
+
+#. type: Plain text
+#: stty.1:168
+msgid "beep and do not flush a full input buffer on a character"
+msgstr ""
+
+#. type: TP
+#: stty.1:168
+#, no-wrap
+msgid "[-]inlcr"
+msgstr ""
+
+#. type: Plain text
+#: stty.1:171
+msgid "translate newline to carriage return"
+msgstr ""
+
+#. type: TP
+#: stty.1:171
+#, no-wrap
+msgid "[-]inpck"
+msgstr ""
+
+#. type: Plain text
+#: stty.1:174
+msgid "enable input parity checking"
+msgstr ""
+
+#. type: TP
+#: stty.1:174
+#, no-wrap
+msgid "[-]istrip"
+msgstr ""
+
+#. type: Plain text
+#: stty.1:177
+msgid "clear high (8th) bit of input characters"
+msgstr ""
+
+#. type: TP
+#: stty.1:177
+#, no-wrap
+msgid "* [-]iutf8"
+msgstr ""
+
+#. type: Plain text
+#: stty.1:180
+msgid "assume input characters are UTF-8 encoded"
+msgstr ""
+
+#. type: TP
+#: stty.1:180
+#, no-wrap
+msgid "* [-]iuclc"
+msgstr ""
+
+#. type: Plain text
+#: stty.1:183
+msgid "translate uppercase characters to lowercase"
+msgstr ""
+
+#. type: TP
+#: stty.1:183
+#, no-wrap
+msgid "* [-]ixany"
+msgstr ""
+
+#. type: Plain text
+#: stty.1:186
+msgid "let any character restart output, not only start character"
+msgstr ""
+
+#. type: TP
+#: stty.1:186
+#, no-wrap
+msgid "[-]ixoff"
+msgstr ""
+
+#. type: Plain text
+#: stty.1:189
+msgid "enable sending of start/stop characters"
+msgstr ""
+
+#. type: TP
+#: stty.1:189
+#, no-wrap
+msgid "[-]ixon"
+msgstr ""
+
+#. type: Plain text
+#: stty.1:192
+msgid "enable XON/XOFF flow control"
+msgstr ""
+
+#. type: TP
+#: stty.1:192
+#, no-wrap
+msgid "[-]parmrk"
+msgstr ""
+
+#. type: Plain text
+#: stty.1:195
+msgid "mark parity errors (with a 255-0-character sequence)"
+msgstr ""
+
+#. type: TP
+#: stty.1:195
+#, no-wrap
+msgid "[-]tandem"
+msgstr ""
+
+#. type: Plain text
+#: stty.1:198
+msgid "same as [-]ixoff"
+msgstr ""
+
+#. type: SS
+#: stty.1:198
+#, no-wrap
+msgid "Output settings:"
+msgstr ""
+
+#. type: TP
+#: stty.1:199
+#, no-wrap
+msgid "* bsN"
+msgstr ""
+
+#. type: Plain text
+#: stty.1:202
+msgid "backspace delay style, N in [0..1]"
+msgstr ""
+
+#. type: TP
+#: stty.1:202
+#, no-wrap
+msgid "* crN"
+msgstr ""
+
+#. type: Plain text
+#: stty.1:205
+msgid "carriage return delay style, N in [0..3]"
+msgstr ""
+
+#. type: TP
+#: stty.1:205
+#, no-wrap
+msgid "* ffN"
+msgstr ""
+
+#. type: Plain text
+#: stty.1:208
+msgid "form feed delay style, N in [0..1]"
+msgstr ""
+
+#. type: TP
+#: stty.1:208
+#, no-wrap
+msgid "* nlN"
+msgstr ""
+
+#. type: Plain text
+#: stty.1:211
+msgid "newline delay style, N in [0..1]"
+msgstr ""
+
+#. type: TP
+#: stty.1:211
+#, no-wrap
+msgid "* [-]ocrnl"
+msgstr ""
+
+#. type: TP
+#: stty.1:214
+#, no-wrap
+msgid "* [-]ofdel"
+msgstr ""
+
+#. type: Plain text
+#: stty.1:217
+msgid "use delete characters for fill instead of null characters"
+msgstr ""
+
+#. type: TP
+#: stty.1:217
+#, no-wrap
+msgid "* [-]ofill"
+msgstr ""
+
+#. type: Plain text
+#: stty.1:220
+msgid "use fill (padding) characters instead of timing for delays"
+msgstr ""
+
+#. type: TP
+#: stty.1:220
+#, no-wrap
+msgid "* [-]olcuc"
+msgstr ""
+
+#. type: Plain text
+#: stty.1:223
+msgid "translate lowercase characters to uppercase"
+msgstr ""
+
+#. type: TP
+#: stty.1:223
+#, no-wrap
+msgid "* [-]onlcr"
+msgstr ""
+
+#. type: Plain text
+#: stty.1:226
+msgid "translate newline to carriage return-newline"
+msgstr ""
+
+#. type: TP
+#: stty.1:226
+#, no-wrap
+msgid "* [-]onlret"
+msgstr ""
+
+#. type: Plain text
+#: stty.1:229
+msgid "newline performs a carriage return"
+msgstr ""
+
+#. type: TP
+#: stty.1:229
+#, no-wrap
+msgid "* [-]onocr"
+msgstr ""
+
+#. type: Plain text
+#: stty.1:232
+msgid "do not print carriage returns in the first column"
+msgstr ""
+
+#. type: TP
+#: stty.1:232
+#, no-wrap
+msgid "[-]opost"
+msgstr ""
+
+#. type: Plain text
+#: stty.1:235
+msgid "postprocess output"
+msgstr ""
+
+#. type: TP
+#: stty.1:235
+#, no-wrap
+msgid "* tabN"
+msgstr ""
+
+#. type: Plain text
+#: stty.1:238
+msgid "horizontal tab delay style, N in [0..3]"
+msgstr ""
+
+#. type: TP
+#: stty.1:238
+#, no-wrap
+msgid "* tabs"
+msgstr ""
+
+#. type: Plain text
+#: stty.1:241
+msgid "same as tab0"
+msgstr ""
+
+#. type: TP
+#: stty.1:241
+#, no-wrap
+msgid "* B<-tabs>"
+msgstr ""
+
+#. type: Plain text
+#: stty.1:244
+msgid "same as tab3"
+msgstr ""
+
+#. type: TP
+#: stty.1:244
+#, no-wrap
+msgid "* vtN"
+msgstr ""
+
+#. type: Plain text
+#: stty.1:247
+msgid "vertical tab delay style, N in [0..1]"
+msgstr ""
+
+#. type: SS
+#: stty.1:247
+#, no-wrap
+msgid "Local settings:"
+msgstr ""
+
+#. type: TP
+#: stty.1:248
+#, no-wrap
+msgid "[-]crterase"
+msgstr ""
+
+#. type: Plain text
+#: stty.1:251
+msgid "echo erase characters as backspace-space-backspace"
+msgstr ""
+
+#. type: TP
+#: stty.1:251
+#, no-wrap
+msgid "* crtkill"
+msgstr ""
+
+#. type: Plain text
+#: stty.1:254
+msgid "kill all line by obeying the echoprt and echoe settings"
+msgstr ""
+
+#. type: TP
+#: stty.1:254
+#, no-wrap
+msgid "* B<-crtkill>"
+msgstr ""
+
+#. type: Plain text
+#: stty.1:257
+msgid "kill all line by obeying the echoctl and echok settings"
+msgstr ""
+
+#. type: TP
+#: stty.1:257
+#, no-wrap
+msgid "* [-]ctlecho"
+msgstr ""
+
+#. type: Plain text
+#: stty.1:260
+msgid "echo control characters in hat notation ('^c')"
+msgstr ""
+
+#. type: TP
+#: stty.1:260
+#, no-wrap
+msgid "[-]echo"
+msgstr ""
+
+#. type: Plain text
+#: stty.1:263
+msgid "echo input characters"
+msgstr ""
+
+#. type: TP
+#: stty.1:263
+#, no-wrap
+msgid "* [-]echoctl"
+msgstr ""
+
+#. type: Plain text
+#: stty.1:266
+msgid "same as [-]ctlecho"
+msgstr ""
+
+#. type: TP
+#: stty.1:266
+#, no-wrap
+msgid "[-]echoe"
+msgstr ""
+
+#. type: Plain text
+#: stty.1:269
+msgid "same as [-]crterase"
+msgstr ""
+
+#. type: TP
+#: stty.1:269
+#, no-wrap
+msgid "[-]echok"
+msgstr ""
+
+#. type: Plain text
+#: stty.1:272
+msgid "echo a newline after a kill character"
+msgstr ""
+
+#. type: TP
+#: stty.1:272
+#, no-wrap
+msgid "* [-]echoke"
+msgstr ""
+
+#. type: Plain text
+#: stty.1:275
+msgid "same as [-]crtkill"
+msgstr ""
+
+#. type: TP
+#: stty.1:275
+#, no-wrap
+msgid "[-]echonl"
+msgstr ""
+
+#. type: Plain text
+#: stty.1:278
+msgid "echo newline even if not echoing other characters"
+msgstr ""
+
+#. type: TP
+#: stty.1:278
+#, no-wrap
+msgid "* [-]echoprt"
+msgstr ""
+
+#. type: Plain text
+#: stty.1:281
+msgid "echo erased characters backward, between '\\e' and '/'"
+msgstr ""
+
+#. type: TP
+#: stty.1:281
+#, no-wrap
+msgid "[-]icanon"
+msgstr ""
+
+#. type: Plain text
+#: stty.1:284
+msgid "enable erase, kill, werase, and rprnt special characters"
+msgstr ""
+
+#. type: TP
+#: stty.1:284
+#, no-wrap
+msgid "[-]iexten"
+msgstr ""
+
+#. type: Plain text
+#: stty.1:287
+msgid "enable non-POSIX special characters"
+msgstr ""
+
+#. type: TP
+#: stty.1:287
+#, no-wrap
+msgid "[-]isig"
+msgstr ""
+
+#. type: Plain text
+#: stty.1:290
+msgid "enable interrupt, quit, and suspend special characters"
+msgstr ""
+
+#. type: TP
+#: stty.1:290
+#, no-wrap
+msgid "[-]noflsh"
+msgstr ""
+
+#. type: Plain text
+#: stty.1:293
+msgid "disable flushing after interrupt and quit special characters"
+msgstr ""
+
+#. type: TP
+#: stty.1:293
+#, no-wrap
+msgid "* [-]prterase"
+msgstr ""
+
+#. type: Plain text
+#: stty.1:296
+msgid "same as [-]echoprt"
+msgstr ""
+
+#. type: TP
+#: stty.1:296
+#, no-wrap
+msgid "* [-]tostop"
+msgstr ""
+
+#. type: Plain text
+#: stty.1:299
+msgid "stop background jobs that try to write to the terminal"
+msgstr ""
+
+#. type: TP
+#: stty.1:299
+#, no-wrap
+msgid "* [-]xcase"
+msgstr ""
+
+#. type: Plain text
+#: stty.1:302
+msgid "with icanon, escape with '\\e' for uppercase characters"
+msgstr ""
+
+#. type: SS
+#: stty.1:302
+#, no-wrap
+msgid "Combination settings:"
+msgstr ""
+
+#. type: TP
+#: stty.1:303
+#, no-wrap
+msgid "* [-]LCASE"
+msgstr ""
+
+#. type: Plain text
+#: stty.1:306
+msgid "same as [-]lcase"
+msgstr ""
+
+#. type: TP
+#: stty.1:306
+#, no-wrap
+msgid "cbreak"
+msgstr ""
+
+#. type: Plain text
+#: stty.1:309
+msgid "same as B<-icanon>"
+msgstr ""
+
+#. type: TP
+#: stty.1:309
+#, no-wrap
+msgid "B<-cbreak>"
+msgstr ""
+
+#. type: Plain text
+#: stty.1:312
+msgid "same as icanon"
+msgstr ""
+
+#. type: TP
+#: stty.1:312
+#, no-wrap
+msgid "cooked"
+msgstr ""
+
+#. type: Plain text
+#: stty.1:316
+msgid ""
+"same as brkint ignpar istrip icrnl ixon opost isig icanon, eof and eol "
+"characters to their default values"
+msgstr ""
+
+#. type: TP
+#: stty.1:316
+#, no-wrap
+msgid "B<-cooked>"
+msgstr ""
+
+#. type: Plain text
+#: stty.1:319
+msgid "same as raw"
+msgstr ""
+
+#. type: TP
+#: stty.1:319
+#, no-wrap
+msgid "crt"
+msgstr ""
+
+#. type: Plain text
+#: stty.1:322
+msgid "same as echoe echoctl echoke"
+msgstr ""
+
+#. type: TP
+#: stty.1:322
+#, no-wrap
+msgid "dec"
+msgstr ""
+
+#. type: Plain text
+#: stty.1:326
+msgid "same as echoe echoctl echoke B<-ixany> intr ^c erase 0177 kill ^u"
+msgstr ""
+
+#. type: TP
+#: stty.1:326
+#, no-wrap
+msgid "* [-]decctlq"
+msgstr ""
+
+#. type: Plain text
+#: stty.1:329
+msgid "same as [-]ixany"
+msgstr ""
+
+#. type: TP
+#: stty.1:329
+#, no-wrap
+msgid "ek"
+msgstr ""
+
+#. type: Plain text
+#: stty.1:332
+msgid "erase and kill characters to their default values"
+msgstr ""
+
+#. type: TP
+#: stty.1:332
+#, no-wrap
+msgid "evenp"
+msgstr ""
+
+#. type: Plain text
+#: stty.1:335
+msgid "same as parenb B<-parodd> cs7"
+msgstr ""
+
+#. type: TP
+#: stty.1:335
+#, no-wrap
+msgid "B<-evenp>"
+msgstr ""
+
+#. type: Plain text
+#: stty.1:338 stty.1:359
+msgid "same as B<-parenb> cs8"
+msgstr ""
+
+#. type: TP
+#: stty.1:338
+#, no-wrap
+msgid "* [-]lcase"
+msgstr ""
+
+#. type: Plain text
+#: stty.1:341
+msgid "same as xcase iuclc olcuc"
+msgstr ""
+
+#. type: TP
+#: stty.1:341
+#, no-wrap
+msgid "litout"
+msgstr ""
+
+#. type: Plain text
+#: stty.1:344
+msgid "same as B<-parenb> B<-istrip> B<-opost> cs8"
+msgstr ""
+
+#. type: TP
+#: stty.1:344
+#, no-wrap
+msgid "B<-litout>"
+msgstr ""
+
+#. type: Plain text
+#: stty.1:347
+msgid "same as parenb istrip opost cs7"
+msgstr ""
+
+#. type: TP
+#: stty.1:347
+#, no-wrap
+msgid "nl"
+msgstr ""
+
+#. type: Plain text
+#: stty.1:350
+msgid "same as B<-icrnl> B<-onlcr>"
+msgstr ""
+
+#. type: TP
+#: stty.1:350
+#, no-wrap
+msgid "B<-nl>"
+msgstr ""
+
+#. type: Plain text
+#: stty.1:353
+msgid "same as icrnl B<-inlcr> B<-igncr> onlcr B<-ocrnl> B<-onlret>"
+msgstr ""
+
+#. type: TP
+#: stty.1:353
+#, no-wrap
+msgid "oddp"
+msgstr ""
+
+#. type: Plain text
+#: stty.1:356
+msgid "same as parenb parodd cs7"
+msgstr ""
+
+#. type: TP
+#: stty.1:356
+#, no-wrap
+msgid "B<-oddp>"
+msgstr ""
+
+#. type: TP
+#: stty.1:359
+#, no-wrap
+msgid "[-]parity"
+msgstr ""
+
+#. type: Plain text
+#: stty.1:362
+msgid "same as [-]evenp"
+msgstr ""
+
+#. type: TP
+#: stty.1:362
+#, no-wrap
+msgid "pass8"
+msgstr ""
+
+#. type: Plain text
+#: stty.1:365
+msgid "same as B<-parenb> B<-istrip> cs8"
+msgstr ""
+
+#. type: TP
+#: stty.1:365
+#, no-wrap
+msgid "B<-pass8>"
+msgstr ""
+
+#. type: Plain text
+#: stty.1:368
+msgid "same as parenb istrip cs7"
+msgstr ""
+
+#. type: TP
+#: stty.1:368
+#, no-wrap
+msgid "raw"
+msgstr ""
+
+#. type: Plain text
+#: stty.1:373
+msgid ""
+"same as B<-ignbrk> B<-brkint> B<-ignpar> B<-parmrk> B<-inpck> B<-istrip> "
+"B<-inlcr> B<-igncr> B<-icrnl> B<-ixon> B<-ixoff> B<-iuclc> B<-ixany> "
+"B<-imaxbel> B<-opost> B<-isig> B<-icanon> B<-xcase> min 1 time 0"
+msgstr ""
+
+#. type: TP
+#: stty.1:373
+#, no-wrap
+msgid "B<-raw>"
+msgstr ""
+
+#. type: Plain text
+#: stty.1:376
+msgid "same as cooked"
+msgstr ""
+
+#. type: TP
+#: stty.1:376
+#, no-wrap
+msgid "sane"
+msgstr ""
+
+#. type: Plain text
+#: stty.1:384
+msgid ""
+"same as cread B<-ignbrk> brkint B<-inlcr> B<-igncr> icrnl B<-iutf8> "
+"B<-ixoff> B<-iuclc> B<-ixany> imaxbel opost B<-olcuc> B<-ocrnl> onlcr "
+"B<-onocr> B<-onlret> B<-ofill> B<-ofdel> nl0 cr0 tab0 bs0 vt0 ff0 isig "
+"icanon iexten echo echoe echok B<-echonl> B<-noflsh> B<-xcase> B<-tostop> "
+"B<-echoprt> echoctl echoke, all special characters to their default values"
+msgstr ""
+
+#. type: Plain text
+#: stty.1:389
+msgid ""
+"Handle the tty line connected to standard input.  Without arguments, prints "
+"baud rate, line discipline, and deviations from stty sane.  In settings, "
+"CHAR is taken literally, or coded as in ^c, 0x37, 0177 or 127; special "
+"values ^- or undef used to disable special characters."
+msgstr ""
+
+#. type: SH
+#: stty.1:389
+#, no-wrap
+msgid "AUTHOR"
+msgstr ""
+
+#. type: Plain text
+#: stty.1:391
+msgid "Written by David MacKenzie."
+msgstr ""
+
+#. type: SH
+#: stty.1:391
+#, no-wrap
+msgid "REPORTING BUGS"
+msgstr ""
+
+#. type: Plain text
+#: stty.1:393
+msgid "Report stty bugs to bug-coreutils@gnu.org"
+msgstr ""
+
+#. type: Plain text
+#: stty.1:395
+msgid "GNU coreutils home page: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+msgstr ""
+
+#. type: Plain text
+#: stty.1:397
+msgid "General help using GNU software: E<lt>http://www.gnu.org/gethelp/E<gt>"
+msgstr ""
+
+#. type: Plain text
+#: stty.1:399
+msgid ""
+"Report stty translation bugs to "
+"E<lt>http://translationproject.org/team/E<gt>"
+msgstr ""
+
+#. type: SH
+#: stty.1:399
+#, no-wrap
+msgid "COPYRIGHT"
+msgstr ""
+
+#. type: Plain text
+#: stty.1:402
+msgid ""
+"Copyright \\(co 2013 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
+msgstr ""
+
+#. type: Plain text
+#: stty.1:405
+msgid ""
+"This is free software: you are free to change and redistribute it.  There is "
+"NO WARRANTY, to the extent permitted by law."
+msgstr ""
+
+#. type: SH
+#: stty.1:405
+#, no-wrap
+msgid "SEE ALSO"
+msgstr ""
+
+#. type: Plain text
+#: stty.1:413
+msgid ""
+"The full documentation for B<stty> is maintained as a Texinfo manual.  If "
+"the B<info> and B<stty> programs are properly installed at your site, the "
+"command"
+msgstr ""
+
+#. type: Plain text
+#: stty.1:415
+msgid "B<info coreutils \\(aqstty invocation\\(aq>"
+msgstr ""
+
+#. type: Plain text
+#: stty.1:416
+msgid "should give you access to the complete manual."
+msgstr ""

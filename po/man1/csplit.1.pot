@@ -1,0 +1,317 @@
+# LCTT man-pages Translate Project
+# Copyright (C) 2013 LCTT
+# This file is distributed under the same license as the PACKAGE package.
+# LCTT <lctt@linux.cn>, 2013.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: LCTT man-pages coreutils-8.21\n"
+"POT-Creation-Date: 2013-10-19 17:34+0800\n"
+"PO-Revision-Date: 2013-10-19 17:50+0800\n"
+"Last-Translator: LCTT <lctt@linux.cn>\n"
+"Language-Team: LCTT <lctt@linux.cn>\n"
+"Language: zh_CN.UTF-8\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+
+#. type: TH
+#: csplit.1:2
+#, no-wrap
+msgid "CSPLIT"
+msgstr ""
+
+#. type: TH
+#: csplit.1:2
+#, no-wrap
+msgid "October 2013"
+msgstr ""
+
+#. type: TH
+#: csplit.1:2
+#, no-wrap
+msgid "GNU coreutils 8.21"
+msgstr ""
+
+#. type: TH
+#: csplit.1:2
+#, no-wrap
+msgid "User Commands"
+msgstr ""
+
+#. type: SH
+#: csplit.1:3
+#, no-wrap
+msgid "NAME"
+msgstr ""
+
+#. type: Plain text
+#: csplit.1:5
+msgid "csplit - split a file into sections determined by context lines"
+msgstr ""
+
+#. type: SH
+#: csplit.1:5
+#, no-wrap
+msgid "SYNOPSIS"
+msgstr ""
+
+#. type: Plain text
+#: csplit.1:8
+msgid "B<csplit> [I<OPTION>]... I<FILE PATTERN>..."
+msgstr ""
+
+#. type: SH
+#: csplit.1:8
+#, no-wrap
+msgid "DESCRIPTION"
+msgstr ""
+
+#. type: Plain text
+#: csplit.1:13
+msgid ""
+"Output pieces of FILE separated by PATTERN(s) to files 'xx00', 'xx01', ..., "
+"and output byte counts of each piece to standard output."
+msgstr ""
+
+#. type: Plain text
+#: csplit.1:15
+msgid "Mandatory arguments to long options are mandatory for short options too."
+msgstr ""
+
+#. type: TP
+#: csplit.1:15
+#, no-wrap
+msgid "B<-b>, B<--suffix-format>=I<FORMAT>"
+msgstr ""
+
+#. type: Plain text
+#: csplit.1:18
+msgid "use sprintf FORMAT instead of %02d"
+msgstr ""
+
+#. type: TP
+#: csplit.1:18
+#, no-wrap
+msgid "B<-f>, B<--prefix>=I<PREFIX>"
+msgstr ""
+
+#. type: Plain text
+#: csplit.1:21
+msgid "use PREFIX instead of 'xx'"
+msgstr ""
+
+#. type: TP
+#: csplit.1:21
+#, no-wrap
+msgid "B<-k>, B<--keep-files>"
+msgstr ""
+
+#. type: Plain text
+#: csplit.1:24
+msgid "do not remove output files on errors"
+msgstr ""
+
+#. type: TP
+#: csplit.1:24
+#, no-wrap
+msgid "B<-n>, B<--digits>=I<DIGITS>"
+msgstr ""
+
+#. type: Plain text
+#: csplit.1:27
+msgid "use specified number of digits instead of 2"
+msgstr ""
+
+#. type: TP
+#: csplit.1:27
+#, no-wrap
+msgid "B<-s>, B<--quiet>, B<--silent>"
+msgstr ""
+
+#. type: Plain text
+#: csplit.1:30
+msgid "do not print counts of output file sizes"
+msgstr ""
+
+#. type: TP
+#: csplit.1:30
+#, no-wrap
+msgid "B<-z>, B<--elide-empty-files>"
+msgstr ""
+
+#. type: Plain text
+#: csplit.1:33
+msgid "remove empty output files"
+msgstr ""
+
+#. type: TP
+#: csplit.1:33
+#, no-wrap
+msgid "B<--help>"
+msgstr ""
+
+#. type: Plain text
+#: csplit.1:36
+msgid "display this help and exit"
+msgstr ""
+
+#. type: TP
+#: csplit.1:36
+#, no-wrap
+msgid "B<--version>"
+msgstr ""
+
+#. type: Plain text
+#: csplit.1:39
+msgid "output version information and exit"
+msgstr ""
+
+#. type: Plain text
+#: csplit.1:41
+msgid "Read standard input if FILE is -.  Each PATTERN may be:"
+msgstr ""
+
+#. type: TP
+#: csplit.1:41
+#, no-wrap
+msgid "INTEGER"
+msgstr ""
+
+#. type: Plain text
+#: csplit.1:44
+msgid "copy up to but not including specified line number"
+msgstr ""
+
+#. type: TP
+#: csplit.1:44
+#, no-wrap
+msgid "/REGEXP/[OFFSET]"
+msgstr ""
+
+#. type: Plain text
+#: csplit.1:47
+msgid "copy up to but not including a matching line"
+msgstr ""
+
+#. type: TP
+#: csplit.1:47
+#, no-wrap
+msgid "%REGEXP%[OFFSET]"
+msgstr ""
+
+#. type: Plain text
+#: csplit.1:50
+msgid "skip to, but not including a matching line"
+msgstr ""
+
+#. type: TP
+#: csplit.1:50
+#, no-wrap
+msgid "{INTEGER}"
+msgstr ""
+
+#. type: Plain text
+#: csplit.1:53
+msgid "repeat the previous pattern specified number of times"
+msgstr ""
+
+#. type: TP
+#: csplit.1:53
+#, no-wrap
+msgid "{*}"
+msgstr ""
+
+#. type: Plain text
+#: csplit.1:56
+msgid "repeat the previous pattern as many times as possible"
+msgstr ""
+
+#. type: Plain text
+#: csplit.1:58
+msgid "A line OFFSET is a required '+' or '-' followed by a positive integer."
+msgstr ""
+
+#. type: SH
+#: csplit.1:58
+#, no-wrap
+msgid "AUTHOR"
+msgstr ""
+
+#. type: Plain text
+#: csplit.1:60
+msgid "Written by Stuart Kemp and David MacKenzie."
+msgstr ""
+
+#. type: SH
+#: csplit.1:60
+#, no-wrap
+msgid "REPORTING BUGS"
+msgstr ""
+
+#. type: Plain text
+#: csplit.1:62
+msgid "Report csplit bugs to bug-coreutils@gnu.org"
+msgstr ""
+
+#. type: Plain text
+#: csplit.1:64
+msgid "GNU coreutils home page: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+msgstr ""
+
+#. type: Plain text
+#: csplit.1:66
+msgid "General help using GNU software: E<lt>http://www.gnu.org/gethelp/E<gt>"
+msgstr ""
+
+#. type: Plain text
+#: csplit.1:68
+msgid ""
+"Report csplit translation bugs to "
+"E<lt>http://translationproject.org/team/E<gt>"
+msgstr ""
+
+#. type: SH
+#: csplit.1:68
+#, no-wrap
+msgid "COPYRIGHT"
+msgstr ""
+
+#. type: Plain text
+#: csplit.1:71
+msgid ""
+"Copyright \\(co 2013 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
+msgstr ""
+
+#. type: Plain text
+#: csplit.1:74
+msgid ""
+"This is free software: you are free to change and redistribute it.  There is "
+"NO WARRANTY, to the extent permitted by law."
+msgstr ""
+
+#. type: SH
+#: csplit.1:74
+#, no-wrap
+msgid "SEE ALSO"
+msgstr ""
+
+#. type: Plain text
+#: csplit.1:82
+msgid ""
+"The full documentation for B<csplit> is maintained as a Texinfo manual.  If "
+"the B<info> and B<csplit> programs are properly installed at your site, the "
+"command"
+msgstr ""
+
+#. type: Plain text
+#: csplit.1:84
+msgid "B<info coreutils \\(aqcsplit invocation\\(aq>"
+msgstr ""
+
+#. type: Plain text
+#: csplit.1:85
+msgid "should give you access to the complete manual."
+msgstr ""

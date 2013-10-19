@@ -1,0 +1,372 @@
+# LCTT man-pages Translate Project
+# Copyright (C) 2013 LCTT
+# This file is distributed under the same license as the PACKAGE package.
+# LCTT <lctt@linux.cn>, 2013.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: LCTT man-pages coreutils-8.21\n"
+"POT-Creation-Date: 2013-10-19 17:34+0800\n"
+"PO-Revision-Date: 2013-10-19 17:50+0800\n"
+"Last-Translator: LCTT <lctt@linux.cn>\n"
+"Language-Team: LCTT <lctt@linux.cn>\n"
+"Language: zh_CN.UTF-8\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+
+#. type: TH
+#: ptx.1:2
+#, no-wrap
+msgid "PTX"
+msgstr ""
+
+#. type: TH
+#: ptx.1:2
+#, no-wrap
+msgid "October 2013"
+msgstr ""
+
+#. type: TH
+#: ptx.1:2
+#, no-wrap
+msgid "GNU coreutils 8.21"
+msgstr ""
+
+#. type: TH
+#: ptx.1:2
+#, no-wrap
+msgid "User Commands"
+msgstr ""
+
+#. type: SH
+#: ptx.1:3
+#, no-wrap
+msgid "NAME"
+msgstr ""
+
+#. type: Plain text
+#: ptx.1:5
+msgid "ptx - produce a permuted index of file contents"
+msgstr ""
+
+#. type: SH
+#: ptx.1:5
+#, no-wrap
+msgid "SYNOPSIS"
+msgstr ""
+
+#. type: Plain text
+#: ptx.1:8
+msgid "B<ptx> [I<OPTION>]... [I<INPUT>]...  I<(without -G)>"
+msgstr ""
+
+#. type: Plain text
+#: ptx.1:11
+msgid "B<ptx> I<-G >[I<OPTION>]... [I<INPUT >[I<OUTPUT>]]"
+msgstr ""
+
+#. type: SH
+#: ptx.1:11
+#, no-wrap
+msgid "DESCRIPTION"
+msgstr ""
+
+#. type: Plain text
+#: ptx.1:15
+msgid "Output a permuted index, including context, of the words in the input files."
+msgstr ""
+
+#. type: Plain text
+#: ptx.1:17
+msgid "Mandatory arguments to long options are mandatory for short options too."
+msgstr ""
+
+#. type: TP
+#: ptx.1:17
+#, no-wrap
+msgid "B<-A>, B<--auto-reference>"
+msgstr ""
+
+#. type: Plain text
+#: ptx.1:20
+msgid "output automatically generated references"
+msgstr ""
+
+#. type: TP
+#: ptx.1:20
+#, no-wrap
+msgid "B<-G>, B<--traditional>"
+msgstr ""
+
+#. type: Plain text
+#: ptx.1:23
+msgid "behave more like System V 'ptx'"
+msgstr ""
+
+#. type: TP
+#: ptx.1:23
+#, no-wrap
+msgid "B<-F>, B<--flag-truncation>=I<STRING>"
+msgstr ""
+
+#. type: Plain text
+#: ptx.1:26
+msgid "use STRING for flagging line truncations"
+msgstr ""
+
+#. type: TP
+#: ptx.1:26
+#, no-wrap
+msgid "B<-M>, B<--macro-name>=I<STRING>"
+msgstr ""
+
+#. type: Plain text
+#: ptx.1:29
+msgid "macro name to use instead of 'xx'"
+msgstr ""
+
+#. type: TP
+#: ptx.1:29
+#, no-wrap
+msgid "B<-O>, B<--format>=I<roff>"
+msgstr ""
+
+#. type: Plain text
+#: ptx.1:32
+msgid "generate output as roff directives"
+msgstr ""
+
+#. type: TP
+#: ptx.1:32
+#, no-wrap
+msgid "B<-R>, B<--right-side-refs>"
+msgstr ""
+
+#. type: Plain text
+#: ptx.1:35
+msgid "put references at right, not counted in B<-w>"
+msgstr ""
+
+#. type: TP
+#: ptx.1:35
+#, no-wrap
+msgid "B<-S>, B<--sentence-regexp>=I<REGEXP>"
+msgstr ""
+
+#. type: Plain text
+#: ptx.1:38
+msgid "for end of lines or end of sentences"
+msgstr ""
+
+#. type: TP
+#: ptx.1:38
+#, no-wrap
+msgid "B<-T>, B<--format>=I<tex>"
+msgstr ""
+
+#. type: Plain text
+#: ptx.1:41
+msgid "generate output as TeX directives"
+msgstr ""
+
+#. type: TP
+#: ptx.1:41
+#, no-wrap
+msgid "B<-W>, B<--word-regexp>=I<REGEXP>"
+msgstr ""
+
+#. type: Plain text
+#: ptx.1:44
+msgid "use REGEXP to match each keyword"
+msgstr ""
+
+#. type: TP
+#: ptx.1:44
+#, no-wrap
+msgid "B<-b>, B<--break-file>=I<FILE>"
+msgstr ""
+
+#. type: Plain text
+#: ptx.1:47
+msgid "word break characters in this FILE"
+msgstr ""
+
+#. type: TP
+#: ptx.1:47
+#, no-wrap
+msgid "B<-f>, B<--ignore-case>"
+msgstr ""
+
+#. type: Plain text
+#: ptx.1:50
+msgid "fold lower case to upper case for sorting"
+msgstr ""
+
+#. type: TP
+#: ptx.1:50
+#, no-wrap
+msgid "B<-g>, B<--gap-size>=I<NUMBER>"
+msgstr ""
+
+#. type: Plain text
+#: ptx.1:53
+msgid "gap size in columns between output fields"
+msgstr ""
+
+#. type: TP
+#: ptx.1:53
+#, no-wrap
+msgid "B<-i>, B<--ignore-file>=I<FILE>"
+msgstr ""
+
+#. type: Plain text
+#: ptx.1:56
+msgid "read ignore word list from FILE"
+msgstr ""
+
+#. type: TP
+#: ptx.1:56
+#, no-wrap
+msgid "B<-o>, B<--only-file>=I<FILE>"
+msgstr ""
+
+#. type: Plain text
+#: ptx.1:59
+msgid "read only word list from this FILE"
+msgstr ""
+
+#. type: TP
+#: ptx.1:59
+#, no-wrap
+msgid "B<-r>, B<--references>"
+msgstr ""
+
+#. type: Plain text
+#: ptx.1:62
+msgid "first field of each line is a reference"
+msgstr ""
+
+#. type: Plain text
+#: ptx.1:64
+msgid "B<-t>, B<--typeset-mode> - not implemented -"
+msgstr ""
+
+#. type: TP
+#: ptx.1:64
+#, no-wrap
+msgid "B<-w>, B<--width>=I<NUMBER>"
+msgstr ""
+
+#. type: Plain text
+#: ptx.1:67
+msgid "output width in columns, reference excluded"
+msgstr ""
+
+#. type: TP
+#: ptx.1:67
+#, no-wrap
+msgid "B<--help>"
+msgstr ""
+
+#. type: Plain text
+#: ptx.1:70
+msgid "display this help and exit"
+msgstr ""
+
+#. type: TP
+#: ptx.1:70
+#, no-wrap
+msgid "B<--version>"
+msgstr ""
+
+#. type: Plain text
+#: ptx.1:73
+msgid "output version information and exit"
+msgstr ""
+
+#. type: Plain text
+#: ptx.1:75
+msgid "With no FILE or if FILE is -, read Standard Input.  '-F /' by default."
+msgstr ""
+
+#. type: SH
+#: ptx.1:75
+#, no-wrap
+msgid "AUTHOR"
+msgstr ""
+
+#. type: Plain text
+#: ptx.1:77
+msgid "Written by F. Pinard."
+msgstr ""
+
+#. type: SH
+#: ptx.1:77
+#, no-wrap
+msgid "REPORTING BUGS"
+msgstr ""
+
+#. type: Plain text
+#: ptx.1:79
+msgid "Report ptx bugs to bug-coreutils@gnu.org"
+msgstr ""
+
+#. type: Plain text
+#: ptx.1:81
+msgid "GNU coreutils home page: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+msgstr ""
+
+#. type: Plain text
+#: ptx.1:83
+msgid "General help using GNU software: E<lt>http://www.gnu.org/gethelp/E<gt>"
+msgstr ""
+
+#. type: Plain text
+#: ptx.1:85
+msgid "Report ptx translation bugs to E<lt>http://translationproject.org/team/E<gt>"
+msgstr ""
+
+#. type: SH
+#: ptx.1:85
+#, no-wrap
+msgid "COPYRIGHT"
+msgstr ""
+
+#. type: Plain text
+#: ptx.1:88
+msgid ""
+"Copyright \\(co 2013 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
+msgstr ""
+
+#. type: Plain text
+#: ptx.1:91
+msgid ""
+"This is free software: you are free to change and redistribute it.  There is "
+"NO WARRANTY, to the extent permitted by law."
+msgstr ""
+
+#. type: SH
+#: ptx.1:91
+#, no-wrap
+msgid "SEE ALSO"
+msgstr ""
+
+#. type: Plain text
+#: ptx.1:99
+msgid ""
+"The full documentation for B<ptx> is maintained as a Texinfo manual.  If the "
+"B<info> and B<ptx> programs are properly installed at your site, the command"
+msgstr ""
+
+#. type: Plain text
+#: ptx.1:101
+msgid "B<info coreutils \\(aqptx invocation\\(aq>"
+msgstr ""
+
+#. type: Plain text
+#: ptx.1:102
+msgid "should give you access to the complete manual."
+msgstr ""

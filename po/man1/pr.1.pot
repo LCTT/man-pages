@@ -1,0 +1,483 @@
+# LCTT man-pages Translate Project
+# Copyright (C) 2013 LCTT
+# This file is distributed under the same license as the PACKAGE package.
+# LCTT <lctt@linux.cn>, 2013.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: LCTT man-pages coreutils-8.21\n"
+"POT-Creation-Date: 2013-10-19 17:34+0800\n"
+"PO-Revision-Date: 2013-10-19 17:50+0800\n"
+"Last-Translator: LCTT <lctt@linux.cn>\n"
+"Language-Team: LCTT <lctt@linux.cn>\n"
+"Language: zh_CN.UTF-8\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+
+#. type: TH
+#: pr.1:2
+#, no-wrap
+msgid "PR"
+msgstr ""
+
+#. type: TH
+#: pr.1:2
+#, no-wrap
+msgid "October 2013"
+msgstr ""
+
+#. type: TH
+#: pr.1:2
+#, no-wrap
+msgid "GNU coreutils 8.21"
+msgstr ""
+
+#. type: TH
+#: pr.1:2
+#, no-wrap
+msgid "User Commands"
+msgstr ""
+
+#. type: SH
+#: pr.1:3
+#, no-wrap
+msgid "NAME"
+msgstr ""
+
+#. type: Plain text
+#: pr.1:5
+msgid "pr - convert text files for printing"
+msgstr ""
+
+#. type: SH
+#: pr.1:5
+#, no-wrap
+msgid "SYNOPSIS"
+msgstr ""
+
+#. type: Plain text
+#: pr.1:8
+msgid "B<pr> [I<OPTION>]... [I<FILE>]..."
+msgstr ""
+
+#. type: SH
+#: pr.1:8
+#, no-wrap
+msgid "DESCRIPTION"
+msgstr ""
+
+#. type: Plain text
+#: pr.1:12
+msgid "Paginate or columnate FILE(s) for printing."
+msgstr ""
+
+#. type: Plain text
+#: pr.1:14
+msgid "Mandatory arguments to long options are mandatory for short options too."
+msgstr ""
+
+#. type: TP
+#: pr.1:14
+#, no-wrap
+msgid "+FIRST_PAGE[:LAST_PAGE], B<--pages>=I<FIRST_PAGE[>:LAST_PAGE]"
+msgstr ""
+
+#. type: Plain text
+#: pr.1:17
+msgid "begin [stop] printing with page FIRST_[LAST_]PAGE"
+msgstr ""
+
+#. type: TP
+#: pr.1:17
+#, no-wrap
+msgid "B<-COLUMN>, B<--columns>=I<COLUMN>"
+msgstr ""
+
+#. type: Plain text
+#: pr.1:22
+msgid ""
+"output COLUMN columns and print columns down, unless B<-a> is used. Balance "
+"number of lines in the columns on each page"
+msgstr ""
+
+#. type: TP
+#: pr.1:22
+#, no-wrap
+msgid "B<-a>, B<--across>"
+msgstr ""
+
+#. type: Plain text
+#: pr.1:26
+msgid "print columns across rather than down, used together with B<-COLUMN>"
+msgstr ""
+
+#. type: TP
+#: pr.1:26
+#, no-wrap
+msgid "B<-c>, B<--show-control-chars>"
+msgstr ""
+
+#. type: Plain text
+#: pr.1:29
+msgid "use hat notation (^G) and octal backslash notation"
+msgstr ""
+
+#. type: TP
+#: pr.1:29
+#, no-wrap
+msgid "B<-d>, B<--double-space>"
+msgstr ""
+
+#. type: Plain text
+#: pr.1:32
+msgid "double space the output"
+msgstr ""
+
+#. type: TP
+#: pr.1:32
+#, no-wrap
+msgid "B<-D>, B<--date-format>=I<FORMAT>"
+msgstr ""
+
+#. type: Plain text
+#: pr.1:35
+msgid "use FORMAT for the header date"
+msgstr ""
+
+#. type: TP
+#: pr.1:35
+#, no-wrap
+msgid "B<-e[CHAR[WIDTH]]>, B<--expand-tabs>[=I<CHAR[WIDTH]>]"
+msgstr ""
+
+#. type: Plain text
+#: pr.1:38
+msgid "expand input CHARs (TABs) to tab WIDTH (8)"
+msgstr ""
+
+#. type: TP
+#: pr.1:38
+#, no-wrap
+msgid "B<-F>, B<-f>, B<--form-feed>"
+msgstr ""
+
+#. type: Plain text
+#: pr.1:43
+msgid ""
+"use form feeds instead of newlines to separate pages (by a 3-line page "
+"header with B<-F> or a 5-line header and trailer without B<-F>)"
+msgstr ""
+
+#. type: TP
+#: pr.1:43
+#, no-wrap
+msgid "B<-h>, B<--header>=I<HEADER>"
+msgstr ""
+
+#. type: Plain text
+#: pr.1:47
+msgid ""
+"use a centered HEADER instead of filename in page header, B<-h> \"\" prints "
+"a blank line, don't use B<-h>\"\""
+msgstr ""
+
+#. type: TP
+#: pr.1:47
+#, no-wrap
+msgid "B<-i[CHAR[WIDTH]]>, B<--output-tabs>[=I<CHAR[WIDTH]>]"
+msgstr ""
+
+#. type: Plain text
+#: pr.1:50
+msgid "replace spaces with CHARs (TABs) to tab WIDTH (8)"
+msgstr ""
+
+#. type: TP
+#: pr.1:50
+#, no-wrap
+msgid "B<-J>, B<--join-lines>"
+msgstr ""
+
+#. type: Plain text
+#: pr.1:54
+msgid ""
+"merge full lines, turns off B<-W> line truncation, no column alignment, "
+"B<--sep-string>[=I<STRING>] sets separators"
+msgstr ""
+
+#. type: TP
+#: pr.1:54
+#, no-wrap
+msgid "B<-l>, B<--length>=I<PAGE_LENGTH>"
+msgstr ""
+
+#. type: Plain text
+#: pr.1:58
+msgid ""
+"set the page length to PAGE_LENGTH (66) lines (default number of lines of "
+"text 56, and with B<-F> 63)"
+msgstr ""
+
+#. type: TP
+#: pr.1:58
+#, no-wrap
+msgid "B<-m>, B<--merge>"
+msgstr ""
+
+#. type: Plain text
+#: pr.1:62
+msgid ""
+"print all files in parallel, one in each column, truncate lines, but join "
+"lines of full length with B<-J>"
+msgstr ""
+
+#. type: TP
+#: pr.1:62
+#, no-wrap
+msgid "B<-n[SEP[DIGITS]]>, B<--number-lines>[=I<SEP[DIGITS]>]"
+msgstr ""
+
+#. type: Plain text
+#: pr.1:66
+msgid ""
+"number lines, use DIGITS (5) digits, then SEP (TAB), default counting starts "
+"with 1st line of input file"
+msgstr ""
+
+#. type: TP
+#: pr.1:66
+#, no-wrap
+msgid "B<-N>, B<--first-line-number>=I<NUMBER>"
+msgstr ""
+
+#. type: Plain text
+#: pr.1:70
+msgid ""
+"start counting with NUMBER at 1st line of first page printed (see "
+"+FIRST_PAGE)"
+msgstr ""
+
+#. type: TP
+#: pr.1:70
+#, no-wrap
+msgid "B<-o>, B<--indent>=I<MARGIN>"
+msgstr ""
+
+#. type: Plain text
+#: pr.1:74
+msgid ""
+"offset each line with MARGIN (zero) spaces, do not affect B<-w> or B<-W>, "
+"MARGIN will be added to PAGE_WIDTH"
+msgstr ""
+
+#. type: TP
+#: pr.1:74
+#, no-wrap
+msgid "B<-r>, B<--no-file-warnings>"
+msgstr ""
+
+#. type: Plain text
+#: pr.1:77
+msgid "omit warning when a file cannot be opened"
+msgstr ""
+
+#. type: TP
+#: pr.1:77
+#, no-wrap
+msgid "B<-s[CHAR]>, B<--separator>[=I<CHAR>]"
+msgstr ""
+
+#. type: Plain text
+#: pr.1:83
+msgid ""
+"separate columns by a single character, default for CHAR is the "
+"E<lt>TABE<gt> character without B<-w> and 'no char' with B<-w> B<-s[CHAR]> "
+"turns off line truncation of all 3 column options (B<-COLUMN>|-a "
+"B<-COLUMN>|-m) except B<-w> is set"
+msgstr ""
+
+#. type: TP
+#: pr.1:83
+#, no-wrap
+msgid "B<-S[STRING]>, B<--sep-string>[=I<STRING>]"
+msgstr ""
+
+#. type: Plain text
+#: pr.1:88
+msgid ""
+"separate columns by STRING, without B<-S>: Default separator E<lt>TABE<gt> "
+"with B<-J> and E<lt>spaceE<gt> otherwise (same as B<-S>\" \"), no effect on "
+"column options"
+msgstr ""
+
+#. type: TP
+#: pr.1:88
+#, no-wrap
+msgid "B<-t>, B<--omit-header>"
+msgstr ""
+
+#. type: Plain text
+#: pr.1:91
+msgid "omit page headers and trailers"
+msgstr ""
+
+#. type: TP
+#: pr.1:91
+#, no-wrap
+msgid "B<-T>, B<--omit-pagination>"
+msgstr ""
+
+#. type: Plain text
+#: pr.1:95
+msgid ""
+"omit page headers and trailers, eliminate any pagination by form feeds set "
+"in input files"
+msgstr ""
+
+#. type: TP
+#: pr.1:95
+#, no-wrap
+msgid "B<-v>, B<--show-nonprinting>"
+msgstr ""
+
+#. type: Plain text
+#: pr.1:98
+msgid "use octal backslash notation"
+msgstr ""
+
+#. type: TP
+#: pr.1:98
+#, no-wrap
+msgid "B<-w>, B<--width>=I<PAGE_WIDTH>"
+msgstr ""
+
+#. type: Plain text
+#: pr.1:102
+msgid ""
+"set page width to PAGE_WIDTH (72) characters for multiple text-column output "
+"only, B<-s[char]> turns off (72)"
+msgstr ""
+
+#. type: TP
+#: pr.1:102
+#, no-wrap
+msgid "B<-W>, B<--page-width>=I<PAGE_WIDTH>"
+msgstr ""
+
+#. type: Plain text
+#: pr.1:107
+msgid ""
+"set page width to PAGE_WIDTH (72) characters always, truncate lines, except "
+"B<-J> option is set, no interference with B<-S> or B<-s>"
+msgstr ""
+
+#. type: TP
+#: pr.1:107
+#, no-wrap
+msgid "B<--help>"
+msgstr ""
+
+#. type: Plain text
+#: pr.1:110
+msgid "display this help and exit"
+msgstr ""
+
+#. type: TP
+#: pr.1:110
+#, no-wrap
+msgid "B<--version>"
+msgstr ""
+
+#. type: Plain text
+#: pr.1:113
+msgid "output version information and exit"
+msgstr ""
+
+#. type: Plain text
+#: pr.1:116
+msgid ""
+"B<-t> is implied if PAGE_LENGTH E<lt>= 10.  With no FILE, or when FILE is -, "
+"read standard input."
+msgstr ""
+
+#. type: SH
+#: pr.1:116
+#, no-wrap
+msgid "AUTHOR"
+msgstr ""
+
+#. type: Plain text
+#: pr.1:118
+msgid "Written by Pete TerMaat and Roland Huebner."
+msgstr ""
+
+#. type: SH
+#: pr.1:118
+#, no-wrap
+msgid "REPORTING BUGS"
+msgstr ""
+
+#. type: Plain text
+#: pr.1:120
+msgid "Report pr bugs to bug-coreutils@gnu.org"
+msgstr ""
+
+#. type: Plain text
+#: pr.1:122
+msgid "GNU coreutils home page: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+msgstr ""
+
+#. type: Plain text
+#: pr.1:124
+msgid "General help using GNU software: E<lt>http://www.gnu.org/gethelp/E<gt>"
+msgstr ""
+
+#. type: Plain text
+#: pr.1:126
+msgid "Report pr translation bugs to E<lt>http://translationproject.org/team/E<gt>"
+msgstr ""
+
+#. type: SH
+#: pr.1:126
+#, no-wrap
+msgid "COPYRIGHT"
+msgstr ""
+
+#. type: Plain text
+#: pr.1:129
+msgid ""
+"Copyright \\(co 2013 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
+msgstr ""
+
+#. type: Plain text
+#: pr.1:132
+msgid ""
+"This is free software: you are free to change and redistribute it.  There is "
+"NO WARRANTY, to the extent permitted by law."
+msgstr ""
+
+#. type: SH
+#: pr.1:132
+#, no-wrap
+msgid "SEE ALSO"
+msgstr ""
+
+#. type: Plain text
+#: pr.1:140
+msgid ""
+"The full documentation for B<pr> is maintained as a Texinfo manual.  If the "
+"B<info> and B<pr> programs are properly installed at your site, the command"
+msgstr ""
+
+#. type: Plain text
+#: pr.1:142
+msgid "B<info coreutils \\(aqpr invocation\\(aq>"
+msgstr ""
+
+#. type: Plain text
+#: pr.1:143
+msgid "should give you access to the complete manual."
+msgstr ""

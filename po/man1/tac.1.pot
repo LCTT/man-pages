@@ -1,0 +1,221 @@
+# LCTT man-pages Translate Project
+# Copyright (C) 2013 LCTT
+# This file is distributed under the same license as the PACKAGE package.
+# LCTT <lctt@linux.cn>, 2013.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: LCTT man-pages coreutils-8.21\n"
+"POT-Creation-Date: 2013-10-19 17:34+0800\n"
+"PO-Revision-Date: 2013-10-19 17:50+0800\n"
+"Last-Translator: LCTT <lctt@linux.cn>\n"
+"Language-Team: LCTT <lctt@linux.cn>\n"
+"Language: zh_CN.UTF-8\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+
+#. type: TH
+#: tac.1:2
+#, no-wrap
+msgid "TAC"
+msgstr ""
+
+#. type: TH
+#: tac.1:2
+#, no-wrap
+msgid "October 2013"
+msgstr ""
+
+#. type: TH
+#: tac.1:2
+#, no-wrap
+msgid "GNU coreutils 8.21"
+msgstr ""
+
+#. type: TH
+#: tac.1:2
+#, no-wrap
+msgid "User Commands"
+msgstr ""
+
+#. type: SH
+#: tac.1:3
+#, no-wrap
+msgid "NAME"
+msgstr ""
+
+#. type: Plain text
+#: tac.1:5
+msgid "tac - concatenate and print files in reverse"
+msgstr ""
+
+#. type: SH
+#: tac.1:5
+#, no-wrap
+msgid "SYNOPSIS"
+msgstr ""
+
+#. type: Plain text
+#: tac.1:8
+msgid "B<tac> [I<OPTION>]... [I<FILE>]..."
+msgstr ""
+
+#. type: SH
+#: tac.1:8
+#, no-wrap
+msgid "DESCRIPTION"
+msgstr ""
+
+#. type: Plain text
+#: tac.1:13
+msgid ""
+"Write each FILE to standard output, last line first.  With no FILE, or when "
+"FILE is -, read standard input."
+msgstr ""
+
+#. type: Plain text
+#: tac.1:15
+msgid "Mandatory arguments to long options are mandatory for short options too."
+msgstr ""
+
+#. type: TP
+#: tac.1:15
+#, no-wrap
+msgid "B<-b>, B<--before>"
+msgstr ""
+
+#. type: Plain text
+#: tac.1:18
+msgid "attach the separator before instead of after"
+msgstr ""
+
+#. type: TP
+#: tac.1:18
+#, no-wrap
+msgid "B<-r>, B<--regex>"
+msgstr ""
+
+#. type: Plain text
+#: tac.1:21
+msgid "interpret the separator as a regular expression"
+msgstr ""
+
+#. type: TP
+#: tac.1:21
+#, no-wrap
+msgid "B<-s>, B<--separator>=I<STRING>"
+msgstr ""
+
+#. type: Plain text
+#: tac.1:24
+msgid "use STRING as the separator instead of newline"
+msgstr ""
+
+#. type: TP
+#: tac.1:24
+#, no-wrap
+msgid "B<--help>"
+msgstr ""
+
+#. type: Plain text
+#: tac.1:27
+msgid "display this help and exit"
+msgstr ""
+
+#. type: TP
+#: tac.1:27
+#, no-wrap
+msgid "B<--version>"
+msgstr ""
+
+#. type: Plain text
+#: tac.1:30
+msgid "output version information and exit"
+msgstr ""
+
+#. type: SH
+#: tac.1:30
+#, no-wrap
+msgid "AUTHOR"
+msgstr ""
+
+#. type: Plain text
+#: tac.1:32
+msgid "Written by Jay Lepreau and David MacKenzie."
+msgstr ""
+
+#. type: SH
+#: tac.1:32
+#, no-wrap
+msgid "REPORTING BUGS"
+msgstr ""
+
+#. type: Plain text
+#: tac.1:34
+msgid "Report tac bugs to bug-coreutils@gnu.org"
+msgstr ""
+
+#. type: Plain text
+#: tac.1:36
+msgid "GNU coreutils home page: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+msgstr ""
+
+#. type: Plain text
+#: tac.1:38
+msgid "General help using GNU software: E<lt>http://www.gnu.org/gethelp/E<gt>"
+msgstr ""
+
+#. type: Plain text
+#: tac.1:40
+msgid "Report tac translation bugs to E<lt>http://translationproject.org/team/E<gt>"
+msgstr ""
+
+#. type: SH
+#: tac.1:40
+#, no-wrap
+msgid "COPYRIGHT"
+msgstr ""
+
+#. type: Plain text
+#: tac.1:43
+msgid ""
+"Copyright \\(co 2013 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
+msgstr ""
+
+#. type: Plain text
+#: tac.1:46
+msgid ""
+"This is free software: you are free to change and redistribute it.  There is "
+"NO WARRANTY, to the extent permitted by law."
+msgstr ""
+
+#. type: SH
+#: tac.1:46
+#, no-wrap
+msgid "SEE ALSO"
+msgstr ""
+
+#. type: Plain text
+#: tac.1:48
+msgid "B<rev>(1)"
+msgstr ""
+
+#. type: Plain text
+#: tac.1:56
+msgid ""
+"The full documentation for B<tac> is maintained as a Texinfo manual.  If the "
+"B<info> and B<tac> programs are properly installed at your site, the command"
+msgstr ""
+
+#. type: Plain text
+#: tac.1:58
+msgid "B<info coreutils \\(aqtac invocation\\(aq>"
+msgstr ""
+
+#. type: Plain text
+#: tac.1:59
+msgid "should give you access to the complete manual."
+msgstr ""

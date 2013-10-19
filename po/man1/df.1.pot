@@ -1,0 +1,415 @@
+# LCTT man-pages Translate Project
+# Copyright (C) 2013 LCTT
+# This file is distributed under the same license as the PACKAGE package.
+# LCTT <lctt@linux.cn>, 2013.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: LCTT man-pages coreutils-8.21\n"
+"POT-Creation-Date: 2013-10-19 17:34+0800\n"
+"PO-Revision-Date: 2013-10-19 17:50+0800\n"
+"Last-Translator: LCTT <lctt@linux.cn>\n"
+"Language-Team: LCTT <lctt@linux.cn>\n"
+"Language: zh_CN.UTF-8\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+
+#. type: TH
+#: df.1:2
+#, no-wrap
+msgid "DF"
+msgstr ""
+
+#. type: TH
+#: df.1:2
+#, no-wrap
+msgid "October 2013"
+msgstr ""
+
+#. type: TH
+#: df.1:2
+#, no-wrap
+msgid "GNU coreutils 8.21"
+msgstr ""
+
+#. type: TH
+#: df.1:2
+#, no-wrap
+msgid "User Commands"
+msgstr ""
+
+#. type: SH
+#: df.1:3
+#, no-wrap
+msgid "NAME"
+msgstr ""
+
+#. type: Plain text
+#: df.1:5
+msgid "df - report file system disk space usage"
+msgstr ""
+
+#. type: SH
+#: df.1:5
+#, no-wrap
+msgid "SYNOPSIS"
+msgstr ""
+
+#. type: Plain text
+#: df.1:8
+msgid "B<df> [I<OPTION>]... [I<FILE>]..."
+msgstr ""
+
+#. type: SH
+#: df.1:8
+#, no-wrap
+msgid "DESCRIPTION"
+msgstr ""
+
+#. type: Plain text
+#: df.1:19
+msgid ""
+"This manual page documents the GNU version of B<df>.  B<df> displays the "
+"amount of disk space available on the file system containing each file name "
+"argument.  If no file name is given, the space available on all currently "
+"mounted file systems is shown.  Disk space is shown in 1K blocks by default, "
+"unless the environment variable POSIXLY_CORRECT is set, in which case "
+"512-byte blocks are used."
+msgstr ""
+
+#. type: Plain text
+#: df.1:30
+msgid ""
+"If an argument is the absolute file name of a disk device node containing a "
+"mounted file system, B<df> shows the space available on that file system "
+"rather than on the file system containing the device node (which is always "
+"the root file system).  This version of B<df> cannot show the space "
+"available on unmounted file systems, because on most kinds of systems doing "
+"so requires very nonportable intimate knowledge of file system structures."
+msgstr ""
+
+#. type: SH
+#: df.1:30
+#, no-wrap
+msgid "OPTIONS"
+msgstr ""
+
+#. type: Plain text
+#: df.1:34
+msgid ""
+"Show information about the file system on which each FILE resides, or all "
+"file systems by default."
+msgstr ""
+
+#. type: Plain text
+#: df.1:36
+msgid "Mandatory arguments to long options are mandatory for short options too."
+msgstr ""
+
+#. type: TP
+#: df.1:36
+#, no-wrap
+msgid "B<-a>, B<--all>"
+msgstr ""
+
+#. type: Plain text
+#: df.1:39
+msgid "include dummy file systems"
+msgstr ""
+
+#. type: TP
+#: df.1:39
+#, no-wrap
+msgid "B<-B>, B<--block-size>=I<SIZE>"
+msgstr ""
+
+#. type: Plain text
+#: df.1:44
+msgid ""
+"scale sizes by SIZE before printing them.  E.g., \\&'-BM' prints sizes in "
+"units of 1,048,576 bytes.  See SIZE format below."
+msgstr ""
+
+#. type: TP
+#: df.1:44
+#, no-wrap
+msgid "B<--total>"
+msgstr ""
+
+#. type: Plain text
+#: df.1:47
+msgid "produce a grand total"
+msgstr ""
+
+#. type: TP
+#: df.1:47
+#, no-wrap
+msgid "B<-h>, B<--human-readable>"
+msgstr ""
+
+#. type: Plain text
+#: df.1:50
+msgid "print sizes in human readable format (e.g., 1K 234M 2G)"
+msgstr ""
+
+#. type: TP
+#: df.1:50
+#, no-wrap
+msgid "B<-H>, B<--si>"
+msgstr ""
+
+#. type: Plain text
+#: df.1:53
+msgid "likewise, but use powers of 1000 not 1024"
+msgstr ""
+
+#. type: TP
+#: df.1:53
+#, no-wrap
+msgid "B<-i>, B<--inodes>"
+msgstr ""
+
+#. type: Plain text
+#: df.1:56
+msgid "list inode information instead of block usage"
+msgstr ""
+
+#. type: TP
+#: df.1:56
+#, no-wrap
+msgid "B<-k>"
+msgstr ""
+
+#. type: Plain text
+#: df.1:59
+msgid "like B<--block-size>=I<1K>"
+msgstr ""
+
+#. type: TP
+#: df.1:59
+#, no-wrap
+msgid "B<-l>, B<--local>"
+msgstr ""
+
+#. type: Plain text
+#: df.1:62
+msgid "limit listing to local file systems"
+msgstr ""
+
+#. type: TP
+#: df.1:62
+#, no-wrap
+msgid "B<--no-sync>"
+msgstr ""
+
+#. type: Plain text
+#: df.1:65
+msgid "do not invoke sync before getting usage info (default)"
+msgstr ""
+
+#. type: TP
+#: df.1:65
+#, no-wrap
+msgid "B<--output>[=I<FIELD_LIST>]"
+msgstr ""
+
+#. type: Plain text
+#: df.1:69
+msgid ""
+"use the output format defined by FIELD_LIST, or print all fields if "
+"FIELD_LIST is omitted."
+msgstr ""
+
+#. type: TP
+#: df.1:69
+#, no-wrap
+msgid "B<-P>, B<--portability>"
+msgstr ""
+
+#. type: Plain text
+#: df.1:72
+msgid "use the POSIX output format"
+msgstr ""
+
+#. type: TP
+#: df.1:72
+#, no-wrap
+msgid "B<--sync>"
+msgstr ""
+
+#. type: Plain text
+#: df.1:75
+msgid "invoke sync before getting usage info"
+msgstr ""
+
+#. type: TP
+#: df.1:75
+#, no-wrap
+msgid "B<-t>, B<--type>=I<TYPE>"
+msgstr ""
+
+#. type: Plain text
+#: df.1:78
+msgid "limit listing to file systems of type TYPE"
+msgstr ""
+
+#. type: TP
+#: df.1:78
+#, no-wrap
+msgid "B<-T>, B<--print-type>"
+msgstr ""
+
+#. type: Plain text
+#: df.1:81
+msgid "print file system type"
+msgstr ""
+
+#. type: TP
+#: df.1:81
+#, no-wrap
+msgid "B<-x>, B<--exclude-type>=I<TYPE>"
+msgstr ""
+
+#. type: Plain text
+#: df.1:84
+msgid "limit listing to file systems not of type TYPE"
+msgstr ""
+
+#. type: TP
+#: df.1:84
+#, no-wrap
+msgid "B<-v>"
+msgstr ""
+
+#. type: Plain text
+#: df.1:87
+msgid "(ignored)"
+msgstr ""
+
+#. type: TP
+#: df.1:87
+#, no-wrap
+msgid "B<--help>"
+msgstr ""
+
+#. type: Plain text
+#: df.1:90
+msgid "display this help and exit"
+msgstr ""
+
+#. type: TP
+#: df.1:90
+#, no-wrap
+msgid "B<--version>"
+msgstr ""
+
+#. type: Plain text
+#: df.1:93
+msgid "output version information and exit"
+msgstr ""
+
+#. type: Plain text
+#: df.1:97
+msgid ""
+"Display values are in units of the first available SIZE from "
+"B<--block-size>, and the DF_BLOCK_SIZE, BLOCK_SIZE and BLOCKSIZE environment "
+"variables.  Otherwise, units default to 1024 bytes (or 512 if "
+"POSIXLY_CORRECT is set)."
+msgstr ""
+
+#. type: Plain text
+#: df.1:100
+msgid ""
+"SIZE is an integer and optional unit (example: 10M is 10*1024*1024).  Units "
+"are K, M, G, T, P, E, Z, Y (powers of 1024) or KB, MB, ... (powers of 1000)."
+msgstr ""
+
+#. type: Plain text
+#: df.1:104
+msgid ""
+"FIELD_LIST is a comma-separated list of columns to be included.  Valid field "
+"names are: 'source', 'fstype', 'itotal', 'iused', 'iavail', 'ipcent', "
+"\\&'size', 'used', 'avail', 'pcent' and 'target' (see info page)."
+msgstr ""
+
+#. type: SH
+#: df.1:104
+#, no-wrap
+msgid "AUTHOR"
+msgstr ""
+
+#. type: Plain text
+#: df.1:106
+msgid "Written by Torbjorn Granlund, David MacKenzie, and Paul Eggert."
+msgstr ""
+
+#. type: SH
+#: df.1:106
+#, no-wrap
+msgid "REPORTING BUGS"
+msgstr ""
+
+#. type: Plain text
+#: df.1:108
+msgid "Report df bugs to bug-coreutils@gnu.org"
+msgstr ""
+
+#. type: Plain text
+#: df.1:110
+msgid "GNU coreutils home page: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+msgstr ""
+
+#. type: Plain text
+#: df.1:112
+msgid "General help using GNU software: E<lt>http://www.gnu.org/gethelp/E<gt>"
+msgstr ""
+
+#. type: Plain text
+#: df.1:114
+msgid "Report df translation bugs to E<lt>http://translationproject.org/team/E<gt>"
+msgstr ""
+
+#. type: SH
+#: df.1:114
+#, no-wrap
+msgid "COPYRIGHT"
+msgstr ""
+
+#. type: Plain text
+#: df.1:117
+msgid ""
+"Copyright \\(co 2013 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
+msgstr ""
+
+#. type: Plain text
+#: df.1:120
+msgid ""
+"This is free software: you are free to change and redistribute it.  There is "
+"NO WARRANTY, to the extent permitted by law."
+msgstr ""
+
+#. type: SH
+#: df.1:120
+#, no-wrap
+msgid "SEE ALSO"
+msgstr ""
+
+#. type: Plain text
+#: df.1:128
+msgid ""
+"The full documentation for B<df> is maintained as a Texinfo manual.  If the "
+"B<info> and B<df> programs are properly installed at your site, the command"
+msgstr ""
+
+#. type: Plain text
+#: df.1:130
+msgid "B<info coreutils \\(aqdf invocation\\(aq>"
+msgstr ""
+
+#. type: Plain text
+#: df.1:131
+msgid "should give you access to the complete manual."
+msgstr ""

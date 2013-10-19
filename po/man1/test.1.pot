@@ -1,0 +1,637 @@
+# LCTT man-pages Translate Project
+# Copyright (C) 2013 LCTT
+# This file is distributed under the same license as the PACKAGE package.
+# LCTT <lctt@linux.cn>, 2013.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: LCTT man-pages coreutils-8.21\n"
+"POT-Creation-Date: 2013-10-19 17:34+0800\n"
+"PO-Revision-Date: 2013-10-19 17:50+0800\n"
+"Last-Translator: LCTT <lctt@linux.cn>\n"
+"Language-Team: LCTT <lctt@linux.cn>\n"
+"Language: zh_CN.UTF-8\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+
+#. type: TH
+#: test.1:2
+#, no-wrap
+msgid "TEST"
+msgstr ""
+
+#. type: TH
+#: test.1:2
+#, no-wrap
+msgid "October 2013"
+msgstr ""
+
+#. type: TH
+#: test.1:2
+#, no-wrap
+msgid "GNU coreutils 8.21"
+msgstr ""
+
+#. type: TH
+#: test.1:2
+#, no-wrap
+msgid "User Commands"
+msgstr ""
+
+#. type: SH
+#: test.1:3
+#, no-wrap
+msgid "NAME"
+msgstr ""
+
+#. type: Plain text
+#: test.1:5
+msgid "test - check file types and compare values"
+msgstr ""
+
+#. type: SH
+#: test.1:5
+#, no-wrap
+msgid "SYNOPSIS"
+msgstr ""
+
+#. type: Plain text
+#: test.1:8
+msgid "B<test> I<EXPRESSION>"
+msgstr ""
+
+#. type: Plain text
+#: test.1:10
+msgid "B<test>"
+msgstr ""
+
+#. type: Plain text
+#: test.1:14
+msgid "B<[> I<EXPRESSION >]"
+msgstr ""
+
+#. type: Plain text
+#: test.1:17
+msgid "B<[> ]"
+msgstr ""
+
+#. type: Plain text
+#: test.1:20
+msgid "B<[> I<OPTION>"
+msgstr ""
+
+#. type: SH
+#: test.1:20
+#, no-wrap
+msgid "DESCRIPTION"
+msgstr ""
+
+#. type: Plain text
+#: test.1:24
+msgid "Exit with the status determined by EXPRESSION."
+msgstr ""
+
+#. type: TP
+#: test.1:24
+#, no-wrap
+msgid "B<--help>"
+msgstr ""
+
+#. type: Plain text
+#: test.1:27
+msgid "display this help and exit"
+msgstr ""
+
+#. type: TP
+#: test.1:27
+#, no-wrap
+msgid "B<--version>"
+msgstr ""
+
+#. type: Plain text
+#: test.1:30
+msgid "output version information and exit"
+msgstr ""
+
+#. type: Plain text
+#: test.1:33
+msgid ""
+"An omitted EXPRESSION defaults to false.  Otherwise, EXPRESSION is true or "
+"false and sets exit status.  It is one of:"
+msgstr ""
+
+#. type: TP
+#: test.1:33
+#, no-wrap
+msgid "( EXPRESSION )"
+msgstr ""
+
+#. type: Plain text
+#: test.1:36
+msgid "EXPRESSION is true"
+msgstr ""
+
+#. type: TP
+#: test.1:36
+#, no-wrap
+msgid "! EXPRESSION"
+msgstr ""
+
+#. type: Plain text
+#: test.1:39
+msgid "EXPRESSION is false"
+msgstr ""
+
+#. type: TP
+#: test.1:39
+#, no-wrap
+msgid "EXPRESSION1 B<-a> EXPRESSION2"
+msgstr ""
+
+#. type: Plain text
+#: test.1:42
+msgid "both EXPRESSION1 and EXPRESSION2 are true"
+msgstr ""
+
+#. type: TP
+#: test.1:42
+#, no-wrap
+msgid "EXPRESSION1 B<-o> EXPRESSION2"
+msgstr ""
+
+#. type: Plain text
+#: test.1:45
+msgid "either EXPRESSION1 or EXPRESSION2 is true"
+msgstr ""
+
+#. type: TP
+#: test.1:45
+#, no-wrap
+msgid "B<-n> STRING"
+msgstr ""
+
+#. type: Plain text
+#: test.1:48
+msgid "the length of STRING is nonzero"
+msgstr ""
+
+#. type: TP
+#: test.1:48
+#, no-wrap
+msgid "STRING"
+msgstr ""
+
+#. type: Plain text
+#: test.1:51
+msgid "equivalent to B<-n> STRING"
+msgstr ""
+
+#. type: TP
+#: test.1:51
+#, no-wrap
+msgid "B<-z> STRING"
+msgstr ""
+
+#. type: Plain text
+#: test.1:54
+msgid "the length of STRING is zero"
+msgstr ""
+
+#. type: TP
+#: test.1:54
+#, no-wrap
+msgid "STRING1 = STRING2"
+msgstr ""
+
+#. type: Plain text
+#: test.1:57
+msgid "the strings are equal"
+msgstr ""
+
+#. type: TP
+#: test.1:57
+#, no-wrap
+msgid "STRING1 != STRING2"
+msgstr ""
+
+#. type: Plain text
+#: test.1:60
+msgid "the strings are not equal"
+msgstr ""
+
+#. type: TP
+#: test.1:60
+#, no-wrap
+msgid "INTEGER1 B<-eq> INTEGER2"
+msgstr ""
+
+#. type: Plain text
+#: test.1:63
+msgid "INTEGER1 is equal to INTEGER2"
+msgstr ""
+
+#. type: TP
+#: test.1:63
+#, no-wrap
+msgid "INTEGER1 B<-ge> INTEGER2"
+msgstr ""
+
+#. type: Plain text
+#: test.1:66
+msgid "INTEGER1 is greater than or equal to INTEGER2"
+msgstr ""
+
+#. type: TP
+#: test.1:66
+#, no-wrap
+msgid "INTEGER1 B<-gt> INTEGER2"
+msgstr ""
+
+#. type: Plain text
+#: test.1:69
+msgid "INTEGER1 is greater than INTEGER2"
+msgstr ""
+
+#. type: TP
+#: test.1:69
+#, no-wrap
+msgid "INTEGER1 B<-le> INTEGER2"
+msgstr ""
+
+#. type: Plain text
+#: test.1:72
+msgid "INTEGER1 is less than or equal to INTEGER2"
+msgstr ""
+
+#. type: TP
+#: test.1:72
+#, no-wrap
+msgid "INTEGER1 B<-lt> INTEGER2"
+msgstr ""
+
+#. type: Plain text
+#: test.1:75
+msgid "INTEGER1 is less than INTEGER2"
+msgstr ""
+
+#. type: TP
+#: test.1:75
+#, no-wrap
+msgid "INTEGER1 B<-ne> INTEGER2"
+msgstr ""
+
+#. type: Plain text
+#: test.1:78
+msgid "INTEGER1 is not equal to INTEGER2"
+msgstr ""
+
+#. type: TP
+#: test.1:78
+#, no-wrap
+msgid "FILE1 B<-ef> FILE2"
+msgstr ""
+
+#. type: Plain text
+#: test.1:81
+msgid "FILE1 and FILE2 have the same device and inode numbers"
+msgstr ""
+
+#. type: TP
+#: test.1:81
+#, no-wrap
+msgid "FILE1 B<-nt> FILE2"
+msgstr ""
+
+#. type: Plain text
+#: test.1:84
+msgid "FILE1 is newer (modification date) than FILE2"
+msgstr ""
+
+#. type: TP
+#: test.1:84
+#, no-wrap
+msgid "FILE1 B<-ot> FILE2"
+msgstr ""
+
+#. type: Plain text
+#: test.1:87
+msgid "FILE1 is older than FILE2"
+msgstr ""
+
+#. type: TP
+#: test.1:87
+#, no-wrap
+msgid "B<-b> FILE"
+msgstr ""
+
+#. type: Plain text
+#: test.1:90
+msgid "FILE exists and is block special"
+msgstr ""
+
+#. type: TP
+#: test.1:90
+#, no-wrap
+msgid "B<-c> FILE"
+msgstr ""
+
+#. type: Plain text
+#: test.1:93
+msgid "FILE exists and is character special"
+msgstr ""
+
+#. type: TP
+#: test.1:93
+#, no-wrap
+msgid "B<-d> FILE"
+msgstr ""
+
+#. type: Plain text
+#: test.1:96
+msgid "FILE exists and is a directory"
+msgstr ""
+
+#. type: TP
+#: test.1:96
+#, no-wrap
+msgid "B<-e> FILE"
+msgstr ""
+
+#. type: Plain text
+#: test.1:99
+msgid "FILE exists"
+msgstr ""
+
+#. type: TP
+#: test.1:99
+#, no-wrap
+msgid "B<-f> FILE"
+msgstr ""
+
+#. type: Plain text
+#: test.1:102
+msgid "FILE exists and is a regular file"
+msgstr ""
+
+#. type: TP
+#: test.1:102
+#, no-wrap
+msgid "B<-g> FILE"
+msgstr ""
+
+#. type: Plain text
+#: test.1:105
+msgid "FILE exists and is set-group-ID"
+msgstr ""
+
+#. type: TP
+#: test.1:105
+#, no-wrap
+msgid "B<-G> FILE"
+msgstr ""
+
+#. type: Plain text
+#: test.1:108
+msgid "FILE exists and is owned by the effective group ID"
+msgstr ""
+
+#. type: TP
+#: test.1:108
+#, no-wrap
+msgid "B<-h> FILE"
+msgstr ""
+
+#. type: Plain text
+#: test.1:111
+msgid "FILE exists and is a symbolic link (same as B<-L>)"
+msgstr ""
+
+#. type: TP
+#: test.1:111
+#, no-wrap
+msgid "B<-k> FILE"
+msgstr ""
+
+#. type: Plain text
+#: test.1:114
+msgid "FILE exists and has its sticky bit set"
+msgstr ""
+
+#. type: TP
+#: test.1:114
+#, no-wrap
+msgid "B<-L> FILE"
+msgstr ""
+
+#. type: Plain text
+#: test.1:117
+msgid "FILE exists and is a symbolic link (same as B<-h>)"
+msgstr ""
+
+#. type: TP
+#: test.1:117
+#, no-wrap
+msgid "B<-O> FILE"
+msgstr ""
+
+#. type: Plain text
+#: test.1:120
+msgid "FILE exists and is owned by the effective user ID"
+msgstr ""
+
+#. type: TP
+#: test.1:120
+#, no-wrap
+msgid "B<-p> FILE"
+msgstr ""
+
+#. type: Plain text
+#: test.1:123
+msgid "FILE exists and is a named pipe"
+msgstr ""
+
+#. type: TP
+#: test.1:123
+#, no-wrap
+msgid "B<-r> FILE"
+msgstr ""
+
+#. type: Plain text
+#: test.1:126
+msgid "FILE exists and read permission is granted"
+msgstr ""
+
+#. type: TP
+#: test.1:126
+#, no-wrap
+msgid "B<-s> FILE"
+msgstr ""
+
+#. type: Plain text
+#: test.1:129
+msgid "FILE exists and has a size greater than zero"
+msgstr ""
+
+#. type: TP
+#: test.1:129
+#, no-wrap
+msgid "B<-S> FILE"
+msgstr ""
+
+#. type: Plain text
+#: test.1:132
+msgid "FILE exists and is a socket"
+msgstr ""
+
+#. type: TP
+#: test.1:132
+#, no-wrap
+msgid "B<-t> FD"
+msgstr ""
+
+#. type: Plain text
+#: test.1:135
+msgid "file descriptor FD is opened on a terminal"
+msgstr ""
+
+#. type: TP
+#: test.1:135
+#, no-wrap
+msgid "B<-u> FILE"
+msgstr ""
+
+#. type: Plain text
+#: test.1:138
+msgid "FILE exists and its set-user-ID bit is set"
+msgstr ""
+
+#. type: TP
+#: test.1:138
+#, no-wrap
+msgid "B<-w> FILE"
+msgstr ""
+
+#. type: Plain text
+#: test.1:141
+msgid "FILE exists and write permission is granted"
+msgstr ""
+
+#. type: TP
+#: test.1:141
+#, no-wrap
+msgid "B<-x> FILE"
+msgstr ""
+
+#. type: Plain text
+#: test.1:144
+msgid "FILE exists and execute (or search) permission is granted"
+msgstr ""
+
+#. type: Plain text
+#: test.1:148
+msgid ""
+"Except for B<-h> and B<-L>, all FILE-related tests dereference symbolic "
+"links.  Beware that parentheses need to be escaped (e.g., by backslashes) "
+"for shells.  INTEGER may also be B<-l> STRING, which evaluates to the length "
+"of STRING."
+msgstr ""
+
+#. type: Plain text
+#: test.1:151
+msgid ""
+"NOTE: [ honors the B<--help> and B<--version> options, but test does not.  "
+"test treats each of those as it treats any other nonempty STRING."
+msgstr ""
+
+#. type: Plain text
+#: test.1:155
+msgid ""
+"NOTE: your shell may have its own version of test and/or [, which usually "
+"supersedes the version described here.  Please refer to your shell's "
+"documentation for details about the options it supports."
+msgstr ""
+
+#. type: SH
+#: test.1:155
+#, no-wrap
+msgid "AUTHOR"
+msgstr ""
+
+#. type: Plain text
+#: test.1:157
+msgid "Written by Kevin Braunsdorf and Matthew Bradburn."
+msgstr ""
+
+#. type: SH
+#: test.1:157
+#, no-wrap
+msgid "REPORTING BUGS"
+msgstr ""
+
+#. type: Plain text
+#: test.1:159
+msgid "Report test bugs to bug-coreutils@gnu.org"
+msgstr ""
+
+#. type: Plain text
+#: test.1:161
+msgid "GNU coreutils home page: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+msgstr ""
+
+#. type: Plain text
+#: test.1:163
+msgid "General help using GNU software: E<lt>http://www.gnu.org/gethelp/E<gt>"
+msgstr ""
+
+#. type: Plain text
+#: test.1:165
+msgid ""
+"Report test translation bugs to "
+"E<lt>http://translationproject.org/team/E<gt>"
+msgstr ""
+
+#. type: SH
+#: test.1:165
+#, no-wrap
+msgid "COPYRIGHT"
+msgstr ""
+
+#. type: Plain text
+#: test.1:168
+msgid ""
+"Copyright \\(co 2013 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
+msgstr ""
+
+#. type: Plain text
+#: test.1:171
+msgid ""
+"This is free software: you are free to change and redistribute it.  There is "
+"NO WARRANTY, to the extent permitted by law."
+msgstr ""
+
+#. type: SH
+#: test.1:171
+#, no-wrap
+msgid "SEE ALSO"
+msgstr ""
+
+#. type: Plain text
+#: test.1:179
+msgid ""
+"The full documentation for B<test> is maintained as a Texinfo manual.  If "
+"the B<info> and B<test> programs are properly installed at your site, the "
+"command"
+msgstr ""
+
+#. type: Plain text
+#: test.1:181
+msgid "B<info coreutils \\(aqtest invocation\\(aq>"
+msgstr ""
+
+#. type: Plain text
+#: test.1:182
+msgid "should give you access to the complete manual."
+msgstr ""

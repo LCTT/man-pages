@@ -1,0 +1,535 @@
+# LCTT man-pages Translate Project
+# Copyright (C) 2013 LCTT
+# This file is distributed under the same license as the PACKAGE package.
+# LCTT <lctt@linux.cn>, 2013.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: LCTT man-pages coreutils-8.21\n"
+"POT-Creation-Date: 2013-10-19 17:34+0800\n"
+"PO-Revision-Date: 2013-10-19 17:50+0800\n"
+"Last-Translator: LCTT <lctt@linux.cn>\n"
+"Language-Team: LCTT <lctt@linux.cn>\n"
+"Language: zh_CN.UTF-8\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+
+#. type: TH
+#: du.1:2
+#, no-wrap
+msgid "DU"
+msgstr ""
+
+#. type: TH
+#: du.1:2
+#, no-wrap
+msgid "October 2013"
+msgstr ""
+
+#. type: TH
+#: du.1:2
+#, no-wrap
+msgid "GNU coreutils 8.21"
+msgstr ""
+
+#. type: TH
+#: du.1:2
+#, no-wrap
+msgid "User Commands"
+msgstr ""
+
+#. type: SH
+#: du.1:3
+#, no-wrap
+msgid "NAME"
+msgstr ""
+
+#. type: Plain text
+#: du.1:5
+msgid "du - estimate file space usage"
+msgstr ""
+
+#. type: SH
+#: du.1:5
+#, no-wrap
+msgid "SYNOPSIS"
+msgstr ""
+
+#. type: Plain text
+#: du.1:8
+msgid "B<du> [I<OPTION>]... [I<FILE>]..."
+msgstr ""
+
+#. type: Plain text
+#: du.1:11
+msgid "B<du> [I<OPTION>]... I<--files0-from=F>"
+msgstr ""
+
+#. type: SH
+#: du.1:11
+#, no-wrap
+msgid "DESCRIPTION"
+msgstr ""
+
+#. type: Plain text
+#: du.1:15
+msgid "Summarize disk usage of each FILE, recursively for directories."
+msgstr ""
+
+#. type: Plain text
+#: du.1:17
+msgid "Mandatory arguments to long options are mandatory for short options too."
+msgstr ""
+
+#. type: TP
+#: du.1:17
+#, no-wrap
+msgid "B<-0>, B<--null>"
+msgstr ""
+
+#. type: Plain text
+#: du.1:20
+msgid "end each output line with 0 byte rather than newline"
+msgstr ""
+
+#. type: TP
+#: du.1:20
+#, no-wrap
+msgid "B<-a>, B<--all>"
+msgstr ""
+
+#. type: Plain text
+#: du.1:23
+msgid "write counts for all files, not just directories"
+msgstr ""
+
+#. type: TP
+#: du.1:23
+#, no-wrap
+msgid "B<--apparent-size>"
+msgstr ""
+
+#. type: Plain text
+#: du.1:29
+msgid ""
+"print apparent sizes, rather than disk usage; although the apparent size is "
+"usually smaller, it may be larger due to holes in ('sparse') files, internal "
+"fragmentation, indirect blocks, and the like"
+msgstr ""
+
+#. type: TP
+#: du.1:29
+#, no-wrap
+msgid "B<-B>, B<--block-size>=I<SIZE>"
+msgstr ""
+
+#. type: Plain text
+#: du.1:34
+msgid ""
+"scale sizes by SIZE before printing them.  E.g., \\&'-BM' prints sizes in "
+"units of 1,048,576 bytes.  See SIZE format below."
+msgstr ""
+
+#. type: TP
+#: du.1:34
+#, no-wrap
+msgid "B<-b>, B<--bytes>"
+msgstr ""
+
+#. type: Plain text
+#: du.1:37
+msgid "equivalent to '--apparent-size B<--block-size>=I<1>'"
+msgstr ""
+
+#. type: TP
+#: du.1:37
+#, no-wrap
+msgid "B<-c>, B<--total>"
+msgstr ""
+
+#. type: Plain text
+#: du.1:40
+msgid "produce a grand total"
+msgstr ""
+
+#. type: TP
+#: du.1:40
+#, no-wrap
+msgid "B<-D>, B<--dereference-args>"
+msgstr ""
+
+#. type: Plain text
+#: du.1:44
+msgid "dereference only symlinks that are listed on the command line"
+msgstr ""
+
+#. type: TP
+#: du.1:44
+#, no-wrap
+msgid "B<-d>, B<--max-depth>=I<N>"
+msgstr ""
+
+#. type: Plain text
+#: du.1:50
+msgid ""
+"print the total for a directory (or file, with B<--all>)  only if it is N or "
+"fewer levels below the command line argument; B<--max-depth>=I<0> is the "
+"same as B<--summarize>"
+msgstr ""
+
+#. type: TP
+#: du.1:50
+#, no-wrap
+msgid "B<--files0-from>=I<F>"
+msgstr ""
+
+#. type: Plain text
+#: du.1:55
+msgid ""
+"summarize disk usage of the NUL-terminated file names specified in file F; "
+"If F is - then read names from standard input"
+msgstr ""
+
+#. type: TP
+#: du.1:55
+#, no-wrap
+msgid "B<-H>"
+msgstr ""
+
+#. type: Plain text
+#: du.1:58
+msgid "equivalent to B<--dereference-args> (B<-D>)"
+msgstr ""
+
+#. type: TP
+#: du.1:58
+#, no-wrap
+msgid "B<-h>, B<--human-readable>"
+msgstr ""
+
+#. type: Plain text
+#: du.1:61
+msgid "print sizes in human readable format (e.g., 1K 234M 2G)"
+msgstr ""
+
+#. type: TP
+#: du.1:61
+#, no-wrap
+msgid "B<-k>"
+msgstr ""
+
+#. type: Plain text
+#: du.1:64
+msgid "like B<--block-size>=I<1K>"
+msgstr ""
+
+#. type: TP
+#: du.1:64
+#, no-wrap
+msgid "B<-L>, B<--dereference>"
+msgstr ""
+
+#. type: Plain text
+#: du.1:67
+msgid "dereference all symbolic links"
+msgstr ""
+
+#. type: TP
+#: du.1:67
+#, no-wrap
+msgid "B<-l>, B<--count-links>"
+msgstr ""
+
+#. type: Plain text
+#: du.1:70
+msgid "count sizes many times if hard linked"
+msgstr ""
+
+#. type: TP
+#: du.1:70
+#, no-wrap
+msgid "B<-m>"
+msgstr ""
+
+#. type: Plain text
+#: du.1:73
+msgid "like B<--block-size>=I<1M>"
+msgstr ""
+
+#. type: TP
+#: du.1:73
+#, no-wrap
+msgid "B<-P>, B<--no-dereference>"
+msgstr ""
+
+#. type: Plain text
+#: du.1:76
+msgid "don't follow any symbolic links (this is the default)"
+msgstr ""
+
+#. type: TP
+#: du.1:76
+#, no-wrap
+msgid "B<-S>, B<--separate-dirs>"
+msgstr ""
+
+#. type: Plain text
+#: du.1:79
+msgid "do not include size of subdirectories"
+msgstr ""
+
+#. type: TP
+#: du.1:79
+#, no-wrap
+msgid "B<--si>"
+msgstr ""
+
+#. type: Plain text
+#: du.1:82
+msgid "like B<-h>, but use powers of 1000 not 1024"
+msgstr ""
+
+#. type: TP
+#: du.1:82
+#, no-wrap
+msgid "B<-s>, B<--summarize>"
+msgstr ""
+
+#. type: Plain text
+#: du.1:85
+msgid "display only a total for each argument"
+msgstr ""
+
+#. type: TP
+#: du.1:85
+#, no-wrap
+msgid "B<-t>, B<--threshold>=I<SIZE>"
+msgstr ""
+
+#. type: Plain text
+#: du.1:89
+msgid ""
+"exclude entries smaller than SIZE if positive, or entries greater than SIZE "
+"if negative"
+msgstr ""
+
+#. type: TP
+#: du.1:89
+#, no-wrap
+msgid "B<--time>"
+msgstr ""
+
+#. type: Plain text
+#: du.1:93
+msgid ""
+"show time of the last modification of any file in the directory, or any of "
+"its subdirectories"
+msgstr ""
+
+#. type: TP
+#: du.1:93
+#, no-wrap
+msgid "B<--time>=I<WORD>"
+msgstr ""
+
+#. type: Plain text
+#: du.1:97
+msgid ""
+"show time as WORD instead of modification time: atime, access, use, ctime or "
+"status"
+msgstr ""
+
+#. type: TP
+#: du.1:97
+#, no-wrap
+msgid "B<--time-style>=I<STYLE>"
+msgstr ""
+
+#. type: Plain text
+#: du.1:102
+msgid ""
+"show times using style STYLE: full-iso, long-iso, iso, +FORMAT FORMAT is "
+"interpreted like 'date'"
+msgstr ""
+
+#. type: TP
+#: du.1:102
+#, no-wrap
+msgid "B<-X>, B<--exclude-from>=I<FILE>"
+msgstr ""
+
+#. type: Plain text
+#: du.1:105
+msgid "exclude files that match any pattern in FILE"
+msgstr ""
+
+#. type: TP
+#: du.1:105
+#, no-wrap
+msgid "B<--exclude>=I<PATTERN>"
+msgstr ""
+
+#. type: Plain text
+#: du.1:108
+msgid "exclude files that match PATTERN"
+msgstr ""
+
+#. type: TP
+#: du.1:108
+#, no-wrap
+msgid "B<-x>, B<--one-file-system>"
+msgstr ""
+
+#. type: Plain text
+#: du.1:111
+msgid "skip directories on different file systems"
+msgstr ""
+
+#. type: TP
+#: du.1:111
+#, no-wrap
+msgid "B<--help>"
+msgstr ""
+
+#. type: Plain text
+#: du.1:114
+msgid "display this help and exit"
+msgstr ""
+
+#. type: TP
+#: du.1:114
+#, no-wrap
+msgid "B<--version>"
+msgstr ""
+
+#. type: Plain text
+#: du.1:117
+msgid "output version information and exit"
+msgstr ""
+
+#. type: Plain text
+#: du.1:121
+msgid ""
+"Display values are in units of the first available SIZE from "
+"B<--block-size>, and the DU_BLOCK_SIZE, BLOCK_SIZE and BLOCKSIZE environment "
+"variables.  Otherwise, units default to 1024 bytes (or 512 if "
+"POSIXLY_CORRECT is set)."
+msgstr ""
+
+#. type: Plain text
+#: du.1:124
+msgid ""
+"SIZE is an integer and optional unit (example: 10M is 10*1024*1024).  Units "
+"are K, M, G, T, P, E, Z, Y (powers of 1024) or KB, MB, ... (powers of 1000)."
+msgstr ""
+
+#. type: SH
+#: du.1:124
+#, no-wrap
+msgid "PATTERNS"
+msgstr ""
+
+#. type: Plain text
+#: du.1:135
+msgid ""
+"PATTERN is a shell pattern (not a regular expression).  The pattern B<?> "
+"matches any one character, whereas B<*> matches any string (composed of "
+"zero, one or multiple characters).  For example, B<*.o> will match any files "
+"whose names end in B<.o>.  Therefore, the command"
+msgstr ""
+
+#. type: Plain text
+#: du.1:137
+msgid "B<du --exclude=\\(aq*.o\\(aq>"
+msgstr ""
+
+#. type: Plain text
+#: du.1:143
+msgid ""
+"will skip all files and subdirectories ending in B<.o> (including the file "
+"B<.o> itself)."
+msgstr ""
+
+#. type: SH
+#: du.1:143
+#, no-wrap
+msgid "AUTHOR"
+msgstr ""
+
+#. type: Plain text
+#: du.1:146
+msgid ""
+"Written by Torbjorn Granlund, David MacKenzie, Paul Eggert, and Jim "
+"Meyering."
+msgstr ""
+
+#. type: SH
+#: du.1:146
+#, no-wrap
+msgid "REPORTING BUGS"
+msgstr ""
+
+#. type: Plain text
+#: du.1:148
+msgid "Report du bugs to bug-coreutils@gnu.org"
+msgstr ""
+
+#. type: Plain text
+#: du.1:150
+msgid "GNU coreutils home page: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+msgstr ""
+
+#. type: Plain text
+#: du.1:152
+msgid "General help using GNU software: E<lt>http://www.gnu.org/gethelp/E<gt>"
+msgstr ""
+
+#. type: Plain text
+#: du.1:154
+msgid "Report du translation bugs to E<lt>http://translationproject.org/team/E<gt>"
+msgstr ""
+
+#. type: SH
+#: du.1:154
+#, no-wrap
+msgid "COPYRIGHT"
+msgstr ""
+
+#. type: Plain text
+#: du.1:157
+msgid ""
+"Copyright \\(co 2013 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
+msgstr ""
+
+#. type: Plain text
+#: du.1:160
+msgid ""
+"This is free software: you are free to change and redistribute it.  There is "
+"NO WARRANTY, to the extent permitted by law."
+msgstr ""
+
+#. type: SH
+#: du.1:160
+#, no-wrap
+msgid "SEE ALSO"
+msgstr ""
+
+#. type: Plain text
+#: du.1:168
+msgid ""
+"The full documentation for B<du> is maintained as a Texinfo manual.  If the "
+"B<info> and B<du> programs are properly installed at your site, the command"
+msgstr ""
+
+#. type: Plain text
+#: du.1:170
+msgid "B<info coreutils \\(aqdu invocation\\(aq>"
+msgstr ""
+
+#. type: Plain text
+#: du.1:171
+msgid "should give you access to the complete manual."
+msgstr ""

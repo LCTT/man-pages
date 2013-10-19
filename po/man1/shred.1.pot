@@ -1,0 +1,354 @@
+# LCTT man-pages Translate Project
+# Copyright (C) 2013 LCTT
+# This file is distributed under the same license as the PACKAGE package.
+# LCTT <lctt@linux.cn>, 2013.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: LCTT man-pages coreutils-8.21\n"
+"POT-Creation-Date: 2013-10-19 17:34+0800\n"
+"PO-Revision-Date: 2013-10-19 17:50+0800\n"
+"Last-Translator: LCTT <lctt@linux.cn>\n"
+"Language-Team: LCTT <lctt@linux.cn>\n"
+"Language: zh_CN.UTF-8\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+
+#. type: TH
+#: shred.1:2
+#, no-wrap
+msgid "SHRED"
+msgstr ""
+
+#. type: TH
+#: shred.1:2
+#, no-wrap
+msgid "October 2013"
+msgstr ""
+
+#. type: TH
+#: shred.1:2
+#, no-wrap
+msgid "GNU coreutils 8.21"
+msgstr ""
+
+#. type: TH
+#: shred.1:2
+#, no-wrap
+msgid "User Commands"
+msgstr ""
+
+#. type: SH
+#: shred.1:3
+#, no-wrap
+msgid "NAME"
+msgstr ""
+
+#. type: Plain text
+#: shred.1:5
+msgid "shred - overwrite a file to hide its contents, and optionally delete it"
+msgstr ""
+
+#. type: SH
+#: shred.1:5
+#, no-wrap
+msgid "SYNOPSIS"
+msgstr ""
+
+#. type: Plain text
+#: shred.1:8
+msgid "B<shred> [I<OPTION>]... I<FILE>..."
+msgstr ""
+
+#. type: SH
+#: shred.1:8
+#, no-wrap
+msgid "DESCRIPTION"
+msgstr ""
+
+#. type: Plain text
+#: shred.1:13
+msgid ""
+"Overwrite the specified FILE(s) repeatedly, in order to make it harder for "
+"even very expensive hardware probing to recover the data."
+msgstr ""
+
+#. type: Plain text
+#: shred.1:15
+msgid "Mandatory arguments to long options are mandatory for short options too."
+msgstr ""
+
+#. type: TP
+#: shred.1:15
+#, no-wrap
+msgid "B<-f>, B<--force>"
+msgstr ""
+
+#. type: Plain text
+#: shred.1:18
+msgid "change permissions to allow writing if necessary"
+msgstr ""
+
+#. type: TP
+#: shred.1:18
+#, no-wrap
+msgid "B<-n>, B<--iterations>=I<N>"
+msgstr ""
+
+#. type: Plain text
+#: shred.1:21
+msgid "overwrite N times instead of the default (3)"
+msgstr ""
+
+#. type: TP
+#: shred.1:21
+#, no-wrap
+msgid "B<--random-source>=I<FILE>"
+msgstr ""
+
+#. type: Plain text
+#: shred.1:24
+msgid "get random bytes from FILE"
+msgstr ""
+
+#. type: TP
+#: shred.1:24
+#, no-wrap
+msgid "B<-s>, B<--size>=I<N>"
+msgstr ""
+
+#. type: Plain text
+#: shred.1:27
+msgid "shred this many bytes (suffixes like K, M, G accepted)"
+msgstr ""
+
+#. type: TP
+#: shred.1:27
+#, no-wrap
+msgid "B<-u>, B<--remove>"
+msgstr ""
+
+#. type: Plain text
+#: shred.1:30
+msgid "truncate and remove file after overwriting"
+msgstr ""
+
+#. type: TP
+#: shred.1:30
+#, no-wrap
+msgid "B<-v>, B<--verbose>"
+msgstr ""
+
+#. type: Plain text
+#: shred.1:33
+msgid "show progress"
+msgstr ""
+
+#. type: TP
+#: shred.1:33
+#, no-wrap
+msgid "B<-x>, B<--exact>"
+msgstr ""
+
+#. type: Plain text
+#: shred.1:36
+msgid "do not round file sizes up to the next full block;"
+msgstr ""
+
+#. type: Plain text
+#: shred.1:38
+msgid "this is the default for non-regular files"
+msgstr ""
+
+#. type: TP
+#: shred.1:38
+#, no-wrap
+msgid "B<-z>, B<--zero>"
+msgstr ""
+
+#. type: Plain text
+#: shred.1:41
+msgid "add a final overwrite with zeros to hide shredding"
+msgstr ""
+
+#. type: TP
+#: shred.1:41
+#, no-wrap
+msgid "B<--help>"
+msgstr ""
+
+#. type: Plain text
+#: shred.1:44
+msgid "display this help and exit"
+msgstr ""
+
+#. type: TP
+#: shred.1:44
+#, no-wrap
+msgid "B<--version>"
+msgstr ""
+
+#. type: Plain text
+#: shred.1:47
+msgid "output version information and exit"
+msgstr ""
+
+#. type: Plain text
+#: shred.1:49
+msgid "If FILE is -, shred standard output."
+msgstr ""
+
+#. type: Plain text
+#: shred.1:54
+msgid ""
+"Delete FILE(s) if B<--remove> (B<-u>) is specified.  The default is not to "
+"remove the files because it is common to operate on device files like "
+"/dev/hda, and those files usually should not be removed.  When operating on "
+"regular files, most people use the B<--remove> option."
+msgstr ""
+
+#. type: Plain text
+#: shred.1:60
+msgid ""
+"CAUTION: Note that shred relies on a very important assumption: that the "
+"file system overwrites data in place.  This is the traditional way to do "
+"things, but many modern file system designs do not satisfy this assumption.  "
+"The following are examples of file systems on which shred is not effective, "
+"or is not guaranteed to be effective in all file system modes:"
+msgstr ""
+
+#. type: Plain text
+#: shred.1:63
+msgid ""
+"* log-structured or journaled file systems, such as those supplied with AIX "
+"and Solaris (and JFS, ReiserFS, XFS, Ext3, etc.)"
+msgstr ""
+
+#. type: Plain text
+#: shred.1:66
+msgid ""
+"* file systems that write redundant data and carry on even if some writes "
+"fail, such as RAID-based file systems"
+msgstr ""
+
+#. type: Plain text
+#: shred.1:68
+msgid "* file systems that make snapshots, such as Network Appliance's NFS server"
+msgstr ""
+
+#. type: Plain text
+#: shred.1:71
+msgid ""
+"* file systems that cache in temporary locations, such as NFS version 3 "
+"clients"
+msgstr ""
+
+#. type: Plain text
+#: shred.1:73
+msgid "* compressed file systems"
+msgstr ""
+
+#. type: Plain text
+#: shred.1:81
+msgid ""
+"In the case of ext3 file systems, the above disclaimer applies (and shred is "
+"thus of limited effectiveness) only in data=journal mode, which journals "
+"file data in addition to just metadata.  In both the data=ordered (default) "
+"and data=writeback modes, shred works as usual.  Ext3 journaling modes can "
+"be changed by adding the data=something option to the mount options for a "
+"particular file system in the /etc/fstab file, as documented in the mount "
+"man page (man mount)."
+msgstr ""
+
+#. type: Plain text
+#: shred.1:85
+msgid ""
+"In addition, file system backups and remote mirrors may contain copies of "
+"the file that cannot be removed, and that will allow a shredded file to be "
+"recovered later."
+msgstr ""
+
+#. type: SH
+#: shred.1:85
+#, no-wrap
+msgid "AUTHOR"
+msgstr ""
+
+#. type: Plain text
+#: shred.1:87
+msgid "Written by Colin Plumb."
+msgstr ""
+
+#. type: SH
+#: shred.1:87
+#, no-wrap
+msgid "REPORTING BUGS"
+msgstr ""
+
+#. type: Plain text
+#: shred.1:89
+msgid "Report shred bugs to bug-coreutils@gnu.org"
+msgstr ""
+
+#. type: Plain text
+#: shred.1:91
+msgid "GNU coreutils home page: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+msgstr ""
+
+#. type: Plain text
+#: shred.1:93
+msgid "General help using GNU software: E<lt>http://www.gnu.org/gethelp/E<gt>"
+msgstr ""
+
+#. type: Plain text
+#: shred.1:95
+msgid ""
+"Report shred translation bugs to "
+"E<lt>http://translationproject.org/team/E<gt>"
+msgstr ""
+
+#. type: SH
+#: shred.1:95
+#, no-wrap
+msgid "COPYRIGHT"
+msgstr ""
+
+#. type: Plain text
+#: shred.1:98
+msgid ""
+"Copyright \\(co 2013 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
+msgstr ""
+
+#. type: Plain text
+#: shred.1:101
+msgid ""
+"This is free software: you are free to change and redistribute it.  There is "
+"NO WARRANTY, to the extent permitted by law."
+msgstr ""
+
+#. type: SH
+#: shred.1:101
+#, no-wrap
+msgid "SEE ALSO"
+msgstr ""
+
+#. type: Plain text
+#: shred.1:109
+msgid ""
+"The full documentation for B<shred> is maintained as a Texinfo manual.  If "
+"the B<info> and B<shred> programs are properly installed at your site, the "
+"command"
+msgstr ""
+
+#. type: Plain text
+#: shred.1:111
+msgid "B<info coreutils \\(aqshred invocation\\(aq>"
+msgstr ""
+
+#. type: Plain text
+#: shred.1:112
+msgid "should give you access to the complete manual."
+msgstr ""

@@ -1,0 +1,326 @@
+# LCTT man-pages Translate Project
+# Copyright (C) 2013 LCTT
+# This file is distributed under the same license as the PACKAGE package.
+# LCTT <lctt@linux.cn>, 2013.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: LCTT man-pages coreutils-8.21\n"
+"POT-Creation-Date: 2013-10-19 17:34+0800\n"
+"PO-Revision-Date: 2013-10-19 17:50+0800\n"
+"Last-Translator: LCTT <lctt@linux.cn>\n"
+"Language-Team: LCTT <lctt@linux.cn>\n"
+"Language: zh_CN.UTF-8\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+
+#. type: TH
+#: split.1:2
+#, no-wrap
+msgid "SPLIT"
+msgstr ""
+
+#. type: TH
+#: split.1:2
+#, no-wrap
+msgid "October 2013"
+msgstr ""
+
+#. type: TH
+#: split.1:2
+#, no-wrap
+msgid "GNU coreutils 8.21"
+msgstr ""
+
+#. type: TH
+#: split.1:2
+#, no-wrap
+msgid "User Commands"
+msgstr ""
+
+#. type: SH
+#: split.1:3
+#, no-wrap
+msgid "NAME"
+msgstr ""
+
+#. type: Plain text
+#: split.1:5
+msgid "split - split a file into pieces"
+msgstr ""
+
+#. type: SH
+#: split.1:5
+#, no-wrap
+msgid "SYNOPSIS"
+msgstr ""
+
+#. type: Plain text
+#: split.1:8
+msgid "B<split> [I<OPTION>]... [I<INPUT >[I<PREFIX>]]"
+msgstr ""
+
+#. type: SH
+#: split.1:8
+#, no-wrap
+msgid "DESCRIPTION"
+msgstr ""
+
+#. type: Plain text
+#: split.1:14
+msgid ""
+"Output fixed-size pieces of INPUT to PREFIXaa, PREFIXab, ...; default size "
+"is 1000 lines, and default PREFIX is 'x'.  With no INPUT, or when INPUT is "
+"-, read standard input."
+msgstr ""
+
+#. type: Plain text
+#: split.1:16
+msgid "Mandatory arguments to long options are mandatory for short options too."
+msgstr ""
+
+#. type: TP
+#: split.1:16
+#, no-wrap
+msgid "B<-a>, B<--suffix-length>=I<N>"
+msgstr ""
+
+#. type: Plain text
+#: split.1:19
+msgid "generate suffixes of length N (default 2)"
+msgstr ""
+
+#. type: TP
+#: split.1:19
+#, no-wrap
+msgid "B<--additional-suffix>=I<SUFFIX>"
+msgstr ""
+
+#. type: Plain text
+#: split.1:22
+msgid "append an additional SUFFIX to file names."
+msgstr ""
+
+#. type: TP
+#: split.1:22
+#, no-wrap
+msgid "B<-b>, B<--bytes>=I<SIZE>"
+msgstr ""
+
+#. type: Plain text
+#: split.1:25
+msgid "put SIZE bytes per output file"
+msgstr ""
+
+#. type: TP
+#: split.1:25
+#, no-wrap
+msgid "B<-C>, B<--line-bytes>=I<SIZE>"
+msgstr ""
+
+#. type: Plain text
+#: split.1:28
+msgid "put at most SIZE bytes of lines per output file"
+msgstr ""
+
+#. type: TP
+#: split.1:28
+#, no-wrap
+msgid "B<-d>, B<--numeric-suffixes>[=I<FROM>]"
+msgstr ""
+
+#. type: Plain text
+#: split.1:32
+msgid ""
+"use numeric suffixes instead of alphabetic.  FROM changes the start value "
+"(default 0)."
+msgstr ""
+
+#. type: TP
+#: split.1:32
+#, no-wrap
+msgid "B<-e>, B<--elide-empty-files>"
+msgstr ""
+
+#. type: Plain text
+#: split.1:35
+msgid "do not generate empty output files with '-n'"
+msgstr ""
+
+#. type: TP
+#: split.1:35
+#, no-wrap
+msgid "B<--filter>=I<COMMAND>"
+msgstr ""
+
+#. type: Plain text
+#: split.1:38
+msgid "write to shell COMMAND; file name is $FILE"
+msgstr ""
+
+#. type: TP
+#: split.1:38
+#, no-wrap
+msgid "B<-l>, B<--lines>=I<NUMBER>"
+msgstr ""
+
+#. type: Plain text
+#: split.1:41
+msgid "put NUMBER lines per output file"
+msgstr ""
+
+#. type: TP
+#: split.1:41
+#, no-wrap
+msgid "B<-n>, B<--number>=I<CHUNKS>"
+msgstr ""
+
+#. type: Plain text
+#: split.1:44
+msgid "generate CHUNKS output files.  See below"
+msgstr ""
+
+#. type: TP
+#: split.1:44
+#, no-wrap
+msgid "B<-u>, B<--unbuffered>"
+msgstr ""
+
+#. type: Plain text
+#: split.1:47
+msgid "immediately copy input to output with '-n r/...'"
+msgstr ""
+
+#. type: TP
+#: split.1:47
+#, no-wrap
+msgid "B<--verbose>"
+msgstr ""
+
+#. type: Plain text
+#: split.1:51
+msgid "print a diagnostic just before each output file is opened"
+msgstr ""
+
+#. type: TP
+#: split.1:51
+#, no-wrap
+msgid "B<--help>"
+msgstr ""
+
+#. type: Plain text
+#: split.1:54
+msgid "display this help and exit"
+msgstr ""
+
+#. type: TP
+#: split.1:54
+#, no-wrap
+msgid "B<--version>"
+msgstr ""
+
+#. type: Plain text
+#: split.1:57
+msgid "output version information and exit"
+msgstr ""
+
+#. type: Plain text
+#: split.1:60
+msgid ""
+"SIZE is an integer and optional unit (example: 10M is 10*1024*1024).  Units "
+"are K, M, G, T, P, E, Z, Y (powers of 1024) or KB, MB, ... (powers of 1000)."
+msgstr ""
+
+#. type: Plain text
+#: split.1:68
+msgid ""
+"CHUNKS may be: N split into N files based on size of input K/N output Kth of "
+"N to stdout l/N split into N files without splitting lines l/K/N output Kth "
+"of N to stdout without splitting lines r/N like 'l' but use round robin "
+"distribution r/K/N likewise but only output Kth of N to stdout"
+msgstr ""
+
+#. type: SH
+#: split.1:68
+#, no-wrap
+msgid "AUTHOR"
+msgstr ""
+
+#. type: Plain text
+#: split.1:70
+msgid "Written by Torbjorn Granlund and Richard M. Stallman."
+msgstr ""
+
+#. type: SH
+#: split.1:70
+#, no-wrap
+msgid "REPORTING BUGS"
+msgstr ""
+
+#. type: Plain text
+#: split.1:72
+msgid "Report split bugs to bug-coreutils@gnu.org"
+msgstr ""
+
+#. type: Plain text
+#: split.1:74
+msgid "GNU coreutils home page: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+msgstr ""
+
+#. type: Plain text
+#: split.1:76
+msgid "General help using GNU software: E<lt>http://www.gnu.org/gethelp/E<gt>"
+msgstr ""
+
+#. type: Plain text
+#: split.1:78
+msgid ""
+"Report split translation bugs to "
+"E<lt>http://translationproject.org/team/E<gt>"
+msgstr ""
+
+#. type: SH
+#: split.1:78
+#, no-wrap
+msgid "COPYRIGHT"
+msgstr ""
+
+#. type: Plain text
+#: split.1:81
+msgid ""
+"Copyright \\(co 2013 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
+msgstr ""
+
+#. type: Plain text
+#: split.1:84
+msgid ""
+"This is free software: you are free to change and redistribute it.  There is "
+"NO WARRANTY, to the extent permitted by law."
+msgstr ""
+
+#. type: SH
+#: split.1:84
+#, no-wrap
+msgid "SEE ALSO"
+msgstr ""
+
+#. type: Plain text
+#: split.1:92
+msgid ""
+"The full documentation for B<split> is maintained as a Texinfo manual.  If "
+"the B<info> and B<split> programs are properly installed at your site, the "
+"command"
+msgstr ""
+
+#. type: Plain text
+#: split.1:94
+msgid "B<info coreutils \\(aqsplit invocation\\(aq>"
+msgstr ""
+
+#. type: Plain text
+#: split.1:95
+msgid "should give you access to the complete manual."
+msgstr ""
