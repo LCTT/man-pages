@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: LCTT man-pages coreutils-8.21\n"
-"POT-Creation-Date: 2013-10-21 11:26+0800\n"
+"POT-Creation-Date: 2013-10-21 15:52+0800\n"
 "PO-Revision-Date: 2013-10-19 17:50+0800\n"
 "Last-Translator: LCTT <lctt@linux.cn>\n"
 "Language-Team: LCTT <lctt@linux.cn>\n"
@@ -250,46 +250,56 @@ msgstr ""
 
 #. type: Plain text
 #: unexpand.1:66
+msgid "译者："
+msgstr ""
+
+#. type: Plain text
+#: unexpand.1:68
 msgid ""
 "此处为译者信息，格式为：译者名 B<E<lt>译者邮件@地址E<gt>>，译者名 B<E<lt>译者"
 "邮件@地址E<gt>>"
 msgstr ""
 
 #. type: Plain text
-#: unexpand.1:68
+#: unexpand.1:70
+msgid "校对："
+msgstr ""
+
+#. type: Plain text
+#: unexpand.1:72
 msgid ""
-"此外为校对者信息，格式为：校对者名 B<E<lt>校对者邮件@地址E<gt>>，校对者名 "
+"此处为校对者信息，格式为：校对者名 B<E<lt>校对者邮件@地址E<gt>>，校对者名 "
 "B<E<lt>校对者邮件@地址E<gt>>"
 msgstr ""
 
 #. type: SS
-#: unexpand.1:69
+#: unexpand.1:73
 #, no-wrap
 msgid "翻译更新日期"
 msgstr ""
 
 #. type: Plain text
-#: unexpand.1:71
+#: unexpand.1:75
 msgid "此处为最后更新日期，格式为：2013.10.20"
 msgstr ""
 
 #. type: SS
-#: unexpand.1:71
+#: unexpand.1:75
 #, no-wrap
 msgid "翻译组"
 msgstr ""
 
 #. type: Plain text
-#: unexpand.1:73
+#: unexpand.1:77
 msgid "man翻译项目 ：B<http://github.com/LCTT/man-pages/>"
 msgstr ""
 
 #. type: Plain text
-#: unexpand.1:75
+#: unexpand.1:79
 msgid "翻译组 ：B<http://lctt.github.io/ E<lt>lctt@linux.cnE<gt>>"
 msgstr ""
 
 #. type: Plain text
-#: unexpand.1:76
+#: unexpand.1:80
 msgid "Linux中国 ：B<http://linux.cn/>"
 msgstr ""
