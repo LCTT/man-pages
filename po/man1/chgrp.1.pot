@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: LCTT man-pages coreutils-8.21\n"
-"POT-Creation-Date: 2013-10-21 10:51+0800\n"
+"POT-Creation-Date: 2013-10-21 11:26+0800\n"
 "PO-Revision-Date: 2013-10-19 17:50+0800\n"
 "Last-Translator: LCTT <lctt@linux.cn>\n"
 "Language-Team: LCTT <lctt@linux.cn>\n"
@@ -311,8 +311,7 @@ msgstr ""
 #. type: Plain text
 #: chgrp.1:85
 msgid ""
-"Report chgrp translation bugs to E<lt>http://translationproject.org/team/"
-"E<gt>"
+"Report chgrp translation bugs to E<lt>http://github.com/LCTT/man-pages/E<gt>"
 msgstr ""
 
 #. type: SH
@@ -404,7 +403,7 @@ msgstr ""
 
 #. type: Plain text
 #: chgrp.1:113
-msgid "man翻译项目 ：B<http://github.com/LCTT/man-pages>"
+msgid "man翻译项目 ：B<http://github.com/LCTT/man-pages/>"
 msgstr ""
 
 #. type: Plain text
