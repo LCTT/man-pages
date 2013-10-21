@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: LCTT man-pages coreutils-8.21\n"
-"POT-Creation-Date: 2013-10-19 17:34+0800\n"
+"POT-Creation-Date: 2013-10-21 10:51+0800\n"
 "PO-Revision-Date: 2013-10-19 17:50+0800\n"
 "Last-Translator: LCTT <lctt@linux.cn>\n"
 "Language-Team: LCTT <lctt@linux.cn>\n"
@@ -75,7 +75,8 @@ msgstr ""
 
 #. type: Plain text
 #: pr.1:14
-msgid "Mandatory arguments to long options are mandatory for short options too."
+msgid ""
+"Mandatory arguments to long options are mandatory for short options too."
 msgstr ""
 
 #. type: TP
@@ -203,8 +204,8 @@ msgstr ""
 #. type: Plain text
 #: pr.1:54
 msgid ""
-"merge full lines, turns off B<-W> line truncation, no column alignment, "
-"B<--sep-string>[=I<STRING>] sets separators"
+"merge full lines, turns off B<-W> line truncation, no column alignment, B<--"
+"sep-string>[=I<STRING>] sets separators"
 msgstr ""
 
 #. type: TP
@@ -294,8 +295,8 @@ msgstr ""
 msgid ""
 "separate columns by a single character, default for CHAR is the "
 "E<lt>TABE<gt> character without B<-w> and 'no char' with B<-w> B<-s[CHAR]> "
-"turns off line truncation of all 3 column options (B<-COLUMN>|-a "
-"B<-COLUMN>|-m) except B<-w> is set"
+"turns off line truncation of all 3 column options (B<-COLUMN>|-a B<-COLUMN>|-"
+"m) except B<-w> is set"
 msgstr ""
 
 #. type: TP
@@ -426,7 +427,8 @@ msgstr ""
 
 #. type: Plain text
 #: pr.1:122
-msgid "GNU coreutils home page: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+msgid ""
+"GNU coreutils home page: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
 msgstr ""
 
 #. type: Plain text
@@ -436,7 +438,8 @@ msgstr ""
 
 #. type: Plain text
 #: pr.1:126
-msgid "Report pr translation bugs to E<lt>http://translationproject.org/team/E<gt>"
+msgid ""
+"Report pr translation bugs to E<lt>http://translationproject.org/team/E<gt>"
 msgstr ""
 
 #. type: SH
@@ -478,6 +481,64 @@ msgid "B<info coreutils \\(aqpr invocation\\(aq>"
 msgstr ""
 
 #. type: Plain text
-#: pr.1:143
+#: pr.1:144
 msgid "should give you access to the complete manual."
+msgstr ""
+
+#. type: SH
+#: pr.1:144
+#, no-wrap
+msgid "翻译信息"
+msgstr ""
+
+#. type: SS
+#: pr.1:145
+#, no-wrap
+msgid "翻译维护人"
+msgstr ""
+
+#. type: Plain text
+#: pr.1:147
+msgid ""
+"此处为译者信息，格式为：译者名 B<E<lt>译者邮件@地址E<gt>>，译者名 B<E<lt>译者"
+"邮件@地址E<gt>>"
+msgstr ""
+
+#. type: Plain text
+#: pr.1:149
+msgid ""
+"此外为校对者信息，格式为：校对者名 B<E<lt>校对者邮件@地址E<gt>>，校对者名 "
+"B<E<lt>校对者邮件@地址E<gt>>"
+msgstr ""
+
+#. type: SS
+#: pr.1:150
+#, no-wrap
+msgid "翻译更新日期"
+msgstr ""
+
+#. type: Plain text
+#: pr.1:152
+msgid "此处为最后更新日期，格式为：2013.10.20"
+msgstr ""
+
+#. type: SS
+#: pr.1:152
+#, no-wrap
+msgid "翻译组"
+msgstr ""
+
+#. type: Plain text
+#: pr.1:154
+msgid "man翻译项目 ：B<http://github.com/LCTT/man-pages>"
+msgstr ""
+
+#. type: Plain text
+#: pr.1:156
+msgid "翻译组 ：B<http://lctt.github.io/ E<lt>lctt@linux.cnE<gt>>"
+msgstr ""
+
+#. type: Plain text
+#: pr.1:157
+msgid "Linux中国 ：B<http://linux.cn/>"
 msgstr ""

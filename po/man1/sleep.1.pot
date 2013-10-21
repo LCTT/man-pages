@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: LCTT man-pages coreutils-8.21\n"
-"POT-Creation-Date: 2013-10-19 17:34+0800\n"
+"POT-Creation-Date: 2013-10-21 10:51+0800\n"
 "PO-Revision-Date: 2013-10-19 17:50+0800\n"
 "Last-Translator: LCTT <lctt@linux.cn>\n"
 "Language-Team: LCTT <lctt@linux.cn>\n"
@@ -129,7 +129,8 @@ msgstr ""
 
 #. type: Plain text
 #: sleep.1:31
-msgid "GNU coreutils home page: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+msgid ""
+"GNU coreutils home page: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
 msgstr ""
 
 #. type: Plain text
@@ -140,8 +141,8 @@ msgstr ""
 #. type: Plain text
 #: sleep.1:35
 msgid ""
-"Report sleep translation bugs to "
-"E<lt>http://translationproject.org/team/E<gt>"
+"Report sleep translation bugs to E<lt>http://translationproject.org/team/"
+"E<gt>"
 msgstr ""
 
 #. type: SH
@@ -189,6 +190,64 @@ msgid "B<info coreutils \\(aqsleep invocation\\(aq>"
 msgstr ""
 
 #. type: Plain text
-#: sleep.1:54
+#: sleep.1:55
 msgid "should give you access to the complete manual."
+msgstr ""
+
+#. type: SH
+#: sleep.1:55
+#, no-wrap
+msgid "翻译信息"
+msgstr ""
+
+#. type: SS
+#: sleep.1:56
+#, no-wrap
+msgid "翻译维护人"
+msgstr ""
+
+#. type: Plain text
+#: sleep.1:58
+msgid ""
+"此处为译者信息，格式为：译者名 B<E<lt>译者邮件@地址E<gt>>，译者名 B<E<lt>译者"
+"邮件@地址E<gt>>"
+msgstr ""
+
+#. type: Plain text
+#: sleep.1:60
+msgid ""
+"此外为校对者信息，格式为：校对者名 B<E<lt>校对者邮件@地址E<gt>>，校对者名 "
+"B<E<lt>校对者邮件@地址E<gt>>"
+msgstr ""
+
+#. type: SS
+#: sleep.1:61
+#, no-wrap
+msgid "翻译更新日期"
+msgstr ""
+
+#. type: Plain text
+#: sleep.1:63
+msgid "此处为最后更新日期，格式为：2013.10.20"
+msgstr ""
+
+#. type: SS
+#: sleep.1:63
+#, no-wrap
+msgid "翻译组"
+msgstr ""
+
+#. type: Plain text
+#: sleep.1:65
+msgid "man翻译项目 ：B<http://github.com/LCTT/man-pages>"
+msgstr ""
+
+#. type: Plain text
+#: sleep.1:67
+msgid "翻译组 ：B<http://lctt.github.io/ E<lt>lctt@linux.cnE<gt>>"
+msgstr ""
+
+#. type: Plain text
+#: sleep.1:68
+msgid "Linux中国 ：B<http://linux.cn/>"
 msgstr ""

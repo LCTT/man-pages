@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: LCTT man-pages coreutils-8.21\n"
-"POT-Creation-Date: 2013-10-19 17:34+0800\n"
+"POT-Creation-Date: 2013-10-21 10:51+0800\n"
 "PO-Revision-Date: 2013-10-19 17:50+0800\n"
 "Last-Translator: LCTT <lctt@linux.cn>\n"
 "Language-Team: LCTT <lctt@linux.cn>\n"
@@ -85,7 +85,8 @@ msgstr ""
 
 #. type: Plain text
 #: cp.1:20
-msgid "Mandatory arguments to long options are mandatory for short options too."
+msgid ""
+"Mandatory arguments to long options are mandatory for short options too."
 msgstr ""
 
 #. type: TP
@@ -541,7 +542,8 @@ msgstr ""
 
 #. type: Plain text
 #: cp.1:160
-msgid "GNU coreutils home page: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+msgid ""
+"GNU coreutils home page: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
 msgstr ""
 
 #. type: Plain text
@@ -551,7 +553,8 @@ msgstr ""
 
 #. type: Plain text
 #: cp.1:164
-msgid "Report cp translation bugs to E<lt>http://translationproject.org/team/E<gt>"
+msgid ""
+"Report cp translation bugs to E<lt>http://translationproject.org/team/E<gt>"
 msgstr ""
 
 #. type: SH
@@ -593,6 +596,64 @@ msgid "B<info coreutils \\(aqcp invocation\\(aq>"
 msgstr ""
 
 #. type: Plain text
-#: cp.1:181
+#: cp.1:182
 msgid "should give you access to the complete manual."
+msgstr ""
+
+#. type: SH
+#: cp.1:182
+#, no-wrap
+msgid "翻译信息"
+msgstr ""
+
+#. type: SS
+#: cp.1:183
+#, no-wrap
+msgid "翻译维护人"
+msgstr ""
+
+#. type: Plain text
+#: cp.1:185
+msgid ""
+"此处为译者信息，格式为：译者名 B<E<lt>译者邮件@地址E<gt>>，译者名 B<E<lt>译者"
+"邮件@地址E<gt>>"
+msgstr ""
+
+#. type: Plain text
+#: cp.1:187
+msgid ""
+"此外为校对者信息，格式为：校对者名 B<E<lt>校对者邮件@地址E<gt>>，校对者名 "
+"B<E<lt>校对者邮件@地址E<gt>>"
+msgstr ""
+
+#. type: SS
+#: cp.1:188
+#, no-wrap
+msgid "翻译更新日期"
+msgstr ""
+
+#. type: Plain text
+#: cp.1:190
+msgid "此处为最后更新日期，格式为：2013.10.20"
+msgstr ""
+
+#. type: SS
+#: cp.1:190
+#, no-wrap
+msgid "翻译组"
+msgstr ""
+
+#. type: Plain text
+#: cp.1:192
+msgid "man翻译项目 ：B<http://github.com/LCTT/man-pages>"
+msgstr ""
+
+#. type: Plain text
+#: cp.1:194
+msgid "翻译组 ：B<http://lctt.github.io/ E<lt>lctt@linux.cnE<gt>>"
+msgstr ""
+
+#. type: Plain text
+#: cp.1:195
+msgid "Linux中国 ：B<http://linux.cn/>"
 msgstr ""

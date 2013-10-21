@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: LCTT man-pages coreutils-8.21\n"
-"POT-Creation-Date: 2013-10-19 17:34+0800\n"
+"POT-Creation-Date: 2013-10-21 10:51+0800\n"
 "PO-Revision-Date: 2013-10-19 17:50+0800\n"
 "Last-Translator: LCTT <lctt@linux.cn>\n"
 "Language-Team: LCTT <lctt@linux.cn>\n"
@@ -369,7 +369,8 @@ msgstr ""
 
 #. type: Plain text
 #: expr.1:98
-msgid "GNU coreutils home page: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+msgid ""
+"GNU coreutils home page: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
 msgstr ""
 
 #. type: Plain text
@@ -380,8 +381,7 @@ msgstr ""
 #. type: Plain text
 #: expr.1:102
 msgid ""
-"Report expr translation bugs to "
-"E<lt>http://translationproject.org/team/E<gt>"
+"Report expr translation bugs to E<lt>http://translationproject.org/team/E<gt>"
 msgstr ""
 
 #. type: SH
@@ -424,6 +424,64 @@ msgid "B<info coreutils \\(aqexpr invocation\\(aq>"
 msgstr ""
 
 #. type: Plain text
-#: expr.1:119
+#: expr.1:120
 msgid "should give you access to the complete manual."
+msgstr ""
+
+#. type: SH
+#: expr.1:120
+#, no-wrap
+msgid "翻译信息"
+msgstr ""
+
+#. type: SS
+#: expr.1:121
+#, no-wrap
+msgid "翻译维护人"
+msgstr ""
+
+#. type: Plain text
+#: expr.1:123
+msgid ""
+"此处为译者信息，格式为：译者名 B<E<lt>译者邮件@地址E<gt>>，译者名 B<E<lt>译者"
+"邮件@地址E<gt>>"
+msgstr ""
+
+#. type: Plain text
+#: expr.1:125
+msgid ""
+"此外为校对者信息，格式为：校对者名 B<E<lt>校对者邮件@地址E<gt>>，校对者名 "
+"B<E<lt>校对者邮件@地址E<gt>>"
+msgstr ""
+
+#. type: SS
+#: expr.1:126
+#, no-wrap
+msgid "翻译更新日期"
+msgstr ""
+
+#. type: Plain text
+#: expr.1:128
+msgid "此处为最后更新日期，格式为：2013.10.20"
+msgstr ""
+
+#. type: SS
+#: expr.1:128
+#, no-wrap
+msgid "翻译组"
+msgstr ""
+
+#. type: Plain text
+#: expr.1:130
+msgid "man翻译项目 ：B<http://github.com/LCTT/man-pages>"
+msgstr ""
+
+#. type: Plain text
+#: expr.1:132
+msgid "翻译组 ：B<http://lctt.github.io/ E<lt>lctt@linux.cnE<gt>>"
+msgstr ""
+
+#. type: Plain text
+#: expr.1:133
+msgid "Linux中国 ：B<http://linux.cn/>"
 msgstr ""
