@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: LCTT man-pages coreutils-8.21\n"
 "POT-Creation-Date: 2013-10-22 08:51+0800\n"
-"PO-Revision-Date: 2013-10-22 15:36+0800\n"
-"Last-Translator: \n"
+"PO-Revision-Date: 2013-10-22 17:17+0800\n"
+"Last-Translator: l3b2w1 <l3b2w1_linux@163.com>\n"
 "Language-Team: LCTT <lctt@linux.cn>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -60,106 +60,106 @@ msgstr "概要"
 #. type: Plain text
 #: cp.1:8
 msgid "B<cp> [I<OPTION>]... [I<-T>] I<SOURCE DEST>"
-msgstr "B<cp> [I<OPTION>]... [I<-T>] I<SOURCE DEST>"
+msgstr "B<cp> [I<选项>]... [I<-T>] I<源文件 目标文件>"
 
 #. type: Plain text
 #: cp.1:11
 msgid "B<cp> [I<OPTION>]... I<SOURCE>... I<DIRECTORY>"
-msgstr ""
+msgstr "B<cp> [I<选项>]... I<源文件>... I<目录>"
 
 #. type: Plain text
 #: cp.1:14
 msgid "B<cp> [I<OPTION>]... I<-t DIRECTORY SOURCE>..."
-msgstr ""
+msgstr "B<cp> [I<选项>]... I<-t 目录 源文件>..."
 
 #. type: SH
 #: cp.1:14
 #, no-wrap
 msgid "DESCRIPTION"
-msgstr ""
+msgstr "描述"
 
 #. type: Plain text
 #: cp.1:18
 msgid "Copy SOURCE to DEST, or multiple SOURCE(s) to DIRECTORY."
-msgstr ""
+msgstr "拷贝 源文件 到 目标文件， 或者多个源文件 到 (指定)目录"
 
 #. type: Plain text
 #: cp.1:20
 msgid ""
 "Mandatory arguments to long options are mandatory for short options too."
-msgstr ""
+msgstr "强制性的长选项在使用对应的短选项时也是强制要求的。 "
 
 #. type: TP
 #: cp.1:20
 #, no-wrap
 msgid "B<-a>, B<--archive>"
-msgstr ""
+msgstr "B<-a>, B<--archive>"
 
 #. type: Plain text
 #: cp.1:23
 msgid "same as B<-dR> B<--preserve>=I<all>"
-msgstr ""
+msgstr "与 B<-dR> B<--preserve>=I<所有>相同"
 
 #. type: TP
 #: cp.1:23
 #, no-wrap
 msgid "B<--attributes-only>"
-msgstr ""
+msgstr "B<--attributes-only>"
 
 #. type: Plain text
 #: cp.1:26
 msgid "don't copy the file data, just the attributes"
-msgstr ""
+msgstr "不要拷贝文件数据， 只拷贝属性值"
 
 #. type: TP
 #: cp.1:26
 #, no-wrap
 msgid "B<--backup>[=I<CONTROL>]"
-msgstr ""
+msgstr "B<--backup>[=I<控制>]"
 
 #. type: Plain text
 #: cp.1:29
 msgid "make a backup of each existing destination file"
-msgstr ""
+msgstr "对每个现有的目标文件进行备份"
 
 #. type: TP
 #: cp.1:29
 #, no-wrap
 msgid "B<-b>"
-msgstr ""
+msgstr "B<-b>"
 
 #. type: Plain text
 #: cp.1:32
 msgid "like B<--backup> but does not accept an argument"
-msgstr ""
+msgstr "与 B<--backup> 类似， 但是不接受参数"
 
 #. type: TP
 #: cp.1:32
 #, no-wrap
 msgid "B<--copy-contents>"
-msgstr ""
+msgstr "B<--copy-contents>"
 
 #. type: Plain text
 #: cp.1:35
 msgid "copy contents of special files when recursive"
-msgstr ""
+msgstr "递归时， 拷贝特定文件的内容"
 
 #. type: TP
 #: cp.1:35
 #, no-wrap
 msgid "B<-d>"
-msgstr ""
+msgstr "B<-d>"
 
 #. type: Plain text
 #: cp.1:38
 msgid "same as B<--no-dereference> B<--preserve>=I<links>"
-msgstr ""
+msgstr "与 B<--no-dereference> B<--preserve>=I<链接> 类似"
 
 #. type: TP
 #: cp.1:38
 #, no-wrap
 msgid "B<-f>, B<--force>"
-msgstr ""
+msgstr "B<-f>, B<--force>"
 
 #. type: Plain text
 #: cp.1:43
@@ -167,34 +167,38 @@ msgid ""
 "if an existing destination file cannot be opened, remove it and try again "
 "(this option is ignored when the B<-n> option is also used)"
 msgstr ""
+"如果现有目标文件无法打开， 删除它， 然后再尝试操作 （如果同时使用了 B <N>选"
+"项， 会忽略此选项）"
 
 #. type: TP
 #: cp.1:43
 #, no-wrap
 msgid "B<-i>, B<--interactive>"
-msgstr ""
+msgstr "B<-i>, B<--interactive>"
 
 #. type: Plain text
 #: cp.1:47
+#, fuzzy
 msgid "prompt before overwrite (overrides a previous B<-n> option)"
-msgstr ""
+msgstr "覆盖前提示(忽略前面的 B<-n> 选项)"
 
 #. type: TP
 #: cp.1:47
 #, no-wrap
 msgid "B<-H>"
-msgstr ""
+msgstr "B<-H>"
 
 #. type: Plain text
 #: cp.1:50
+#, fuzzy
 msgid "follow command-line symbolic links in SOURCE"
-msgstr ""
+msgstr "遵循源文件中的命令行符号链接"
 
 #. type: TP
 #: cp.1:50
 #, no-wrap
 msgid "B<-l>, B<--link>"
-msgstr ""
+msgstr "B<-l>, B<--link>"
 
 #. type: Plain text
 #: cp.1:53
@@ -205,7 +209,7 @@ msgstr ""
 #: cp.1:53
 #, no-wrap
 msgid "B<-L>, B<--dereference>"
-msgstr ""
+msgstr "B<-L>, B<--dereference>"
 
 #. type: Plain text
 #: cp.1:56
@@ -216,7 +220,7 @@ msgstr ""
 #: cp.1:56
 #, no-wrap
 msgid "B<-n>, B<--no-clobber>"
-msgstr ""
+msgstr "B<-n>, B<--no-clobber>"
 
 #. type: Plain text
 #: cp.1:60
@@ -227,7 +231,7 @@ msgstr ""
 #: cp.1:60
 #, no-wrap
 msgid "B<-P>, B<--no-dereference>"
-msgstr ""
+msgstr "B<-P>, B<--no-dereference>"
 
 #. type: Plain text
 #: cp.1:63
@@ -238,7 +242,7 @@ msgstr ""
 #: cp.1:63
 #, no-wrap
 msgid "B<-p>"
-msgstr ""
+msgstr "B<-p>"
 
 #. type: Plain text
 #: cp.1:66
@@ -273,7 +277,7 @@ msgstr ""
 #: cp.1:75
 #, no-wrap
 msgid "B<--parents>"
-msgstr ""
+msgstr "B<--parents>"
 
 #. type: Plain text
 #: cp.1:78
@@ -284,7 +288,7 @@ msgstr ""
 #: cp.1:78
 #, no-wrap
 msgid "B<-R>, B<-r>, B<--recursive>"
-msgstr ""
+msgstr "B<-R>, B<-r>, B<--recursive>"
 
 #. type: Plain text
 #: cp.1:81
@@ -306,7 +310,7 @@ msgstr ""
 #: cp.1:84
 #, no-wrap
 msgid "B<--remove-destination>"
-msgstr ""
+msgstr "B<--remove-destination>"
 
 #. type: Plain text
 #: cp.1:88
@@ -330,7 +334,7 @@ msgstr ""
 #: cp.1:91
 #, no-wrap
 msgid "B<--strip-trailing-slashes>"
-msgstr ""
+msgstr "B<--strip-trailing-slashes>"
 
 #. type: Plain text
 #: cp.1:95
@@ -341,7 +345,7 @@ msgstr ""
 #: cp.1:95
 #, no-wrap
 msgid "B<-s>, B<--symbolic-link>"
-msgstr ""
+msgstr "B<-s>, B<--symbolic-link>"
 
 #. type: Plain text
 #: cp.1:98
@@ -374,7 +378,7 @@ msgstr ""
 #: cp.1:104
 #, no-wrap
 msgid "B<-T>, B<--no-target-directory>"
-msgstr ""
+msgstr "B<-T>, B<--no-target-directory>"
 
 #. type: Plain text
 #: cp.1:107
@@ -385,7 +389,7 @@ msgstr ""
 #: cp.1:107
 #, no-wrap
 msgid "B<-u>, B<--update>"
-msgstr ""
+msgstr "B<-u>, B<--update>"
 
 #. type: Plain text
 #: cp.1:112
@@ -398,7 +402,7 @@ msgstr ""
 #: cp.1:112
 #, no-wrap
 msgid "B<-v>, B<--verbose>"
-msgstr ""
+msgstr "B<-v>, B<--verbose>"
 
 #. type: Plain text
 #: cp.1:115
@@ -409,7 +413,7 @@ msgstr ""
 #: cp.1:115
 #, no-wrap
 msgid "B<-x>, B<--one-file-system>"
-msgstr ""
+msgstr "B<-x>, B<--one-file-system>"
 
 #. type: Plain text
 #: cp.1:118
@@ -420,7 +424,7 @@ msgstr ""
 #: cp.1:118
 #, no-wrap
 msgid "B<--help>"
-msgstr ""
+msgstr "B<--help>"
 
 #. type: Plain text
 #: cp.1:121
@@ -431,7 +435,7 @@ msgstr ""
 #: cp.1:121
 #, no-wrap
 msgid "B<--version>"
-msgstr ""
+msgstr "B<--version>"
 
 #. type: Plain text
 #: cp.1:124
