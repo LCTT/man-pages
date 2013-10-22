@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: LCTT man-pages coreutils-8.21\n"
 "POT-Creation-Date: 2013-10-22 08:51+0800\n"
-"PO-Revision-Date: 2013-10-22 20:23+0800\n"
-"Last-Translator: wxy <xingyu.wang@gmail.com>\n"
+"PO-Revision-Date: 2013-10-22 21:43+0800\n"
+"Last-Translator: SCUSJS <scusjs@foxmail.com>\n"
 "Language-Team: LCTT <lctt@linux.cn>\n"
 "Language: zh_CN.UTF-8\n"
 "MIME-Version: 1.0\n"
@@ -115,17 +115,12 @@ msgstr "B<--version>"
 #. type: Plain text
 #: pwd.1:24
 msgid "output version information and exit"
-msgstr "输入版本信息并退出"
+msgstr "输出版本信息并退出"
 
 #. type: Plain text
 #: pwd.1:28
-msgid ""
-"NOTE: your shell may have its own version of pwd, which usually supersedes "
-"the version described here.  Please refer to your shell's documentation for "
-"details about the options it supports."
-msgstr ""
-"注意： 你的 shell 也许有自己版本的 pwd 命令， 他们通常会取代这里描述的版本。 "
-"请参考你的 shell 提供的文档来了解它所支持的选项的细节。"
+msgid "NOTE: your shell may have its own version of pwd, which usually supersedes the version described here.  Please refer to your shell's documentation for details about the options it supports."
+msgstr "注意： 你的 shell 也许有自己版本的 pwd 命令， 他们通常会取代这里描述的版本。 请参考你的 shell 提供的文档来了解它所支持的选项的细节。"
 
 #. type: SH
 #: pwd.1:28
@@ -151,8 +146,7 @@ msgstr "发送错误信息到： bug-coreutils@gnu.org"
 
 #. type: Plain text
 #: pwd.1:34
-msgid ""
-"GNU coreutils home page: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+msgid "GNU coreutils home page: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
 msgstr "GNU coreutils 主页：  E<lt>http://www.gnu.org/software/coreutils/E<gt>"
 
 #. type: Plain text
@@ -162,8 +156,7 @@ msgstr "使用GNU软件的常规帮助： E<lt>http://www.gnu.org/gethelp/E<gt>"
 
 #. type: Plain text
 #: pwd.1:38
-msgid ""
-"Report pwd translation bugs to E<lt>http://github.com/LCTT/man-pages/E<gt>"
+msgid "Report pwd translation bugs to E<lt>http://github.com/LCTT/man-pages/E<gt>"
 msgstr "发送翻译错误到 E<lt>http://github.com/LCTT/man-pages/E<gt>"
 
 #. type: SH
@@ -174,21 +167,13 @@ msgstr "版权"
 
 #. type: Plain text
 #: pwd.1:41
-msgid ""
-"Copyright \\(co 2013 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
-"version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
-msgstr ""
-"Copyright \\(co 2013 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
-"version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
+msgid "Copyright \\(co 2013 Free Software Foundation, Inc.  License GPLv3+: GNU GPL version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
+msgstr "Copyright \\(co 2013 Free Software Foundation, Inc.  License GPLv3+: GNU GPL version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
 
 #. type: Plain text
 #: pwd.1:44
-msgid ""
-"This is free software: you are free to change and redistribute it.  There is "
-"NO WARRANTY, to the extent permitted by law."
-msgstr ""
-"这是一个自由软件： 你可以自由修改和重新发布它。 在法律允许的范围内， 不提供任"
-"何担保"
+msgid "This is free software: you are free to change and redistribute it.  There is NO WARRANTY, to the extent permitted by law."
+msgstr "这是一个自由软件： 你可以自由修改和重新发布它。 在法律允许的范围内， 不提供任何担保"
 
 #. type: SH
 #: pwd.1:44
@@ -203,12 +188,8 @@ msgstr "getcwd(3)"
 
 #. type: Plain text
 #: pwd.1:54
-msgid ""
-"The full documentation for B<pwd> is maintained as a Texinfo manual.  If the "
-"B<info> and B<pwd> programs are properly installed at your site, the command"
-msgstr ""
-"B<pwd> 的完整文档使用 Texinfo 手册进行维护。如果 B<info> 和 B<pwd> 程序已经正"
-"确地安装在了你的电脑上， 通过下述命令"
+msgid "The full documentation for B<pwd> is maintained as a Texinfo manual.  If the B<info> and B<pwd> programs are properly installed at your site, the command"
+msgstr "B<pwd> 的完整文档使用 Texinfo 手册进行维护。如果 B<info> 和 B<pwd> 程序已经正确地安装在了你的电脑上， 通过下述命令"
 
 #. type: Plain text
 #: pwd.1:56
@@ -239,9 +220,7 @@ msgstr "译者："
 
 #. type: Plain text
 #: pwd.1:63
-msgid ""
-"此处为译者信息， 格式为： 译者名 B<E<lt>译者邮件@地址E<gt>>， 译者名 B<E<lt>"
-"译者邮件@地址E<gt>>"
+msgid "此处为译者信息， 格式为： 译者名 B<E<lt>译者邮件@地址E<gt>>， 译者名 B<E<lt>译者邮件@地址E<gt>>"
 msgstr "Vic___"
 
 #. type: Plain text
@@ -251,9 +230,7 @@ msgstr "校对："
 
 #. type: Plain text
 #: pwd.1:67
-msgid ""
-"此处为校对者信息， 格式为： 校对者名 B<E<lt>校对者邮件@地址E<gt>>， 校对者名 "
-"B<E<lt>校对者邮件@地址E<gt>>"
+msgid "此处为校对者信息， 格式为： 校对者名 B<E<lt>校对者邮件@地址E<gt>>， 校对者名 B<E<lt>校对者邮件@地址E<gt>>"
 msgstr "wxy B<E<lt>xingyu.wang@gmail.comE<gt>>"
 
 #. type: SS
@@ -287,3 +264,4 @@ msgstr "翻译组 ： B<http://lctt.github.io/ E<lt>lctt@linux.cnE<gt>>"
 #: pwd.1:75
 msgid "Linux中国 ： B<http://linux.cn/>"
 msgstr "Linux中国 ： B<http://linux.cn/>"
+
