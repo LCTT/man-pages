@@ -6,16 +6,15 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: LCTT man-pages coreutils-8.21\n"
-"POT-Creation-Date: 2013-10-19 17:34+0800\n"
-"PO-Revision-Date: 2013-10-19 07:24-0800\n"
-"Last-Translator: Vic___ <vickers020@gmail.com>\n"
+"POT-Creation-Date: 2013-10-22 08:51+0800\n"
+"PO-Revision-Date: 2013-10-22 20:23+0800\n"
+"Last-Translator: wxy <xingyu.wang@gmail.com>\n"
 "Language-Team: LCTT <lctt@linux.cn>\n"
 "Language: zh_CN.UTF-8\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 1.5.7\n"
-"X-Poedit-Language: zh_CN.UTF-8\n"
 
 #. type: TH
 #: pwd.1:2
@@ -39,18 +38,18 @@ msgstr "GNU coreutils 8.21"
 #: pwd.1:2
 #, no-wrap
 msgid "User Commands"
-msgstr "普通用户命令"
+msgstr "用户命令"
 
 #. type: SH
 #: pwd.1:3
 #, no-wrap
 msgid "NAME"
-msgstr "命令名称"
+msgstr "名称"
 
 #. type: Plain text
 #: pwd.1:5
 msgid "pwd - print name of current/working directory"
-msgstr "pwd - 打印当前路径或者工作路径"
+msgstr "pwd - 显示当前目录或者工作目录"
 
 #. type: SH
 #: pwd.1:5
@@ -61,7 +60,7 @@ msgstr "摘要"
 #. type: Plain text
 #: pwd.1:8
 msgid "B<pwd> [I<OPTION>]..."
-msgstr "B<pwd> [I<选项>]..."
+msgstr "B<pwd> [I<选项>]…"
 
 #. type: SH
 #: pwd.1:8
@@ -78,23 +77,23 @@ msgstr "打印当前工作目录的完整文件名"
 #: pwd.1:12
 #, no-wrap
 msgid "B<-L>, B<--logical>"
-msgstr "B<-L>, B<--logical 逻辑>"
+msgstr "B<-L>, B<--logical>"
 
 #. type: Plain text
 #: pwd.1:15
 msgid "use PWD from environment, even if it contains symlinks"
-msgstr "直接打印当前目录，如果当前路径是符号链接，打印的是符号链接地址"
+msgstr "显示环境变量PWD的值，甚至它包含符号链接"
 
 #. type: TP
 #: pwd.1:15
 #, no-wrap
 msgid "B<-P>, B<--physical>"
-msgstr "B<-P>, B<--physical 物理>"
+msgstr "B<-P>, B<--physical>"
 
 #. type: Plain text
 #: pwd.1:18
 msgid "avoid all symlinks"
-msgstr "忽略符号链接，如果当前路径是符号链接，打印物理路径"
+msgstr "忽略全部的符号链接"
 
 #. type: TP
 #: pwd.1:18
@@ -120,8 +119,13 @@ msgstr "输入版本信息并退出"
 
 #. type: Plain text
 #: pwd.1:28
-msgid "NOTE: your shell may have its own version of pwd, which usually supersedes the version described here.  Please refer to your shell's documentation for details about the options it supports."
-msgstr "注意：你的shell也许有自己的pwd版本，他们通常会取代这个介绍的版本。请参考你的shell提供的文献，获得关于它对于这个命令支持的更多细节。"
+msgid ""
+"NOTE: your shell may have its own version of pwd, which usually supersedes "
+"the version described here.  Please refer to your shell's documentation for "
+"details about the options it supports."
+msgstr ""
+"注意： 你的 shell 也许有自己版本的 pwd 命令， 他们通常会取代这里描述的版本。 "
+"请参考你的 shell 提供的文档来了解它所支持的选项的细节。"
 
 #. type: SH
 #: pwd.1:28
@@ -132,7 +136,7 @@ msgstr "作者"
 #. type: Plain text
 #: pwd.1:30
 msgid "Written by Jim Meyering."
-msgstr "Jim Meyering 编写"
+msgstr "由 Jim Meyering 撰写"
 
 #. type: SH
 #: pwd.1:30
@@ -143,22 +147,24 @@ msgstr "报告错误"
 #. type: Plain text
 #: pwd.1:32
 msgid "Report pwd bugs to bug-coreutils@gnu.org"
-msgstr "报告pwd的错误：bug-coreutils@gnu.org"
+msgstr "发送错误信息到： bug-coreutils@gnu.org"
 
 #. type: Plain text
 #: pwd.1:34
-msgid "GNU coreutils home page: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
-msgstr "GNU coreutils 主页地址: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+msgid ""
+"GNU coreutils home page: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+msgstr "GNU coreutils 主页：  E<lt>http://www.gnu.org/software/coreutils/E<gt>"
 
 #. type: Plain text
 #: pwd.1:36
 msgid "General help using GNU software: E<lt>http://www.gnu.org/gethelp/E<gt>"
-msgstr "主帮助使用GNU软件: E<lt>http://www.gnu.org/gethelp/E<gt>"
+msgstr "使用GNU软件的常规帮助： E<lt>http://www.gnu.org/gethelp/E<gt>"
 
 #. type: Plain text
 #: pwd.1:38
-msgid "Report pwd translation bugs to E<lt>http://translationproject.org/team/E<gt>"
-msgstr "报告 pwd 翻译错误： E<lt>http://translationproject.org/team/E<gt>"
+msgid ""
+"Report pwd translation bugs to E<lt>http://github.com/LCTT/man-pages/E<gt>"
+msgstr "发送翻译错误到 E<lt>http://github.com/LCTT/man-pages/E<gt>"
 
 #. type: SH
 #: pwd.1:38
@@ -168,19 +174,27 @@ msgstr "版权"
 
 #. type: Plain text
 #: pwd.1:41
-msgid "Copyright \\(co 2013 Free Software Foundation, Inc.  License GPLv3+: GNU GPL version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
-msgstr "版权所有 \\(co 2013 自由软件基金会, Inc.  许可证 GPLv3+: GNU GPL 版本 3 或者 更高 E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
+msgid ""
+"Copyright \\(co 2013 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
+msgstr ""
+"Copyright \\(co 2013 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
 
 #. type: Plain text
 #: pwd.1:44
-msgid "This is free software: you are free to change and redistribute it.  There is NO WARRANTY, to the extent permitted by law."
-msgstr "这是一个自由软件：你可以自由得更改和重新发布它。在法律允许范围内，没有任何授权。"
+msgid ""
+"This is free software: you are free to change and redistribute it.  There is "
+"NO WARRANTY, to the extent permitted by law."
+msgstr ""
+"这是一个自由软件： 你可以自由修改和重新发布它。 在法律允许的范围内， 不提供任"
+"何担保"
 
 #. type: SH
 #: pwd.1:44
 #, no-wrap
 msgid "SEE ALSO"
-msgstr "另请参见"
+msgstr "请参阅"
 
 #. type: Plain text
 #: pwd.1:46
@@ -189,8 +203,12 @@ msgstr "getcwd(3)"
 
 #. type: Plain text
 #: pwd.1:54
-msgid "The full documentation for B<pwd> is maintained as a Texinfo manual.  If the B<info> and B<pwd> programs are properly installed at your site, the command"
-msgstr " B<pwd>的完整文档已经包含在Texinfo使用手册里.  如果B<info> 和B<pwd> 已经正确的安装在你的页面上, 这个命令"
+msgid ""
+"The full documentation for B<pwd> is maintained as a Texinfo manual.  If the "
+"B<info> and B<pwd> programs are properly installed at your site, the command"
+msgstr ""
+"B<pwd> 的完整文档使用 Texinfo 手册进行维护。如果 B<info> 和 B<pwd> 程序已经正"
+"确地安装在了你的电脑上， 通过下述命令"
 
 #. type: Plain text
 #: pwd.1:56
@@ -198,7 +216,74 @@ msgid "B<info coreutils \\(aqpwd invocation\\(aq>"
 msgstr "B<info coreutils \\(aqpwd invocation\\(aq>"
 
 #. type: Plain text
-#: pwd.1:57
+#: pwd.1:58
 msgid "should give you access to the complete manual."
-msgstr "将会给你完整的使用手册。"
+msgstr "可以访问完整的使用手册"
 
+#. type: SH
+#: pwd.1:58
+#, no-wrap
+msgid "翻译信息"
+msgstr "翻译信息"
+
+#. type: SS
+#: pwd.1:59
+#, no-wrap
+msgid "翻译维护人"
+msgstr "翻译维护人"
+
+#. type: Plain text
+#: pwd.1:61
+msgid "译者："
+msgstr "译者："
+
+#. type: Plain text
+#: pwd.1:63
+msgid ""
+"此处为译者信息， 格式为： 译者名 B<E<lt>译者邮件@地址E<gt>>， 译者名 B<E<lt>"
+"译者邮件@地址E<gt>>"
+msgstr "Vic___"
+
+#. type: Plain text
+#: pwd.1:65
+msgid "校对："
+msgstr "校对："
+
+#. type: Plain text
+#: pwd.1:67
+msgid ""
+"此处为校对者信息， 格式为： 校对者名 B<E<lt>校对者邮件@地址E<gt>>， 校对者名 "
+"B<E<lt>校对者邮件@地址E<gt>>"
+msgstr "wxy B<E<lt>xingyu.wang@gmail.comE<gt>>"
+
+#. type: SS
+#: pwd.1:68
+#, no-wrap
+msgid "翻译更新日期"
+msgstr "翻译更新日期"
+
+#. type: Plain text
+#: pwd.1:70
+msgid "此处为最后更新日期， 格式为： 2013.10.20"
+msgstr "2013.10.22"
+
+#. type: SS
+#: pwd.1:70
+#, no-wrap
+msgid "翻译组"
+msgstr "翻译组"
+
+#. type: Plain text
+#: pwd.1:72
+msgid "man翻译项目 ： B<http://github.com/LCTT/man-pages/>"
+msgstr "man翻译项目 ： B<http://github.com/LCTT/man-pages/>"
+
+#. type: Plain text
+#: pwd.1:74
+msgid "翻译组 ： B<http://lctt.github.io/ E<lt>lctt@linux.cnE<gt>>"
+msgstr "翻译组 ： B<http://lctt.github.io/ E<lt>lctt@linux.cnE<gt>>"
+
+#. type: Plain text
+#: pwd.1:75
+msgid "Linux中国 ： B<http://linux.cn/>"
+msgstr "Linux中国 ： B<http://linux.cn/>"
