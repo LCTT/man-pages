@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: LCTT man-pages coreutils-8.21\n"
-"POT-Creation-Date: 2013-10-19 17:34+0800\n"
+"POT-Creation-Date: 2013-10-22 08:51+0800\n"
 "PO-Revision-Date: 2013-10-19 17:50+0800\n"
 "Last-Translator: LCTT <lctt@linux.cn>\n"
 "Language-Team: LCTT <lctt@linux.cn>\n"
@@ -70,7 +70,8 @@ msgstr ""
 
 #. type: Plain text
 #: touch.1:12
-msgid "Update the access and modification times of each FILE to the current time."
+msgid ""
+"Update the access and modification times of each FILE to the current time."
 msgstr ""
 
 #. type: Plain text
@@ -89,7 +90,8 @@ msgstr ""
 
 #. type: Plain text
 #: touch.1:20
-msgid "Mandatory arguments to long options are mandatory for short options too."
+msgid ""
+"Mandatory arguments to long options are mandatory for short options too."
 msgstr ""
 
 #. type: TP
@@ -191,8 +193,8 @@ msgstr ""
 #. type: Plain text
 #: touch.1:51
 msgid ""
-"change the specified time: WORD is access, atime, or use: equivalent to "
-"B<-a> WORD is modify or mtime: equivalent to B<-m>"
+"change the specified time: WORD is access, atime, or use: equivalent to B<-"
+"a> WORD is modify or mtime: equivalent to B<-m>"
 msgstr ""
 
 #. type: TP
@@ -219,7 +221,8 @@ msgstr ""
 
 #. type: Plain text
 #: touch.1:59
-msgid "Note that the B<-d> and B<-t> options accept different time-date formats."
+msgid ""
+"Note that the B<-d> and B<-t> options accept different time-date formats."
 msgstr ""
 
 #. type: SH
@@ -267,7 +270,8 @@ msgstr ""
 
 #. type: Plain text
 #: touch.1:75
-msgid "GNU coreutils home page: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+msgid ""
+"GNU coreutils home page: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
 msgstr ""
 
 #. type: Plain text
@@ -278,8 +282,7 @@ msgstr ""
 #. type: Plain text
 #: touch.1:79
 msgid ""
-"Report touch translation bugs to "
-"E<lt>http://translationproject.org/team/E<gt>"
+"Report touch translation bugs to E<lt>http://github.com/LCTT/man-pages/E<gt>"
 msgstr ""
 
 #. type: SH
@@ -322,6 +325,74 @@ msgid "B<info coreutils \\(aqtouch invocation\\(aq>"
 msgstr ""
 
 #. type: Plain text
-#: touch.1:96
+#: touch.1:97
 msgid "should give you access to the complete manual."
+msgstr ""
+
+#. type: SH
+#: touch.1:97
+#, no-wrap
+msgid "翻译信息"
+msgstr ""
+
+#. type: SS
+#: touch.1:98
+#, no-wrap
+msgid "翻译维护人"
+msgstr ""
+
+#. type: Plain text
+#: touch.1:100
+msgid "译者："
+msgstr ""
+
+#. type: Plain text
+#: touch.1:102
+msgid ""
+"此处为译者信息， 格式为： 译者名 B<E<lt>译者邮件@地址E<gt>>， 译者名 B<E<lt>"
+"译者邮件@地址E<gt>>"
+msgstr ""
+
+#. type: Plain text
+#: touch.1:104
+msgid "校对："
+msgstr ""
+
+#. type: Plain text
+#: touch.1:106
+msgid ""
+"此处为校对者信息， 格式为： 校对者名 B<E<lt>校对者邮件@地址E<gt>>， 校对者名 "
+"B<E<lt>校对者邮件@地址E<gt>>"
+msgstr ""
+
+#. type: SS
+#: touch.1:107
+#, no-wrap
+msgid "翻译更新日期"
+msgstr ""
+
+#. type: Plain text
+#: touch.1:109
+msgid "此处为最后更新日期， 格式为： 2013.10.20"
+msgstr ""
+
+#. type: SS
+#: touch.1:109
+#, no-wrap
+msgid "翻译组"
+msgstr ""
+
+#. type: Plain text
+#: touch.1:111
+msgid "man翻译项目 ： B<http://github.com/LCTT/man-pages/>"
+msgstr ""
+
+#. type: Plain text
+#: touch.1:113
+msgid "翻译组 ： B<http://lctt.github.io/ E<lt>lctt@linux.cnE<gt>>"
+msgstr ""
+
+#. type: Plain text
+#: touch.1:114
+msgid "Linux中国 ： B<http://linux.cn/>"
 msgstr ""

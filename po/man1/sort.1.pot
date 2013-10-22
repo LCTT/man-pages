@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: LCTT man-pages coreutils-8.21\n"
-"POT-Creation-Date: 2013-10-19 17:34+0800\n"
+"POT-Creation-Date: 2013-10-22 08:51+0800\n"
 "PO-Revision-Date: 2013-10-19 17:50+0800\n"
 "Last-Translator: LCTT <lctt@linux.cn>\n"
 "Language-Team: LCTT <lctt@linux.cn>\n"
@@ -215,8 +215,8 @@ msgstr ""
 #. type: Plain text
 #: sort.1:56
 msgid ""
-"sort according to WORD: general-numeric B<-g>, human-numeric B<-h>, month "
-"B<-M>, numeric B<-n>, random B<-R>, version B<-V>"
+"sort according to WORD: general-numeric B<-g>, human-numeric B<-h>, month B<-"
+"M>, numeric B<-n>, random B<-R>, version B<-V>"
 msgstr ""
 
 #. type: TP
@@ -446,11 +446,11 @@ msgstr ""
 msgid ""
 "KEYDEF is F[.C][OPTS][,F[.C][OPTS]] for start and stop position, where F is "
 "a field number and C a character position in the field; both are origin 1, "
-"and the stop position defaults to the line's end.  If neither B<-t> nor "
-"B<-b> is in effect, characters in a field are counted from the beginning of "
-"the preceding whitespace.  OPTS is one or more single-letter ordering "
-"options [bdfgiMhnRrV], which override global ordering options for that key.  "
-"If no key is given, use the entire line as the key."
+"and the stop position defaults to the line's end.  If neither B<-t> nor B<-"
+"b> is in effect, characters in a field are counted from the beginning of the "
+"preceding whitespace.  OPTS is one or more single-letter ordering options "
+"[bdfgiMhnRrV], which override global ordering options for that key.  If no "
+"key is given, use the entire line as the key."
 msgstr ""
 
 #. type: Plain text
@@ -496,7 +496,8 @@ msgstr ""
 
 #. type: Plain text
 #: sort.1:146
-msgid "GNU coreutils home page: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+msgid ""
+"GNU coreutils home page: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
 msgstr ""
 
 #. type: Plain text
@@ -507,8 +508,7 @@ msgstr ""
 #. type: Plain text
 #: sort.1:150
 msgid ""
-"Report sort translation bugs to "
-"E<lt>http://translationproject.org/team/E<gt>"
+"Report sort translation bugs to E<lt>http://github.com/LCTT/man-pages/E<gt>"
 msgstr ""
 
 #. type: SH
@@ -556,6 +556,74 @@ msgid "B<info coreutils \\(aqsort invocation\\(aq>"
 msgstr ""
 
 #. type: Plain text
-#: sort.1:169
+#: sort.1:170
 msgid "should give you access to the complete manual."
+msgstr ""
+
+#. type: SH
+#: sort.1:170
+#, no-wrap
+msgid "翻译信息"
+msgstr ""
+
+#. type: SS
+#: sort.1:171
+#, no-wrap
+msgid "翻译维护人"
+msgstr ""
+
+#. type: Plain text
+#: sort.1:173
+msgid "译者："
+msgstr ""
+
+#. type: Plain text
+#: sort.1:175
+msgid ""
+"此处为译者信息， 格式为： 译者名 B<E<lt>译者邮件@地址E<gt>>， 译者名 B<E<lt>"
+"译者邮件@地址E<gt>>"
+msgstr ""
+
+#. type: Plain text
+#: sort.1:177
+msgid "校对："
+msgstr ""
+
+#. type: Plain text
+#: sort.1:179
+msgid ""
+"此处为校对者信息， 格式为： 校对者名 B<E<lt>校对者邮件@地址E<gt>>， 校对者名 "
+"B<E<lt>校对者邮件@地址E<gt>>"
+msgstr ""
+
+#. type: SS
+#: sort.1:180
+#, no-wrap
+msgid "翻译更新日期"
+msgstr ""
+
+#. type: Plain text
+#: sort.1:182
+msgid "此处为最后更新日期， 格式为： 2013.10.20"
+msgstr ""
+
+#. type: SS
+#: sort.1:182
+#, no-wrap
+msgid "翻译组"
+msgstr ""
+
+#. type: Plain text
+#: sort.1:184
+msgid "man翻译项目 ： B<http://github.com/LCTT/man-pages/>"
+msgstr ""
+
+#. type: Plain text
+#: sort.1:186
+msgid "翻译组 ： B<http://lctt.github.io/ E<lt>lctt@linux.cnE<gt>>"
+msgstr ""
+
+#. type: Plain text
+#: sort.1:187
+msgid "Linux中国 ： B<http://linux.cn/>"
 msgstr ""

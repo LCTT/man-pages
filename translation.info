@@ -1,0 +1,35 @@
+### POT头
+# LCTT man-pages Translate Project
+# Copyright (C) 2013 LCTT
+# This file is distributed under the same license as the PACKAGE package.
+# LCTT <lctt@linux.cn>, 2013.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: LCTT man-pages coreutils-8.21\n"
+"POT-Creation-Date: 2013-10-20 00:00+0800\n"
+"PO-Revision-Date: 2013-10-20 00:00+0800\n"
+"Last-Translator: LCTT <lctt@linux.cn>\n"
+"Language-Team: LCTT <lctt@linux.cn>\n"
+"Language: zh_CN.UTF-8\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+
+
+### 页尾翻译信息
+.SH "翻译信息"
+.SS "翻译维护人"
+此处为译者信息，格式为：译者名 \fB<译者邮件@地址>\fP，译者名 \fB<译者邮件@地址>\fP
+.br
+此外为校对者信息，格式为：校对者名 \fB<校对者邮件@地址>\fP，校对者名 \fB<校对者邮件@地址>\fP
+.br
+.SS "翻译更新日期"
+此处为最后更新日期，格式为：2013.10.20
+.SS "翻译组"
+man翻译项目 ：\fBhttp://github.com/LCTT/man-pages/\fP
+.br
+翻译组      ：\fBhttp://lctt.github.io/  <lctt@linux.cn>\fP
+.br
+Linux中国   ：\fBhttp://linux.cn/\fP

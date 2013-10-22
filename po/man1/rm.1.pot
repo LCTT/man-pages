@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: LCTT man-pages coreutils-8.21\n"
-"POT-Creation-Date: 2013-10-19 17:34+0800\n"
+"POT-Creation-Date: 2013-10-22 08:51+0800\n"
 "PO-Revision-Date: 2013-10-19 17:50+0800\n"
 "Last-Translator: LCTT <lctt@linux.cn>\n"
 "Language-Team: LCTT <lctt@linux.cn>\n"
@@ -87,11 +87,10 @@ msgstr ""
 #. type: Plain text
 #: rm.1:29
 msgid ""
-"Otherwise, if a file is unwritable, standard input is a terminal, and the "
-"I<-f> or I<--force> option is not given, or the I<-i> or "
-"I<--interactive\\=always> option is given, B<rm> prompts the user for "
-"whether to remove the file.  If the response is not affirmative, the file is "
-"skipped."
+"Otherwise, if a file is unwritable, standard input is a terminal, and the I<-"
+"f> or I<--force> option is not given, or the I<-i> or I<--interactive"
+"\\=always> option is given, B<rm> prompts the user for whether to remove the "
+"file.  If the response is not affirmative, the file is skipped."
 msgstr ""
 
 #. type: SH
@@ -303,7 +302,8 @@ msgstr ""
 
 #. type: Plain text
 #: rm.1:94
-msgid "GNU coreutils home page: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+msgid ""
+"GNU coreutils home page: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
 msgstr ""
 
 #. type: Plain text
@@ -313,7 +313,8 @@ msgstr ""
 
 #. type: Plain text
 #: rm.1:98
-msgid "Report rm translation bugs to E<lt>http://translationproject.org/team/E<gt>"
+msgid ""
+"Report rm translation bugs to E<lt>http://github.com/LCTT/man-pages/E<gt>"
 msgstr ""
 
 #. type: SH
@@ -360,6 +361,74 @@ msgid "B<info coreutils \\(aqrm invocation\\(aq>"
 msgstr ""
 
 #. type: Plain text
-#: rm.1:117
+#: rm.1:118
 msgid "should give you access to the complete manual."
+msgstr ""
+
+#. type: SH
+#: rm.1:118
+#, no-wrap
+msgid "翻译信息"
+msgstr ""
+
+#. type: SS
+#: rm.1:119
+#, no-wrap
+msgid "翻译维护人"
+msgstr ""
+
+#. type: Plain text
+#: rm.1:121
+msgid "译者："
+msgstr ""
+
+#. type: Plain text
+#: rm.1:123
+msgid ""
+"此处为译者信息， 格式为： 译者名 B<E<lt>译者邮件@地址E<gt>>， 译者名 B<E<lt>"
+"译者邮件@地址E<gt>>"
+msgstr ""
+
+#. type: Plain text
+#: rm.1:125
+msgid "校对："
+msgstr ""
+
+#. type: Plain text
+#: rm.1:127
+msgid ""
+"此处为校对者信息， 格式为： 校对者名 B<E<lt>校对者邮件@地址E<gt>>， 校对者名 "
+"B<E<lt>校对者邮件@地址E<gt>>"
+msgstr ""
+
+#. type: SS
+#: rm.1:128
+#, no-wrap
+msgid "翻译更新日期"
+msgstr ""
+
+#. type: Plain text
+#: rm.1:130
+msgid "此处为最后更新日期， 格式为： 2013.10.20"
+msgstr ""
+
+#. type: SS
+#: rm.1:130
+#, no-wrap
+msgid "翻译组"
+msgstr ""
+
+#. type: Plain text
+#: rm.1:132
+msgid "man翻译项目 ： B<http://github.com/LCTT/man-pages/>"
+msgstr ""
+
+#. type: Plain text
+#: rm.1:134
+msgid "翻译组 ： B<http://lctt.github.io/ E<lt>lctt@linux.cnE<gt>>"
+msgstr ""
+
+#. type: Plain text
+#: rm.1:135
+msgid "Linux中国 ： B<http://linux.cn/>"
 msgstr ""

@@ -1,0 +1,1013 @@
+# LCTT man-pages Translate Project
+# Copyright (C) 2013 LCTT
+# This file is distributed under the same license as the PACKAGE package.
+# LCTT <lctt@linux.cn>, 2013.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: LCTT man-pages coreutils-8.21\n"
+"POT-Creation-Date: 2013-10-22 08:51+0800\n"
+"PO-Revision-Date: 2013-10-22 20:03+0800\n"
+"Last-Translator: wxy <xingyu.wang@gmail.com>\n"
+"Language-Team: LCTT <lctt@linux.cn>\n"
+"Language: zh_CN.UTF-8\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+
+#. type: TH
+#: ls.1:2
+#, no-wrap
+msgid "LS"
+msgstr "LS"
+
+#. type: TH
+#: ls.1:2
+#, no-wrap
+msgid "October 2013"
+msgstr "2013年10月"
+
+#. type: TH
+#: ls.1:2
+#, no-wrap
+msgid "GNU coreutils 8.21"
+msgstr "GNU coreutils 8.21"
+
+#. type: TH
+#: ls.1:2
+#, no-wrap
+msgid "User Commands"
+msgstr "用户命令"
+
+#. type: SH
+#: ls.1:3
+#, no-wrap
+msgid "NAME"
+msgstr "名称"
+
+#. type: Plain text
+#: ls.1:5
+msgid "ls - list directory contents"
+msgstr "ls - 列出目录内容"
+
+#. type: SH
+#: ls.1:5
+#, no-wrap
+msgid "SYNOPSIS"
+msgstr "摘要"
+
+#. type: Plain text
+#: ls.1:8
+msgid "B<ls> [I<OPTION>]... [I<FILE>]..."
+msgstr "B<ls> [I<选项>]… [I<文件>]…"
+
+#. type: SH
+#: ls.1:8
+#, no-wrap
+msgid "DESCRIPTION"
+msgstr "描述"
+
+#. type: Plain text
+#: ls.1:13
+msgid ""
+"List information about the FILEs (the current directory by default).  Sort "
+"entries alphabetically if none of B<-cftuvSUX> nor B<--sort> is specified."
+msgstr ""
+"列出文件信息 （默认是当前目录）。  如果没有指定 B<-cftuvSUX> 或 B<--sort> 选"
+"项， 以字母顺序排序。 "
+
+#. type: Plain text
+#: ls.1:15
+msgid ""
+"Mandatory arguments to long options are mandatory for short options too."
+msgstr "强制性的长选项在使用对应的短选项时也是强制要求的。 "
+
+#. type: TP
+#: ls.1:15
+#, no-wrap
+msgid "B<-a>, B<--all>"
+msgstr "B<-a>, B<--all>"
+
+#. type: Plain text
+#: ls.1:18
+msgid "do not ignore entries starting with ."
+msgstr "不要隐藏以“.”开头的文件"
+
+#. type: TP
+#: ls.1:18
+#, no-wrap
+msgid "B<-A>, B<--almost-all>"
+msgstr "B<-A>, B<--almost-all>"
+
+#. type: Plain text
+#: ls.1:21
+msgid "do not list implied . and .."
+msgstr "不要列出“.”和“..”"
+
+#. type: TP
+#: ls.1:21
+#, no-wrap
+msgid "B<--author>"
+msgstr "B<--author>"
+
+#. type: Plain text
+#: ls.1:24
+msgid "with B<-l>, print the author of each file"
+msgstr "配合B<-l>使用， 显示每个文件的作者"
+
+#. type: TP
+#: ls.1:24
+#, no-wrap
+msgid "B<-b>, B<--escape>"
+msgstr "B<-b>, B<--escape>"
+
+#. type: Plain text
+#: ls.1:27
+msgid "print C-style escapes for nongraphic characters"
+msgstr "用C语言风格的转义符号显示不可见字符"
+
+#. type: TP
+#: ls.1:27
+#, no-wrap
+msgid "B<--block-size>=I<SIZE>"
+msgstr "B<--block-size>=I<块大小>"
+
+#. type: Plain text
+#: ls.1:32
+msgid ""
+"scale sizes by SIZE before printing them.  E.g., \\&'--block-size=M' prints "
+"sizes in units of 1,048,576 bytes.  See SIZE format below."
+msgstr ""
+"使用“块”数来显示文件大小。 例如， \\&'--block-size=M' 以1,048,576字节为块的大"
+"小来显示文件大小。 参见下面的块格式描述。 "
+
+#. type: TP
+#: ls.1:32
+#, no-wrap
+msgid "B<-B>, B<--ignore-backups>"
+msgstr "B<-B>, B<--ignore-backups>"
+
+#. type: Plain text
+#: ls.1:35
+msgid "do not list implied entries ending with ~"
+msgstr "不要列出以“~”结尾的文件 （译注：惯例上备份文件以“~”结尾）"
+
+#. type: TP
+#: ls.1:35
+#, no-wrap
+msgid "B<-c>"
+msgstr "B<-c>"
+
+#. type: Plain text
+#: ls.1:41
+msgid ""
+"with B<-lt>: sort by, and show, ctime (time of last modification of file "
+"status information)  with B<-l>: show ctime and sort by name otherwise: sort "
+"by ctime, newest first"
+msgstr ""
+"配合 B<-lt> 使用：显示 ctime 并按照 ctime 排序 （ ctime 是文件状态信息中的最"
+"后修改时间）； 配合 B<-l> 使用：显示 ctime 并按照文件名排序； 不配合上述参数"
+"使用：按照 ctime 排序， 最新的排前面"
+
+#. type: TP
+#: ls.1:41
+#, no-wrap
+msgid "B<-C>"
+msgstr "B<-C>"
+
+#. type: Plain text
+#: ls.1:44
+msgid "list entries by columns"
+msgstr "按列显示"
+
+#. type: TP
+#: ls.1:44
+#, no-wrap
+msgid "B<--color>[=I<WHEN>]"
+msgstr "B<--color>[=I<条件>]"
+
+#. type: Plain text
+#: ls.1:48
+msgid ""
+"colorize the output.  WHEN defaults to 'always' or can be 'never' or "
+"'auto'.  More info below"
+msgstr ""
+"彩色显示， 条件默认是 'always' ， 也可以设置为 'never' 或 'auto' ， 请参见下"
+"面的信息"
+
+#. type: TP
+#: ls.1:48
+#, no-wrap
+msgid "B<-d>, B<--directory>"
+msgstr "B<-d>, B<--directory>"
+
+#. type: Plain text
+#: ls.1:52
+msgid ""
+"list directory entries instead of contents, and do not dereference symbolic "
+"links"
+msgstr "仅列出目录本身而不是目录内容， 而且不要解析符号链接"
+
+#. type: TP
+#: ls.1:52
+#, no-wrap
+msgid "B<-D>, B<--dired>"
+msgstr "B<-D>, B<--dired>"
+
+#. type: Plain text
+#: ls.1:55
+msgid "generate output designed for Emacs' dired mode"
+msgstr "生成为 Emacs 的 dired 模式而设计的输出"
+
+#. type: TP
+#: ls.1:55
+#, no-wrap
+msgid "B<-f>"
+msgstr "B<-f>"
+
+#. type: Plain text
+#: ls.1:58
+msgid "do not sort, enable B<-aU>, disable B<-ls> B<--color>"
+msgstr "不排序， 同时打开 B<-aU> 选项， 并关闭 B<-ls> B<--color> 选项"
+
+#. type: TP
+#: ls.1:58
+#, no-wrap
+msgid "B<-F>, B<--classify>"
+msgstr "B<-F>, B<--classify>"
+
+#. type: Plain text
+#: ls.1:61
+msgid "append indicator (one of */=E<gt>@|) to entries"
+msgstr "在列出项后面添加指示符 （以下之一： */=E<gt>@| ）"
+
+#. type: TP
+#: ls.1:61
+#, no-wrap
+msgid "B<--file-type>"
+msgstr "B<--file-type>"
+
+#. type: Plain text
+#: ls.1:64
+msgid "likewise, except do not append '*'"
+msgstr "同上面的选项一样， 只是不添加'*'指示符"
+
+#. type: TP
+#: ls.1:64
+#, no-wrap
+msgid "B<--format>=I<WORD>"
+msgstr "B<--format>=I<格式>"
+
+#. type: Plain text
+#: ls.1:68
+msgid ""
+"across B<-x>, commas B<-m>, horizontal B<-x>, long B<-l>, single-column "
+"B<-1>, verbose B<-l>, vertical B<-C>"
+msgstr ""
+"支持的格式及其等同的参数：across B<-x>，  commas B<-m>，  horizontal B<-"
+"x>，  long B<-l>，  single-column B<-1>，  verbose B<-l>，  vertical B<-C>"
+
+#. type: TP
+#: ls.1:68
+#, no-wrap
+msgid "B<--full-time>"
+msgstr "B<--full-time>"
+
+#. type: Plain text
+#: ls.1:71
+msgid "like B<-l> B<--time-style>=I<full-iso>"
+msgstr "等同于 B<-l> B<--time-style>=I<full-iso>"
+
+#. type: TP
+#: ls.1:71
+#, no-wrap
+msgid "B<-g>"
+msgstr "B<-g>"
+
+#. type: Plain text
+#: ls.1:74
+msgid "like B<-l>, but do not list owner"
+msgstr "类似 B<-l>， 但是不列出文件属主"
+
+#. type: TP
+#: ls.1:74
+#, no-wrap
+msgid "B<--group-directories-first>"
+msgstr "B<--group-directories-first>"
+
+#. type: Plain text
+#: ls.1:77
+msgid "group directories before files."
+msgstr "目录项都优先列出在文件之前"
+
+#. type: Plain text
+#: ls.1:80
+msgid ""
+"augment with a B<--sort> option, but any use of B<--sort>=I<none> (B<-U>) "
+"disables grouping"
+msgstr ""
+"可以配合 B<--sort> 选项使用， 但是使用 B<--sort>=I<none>  （或 B<-U> ）时会导"
+"致目录优先无效"
+
+#. type: TP
+#: ls.1:80
+#, no-wrap
+msgid "B<-G>, B<--no-group>"
+msgstr "B<-G>, B<--no-group>"
+
+#. type: Plain text
+#: ls.1:83
+msgid "in a long listing, don't print group names"
+msgstr "在长列表方式下， 不显示文件所属群组"
+
+#. type: TP
+#: ls.1:83
+#, no-wrap
+msgid "B<-h>, B<--human-readable>"
+msgstr "B<-h>, B<--human-readable>"
+
+#. type: Plain text
+#: ls.1:87
+msgid "with B<-l>, print sizes in human readable format (e.g., 1K 234M 2G)"
+msgstr "配合 B<-l> 使用， 带单位显示文件大小（例如：1K、234M、 2G等）"
+
+#. type: TP
+#: ls.1:87
+#, no-wrap
+msgid "B<--si>"
+msgstr "B<--si>"
+
+#. type: Plain text
+#: ls.1:90
+msgid "likewise, but use powers of 1000 not 1024"
+msgstr "同上， 但是使用1000作为倍率， 而不是1024"
+
+#. type: TP
+#: ls.1:90
+#, no-wrap
+msgid "B<-H>, B<--dereference-command-line>"
+msgstr "B<-H>, B<--dereference-command-line>"
+
+#. type: Plain text
+#: ls.1:93
+msgid "follow symbolic links listed on the command line"
+msgstr "显示命令行列出的符号链接所指向的目标信息 （译注：包括文件或目录）"
+
+#. type: TP
+#: ls.1:93
+#, no-wrap
+msgid "B<--dereference-command-line-symlink-to-dir>"
+msgstr "B<--dereference-command-line-symlink-to-dir>"
+
+#. type: Plain text
+#: ls.1:97
+msgid "follow each command line symbolic link that points to a directory"
+msgstr ""
+"显示命令行列出的指向目录的符号链接的目录内容 （译注：否则会只列该符号链接本"
+"身）"
+
+#. type: TP
+#: ls.1:97
+#, no-wrap
+msgid "B<--hide>=I<PATTERN>"
+msgstr "B<--hide>=I<匹配模式>"
+
+#. type: Plain text
+#: ls.1:101
+msgid ""
+"do not list implied entries matching shell PATTERN (overridden by B<-a> or "
+"B<-A>)"
+msgstr "不列出指定的shell匹配模式所匹配的项（会被 B<-a> 或 B<-A> 选项覆盖）"
+
+#. type: TP
+#: ls.1:101
+#, no-wrap
+msgid "B<--indicator-style>=I<WORD>"
+msgstr "B<--indicator-style>=I<风格>"
+
+#. type: Plain text
+#: ls.1:106
+msgid ""
+"append indicator with style WORD to entry names: none (default), slash (B<-"
+"p>), file-type (B<--file-type>), classify (B<-F>)"
+msgstr ""
+"指定显示项后附加指示符的风格： none （默认）、 slash （相当于 B<-p> 选项）、 "
+"file-type （相当于 B<--file-type> 选项）和 classify （相当于 B<-F> 选项）"
+
+#. type: TP
+#: ls.1:106
+#, no-wrap
+msgid "B<-i>, B<--inode>"
+msgstr "B<-i>, B<--inode>"
+
+#. type: Plain text
+#: ls.1:109
+msgid "print the index number of each file"
+msgstr "显示每个文件的 Inode 索引号"
+
+#. type: TP
+#: ls.1:109
+#, no-wrap
+msgid "B<-I>, B<--ignore>=I<PATTERN>"
+msgstr "B<-I>, B<--ignore>=I<匹配模式>"
+
+#. type: Plain text
+#: ls.1:112
+msgid "do not list implied entries matching shell PATTERN"
+msgstr ""
+"不列出指定的 shell 匹配模式所匹配的项 （译注：不会被 B<-a> 或 B<-A> 选项覆"
+"盖）"
+
+#. type: TP
+#: ls.1:112
+#, no-wrap
+msgid "B<-k>, B<--kibibytes>"
+msgstr "B<-k>, B<--kibibytes>"
+
+#. type: Plain text
+#: ls.1:115
+msgid "use 1024-byte blocks"
+msgstr "以1024字节作为块大小进行计算"
+
+#. type: TP
+#: ls.1:115
+#, no-wrap
+msgid "B<-l>"
+msgstr "B<-l>"
+
+#. type: Plain text
+#: ls.1:118
+msgid "use a long listing format"
+msgstr "使用长列表格式"
+
+#. type: TP
+#: ls.1:118
+#, no-wrap
+msgid "B<-L>, B<--dereference>"
+msgstr "B<-L>, B<--dereference>"
+
+#. type: Plain text
+#: ls.1:123
+msgid ""
+"when showing file information for a symbolic link, show information for the "
+"file the link references rather than for the link itself"
+msgstr ""
+"当显示一个符号链接时， 显示该符号链接所指向的文件的信息而不是显示符号链接本身"
+
+#. type: TP
+#: ls.1:123
+#, no-wrap
+msgid "B<-m>"
+msgstr "B<-m>"
+
+#. type: Plain text
+#: ls.1:126
+msgid "fill width with a comma separated list of entries"
+msgstr "使用逗号来分隔列出项"
+
+#. type: TP
+#: ls.1:126
+#, no-wrap
+msgid "B<-n>, B<--numeric-uid-gid>"
+msgstr "B<-n>, B<--numeric-uid-gid>"
+
+#. type: Plain text
+#: ls.1:129
+msgid "like B<-l>, but list numeric user and group IDs"
+msgstr "类似 B<-l>， 但是列出属主和所属群组的ID"
+
+#. type: TP
+#: ls.1:129
+#, no-wrap
+msgid "B<-N>, B<--literal>"
+msgstr "B<-N>, B<--literal>"
+
+#. type: Plain text
+#: ls.1:133
+msgid "print raw entry names (don't treat e.g. control characters specially)"
+msgstr "显示原始字符的名称（不对特殊的控制字符进行处理）"
+
+#. type: TP
+#: ls.1:133
+#, no-wrap
+msgid "B<-o>"
+msgstr "B<-o>"
+
+#. type: Plain text
+#: ls.1:136
+msgid "like B<-l>, but do not list group information"
+msgstr "类似 B<-l>， 但是不列出所属群组信息"
+
+#. type: TP
+#: ls.1:136
+#, no-wrap
+msgid "B<-p>, B<--indicator-style>=I<slash>"
+msgstr "B<-p>, B<--indicator-style>=I<slash>"
+
+#. type: Plain text
+#: ls.1:139
+msgid "append / indicator to directories"
+msgstr "在目录项后面添加“/”指示符"
+
+#. type: TP
+#: ls.1:139
+#, no-wrap
+msgid "B<-q>, B<--hide-control-chars>"
+msgstr "B<-q>, B<--hide-control-chars>"
+
+#. type: Plain text
+#: ls.1:142
+msgid "print ? instead of non graphic characters"
+msgstr "不可见字符使用“?”替代"
+
+#. type: TP
+#: ls.1:142
+#, no-wrap
+msgid "B<--show-control-chars>"
+msgstr "B<--show-control-chars>"
+
+#. type: Plain text
+#: ls.1:146
+msgid ""
+"show non graphic characters as-is (default unless program is 'ls' and output "
+"is a terminal)"
+msgstr "直接显示不可见字符 （默认除非程序是 ls， 且输出中止）"
+
+#. type: TP
+#: ls.1:146
+#, no-wrap
+msgid "B<-Q>, B<--quote-name>"
+msgstr "B<-Q>, B<--quote-name>"
+
+#. type: Plain text
+#: ls.1:149
+msgid "enclose entry names in double quotes"
+msgstr "使用双引号包含列出项"
+
+#. type: TP
+#: ls.1:149
+#, no-wrap
+msgid "B<--quoting-style>=I<WORD>"
+msgstr "B<--quoting-style>=I<风格>"
+
+#. type: Plain text
+#: ls.1:153
+msgid ""
+"use quoting style WORD for entry names: literal, locale, shell, shell-"
+"always, c, escape"
+msgstr ""
+"使用下述引号风格： literal、 locale、 shell、 shell-always、 c、 escape"
+
+#. type: TP
+#: ls.1:153
+#, no-wrap
+msgid "B<-r>, B<--reverse>"
+msgstr "B<-r>, B<--reverse>"
+
+#. type: Plain text
+#: ls.1:156
+msgid "reverse order while sorting"
+msgstr "反向排序"
+
+#. type: TP
+#: ls.1:156
+#, no-wrap
+msgid "B<-R>, B<--recursive>"
+msgstr "B<-R>, B<--recursive>"
+
+#. type: Plain text
+#: ls.1:159
+msgid "list subdirectories recursively"
+msgstr "递归显示子目录"
+
+#. type: TP
+#: ls.1:159
+#, no-wrap
+msgid "B<-s>, B<--size>"
+msgstr "B<-s>, B<--size>"
+
+#. type: Plain text
+#: ls.1:162
+msgid "print the allocated size of each file, in blocks"
+msgstr "显示每个文件所分配的块数"
+
+#. type: TP
+#: ls.1:162
+#, no-wrap
+msgid "B<-S>"
+msgstr "B<-S>"
+
+#. type: Plain text
+#: ls.1:165
+msgid "sort by file size"
+msgstr "按文件字节数排序"
+
+#. type: TP
+#: ls.1:165
+#, no-wrap
+msgid "B<--sort>=I<WORD>"
+msgstr "B<--sort>=I<方式>"
+
+#. type: Plain text
+#: ls.1:169
+msgid ""
+"sort by WORD instead of name: none B<-U>, extension B<-X>, size B<-S>, time "
+"B<-t>, version B<-v>"
+msgstr ""
+"按以下顺序排序： none （相当于 B<-U> 选项），  extension （相当于 B<-X> 选"
+"项），  size （相当于 B<-S> 选项），  time （相当于 B<-t> 选项），  version "
+"（相当于 B<-v> 选项）， "
+
+#. type: TP
+#: ls.1:169
+#, no-wrap
+msgid "B<--time>=I<WORD>"
+msgstr "B<--time>=I<时间属性>"
+
+#. type: Plain text
+#: ls.1:175
+msgid ""
+"with B<-l>, show time as WORD instead of modification time: atime B<-u>, "
+"access B<-u>, use B<-u>, ctime B<-c>, or status B<-c>; use specified time as "
+"sort key if B<--sort>=I<time>"
+msgstr ""
+"配合 B<-l> 使用， 显示如下时间属性而不是修改时间： atime （相当于 B<-u> 选"
+"项），  access （相当于 B<-u> 选项），  use （相当于 B<-u> 选项），  ctime "
+"（相当于 B<-c> 选项）， 或 status （相当于 B<-c> 选项）； 如果同时使用 B<--"
+"sort>=I<time>， 则按指定的时间属性排序"
+
+#. type: TP
+#: ls.1:175
+#, no-wrap
+msgid "B<--time-style>=I<STYLE>"
+msgstr "B<--time-style>=I<时间风格>"
+
+#. type: Plain text
+#: ls.1:184
+msgid ""
+"with B<-l>, show times using style STYLE: full-iso, long-iso, iso, locale, "
+"+FORMAT.  FORMAT is interpreted like 'date'; if FORMAT is "
+"FORMAT1E<lt>newlineE<gt>FORMAT2, FORMAT1 applies to non-recent files and "
+"FORMAT2 to recent files; if STYLE is prefixed with 'posix-', STYLE takes "
+"effect only outside the POSIX locale"
+msgstr ""
+"配合B<-l>使用， 使用以下风格格式来显示时间： full-iso、 long-iso、 locale"
+"或“+定制格式”。 定制格式同 'date' 命令中一样； 如果定制格式是“格式一E<lt>换行"
+"符E<gt>格式二”， 则格式一用于显示较老的文件， 而格式而用于显示最近的文件 （译"
+"注： 可以预先设置一个 shell 变量， 其值为换行， 然后在指定格式时使用该变"
+"量。 ）； 如果时间风格缀有“posix-”前缀， 则时间风格仅在POSIX本地化环境之外生"
+"效"
+
+#. type: TP
+#: ls.1:184
+#, no-wrap
+msgid "B<-t>"
+msgstr "B<-t>"
+
+#. type: Plain text
+#: ls.1:187
+msgid "sort by modification time, newest first"
+msgstr "按修改时间排序， 最新修改的排前面"
+
+#. type: TP
+#: ls.1:187
+#, no-wrap
+msgid "B<-T>, B<--tabsize>=I<COLS>"
+msgstr "B<-T>, B<--tabsize>=I<列数>"
+
+#. type: Plain text
+#: ls.1:190
+msgid "assume tab stops at each COLS instead of 8"
+msgstr "修改制表符的默认宽度， 每列宽度默认是8"
+
+#. type: TP
+#: ls.1:190
+#, no-wrap
+msgid "B<-u>"
+msgstr "B<-u>"
+
+#. type: Plain text
+#: ls.1:195
+msgid ""
+"with B<-lt>: sort by, and show, access time with B<-l>: show access time and "
+"sort by name otherwise: sort by access time"
+msgstr ""
+"配合 B<-lt> 使用， 显示访问时间并按其排序； 配合 B<-l> 使用， 显示访问时间并"
+"按名称排序； 否则按照访问时间排序"
+
+#. type: TP
+#: ls.1:195
+#, no-wrap
+msgid "B<-U>"
+msgstr "B<-U>"
+
+#. type: Plain text
+#: ls.1:198
+msgid "do not sort; list entries in directory order"
+msgstr "不排序， 按目录中的顺序列出"
+
+#. type: TP
+#: ls.1:198
+#, no-wrap
+msgid "B<-v>"
+msgstr "B<-v>"
+
+#. type: Plain text
+#: ls.1:201
+msgid "natural sort of (version) numbers within text"
+msgstr "使用数字大小排序（常用于版本号）"
+
+#. type: TP
+#: ls.1:201
+#, no-wrap
+msgid "B<-w>, B<--width>=I<COLS>"
+msgstr "B<-w>, B<--width>=I<列数>"
+
+#. type: Plain text
+#: ls.1:204
+msgid "assume screen width instead of current value"
+msgstr "指定屏幕宽度"
+
+#. type: TP
+#: ls.1:204
+#, no-wrap
+msgid "B<-x>"
+msgstr "B<-x>"
+
+#. type: Plain text
+#: ls.1:207
+msgid "list entries by lines instead of by columns"
+msgstr "按行排列而不是按列排列"
+
+#. type: TP
+#: ls.1:207
+#, no-wrap
+msgid "B<-X>"
+msgstr "B<-X>"
+
+#. type: Plain text
+#: ls.1:210
+msgid "sort alphabetically by entry extension"
+msgstr "按照扩展名的字母顺序排列"
+
+#. type: TP
+#: ls.1:210
+#, no-wrap
+msgid "B<-Z>, B<--context>"
+msgstr "B<-Z>, B<--context>"
+
+#. type: Plain text
+#: ls.1:213
+msgid "print any SELinux security context of each file"
+msgstr "显示每个文件的 SELinux 安全上下文"
+
+#. type: TP
+#: ls.1:213
+#, no-wrap
+msgid "B<-1>"
+msgstr "B<-1>"
+
+#. type: Plain text
+#: ls.1:216
+msgid "list one file per line"
+msgstr "每行列出一个文件"
+
+#. type: TP
+#: ls.1:216
+#, no-wrap
+msgid "B<--help>"
+msgstr "B<--help>"
+
+#. type: Plain text
+#: ls.1:219
+msgid "display this help and exit"
+msgstr "显示这个帮助信息并退出"
+
+#. type: TP
+#: ls.1:219
+#, no-wrap
+msgid "B<--version>"
+msgstr "B<--version>"
+
+#. type: Plain text
+#: ls.1:222
+msgid "output version information and exit"
+msgstr "输出版本信息并退出"
+
+#. type: Plain text
+#: ls.1:225
+msgid ""
+"SIZE is an integer and optional unit (example: 10M is 10*1024*1024).  Units "
+"are K, M, G, T, P, E, Z, Y (powers of 1024) or KB, MB, ... (powers of 1000)."
+msgstr ""
+"文件大小是一个整数， 并有可选单位 （例如： 10M 是10*1024*1024字节）。 单位可"
+"以是 K、 M、 G、 T、 P、 E、 Z、 Y（倍率是1024）或 KB、 MB等等 （倍率是"
+"1000）。 "
+
+#. type: Plain text
+#: ls.1:230
+msgid ""
+"Using color to distinguish file types is disabled both by default and with "
+"B<--color>=I<never>.  With B<--color>=I<auto>, ls emits color codes only "
+"when standard output is connected to a terminal.  The LS_COLORS environment "
+"variable can change the settings.  Use the dircolors command to set it."
+msgstr ""
+"使用颜色来区分文件类型是默认禁用的， 也可以通过 B<--color>=I<never> 来禁用。 "
+"当使用 B<--color>=I<auto> 选项时， 仅在标准输出到终端时才发送颜色代码。 环境"
+"变量 LS_COLORS 可以影响这个设置。 使用 dircolors 命令来设置它。 "
+
+#. type: SS
+#: ls.1:230
+#, no-wrap
+msgid "Exit status:"
+msgstr "退出状态："
+
+#. type: TP
+#: ls.1:231
+#, no-wrap
+msgid "0"
+msgstr "0"
+
+#. type: Plain text
+#: ls.1:234
+msgid "if OK,"
+msgstr "成功， "
+
+#. type: TP
+#: ls.1:234
+#, no-wrap
+msgid "1"
+msgstr "1"
+
+#. type: Plain text
+#: ls.1:237
+msgid "if minor problems (e.g., cannot access subdirectory),"
+msgstr "有一些小错误 （例如， 不能访问子目录）， "
+
+#. type: TP
+#: ls.1:237
+#, no-wrap
+msgid "2"
+msgstr "2"
+
+#. type: Plain text
+#: ls.1:240
+msgid "if serious trouble (e.g., cannot access command-line argument)."
+msgstr "发生严重错误 （例如， 不能访问命令行的参数）。 "
+
+#. type: SH
+#: ls.1:240
+#, no-wrap
+msgid "AUTHOR"
+msgstr "作者"
+
+#. type: Plain text
+#: ls.1:242
+msgid "Written by Richard M. Stallman and David MacKenzie."
+msgstr "由 Richard M. Stallman 和 David MacKenzie 撰写。 "
+
+#. type: SH
+#: ls.1:242
+#, no-wrap
+msgid "REPORTING BUGS"
+msgstr "报告错误"
+
+#. type: Plain text
+#: ls.1:244
+msgid "Report ls bugs to bug-coreutils@gnu.org"
+msgstr "发送错误信息到： bug-coreutils@gnu.org"
+
+#. type: Plain text
+#: ls.1:246
+msgid ""
+"GNU coreutils home page: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+msgstr "GNU coreutils 主页： E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+
+#. type: Plain text
+#: ls.1:248
+msgid "General help using GNU software: E<lt>http://www.gnu.org/gethelp/E<gt>"
+msgstr "使用GNU软件的一般性帮助： E<lt>http://www.gnu.org/gethelp/E<gt>"
+
+#. type: Plain text
+#: ls.1:250
+msgid ""
+"Report ls translation bugs to E<lt>http://github.com/LCTT/man-pages/E<gt>"
+msgstr "发送翻译错误到 E<lt>http://github.com/LCTT/man-pages/E<gt>"
+
+#. type: SH
+#: ls.1:250
+#, no-wrap
+msgid "COPYRIGHT"
+msgstr "版权申明"
+
+#. type: Plain text
+#: ls.1:253
+msgid ""
+"Copyright \\(co 2013 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
+msgstr ""
+"Copyright \\(co 2013 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
+
+#. type: Plain text
+#: ls.1:256
+msgid ""
+"This is free software: you are free to change and redistribute it.  There is "
+"NO WARRANTY, to the extent permitted by law."
+msgstr ""
+"这是一个自由软件：你可以自由修改和重新发布它。 在法律允许范围内， 本文档不提"
+"供任何担保。 "
+
+#. type: SH
+#: ls.1:256
+#, no-wrap
+msgid "SEE ALSO"
+msgstr "请参阅"
+
+#. type: Plain text
+#: ls.1:264
+msgid ""
+"The full documentation for B<ls> is maintained as a Texinfo manual.  If the "
+"B<info> and B<ls> programs are properly installed at your site, the command"
+msgstr ""
+"B<ls> 的完整文档使用 Textinfo 手册维护。 如果 B<info> 和 B<ls> 已经正确安装到"
+"了你的机器， 通过下述命令"
+
+#. type: Plain text
+#: ls.1:266
+msgid "B<info coreutils \\(aqls invocation\\(aq>"
+msgstr "B<info coreutils \\(aqls invocation\\(aq>"
+
+#. type: Plain text
+#: ls.1:268
+msgid "should give you access to the complete manual."
+msgstr "可以访问完整的使用手册。 "
+
+#. type: SH
+#: ls.1:268
+#, no-wrap
+msgid "翻译信息"
+msgstr "翻译信息"
+
+#. type: SS
+#: ls.1:269
+#, no-wrap
+msgid "翻译维护人"
+msgstr "翻译维护人"
+
+#. type: Plain text
+#: ls.1:271
+msgid "译者："
+msgstr "译者："
+
+#. type: Plain text
+#: ls.1:273
+msgid ""
+"此处为译者信息， 格式为： 译者名 B<E<lt>译者邮件@地址E<gt>>， 译者名 B<E<lt>"
+"译者邮件@地址E<gt>>"
+msgstr "wxy B<E<lt>xingyu.wang@gmail.comE<gt>>"
+
+#. type: Plain text
+#: ls.1:275
+msgid "校对："
+msgstr "校对："
+
+#. type: Plain text
+#: ls.1:277
+msgid ""
+"此处为校对者信息， 格式为： 校对者名 B<E<lt>校对者邮件@地址E<gt>>， 校对者名 "
+"B<E<lt>校对者邮件@地址E<gt>>"
+msgstr "-"
+
+#. type: SS
+#: ls.1:278
+#, no-wrap
+msgid "翻译更新日期"
+msgstr "翻译更新日期"
+
+#. type: Plain text
+#: ls.1:280
+msgid "此处为最后更新日期， 格式为： 2013.10.20"
+msgstr "2013.10.22"
+
+#. type: SS
+#: ls.1:280
+#, no-wrap
+msgid "翻译组"
+msgstr "翻译组"
+
+#. type: Plain text
+#: ls.1:282
+msgid "man翻译项目 ： B<http://github.com/LCTT/man-pages/>"
+msgstr "man翻译项目 ： B<http://github.com/LCTT/man-pages/>"
+
+#. type: Plain text
+#: ls.1:284
+msgid "翻译组 ： B<http://lctt.github.io/ E<lt>lctt@linux.cnE<gt>>"
+msgstr "翻译组 ： B<http://lctt.github.io/ E<lt>lctt@linux.cnE<gt>>"
+
+#. type: Plain text
+#: ls.1:285
+msgid "Linux中国 ： B<http://linux.cn/>"
+msgstr "Linux中国 ： B<http://linux.cn/>"

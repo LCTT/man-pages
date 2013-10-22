@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: LCTT man-pages coreutils-8.21\n"
-"POT-Creation-Date: 2013-10-19 17:34+0800\n"
+"POT-Creation-Date: 2013-10-22 08:51+0800\n"
 "PO-Revision-Date: 2013-10-19 17:50+0800\n"
 "Last-Translator: LCTT <lctt@linux.cn>\n"
 "Language-Team: LCTT <lctt@linux.cn>\n"
@@ -80,7 +80,8 @@ msgstr ""
 
 #. type: Plain text
 #: du.1:17
-msgid "Mandatory arguments to long options are mandatory for short options too."
+msgid ""
+"Mandatory arguments to long options are mandatory for short options too."
 msgstr ""
 
 #. type: TP
@@ -412,8 +413,8 @@ msgstr ""
 #. type: Plain text
 #: du.1:121
 msgid ""
-"Display values are in units of the first available SIZE from "
-"B<--block-size>, and the DU_BLOCK_SIZE, BLOCK_SIZE and BLOCKSIZE environment "
+"Display values are in units of the first available SIZE from B<--block-"
+"size>, and the DU_BLOCK_SIZE, BLOCK_SIZE and BLOCKSIZE environment "
 "variables.  Otherwise, units default to 1024 bytes (or 512 if "
 "POSIXLY_CORRECT is set)."
 msgstr ""
@@ -461,8 +462,7 @@ msgstr ""
 #. type: Plain text
 #: du.1:146
 msgid ""
-"Written by Torbjorn Granlund, David MacKenzie, Paul Eggert, and Jim "
-"Meyering."
+"Written by Torbjorn Granlund, David MacKenzie, Paul Eggert, and Jim Meyering."
 msgstr ""
 
 #. type: SH
@@ -478,7 +478,8 @@ msgstr ""
 
 #. type: Plain text
 #: du.1:150
-msgid "GNU coreutils home page: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+msgid ""
+"GNU coreutils home page: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
 msgstr ""
 
 #. type: Plain text
@@ -488,7 +489,8 @@ msgstr ""
 
 #. type: Plain text
 #: du.1:154
-msgid "Report du translation bugs to E<lt>http://translationproject.org/team/E<gt>"
+msgid ""
+"Report du translation bugs to E<lt>http://github.com/LCTT/man-pages/E<gt>"
 msgstr ""
 
 #. type: SH
@@ -530,6 +532,74 @@ msgid "B<info coreutils \\(aqdu invocation\\(aq>"
 msgstr ""
 
 #. type: Plain text
-#: du.1:171
+#: du.1:172
 msgid "should give you access to the complete manual."
+msgstr ""
+
+#. type: SH
+#: du.1:172
+#, no-wrap
+msgid "翻译信息"
+msgstr ""
+
+#. type: SS
+#: du.1:173
+#, no-wrap
+msgid "翻译维护人"
+msgstr ""
+
+#. type: Plain text
+#: du.1:175
+msgid "译者："
+msgstr ""
+
+#. type: Plain text
+#: du.1:177
+msgid ""
+"此处为译者信息， 格式为： 译者名 B<E<lt>译者邮件@地址E<gt>>， 译者名 B<E<lt>"
+"译者邮件@地址E<gt>>"
+msgstr ""
+
+#. type: Plain text
+#: du.1:179
+msgid "校对："
+msgstr ""
+
+#. type: Plain text
+#: du.1:181
+msgid ""
+"此处为校对者信息， 格式为： 校对者名 B<E<lt>校对者邮件@地址E<gt>>， 校对者名 "
+"B<E<lt>校对者邮件@地址E<gt>>"
+msgstr ""
+
+#. type: SS
+#: du.1:182
+#, no-wrap
+msgid "翻译更新日期"
+msgstr ""
+
+#. type: Plain text
+#: du.1:184
+msgid "此处为最后更新日期， 格式为： 2013.10.20"
+msgstr ""
+
+#. type: SS
+#: du.1:184
+#, no-wrap
+msgid "翻译组"
+msgstr ""
+
+#. type: Plain text
+#: du.1:186
+msgid "man翻译项目 ： B<http://github.com/LCTT/man-pages/>"
+msgstr ""
+
+#. type: Plain text
+#: du.1:188
+msgid "翻译组 ： B<http://lctt.github.io/ E<lt>lctt@linux.cnE<gt>>"
+msgstr ""
+
+#. type: Plain text
+#: du.1:189
+msgid "Linux中国 ： B<http://linux.cn/>"
 msgstr ""

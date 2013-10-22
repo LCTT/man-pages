@@ -1,0 +1,177 @@
+# LCTT man-pages Translate Project
+# Copyright (C) 2013 LCTT
+# This file is distributed under the same license as the PACKAGE package.
+# LCTT <lctt@linux.cn>, 2013.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: LCTT man-pages coreutils-8.21\n"
+"POT-Creation-Date: 2013-10-19 17:34+0800\n"
+"PO-Revision-Date: 2013-10-20 01:01+0800\n"
+"Last-Translator: vito-L <lidongxingit@gmail.com>\n"
+"Language-Team: LCTT <lctt@linux.cn>\n"
+"Language: zh_CN.UTF-8\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-Language: zh_CN.UTF-8\n"
+
+#. type: TH
+#: yes.1:2
+#, no-wrap
+msgid "YES"
+msgstr "YES"
+
+#. type: TH
+#: yes.1:2
+#, no-wrap
+msgid "October 2013"
+msgstr "2013年10月"
+
+#. type: TH
+#: yes.1:2
+#, no-wrap
+msgid "GNU coreutils 8.21"
+msgstr "GNU coreutils 8.21"
+
+#. type: TH
+#: yes.1:2
+#, no-wrap
+msgid "User Commands"
+msgstr "用户命令"
+
+#. type: SH
+#: yes.1:3
+#, no-wrap
+msgid "NAME"
+msgstr "名称"
+
+#. type: Plain text
+#: yes.1:5
+msgid "yes - output a string repeatedly until killed"
+msgstr "yes - 反复输出一个字符串直到结束"
+
+#. type: SH
+#: yes.1:5
+#, no-wrap
+msgid "SYNOPSIS"
+msgstr "简介"
+
+#. type: Plain text
+#: yes.1:8
+msgid "B<yes> [I<STRING>]..."
+msgstr "B<yes> [I<字符串>]..."
+
+#. type: Plain text
+#: yes.1:11
+msgid "B<yes> I<OPTION>"
+msgstr "B<yes> I<选项>"
+
+#. type: SH
+#: yes.1:11
+#, no-wrap
+msgid "DESCRIPTION"
+msgstr "说明"
+
+#. type: Plain text
+#: yes.1:15
+msgid "Repeatedly output a line with all specified STRING(s), or 'y'."
+msgstr "反复输出与所有指定字符串的行，或'y'"
+
+#. type: TP
+#: yes.1:15
+#, no-wrap
+msgid "B<--help>"
+msgstr "B<--help>"
+
+#. type: Plain text
+#: yes.1:18
+msgid "display this help and exit"
+msgstr "显示帮助并且退出"
+
+#. type: TP
+#: yes.1:18
+#, no-wrap
+msgid "B<--version>"
+msgstr "B<--version>"
+
+#. type: Plain text
+#: yes.1:21
+msgid "output version information and exit"
+msgstr "输出版本信息并且退出"
+
+#. type: SH
+#: yes.1:21
+#, no-wrap
+msgid "AUTHOR"
+msgstr "作者"
+
+#. type: Plain text
+#: yes.1:23
+msgid "Written by David MacKenzie."
+msgstr "由David MacKenzie书写"
+
+#. type: SH
+#: yes.1:23
+#, no-wrap
+msgid "REPORTING BUGS"
+msgstr "报告BUGS"
+
+#. type: Plain text
+#: yes.1:25
+msgid "Report yes bugs to bug-coreutils@gnu.org"
+msgstr "报告yes bugs到bug-coreutils@gnu.org"
+
+#. type: Plain text
+#: yes.1:27
+msgid "GNU coreutils home page: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+msgstr "GNU coreutils 主页: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+
+#. type: Plain text
+#: yes.1:29
+msgid "General help using GNU software: E<lt>http://www.gnu.org/gethelp/E<gt>"
+msgstr "一般使用GNU软件的帮助: E<lt>http://www.gnu.org/gethelp/E<gt>"
+
+#. type: Plain text
+#: yes.1:31
+msgid "Report yes translation bugs to E<lt>http://translationproject.org/team/E<gt>"
+msgstr "报告yes翻译bugs到 E<lt>http://translationproject.org/team/E<gt>"
+
+#. type: SH
+#: yes.1:31
+#, no-wrap
+msgid "COPYRIGHT"
+msgstr "版权所有"
+
+#. type: Plain text
+#: yes.1:34
+msgid "Copyright \\(co 2013 Free Software Foundation, Inc.  License GPLv3+: GNU GPL version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
+msgstr "版权所有 \\(co 2013 Free Software Foundation, Inc.  License GPLv3+: GNU GPL version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
+
+#. type: Plain text
+#: yes.1:37
+msgid "This is free software: you are free to change and redistribute it.  There is NO WARRANTY, to the extent permitted by law."
+msgstr "这是自由软件：你可以自由更改并重新发布它。这是没有授权的，在法律所允许的范围内"
+
+#. type: SH
+#: yes.1:37
+#, no-wrap
+msgid "SEE ALSO"
+msgstr "请参阅"
+
+#. type: Plain text
+#: yes.1:45
+msgid "The full documentation for B<yes> is maintained as a Texinfo manual.  If the B<info> and B<yes> programs are properly installed at your site, the command"
+msgstr "B<yes>的完整文档作为Texinfo手册进行维护。如果B<info>和B<yes>程序已正确安装在你的站点，此命令"
+
+#. type: Plain text
+#: yes.1:47
+msgid "B<info coreutils \\(aqyes invocation\\(aq>"
+msgstr "B<info coreutils \\(aqyes invocation\\(aq>"
+
+#. type: Plain text
+#: yes.1:48
+msgid "should give you access to the complete manual."
+msgstr "应给予你访问完整的手册"
+

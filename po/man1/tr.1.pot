@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: LCTT man-pages coreutils-8.21\n"
-"POT-Creation-Date: 2013-10-19 17:34+0800\n"
+"POT-Creation-Date: 2013-10-22 08:51+0800\n"
 "PO-Revision-Date: 2013-10-19 17:50+0800\n"
 "Last-Translator: LCTT <lctt@linux.cn>\n"
 "Language-Team: LCTT <lctt@linux.cn>\n"
@@ -428,9 +428,9 @@ msgstr ""
 #. type: Plain text
 #: tr.1:120
 msgid ""
-"Translation occurs if B<-d> is not given and both SET1 and SET2 appear.  "
-"B<-t> may be used only when translating.  SET2 is extended to length of SET1 "
-"by repeating its last character as necessary.  Excess characters of SET2 are "
+"Translation occurs if B<-d> is not given and both SET1 and SET2 appear.  B<-"
+"t> may be used only when translating.  SET2 is extended to length of SET1 by "
+"repeating its last character as necessary.  Excess characters of SET2 are "
 "ignored.  Only [:lower:] and [:upper:] are guaranteed to expand in ascending "
 "order; used in SET2 while translating, they may only be used in pairs to "
 "specify case conversion.  B<-s> uses SET1 if not translating nor deleting; "
@@ -461,7 +461,8 @@ msgstr ""
 
 #. type: Plain text
 #: tr.1:126
-msgid "GNU coreutils home page: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+msgid ""
+"GNU coreutils home page: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
 msgstr ""
 
 #. type: Plain text
@@ -471,7 +472,8 @@ msgstr ""
 
 #. type: Plain text
 #: tr.1:130
-msgid "Report tr translation bugs to E<lt>http://translationproject.org/team/E<gt>"
+msgid ""
+"Report tr translation bugs to E<lt>http://github.com/LCTT/man-pages/E<gt>"
 msgstr ""
 
 #. type: SH
@@ -513,6 +515,74 @@ msgid "B<info coreutils \\(aqtr invocation\\(aq>"
 msgstr ""
 
 #. type: Plain text
-#: tr.1:147
+#: tr.1:148
 msgid "should give you access to the complete manual."
+msgstr ""
+
+#. type: SH
+#: tr.1:148
+#, no-wrap
+msgid "翻译信息"
+msgstr ""
+
+#. type: SS
+#: tr.1:149
+#, no-wrap
+msgid "翻译维护人"
+msgstr ""
+
+#. type: Plain text
+#: tr.1:151
+msgid "译者："
+msgstr ""
+
+#. type: Plain text
+#: tr.1:153
+msgid ""
+"此处为译者信息， 格式为： 译者名 B<E<lt>译者邮件@地址E<gt>>， 译者名 B<E<lt>"
+"译者邮件@地址E<gt>>"
+msgstr ""
+
+#. type: Plain text
+#: tr.1:155
+msgid "校对："
+msgstr ""
+
+#. type: Plain text
+#: tr.1:157
+msgid ""
+"此处为校对者信息， 格式为： 校对者名 B<E<lt>校对者邮件@地址E<gt>>， 校对者名 "
+"B<E<lt>校对者邮件@地址E<gt>>"
+msgstr ""
+
+#. type: SS
+#: tr.1:158
+#, no-wrap
+msgid "翻译更新日期"
+msgstr ""
+
+#. type: Plain text
+#: tr.1:160
+msgid "此处为最后更新日期， 格式为： 2013.10.20"
+msgstr ""
+
+#. type: SS
+#: tr.1:160
+#, no-wrap
+msgid "翻译组"
+msgstr ""
+
+#. type: Plain text
+#: tr.1:162
+msgid "man翻译项目 ： B<http://github.com/LCTT/man-pages/>"
+msgstr ""
+
+#. type: Plain text
+#: tr.1:164
+msgid "翻译组 ： B<http://lctt.github.io/ E<lt>lctt@linux.cnE<gt>>"
+msgstr ""
+
+#. type: Plain text
+#: tr.1:165
+msgid "Linux中国 ： B<http://linux.cn/>"
 msgstr ""

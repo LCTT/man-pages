@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: LCTT man-pages coreutils-8.21\n"
-"POT-Creation-Date: 2013-10-19 17:34+0800\n"
+"POT-Creation-Date: 2013-10-22 08:51+0800\n"
 "PO-Revision-Date: 2013-10-19 17:50+0800\n"
 "Last-Translator: LCTT <lctt@linux.cn>\n"
 "Language-Team: LCTT <lctt@linux.cn>\n"
@@ -71,13 +71,13 @@ msgstr ""
 #. type: Plain text
 #: numfmt.1:12
 msgid ""
-"Reformat NUMBER(s), or the numbers from standard input if none are "
-"specified."
+"Reformat NUMBER(s), or the numbers from standard input if none are specified."
 msgstr ""
 
 #. type: Plain text
 #: numfmt.1:14
-msgid "Mandatory arguments to long options are mandatory for short options too."
+msgid ""
+"Mandatory arguments to long options are mandatory for short options too."
 msgstr ""
 
 #. type: TP
@@ -220,7 +220,8 @@ msgstr ""
 
 #. type: Plain text
 #: numfmt.1:61
-msgid "add SUFFIX to output numbers, and accept optional SUFFIX in input numbers"
+msgid ""
+"add SUFFIX to output numbers, and accept optional SUFFIX in input numbers"
 msgstr ""
 
 #. type: TP
@@ -463,7 +464,8 @@ msgstr ""
 
 #. type: Plain text
 #: numfmt.1:153
-msgid "GNU coreutils home page: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+msgid ""
+"GNU coreutils home page: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
 msgstr ""
 
 #. type: Plain text
@@ -474,8 +476,7 @@ msgstr ""
 #. type: Plain text
 #: numfmt.1:157
 msgid ""
-"Report numfmt translation bugs to "
-"E<lt>http://translationproject.org/team/E<gt>"
+"Report numfmt translation bugs to E<lt>http://github.com/LCTT/man-pages/E<gt>"
 msgstr ""
 
 #. type: SH
@@ -518,6 +519,74 @@ msgid "B<info coreutils \\(aqnumfmt invocation\\(aq>"
 msgstr ""
 
 #. type: Plain text
-#: numfmt.1:174
+#: numfmt.1:175
 msgid "should give you access to the complete manual."
+msgstr ""
+
+#. type: SH
+#: numfmt.1:175
+#, no-wrap
+msgid "翻译信息"
+msgstr ""
+
+#. type: SS
+#: numfmt.1:176
+#, no-wrap
+msgid "翻译维护人"
+msgstr ""
+
+#. type: Plain text
+#: numfmt.1:178
+msgid "译者："
+msgstr ""
+
+#. type: Plain text
+#: numfmt.1:180
+msgid ""
+"此处为译者信息， 格式为： 译者名 B<E<lt>译者邮件@地址E<gt>>， 译者名 B<E<lt>"
+"译者邮件@地址E<gt>>"
+msgstr ""
+
+#. type: Plain text
+#: numfmt.1:182
+msgid "校对："
+msgstr ""
+
+#. type: Plain text
+#: numfmt.1:184
+msgid ""
+"此处为校对者信息， 格式为： 校对者名 B<E<lt>校对者邮件@地址E<gt>>， 校对者名 "
+"B<E<lt>校对者邮件@地址E<gt>>"
+msgstr ""
+
+#. type: SS
+#: numfmt.1:185
+#, no-wrap
+msgid "翻译更新日期"
+msgstr ""
+
+#. type: Plain text
+#: numfmt.1:187
+msgid "此处为最后更新日期， 格式为： 2013.10.20"
+msgstr ""
+
+#. type: SS
+#: numfmt.1:187
+#, no-wrap
+msgid "翻译组"
+msgstr ""
+
+#. type: Plain text
+#: numfmt.1:189
+msgid "man翻译项目 ： B<http://github.com/LCTT/man-pages/>"
+msgstr ""
+
+#. type: Plain text
+#: numfmt.1:191
+msgid "翻译组 ： B<http://lctt.github.io/ E<lt>lctt@linux.cnE<gt>>"
+msgstr ""
+
+#. type: Plain text
+#: numfmt.1:192
+msgid "Linux中国 ： B<http://linux.cn/>"
 msgstr ""

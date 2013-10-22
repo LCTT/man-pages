@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: LCTT man-pages coreutils-8.21\n"
-"POT-Creation-Date: 2013-10-19 17:34+0800\n"
+"POT-Creation-Date: 2013-10-22 08:51+0800\n"
 "PO-Revision-Date: 2013-10-19 17:50+0800\n"
 "Last-Translator: LCTT <lctt@linux.cn>\n"
 "Language-Team: LCTT <lctt@linux.cn>\n"
@@ -90,10 +90,10 @@ msgstr ""
 #. type: Plain text
 #: chmod.1:32
 msgid ""
-"The format of a symbolic mode is "
-"[B<ugoa>.\\|.\\|.][[B<+-=>][I<perms>.\\|.\\|.].\\|.\\|.], where I<perms> is "
-"either zero or more letters from the set B<rwxXst>, or a single letter from "
-"the set B<ugo>.  Multiple symbolic modes can be given, separated by commas."
+"The format of a symbolic mode is [B<ugoa>.\\|.\\|.][[B<+-=>][I<perms>.\\|."
+"\\|.].\\|.\\|.], where I<perms> is either zero or more letters from the set "
+"B<rwxXst>, or a single letter from the set B<ugo>.  Multiple symbolic modes "
+"can be given, separated by commas."
 msgstr ""
 
 #. type: Plain text
@@ -120,15 +120,14 @@ msgstr ""
 #: chmod.1:57
 msgid ""
 "The letters B<rwxXst> select file mode bits for the affected users: read "
-"(B<r>), write (B<w>), execute (or search for directories)  (B<x>), "
-"execute/search only if the file is a directory or already has execute "
-"permission for some user (B<X>), set user or group ID on execution (B<s>), "
-"restricted deletion flag or sticky bit (B<t>).  Instead of one or more of "
-"these letters, you can specify exactly one of the letters B<ugo>: the "
-"permissions granted to the user who owns the file (B<u>), the permissions "
-"granted to other users who are members of the file's group (B<g>), and the "
-"permissions granted to users that are in neither of the two preceding "
-"categories (B<o>)."
+"(B<r>), write (B<w>), execute (or search for directories)  (B<x>), execute/"
+"search only if the file is a directory or already has execute permission for "
+"some user (B<X>), set user or group ID on execution (B<s>), restricted "
+"deletion flag or sticky bit (B<t>).  Instead of one or more of these "
+"letters, you can specify exactly one of the letters B<ugo>: the permissions "
+"granted to the user who owns the file (B<u>), the permissions granted to "
+"other users who are members of the file's group (B<g>), and the permissions "
+"granted to users that are in neither of the two preceding categories (B<o>)."
 msgstr ""
 
 #. type: Plain text
@@ -315,7 +314,8 @@ msgstr ""
 
 #. type: Plain text
 #: chmod.1:148
-msgid "Each MODE is of the form '[ugoa]*([-+=]([rwxXst]*|[ugo]))+|[-+=][0-7]+'."
+msgid ""
+"Each MODE is of the form '[ugoa]*([-+=]([rwxXst]*|[ugo]))+|[-+=][0-7]+'."
 msgstr ""
 
 #. type: SH
@@ -342,7 +342,8 @@ msgstr ""
 
 #. type: Plain text
 #: chmod.1:154
-msgid "GNU coreutils home page: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+msgid ""
+"GNU coreutils home page: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
 msgstr ""
 
 #. type: Plain text
@@ -353,8 +354,7 @@ msgstr ""
 #. type: Plain text
 #: chmod.1:158
 msgid ""
-"Report chmod translation bugs to "
-"E<lt>http://translationproject.org/team/E<gt>"
+"Report chmod translation bugs to E<lt>http://github.com/LCTT/man-pages/E<gt>"
 msgstr ""
 
 #. type: SH
@@ -402,6 +402,74 @@ msgid "B<info coreutils \\(aqchmod invocation\\(aq>"
 msgstr ""
 
 #. type: Plain text
-#: chmod.1:177
+#: chmod.1:178
 msgid "should give you access to the complete manual."
+msgstr ""
+
+#. type: SH
+#: chmod.1:178
+#, no-wrap
+msgid "翻译信息"
+msgstr ""
+
+#. type: SS
+#: chmod.1:179
+#, no-wrap
+msgid "翻译维护人"
+msgstr ""
+
+#. type: Plain text
+#: chmod.1:181
+msgid "译者："
+msgstr ""
+
+#. type: Plain text
+#: chmod.1:183
+msgid ""
+"此处为译者信息， 格式为： 译者名 B<E<lt>译者邮件@地址E<gt>>， 译者名 B<E<lt>"
+"译者邮件@地址E<gt>>"
+msgstr ""
+
+#. type: Plain text
+#: chmod.1:185
+msgid "校对："
+msgstr ""
+
+#. type: Plain text
+#: chmod.1:187
+msgid ""
+"此处为校对者信息， 格式为： 校对者名 B<E<lt>校对者邮件@地址E<gt>>， 校对者名 "
+"B<E<lt>校对者邮件@地址E<gt>>"
+msgstr ""
+
+#. type: SS
+#: chmod.1:188
+#, no-wrap
+msgid "翻译更新日期"
+msgstr ""
+
+#. type: Plain text
+#: chmod.1:190
+msgid "此处为最后更新日期， 格式为： 2013.10.20"
+msgstr ""
+
+#. type: SS
+#: chmod.1:190
+#, no-wrap
+msgid "翻译组"
+msgstr ""
+
+#. type: Plain text
+#: chmod.1:192
+msgid "man翻译项目 ： B<http://github.com/LCTT/man-pages/>"
+msgstr ""
+
+#. type: Plain text
+#: chmod.1:194
+msgid "翻译组 ： B<http://lctt.github.io/ E<lt>lctt@linux.cnE<gt>>"
+msgstr ""
+
+#. type: Plain text
+#: chmod.1:195
+msgid "Linux中国 ： B<http://linux.cn/>"
 msgstr ""
