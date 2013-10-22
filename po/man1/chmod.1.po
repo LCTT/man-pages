@@ -1,0 +1,533 @@
+# LCTT man-pages Translate Project
+# Copyright (C) 2013 LCTT
+# This file is distributed under the same license as the PACKAGE package.
+# LCTT <lctt@linux.cn>, 2013.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: LCTT man-pages coreutils-8.21\n"
+"POT-Creation-Date: 2013-10-22 08:51+0800\n"
+"PO-Revision-Date: 2013-10-22 19:18+0800\n"
+"Last-Translator: tinyeyeser <tinyeyeser@gmail.com>\n"
+"Language-Team: LCTT <lctt@linux.cn>\n"
+"Language: zh_CN.UTF-8\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+
+#. type: TH
+#: chmod.1:2
+#, no-wrap
+msgid "CHMOD"
+msgstr "CHMOD"
+
+#. type: TH
+#: chmod.1:2
+#, no-wrap
+msgid "October 2013"
+msgstr "2013年10月"
+
+#. type: TH
+#: chmod.1:2
+#, no-wrap
+msgid "GNU coreutils 8.21"
+msgstr "GNU coreutils 8.21"
+
+#. type: TH
+#: chmod.1:2
+#, no-wrap
+msgid "User Commands"
+msgstr "用户命令"
+
+#. type: SH
+#: chmod.1:3
+#, no-wrap
+msgid "NAME"
+msgstr "名称"
+
+#. type: Plain text
+#: chmod.1:5
+msgid "chmod - change file mode bits"
+msgstr "chmod - 修改文件模式标志位"
+
+#. type: SH
+#: chmod.1:5
+#, no-wrap
+msgid "SYNOPSIS"
+msgstr "摘要"
+
+#. type: Plain text
+#: chmod.1:8
+msgid "B<chmod> [I<OPTION>]... I<MODE>[I<,MODE>]... I<FILE>..."
+msgstr "B<chmod> [I<选项>]... I<模式>[I<,模式>]... I<文件>..."
+
+#. type: Plain text
+#: chmod.1:11
+msgid "B<chmod> [I<OPTION>]... I<OCTAL-MODE FILE>..."
+msgstr "B<chmod> [I<选项>]... I<八进制模式文件>..."
+
+#. type: Plain text
+#: chmod.1:14
+msgid "B<chmod> [I<OPTION>]... I<--reference=RFILE FILE>..."
+msgstr "B<chmod> [I<选项>]... I<--reference=RFILE文件>..."
+
+#. type: SH
+#: chmod.1:14
+#, no-wrap
+msgid "DESCRIPTION"
+msgstr "描述"
+
+#. type: Plain text
+#: chmod.1:23
+msgid ""
+"This manual page documents the GNU version of B<chmod>.  B<chmod> changes "
+"the file mode bits of each given file according to I<mode>, which can be "
+"either a symbolic representation of changes to make, or an octal number "
+"representing the bit pattern for the new mode bits."
+msgstr ""
+"本手册页为B<chmod> 命令文档的GNU版本。 根据I<模式>参数， B<chmod> 命令修改给"
+"定文件的文件模式标志位。 修改方法有两种， 一种是符号表达式修改， 另一种是八进"
+"制数比特位匹配修改。"
+
+#. type: Plain text
+#: chmod.1:32
+msgid ""
+"The format of a symbolic mode is [B<ugoa>.\\|.\\|.][[B<+-=>][I<perms>.\\|."
+"\\|.].\\|.\\|.], where I<perms> is either zero or more letters from the set "
+"B<rwxXst>, or a single letter from the set B<ugo>.  Multiple symbolic modes "
+"can be given, separated by commas."
+msgstr ""
+"符号模式的格式为 [B<ugoa>.\\|.\\|.][[B<+-=>][I<perms>.\\|.\\|.].\\|.\\|.]， "
+"其中 I<perms> 可以是0， 也可以是B<rwxXst>中的字母集合，  还可以是B<ugo>中的某"
+"一单个字母。 可以同时给出多个符号表达式， 各表达式中间用逗号分开。"
+
+#. type: Plain text
+#: chmod.1:39
+msgid ""
+"A combination of the letters B<ugoa> controls which users' access to the "
+"file will be changed: the user who owns it (B<u>), other users in the file's "
+"group (B<g>), other users not in the file's group (B<o>), or all users "
+"(B<a>).  If none of these are given, the effect is as if B<a> were given, "
+"but bits that are set in the umask are not affected."
+msgstr ""
+"B<ugoa>中的字母组合可以控制改变用户文件的访问权限： B<u>代表文件拥有者"
+"（user）， B<g>代表同一组中的其他用户（group）， B<o>代表不同组的其他用户"
+"（other）， 而B<a>代表所有用户（all）。 如果没有指定以上任意一个字母， 则命令"
+"等同于给定B<a>字母， 即影响所有用户， 但是此种情况下， umask比特位的设置不受"
+"任何影响。"
+
+#. type: Plain text
+#: chmod.1:45
+msgid ""
+"The operator B<+> causes the selected file mode bits to be added to the "
+"existing file mode bits of each file; B<-> causes them to be removed; and "
+"B<=> causes them to be added and causes unmentioned bits to be removed "
+"except that a directory's unmentioned set user and group ID bits are not "
+"affected."
+msgstr ""
+"操作符B<+> 为单个文件模式比特位增加指定的权限；  操作符B<->移除权限； 操作符"
+"B<=>赋予权限， 即增加指定权限，  同时没有指定的权限则被移除，  但该情况下，  "
+"目录未指定的用户集合与组ID标志位不受影响。"
+
+#. type: Plain text
+#: chmod.1:57
+msgid ""
+"The letters B<rwxXst> select file mode bits for the affected users: read "
+"(B<r>), write (B<w>), execute (or search for directories)  (B<x>), execute/"
+"search only if the file is a directory or already has execute permission for "
+"some user (B<X>), set user or group ID on execution (B<s>), restricted "
+"deletion flag or sticky bit (B<t>).  Instead of one or more of these "
+"letters, you can specify exactly one of the letters B<ugo>: the permissions "
+"granted to the user who owns the file (B<u>), the permissions granted to "
+"other users who are members of the file's group (B<g>), and the permissions "
+"granted to users that are in neither of the two preceding categories (B<o>)."
+msgstr ""
+"B<rwxXst> 中的字母分别对应如下权限： （B<r>）读， （B<w>）写， （B<x>）执行 "
+"（或者搜索目录）， （B<X>）执行/搜索 —— 仅当目标为目录， 或某些用户已对该文件"
+"具有执行权限时， （B<s>）设置用户或用户组的执行时权限， 即下文中的 “SUID与"
+"SGID标志位” 条目， （B<t>）限制删除标志位或粘滞位。 你可以指定B<ugo> 中的任一"
+"字母所对应的组别， 对其设置上面提到的各个权限， 其中， （B<u>)代表文件拥有"
+"者， （B<g>）代表与文件同一用户组的其他用户， （B<o>）代表以上两个组别以外的"
+"用户。 （译者注， 这里说的“文件” 概念， 包括系统中所有的常规文件、 目录、 设"
+"备、 符号链接等等， 即Linux认为， 以上系统中所有的东西，在它看来都是文件。 对"
+"于电脑常识意义上理解的文件， 我们将使用“常规文件” 的说法， 其他说法如目录、 "
+"符号链接等正常）"
+
+#. type: Plain text
+#: chmod.1:67
+msgid ""
+"A numeric mode is from one to four octal digits (0-7), derived by adding up "
+"the bits with values 4, 2, and 1.  Omitted digits are assumed to be leading "
+"zeros.  The first digit selects the set user ID (4) and set group ID (2) and "
+"restricted deletion or sticky (1) attributes.  The second digit selects "
+"permissions for the user who owns the file: read (4), write (2), and execute "
+"(1); the third selects permissions for other users in the file's group, with "
+"the same values; and the fourth for other users not in the file's group, "
+"with the same values."
+msgstr ""
+"数字模式。 该模式总共有4组八进制数 （0-7）数字集合， 均为4、 2、 1的比特位累"
+"加， 分别代表不同的意义， 0忽略不计， 代表不具有任何权限。 第一组的三个数字分"
+"别代表用户ID （4）、 组ID （2）和限制删除或粘滞位属性（1）； 第二组代表文件拥"
+"有者用户的三个权限： 读 （4）、 写 （2）、 执行 （1）； 第三组代表与文件同组"
+"的其他用户的读 （4）、 写 （2）、 执行 （1）权限； 第四组代表文件组以外用户的"
+"读 （4）、 写 （2）、 执行 （1）权限。"
+
+#. type: Plain text
+#: chmod.1:80
+msgid ""
+"B<chmod> never changes the permissions of symbolic links; the B<chmod> "
+"system call cannot change their permissions.  This is not a problem since "
+"the permissions of symbolic links are never used.  However, for each "
+"symbolic link listed on the command line, B<chmod> changes the permissions "
+"of the pointed-to file.  In contrast, B<chmod> ignores symbolic links "
+"encountered during recursive directory traversals."
+msgstr ""
+"B<chmod>从不会修改符号链接的权限； 包括系统调用的B<chmod>也无法修改。 这并不"
+"是一个缺陷， 而是因为符号链接的权限本身就不起任何作用。 尽管如此， B<chmod>却"
+"可以修改符号链接所指向文件的权限。 但当符号链接指向循环遍历目录的时候， "
+"B<chmod>就会忽略该符号链接。"
+
+#. type: SH
+#: chmod.1:80
+#, no-wrap
+msgid "SETUID AND SETGID BITS"
+msgstr "SUID 与 SGID 标志位"
+
+#. type: Plain text
+#: chmod.1:95
+msgid ""
+"B<chmod> clears the set-group-ID bit of a regular file if the file's group "
+"ID does not match the user's effective group ID or one of the user's "
+"supplementary group IDs, unless the user has appropriate privileges.  "
+"Additional restrictions may cause the set-user-ID and set-group-ID bits of "
+"I<MODE> or I<RFILE> to be ignored.  This behavior depends on the policy and "
+"functionality of the underlying B<chmod> system call.  When in doubt, check "
+"the underlying system behavior."
+msgstr ""
+"文件的SUID与SGID： 如果一个常规文件所属的组ID， 没有与文件所属用户所在的有效"
+"组ID， 或用户的某一个补充组ID相匹配， B<chmod>就会清除该文件的SGID位， 除非用"
+"户进行特殊配置， 但额外的限制可能会导致 I<模式>参数 或 I<RFILE>参数 中的SUID"
+"和SGID位失效。 这取决于系统调用B<chmod> 时的策略与功能设置。 如果有疑问， 可"
+"以具体查看实际的系统行为设置。"
+
+#. type: Plain text
+#: chmod.1:104
+msgid ""
+"B<chmod> preserves a directory's set-user-ID and set-group-ID bits unless "
+"you explicitly specify otherwise.  You can set or clear the bits with "
+"symbolic modes like B<u+s> and B<g-s>, and you can set (but not clear) the "
+"bits with a numeric mode."
+msgstr ""
+"目录的SUID与SGID： 对于一个目录来说， B<chmod> 命令可以正常设置、 保存其SUID"
+"位和SGID位， 除非你明确地指定其他标志位。 你可以通过符号模式，例如 B<u+s>和"
+"B<g-s>来设置或清除其“s” 权限， 也可以通过数字模式设置 （但无法清除）。"
+
+#. type: SH
+#: chmod.1:104
+#, no-wrap
+msgid "RESTRICTED DELETION FLAG OR STICKY BIT"
+msgstr "限制删除标志或粘滞位"
+
+#. type: Plain text
+#: chmod.1:115
+msgid ""
+"The restricted deletion flag or sticky bit is a single bit, whose "
+"interpretation depends on the file type.  For directories, it prevents "
+"unprivileged users from removing or renaming a file in the directory unless "
+"they own the file or the directory; this is called the I<restricted deletion "
+"flag> for the directory, and is commonly found on world-writable directories "
+"like B</tmp>.  For regular files on some older systems, the bit saves the "
+"program's text image on the swap device so it will load more quickly when "
+"run; this is called the I<sticky bit>."
+msgstr ""
+"限制删除标志位是一个单独的比特， 其意义取决于不同的文件类型。 对于目录来说， "
+"它防止一般用户删除 或重命名目录中的文件， 除非该用户是文件 或目录的拥有者； "
+"此称为目录的I<限制删除标志位>， 它常常被用于所有人都可写的目录， 例如B</"
+"tmp>。 对于一些老系统中的常规文件， 该标志位用于在缓存设备中保存程序的文本镜"
+"像， 以便程序运行时能够更快速的加载， 此称为I<粘滞位>。"
+
+#. type: SH
+#: chmod.1:115
+#, no-wrap
+msgid "OPTIONS"
+msgstr "选项"
+
+#. type: Plain text
+#: chmod.1:119
+msgid ""
+"Change the mode of each FILE to MODE.  With B<--reference>, change the mode "
+"of each FILE to that of RFILE."
+msgstr ""
+"将单个文件的模式修改为相应参数指定的“模式”。 例如，使用B<--reference>参数， "
+"可以将文件模式修改为RFILE文件中指定的模式。"
+
+#. type: TP
+#: chmod.1:119
+#, no-wrap
+msgid "B<-c>, B<--changes>"
+msgstr "B<-c>, B<--changes>"
+
+#. type: Plain text
+#: chmod.1:122
+msgid "like verbose but report only when a change is made"
+msgstr "与下面的--verbose参数类似， 但是仅当文件改变的时候才报告。"
+
+#. type: TP
+#: chmod.1:122
+#, no-wrap
+msgid "B<-f>, B<--silent>, B<--quiet>"
+msgstr "B<-f>, B<--silent>, B<--quiet>"
+
+#. type: Plain text
+#: chmod.1:125
+msgid "suppress most error messages"
+msgstr "屏蔽大多数错误信息"
+
+#. type: TP
+#: chmod.1:125
+#, no-wrap
+msgid "B<-v>, B<--verbose>"
+msgstr "B<-v>, B<--verbose>"
+
+#. type: Plain text
+#: chmod.1:128
+msgid "output a diagnostic for every file processed"
+msgstr "输出每个文件的处理报告"
+
+#. type: TP
+#: chmod.1:128
+#, no-wrap
+msgid "B<--no-preserve-root>"
+msgstr "B<--no-preserve-root>"
+
+#. type: Plain text
+#: chmod.1:131
+msgid "do not treat '/' specially (the default)"
+msgstr "不处理‘/’ （默认）"
+
+#. type: TP
+#: chmod.1:131
+#, no-wrap
+msgid "B<--preserve-root>"
+msgstr "B<--preserve-root>"
+
+#. type: Plain text
+#: chmod.1:134
+msgid "fail to operate recursively on '/'"
+msgstr "无法递归处理‘/’ 时使用此参数"
+
+#. type: TP
+#: chmod.1:134
+#, no-wrap
+msgid "B<--reference>=I<RFILE>"
+msgstr "B<--reference>=I<RFILE文件>"
+
+#. type: Plain text
+#: chmod.1:137
+msgid "use RFILE's mode instead of MODE values"
+msgstr "使用RFILE文件中的模式代替参数“模式” 的值"
+
+#. type: TP
+#: chmod.1:137
+#, no-wrap
+msgid "B<-R>, B<--recursive>"
+msgstr "B<-R>, B<--recursive>"
+
+#. type: Plain text
+#: chmod.1:140
+msgid "change files and directories recursively"
+msgstr "递归修改文件和目录"
+
+#. type: TP
+#: chmod.1:140
+#, no-wrap
+msgid "B<--help>"
+msgstr "B<--help>"
+
+#. type: Plain text
+#: chmod.1:143
+msgid "display this help and exit"
+msgstr "显示本帮助并退出"
+
+#. type: TP
+#: chmod.1:143
+#, no-wrap
+msgid "B<--version>"
+msgstr "B<--version>"
+
+#. type: Plain text
+#: chmod.1:146
+msgid "output version information and exit"
+msgstr "显示版本信息并退出"
+
+#. type: Plain text
+#: chmod.1:148
+msgid ""
+"Each MODE is of the form '[ugoa]*([-+=]([rwxXst]*|[ugo]))+|[-+=][0-7]+'."
+msgstr ""
+"每个“模式” 参数均为 '[ugoa]*([-+=]([rwxXst]*|[ugo]))+|[-+=][0-7]+' 的形式"
+
+#. type: SH
+#: chmod.1:148
+#, no-wrap
+msgid "AUTHOR"
+msgstr "作者"
+
+#. type: Plain text
+#: chmod.1:150
+msgid "Written by David MacKenzie and Jim Meyering."
+msgstr "David MacKenzie 和 Jim Meyering."
+
+#. type: SH
+#: chmod.1:150
+#, no-wrap
+msgid "REPORTING BUGS"
+msgstr "报告错误"
+
+#. type: Plain text
+#: chmod.1:152
+msgid "Report chmod bugs to bug-coreutils@gnu.org"
+msgstr "报告错误到bug-coreutils@gnu.org"
+
+#. type: Plain text
+#: chmod.1:154
+msgid ""
+"GNU coreutils home page: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+msgstr "GNU coreutils 主页：  E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+
+#. type: Plain text
+#: chmod.1:156
+msgid "General help using GNU software: E<lt>http://www.gnu.org/gethelp/E<gt>"
+msgstr "使用GNU软件的一般性帮助：  E<lt>http://www.gnu.org/gethelp/E<gt>"
+
+#. type: Plain text
+#: chmod.1:158
+msgid ""
+"Report chmod translation bugs to E<lt>http://github.com/LCTT/man-pages/E<gt>"
+msgstr "报告翻译错误到  E<lt>http://github.com/LCTT/man-pages/E<gt>"
+
+#. type: SH
+#: chmod.1:158
+#, no-wrap
+msgid "COPYRIGHT"
+msgstr "版权"
+
+#. type: Plain text
+#: chmod.1:161
+msgid ""
+"Copyright \\(co 2013 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
+msgstr ""
+"Copyright \\(co 2013 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
+
+#. type: Plain text
+#: chmod.1:164
+msgid ""
+"This is free software: you are free to change and redistribute it.  There is "
+"NO WARRANTY, to the extent permitted by law."
+msgstr ""
+"这是一个自由软件： 你可以自由修改和分发。  在法律允许范围内，  不提供任何担"
+"保。"
+
+#. type: SH
+#: chmod.1:164
+#, no-wrap
+msgid "SEE ALSO"
+msgstr "参见"
+
+#. type: Plain text
+#: chmod.1:166
+msgid "chmod(2)"
+msgstr "chmod(2)"
+
+#. type: Plain text
+#: chmod.1:174
+msgid ""
+"The full documentation for B<chmod> is maintained as a Texinfo manual.  If "
+"the B<info> and B<chmod> programs are properly installed at your site, the "
+"command"
+msgstr ""
+"使用Textinfo手册维护B<chmod>的完整文档。 如果B<info> 和B<chmod> 程序都已经在"
+"你的机子上正确安装， 使用命令"
+
+#. type: Plain text
+#: chmod.1:176
+msgid "B<info coreutils \\(aqchmod invocation\\(aq>"
+msgstr "B<info coreutils \\(aqchmod invocation\\(aq>"
+
+#. type: Plain text
+#: chmod.1:178
+msgid "should give you access to the complete manual."
+msgstr "就可以访问完整的手册。"
+
+#. type: SH
+#: chmod.1:178
+#, no-wrap
+msgid "翻译信息"
+msgstr "翻译信息"
+
+#. type: SS
+#: chmod.1:179
+#, no-wrap
+msgid "翻译维护人"
+msgstr "翻译维护人"
+
+#. type: Plain text
+#: chmod.1:181
+msgid "译者："
+msgstr "译者："
+
+#. type: Plain text
+#: chmod.1:183
+msgid ""
+"此处为译者信息， 格式为： 译者名 B<E<lt>译者邮件@地址E<gt>>， 译者名 B<E<lt>"
+"译者邮件@地址E<gt>>"
+msgstr "tinyeyeser B<E<lt>tinyeyeser@gmail.comE<gt>>"
+
+#. type: Plain text
+#: chmod.1:185
+msgid "校对："
+msgstr "校对："
+
+#. type: Plain text
+#: chmod.1:187
+msgid ""
+"此处为校对者信息， 格式为： 校对者名 B<E<lt>校对者邮件@地址E<gt>>， 校对者名 "
+"B<E<lt>校对者邮件@地址E<gt>>"
+msgstr ""
+"此处为校对者信息， 格式为： 校对者名 B<E<lt>校对者邮件@地址E<gt>>， 校对者名 "
+"B<E<lt>校对者邮件@地址E<gt>>"
+
+#. type: SS
+#: chmod.1:188
+#, no-wrap
+msgid "翻译更新日期"
+msgstr "翻译更新日期"
+
+#. type: Plain text
+#: chmod.1:190
+msgid "此处为最后更新日期， 格式为： 2013.10.20"
+msgstr "2013.10.22"
+
+#. type: SS
+#: chmod.1:190
+#, no-wrap
+msgid "翻译组"
+msgstr "翻译组"
+
+#. type: Plain text
+#: chmod.1:192
+msgid "man翻译项目 ： B<http://github.com/LCTT/man-pages/>"
+msgstr "man翻译项目 ： B<http://github.com/LCTT/man-pages/>"
+
+#. type: Plain text
+#: chmod.1:194
+msgid "翻译组 ： B<http://lctt.github.io/ E<lt>lctt@linux.cnE<gt>>"
+msgstr "翻译组 ： B<http://lctt.github.io/ E<lt>lctt@linux.cnE<gt>>"
+
+#. type: Plain text
+#: chmod.1:195
+msgid "Linux中国 ： B<http://linux.cn/>"
+msgstr "Linux中国 ： B<http://linux.cn/>"
