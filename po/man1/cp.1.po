@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: LCTT man-pages coreutils-8.21\n"
 "POT-Creation-Date: 2013-10-22 08:51+0800\n"
-"PO-Revision-Date: 2013-10-22 17:17+0800\n"
+"PO-Revision-Date: 2013-10-23 20:48+0800\n"
 "Last-Translator: l3b2w1 <l3b2w1_linux@163.com>\n"
 "Language-Team: LCTT <lctt@linux.cn>\n"
 "MIME-Version: 1.0\n"
@@ -55,7 +55,7 @@ msgstr "cp - 拷贝文件和目录"
 #: cp.1:5
 #, no-wrap
 msgid "SYNOPSIS"
-msgstr "概要"
+msgstr "摘要"
 
 #. type: Plain text
 #: cp.1:8
@@ -65,12 +65,12 @@ msgstr "B<cp> [I<选项>]... [I<-T>] I<源文件 目标文件>"
 #. type: Plain text
 #: cp.1:11
 msgid "B<cp> [I<OPTION>]... I<SOURCE>... I<DIRECTORY>"
-msgstr "B<cp> [I<选项>]... I<源文件>... I<目录>"
+msgstr "B<cp> [I<选项>]... I<源>... I<目录>"
 
 #. type: Plain text
 #: cp.1:14
 msgid "B<cp> [I<OPTION>]... I<-t DIRECTORY SOURCE>..."
-msgstr "B<cp> [I<选项>]... I<-t 目录 源文件>..."
+msgstr "B<cp> [I<选项>]... I<-t 目录 源>..."
 
 #. type: SH
 #: cp.1:14
@@ -203,7 +203,7 @@ msgstr "B<-l>, B<--link>"
 #. type: Plain text
 #: cp.1:53
 msgid "hard link files instead of copying"
-msgstr ""
+msgstr "硬链接文件而不是拷贝"
 
 #. type: TP
 #: cp.1:53
@@ -214,7 +214,7 @@ msgstr "B<-L>, B<--dereference>"
 #. type: Plain text
 #: cp.1:56
 msgid "always follow symbolic links in SOURCE"
-msgstr ""
+msgstr "始终追溯符号链接至源文件 (拷贝链接文件指向的实际文件的数据内容)"
 
 #. type: TP
 #: cp.1:56
@@ -225,7 +225,7 @@ msgstr "B<-n>, B<--no-clobber>"
 #. type: Plain text
 #: cp.1:60
 msgid "do not overwrite an existing file (overrides a previous B<-i> option)"
-msgstr ""
+msgstr "不要覆盖现有文件（忽略前一个B < -i >选项）"
 
 #. type: TP
 #: cp.1:60
@@ -236,7 +236,7 @@ msgstr "B<-P>, B<--no-dereference>"
 #. type: Plain text
 #: cp.1:63
 msgid "never follow symbolic links in SOURCE"
-msgstr ""
+msgstr "不要追溯符号链接至源文件"
 
 #. type: TP
 #: cp.1:63
@@ -247,31 +247,34 @@ msgstr "B<-p>"
 #. type: Plain text
 #: cp.1:66
 msgid "same as B<--preserve>=I<mode>,ownership,timestamps"
-msgstr ""
+msgstr "与 B<--preserve>=I<模式> 相同， 所有权， 时间戳"
 
 #. type: TP
 #: cp.1:66
 #, no-wrap
 msgid "B<--preserve>[=I<ATTR_LIST>]"
-msgstr ""
+msgstr "B<--preserve>[=I<ATTR_LIST>]"
 
 #. type: Plain text
 #: cp.1:72
+#, fuzzy
 msgid ""
 "preserve the specified attributes (default: mode,ownership,timestamps), if "
 "possible additional attributes: context, links, xattr, all"
 msgstr ""
+"保留指定的属性值 (默认： 模式， 所有权， 时间戳)， 如果可以的话， 附加属性： "
+"文本， 链接， x属性， 所有的"
 
 #. type: TP
 #: cp.1:72
 #, no-wrap
 msgid "B<--no-preserve>=I<ATTR_LIST>"
-msgstr ""
+msgstr "B<--no-preserve>=I<ATTR_LIST>"
 
 #. type: Plain text
 #: cp.1:75
 msgid "don't preserve the specified attributes"
-msgstr ""
+msgstr "不要保留指定的属性"
 
 #. type: TP
 #: cp.1:75
@@ -281,8 +284,9 @@ msgstr "B<--parents>"
 
 #. type: Plain text
 #: cp.1:78
+#, fuzzy
 msgid "use full source file name under DIRECTORY"
-msgstr ""
+msgstr "在指定目录下使用全路径文件名"
 
 #. type: TP
 #: cp.1:78
@@ -293,18 +297,18 @@ msgstr "B<-R>, B<-r>, B<--recursive>"
 #. type: Plain text
 #: cp.1:81
 msgid "copy directories recursively"
-msgstr ""
+msgstr "递归拷贝目录"
 
 #. type: TP
 #: cp.1:81
 #, no-wrap
 msgid "B<--reflink>[=I<WHEN>]"
-msgstr ""
+msgstr "B<--reflink>[=I<何时>]"
 
 #. type: Plain text
 #: cp.1:84
 msgid "control clone/CoW copies. See below"
-msgstr ""
+msgstr "控制克隆/写时拷贝， 见下文"
 
 #. type: TP
 #: cp.1:84
@@ -317,18 +321,18 @@ msgstr "B<--remove-destination>"
 msgid ""
 "remove each existing destination file before attempting to open it (contrast "
 "with B<--force>)"
-msgstr ""
+msgstr "在试图打开它之前， 移除每一个现存的目标文件 (与 B<--force> 相反)"
 
 #. type: TP
 #: cp.1:88
 #, no-wrap
 msgid "B<--sparse>=I<WHEN>"
-msgstr ""
+msgstr "B<--sparse>=I<WHEN>"
 
 #. type: Plain text
 #: cp.1:91
 msgid "control creation of sparse files. See below"
-msgstr ""
+msgstr "控制稀疏文件的创建。 见下文"
 
 #. type: TP
 #: cp.1:91
@@ -339,7 +343,7 @@ msgstr "B<--strip-trailing-slashes>"
 #. type: Plain text
 #: cp.1:95
 msgid "remove any trailing slashes from each SOURCE argument"
-msgstr ""
+msgstr "把每个参数中包含的源文件移除任何尾部的斜线"
 
 #. type: TP
 #: cp.1:95
@@ -350,29 +354,30 @@ msgstr "B<-s>, B<--symbolic-link>"
 #. type: Plain text
 #: cp.1:98
 msgid "make symbolic links instead of copying"
-msgstr ""
+msgstr "建立符号链接而不是拷贝"
 
 #. type: TP
 #: cp.1:98
 #, no-wrap
 msgid "B<-S>, B<--suffix>=I<SUFFIX>"
-msgstr ""
+msgstr "B<-S>, B<--suffix>=I<后缀>"
 
 #. type: Plain text
 #: cp.1:101
+#, fuzzy
 msgid "override the usual backup suffix"
-msgstr ""
+msgstr "忽略通常的备份后缀"
 
 #. type: TP
 #: cp.1:101
 #, no-wrap
 msgid "B<-t>, B<--target-directory>=I<DIRECTORY>"
-msgstr ""
+msgstr "B<-t>, B<--target-directory>=I<目录>"
 
 #. type: Plain text
 #: cp.1:104
 msgid "copy all SOURCE arguments into DIRECTORY"
-msgstr ""
+msgstr "拷贝所有源参数到目录"
 
 #. type: TP
 #: cp.1:104
@@ -383,7 +388,7 @@ msgstr "B<-T>, B<--no-target-directory>"
 #. type: Plain text
 #: cp.1:107
 msgid "treat DEST as a normal file"
-msgstr ""
+msgstr "把目标视为常规文件"
 
 #. type: TP
 #: cp.1:107
@@ -396,7 +401,7 @@ msgstr "B<-u>, B<--update>"
 msgid ""
 "copy only when the SOURCE file is newer than the destination file or when "
 "the destination file is missing"
-msgstr ""
+msgstr "只有 源 比目标文件更新或者目标文件丢失才执行拷贝"
 
 #. type: TP
 #: cp.1:112
@@ -407,7 +412,7 @@ msgstr "B<-v>, B<--verbose>"
 #. type: Plain text
 #: cp.1:115
 msgid "explain what is being done"
-msgstr ""
+msgstr "解释正在发生的事情"
 
 #. type: TP
 #: cp.1:115
@@ -418,7 +423,7 @@ msgstr "B<-x>, B<--one-file-system>"
 #. type: Plain text
 #: cp.1:118
 msgid "stay on this file system"
-msgstr ""
+msgstr "驻留在该文件系统"
 
 #. type: TP
 #: cp.1:118
@@ -429,7 +434,7 @@ msgstr "B<--help>"
 #. type: Plain text
 #: cp.1:121
 msgid "display this help and exit"
-msgstr ""
+msgstr "显示该帮助并退出"
 
 #. type: TP
 #: cp.1:121
@@ -440,7 +445,7 @@ msgstr "B<--version>"
 #. type: Plain text
 #: cp.1:124
 msgid "output version information and exit"
-msgstr ""
+msgstr "输出版本信息并且退出"
 
 #. type: Plain text
 #: cp.1:130
@@ -451,6 +456,10 @@ msgid ""
 "sparse DEST file whenever the SOURCE file contains a long enough sequence of "
 "zero bytes.  Use B<--sparse>=I<never> to inhibit creation of sparse files."
 msgstr ""
+"默认情况下，稀疏 源 文件以粗略启发式方式检测， 而相应的目标文件也将会是稀疏"
+"的。这是由 B<--sparse>=I<自动> 选择的行为。任何时候只要 源 文件包含了足够长的"
+"一系列的0字节， 就指定 B<--sparse>= I<始终> 创建一个稀疏的目标文件,。使用B "
+"<--sparse>=I<从不>阻止创建稀疏文件。"
 
 #. type: Plain text
 #: cp.1:134
@@ -460,6 +469,8 @@ msgid ""
 "possible the copy fails, or if B<--reflink>=I<auto> is specified, fall back "
 "to a standard copy."
 msgstr ""
+"指定 B<--reflink>[=I<始终>]时， 执行轻量级拷贝， 只有数据修改的情况下才拷"
+"贝。 "
 
 #. type: Plain text
 #: cp.1:138
@@ -469,50 +480,54 @@ msgid ""
 "B<--backup> option or through the VERSION_CONTROL environment variable.  "
 "Here are the values:"
 msgstr ""
+"除非使用 B<--suffix> 或 SIMPLE_BACKUP_SUFFIX 进行了设置， 否则备份后缀的标志"
+"就是 '~'， 版本控制方法可以通过使用B<--backup> 选项或  设置 VERSION_CONTROL "
+"环境变量进行选择。以下是可能的取值："
 
 #. type: TP
 #: cp.1:138
 #, no-wrap
 msgid "none, off"
-msgstr ""
+msgstr "none, off"
 
 #. type: Plain text
 #: cp.1:141
 msgid "never make backups (even if B<--backup> is given)"
-msgstr ""
+msgstr "不要进行备份 (即使 给定了 B<--backup>)"
 
 #. type: TP
 #: cp.1:141
 #, no-wrap
 msgid "numbered, t"
-msgstr ""
+msgstr "numbered, t"
 
 #. type: Plain text
 #: cp.1:144
 msgid "make numbered backups"
-msgstr ""
+msgstr "编号备份"
 
 #. type: TP
 #: cp.1:144
 #, no-wrap
 msgid "existing, nil"
-msgstr ""
+msgstr "existing, nil"
 
 #. type: Plain text
 #: cp.1:147
+#, fuzzy
 msgid "numbered if numbered backups exist, simple otherwise"
-msgstr ""
+msgstr "编号，如果编号备份存在， 否则什么都不做"
 
 #. type: TP
 #: cp.1:147
 #, no-wrap
 msgid "simple, never"
-msgstr ""
+msgstr "simple, never"
 
 #. type: Plain text
 #: cp.1:150
 msgid "always make simple backups"
-msgstr ""
+msgstr "始终进行简单备份"
 
 #. type: Plain text
 #: cp.1:154
