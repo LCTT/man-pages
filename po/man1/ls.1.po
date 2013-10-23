@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: LCTT man-pages coreutils-8.21\n"
 "POT-Creation-Date: 2013-10-22 08:51+0800\n"
-"PO-Revision-Date: 2013-10-22 08:56+0800\n"
+"PO-Revision-Date: 2013-10-22 20:03+0800\n"
 "Last-Translator: wxy <xingyu.wang@gmail.com>\n"
 "Language-Team: LCTT <lctt@linux.cn>\n"
 "Language: zh_CN.UTF-8\n"
@@ -55,7 +55,7 @@ msgstr "ls - 列出目录内容"
 #: ls.1:5
 #, no-wrap
 msgid "SYNOPSIS"
-msgstr "概要"
+msgstr "摘要"
 
 #. type: Plain text
 #: ls.1:8
@@ -876,7 +876,7 @@ msgstr "报告错误"
 #. type: Plain text
 #: ls.1:244
 msgid "Report ls bugs to bug-coreutils@gnu.org"
-msgstr "错误发送到 bug-coreutils@gnu.org"
+msgstr "发送错误信息到： bug-coreutils@gnu.org"
 
 #. type: Plain text
 #: ls.1:246
@@ -893,13 +893,13 @@ msgstr "使用GNU软件的一般性帮助： E<lt>http://www.gnu.org/gethelp/E<g
 #: ls.1:250
 msgid ""
 "Report ls translation bugs to E<lt>http://github.com/LCTT/man-pages/E<gt>"
-msgstr "报告翻译错误到 E<lt>http://github.com/LCTT/man-pages/E<gt>"
+msgstr "发送翻译错误到 E<lt>http://github.com/LCTT/man-pages/E<gt>"
 
 #. type: SH
 #: ls.1:250
 #, no-wrap
 msgid "COPYRIGHT"
-msgstr "版权"
+msgstr "版权申明"
 
 #. type: Plain text
 #: ls.1:253
@@ -916,14 +916,14 @@ msgid ""
 "This is free software: you are free to change and redistribute it.  There is "
 "NO WARRANTY, to the extent permitted by law."
 msgstr ""
-"这是一个自由软件：你可以自由修改和分发它。 在法律允许范围内， 不提供任何担"
-"保。 "
+"这是一个自由软件：你可以自由修改和重新发布它。 在法律允许范围内， 本文档不提"
+"供任何担保。 "
 
 #. type: SH
 #: ls.1:256
 #, no-wrap
 msgid "SEE ALSO"
-msgstr "参见"
+msgstr "请参阅"
 
 #. type: Plain text
 #: ls.1:264
@@ -932,7 +932,7 @@ msgid ""
 "B<info> and B<ls> programs are properly installed at your site, the command"
 msgstr ""
 "B<ls> 的完整文档使用 Textinfo 手册维护。 如果 B<info> 和 B<ls> 已经正确安装到"
-"了你的机器， 下述命令"
+"了你的机器， 通过下述命令"
 
 #. type: Plain text
 #: ls.1:266
