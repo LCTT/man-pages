@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: LCTT man-pages coreutils-8.21\n"
 "POT-Creation-Date: 2013-10-22 08:51+0800\n"
-"PO-Revision-Date: 2013-10-23 13:43+0800\n"
+"PO-Revision-Date: 2013-10-24 11:02+0800\n"
 "Last-Translator: wxy <xingyu.wang@gmail.com>\n"
 "Language-Team: LCTT <lctt@linux.cn>\n"
 "Language: zh_CN.UTF-8\n"
@@ -149,9 +149,9 @@ msgid ""
 "formal base64 alphabet.  Use B<--ignore-garbage> to attempt to recover from "
 "any other non-alphabet bytes in the encoded stream."
 msgstr ""
-"使用在 RFC 3548 中描述的 base64 字符集进行编码。 解码时，输入也许包含 base64 "
-"字符集之外的换行符。 可以使用 B<--ignore-garbage> 来尝试恢复编码流中其它非字"
-"母的字符。"
+"使用在 RFC 3548 中描述的 base64 字符集对数据进行编码。 解码时， 输入也许包含 "
+"base64 字符集之外的换行符。 可以使用 B<--ignore-garbage> 忽略编码流中的非 "
+"base64 字符集之外字符， 来尝试恢复被编码的数据。"
 
 #. type: SH
 #: base64.1:37
@@ -287,7 +287,7 @@ msgstr "翻译更新日期"
 #. type: Plain text
 #: base64.1:77
 msgid "此处为最后更新日期， 格式为： 2013.10.20"
-msgstr "2013.10.23"
+msgstr "2013.10.24"
 
 #. type: SS
 #: base64.1:77
