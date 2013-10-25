@@ -1,0 +1,298 @@
+# LCTT man-pages Translate Project
+# Copyright (C) 2013 LCTT
+# This file is distributed under the same license as the PACKAGE package.
+# LCTT <lctt@linux.cn>, 2013.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: LCTT man-pages coreutils-8.21\n"
+"POT-Creation-Date: 2013-10-22 08:51+0800\n"
+"PO-Revision-Date: 2013-10-25 16:24+0800\n"
+"Last-Translator: flsf <jianmaflsf@gmail.com>\n"
+"Language-Team: LCTT <lctt@linux.cn>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"Language: zh_CN.UTF-8\n"
+
+#. type: TH
+#: rmdir.1:2
+#, no-wrap
+msgid "RMDIR"
+msgstr "RMDIR"
+
+#. type: TH
+#: rmdir.1:2
+#, no-wrap
+msgid "October 2013"
+msgstr "2013年10月"
+
+#. type: TH
+#: rmdir.1:2
+#, no-wrap
+msgid "GNU coreutils 8.21"
+msgstr "GNU coreutils 8.21"
+
+#. type: TH
+#: rmdir.1:2
+#, no-wrap
+msgid "User Commands"
+msgstr "用户命令"
+
+#. type: SH
+#: rmdir.1:3
+#, no-wrap
+msgid "NAME"
+msgstr "名称"
+
+#. type: Plain text
+#: rmdir.1:5
+msgid "rmdir - remove empty directories"
+msgstr "rmdir - 移除空目录"
+
+#. type: SH
+#: rmdir.1:5
+#, no-wrap
+msgid "SYNOPSIS"
+msgstr "摘要"
+
+#. type: Plain text
+#: rmdir.1:8
+msgid "B<rmdir> [I<OPTION>]... I<DIRECTORY>..."
+msgstr "B<rmdir> [I<选项>]... I<目录>..."
+
+#. type: SH
+#: rmdir.1:8
+#, no-wrap
+msgid "DESCRIPTION"
+msgstr "描述"
+
+#. type: Plain text
+#: rmdir.1:12
+msgid "Remove the DIRECTORY(ies), if they are empty."
+msgstr "如果目录是空的，就移除它(它们)"
+
+#. type: Plain text
+#: rmdir.1:14
+msgid "B<--ignore-fail-on-non-empty>"
+msgstr "B<--ignore-fail-on-non-empty>"
+
+#. type: Plain text
+#: rmdir.1:16
+msgid "ignore each failure that is solely because a directory"
+msgstr "忽略因为目录"
+
+#. type: Plain text
+#: rmdir.1:18
+msgid "is non-empty"
+msgstr "非空导致的失败 (译注：就是会忽略非空目录而进行删除)"
+
+#. type: TP
+#: rmdir.1:18
+#, no-wrap
+msgid "B<-p>, B<--parents>"
+msgstr "B<-p>, B<--parents>"
+
+#. type: Plain text
+#: rmdir.1:22
+msgid ""
+"remove DIRECTORY and its ancestors; e.g., 'rmdir B<-p> a/b/c' is similar to "
+"'rmdir a/b/c a/b a'"
+msgstr ""
+"移除目录及其祖先；例如，'rmdir B<-p> a/b/c' is similar to 'rmdir a/b/c a/b a'"
+
+#. type: TP
+#: rmdir.1:22
+#, no-wrap
+msgid "B<-v>, B<--verbose>"
+msgstr "B<-v>, B<--verbose>"
+
+#. type: Plain text
+#: rmdir.1:25
+msgid "output a diagnostic for every directory processed"
+msgstr "输出每个目录操作的处理信息"
+
+#. type: TP
+#: rmdir.1:25
+#, no-wrap
+msgid "B<--help>"
+msgstr "B<--help>"
+
+#. type: Plain text
+#: rmdir.1:28
+msgid "display this help and exit"
+msgstr "显示帮助并退出"
+
+#. type: TP
+#: rmdir.1:28
+#, no-wrap
+msgid "B<--version>"
+msgstr "B<--version>"
+
+#. type: Plain text
+#: rmdir.1:31
+msgid "output version information and exit"
+msgstr "输出版本信息并退出"
+
+#. type: SH
+#: rmdir.1:31
+#, no-wrap
+msgid "AUTHOR"
+msgstr "作者"
+
+#. type: Plain text
+#: rmdir.1:33
+msgid "Written by David MacKenzie."
+msgstr "由 David MacKenzie 撰写。"
+
+#. type: SH
+#: rmdir.1:33
+#, no-wrap
+msgid "REPORTING BUGS"
+msgstr "报告错误"
+
+#. type: Plain text
+#: rmdir.1:35
+msgid "Report rmdir bugs to bug-coreutils@gnu.org"
+msgstr "发送错误信息到： bug-coreutils@gnu.org"
+
+#. type: Plain text
+#: rmdir.1:37
+msgid ""
+"GNU coreutils home page: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+msgstr "GNU coreutils 主页：  E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+
+#. type: Plain text
+#: rmdir.1:39
+msgid "General help using GNU software: E<lt>http://www.gnu.org/gethelp/E<gt>"
+msgstr "使用GNU软件的常规帮助： E<lt>http://www.gnu.org/gethelp/E<gt>"
+
+#. type: Plain text
+#: rmdir.1:41
+msgid ""
+"Report rmdir translation bugs to E<lt>http://github.com/LCTT/man-pages/E<gt>"
+msgstr "发送翻译错误到 E<lt>http://github.com/LCTT/man-pages/E<gt>"
+
+#. type: SH
+#: rmdir.1:41
+#, no-wrap
+msgid "COPYRIGHT"
+msgstr "版权"
+
+#. type: Plain text
+#: rmdir.1:44
+msgid ""
+"Copyright \\(co 2013 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
+msgstr ""
+"Copyright \\(co 2013 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
+
+#. type: Plain text
+#: rmdir.1:47
+msgid ""
+"This is free software: you are free to change and redistribute it.  There is "
+"NO WARRANTY, to the extent permitted by law."
+msgstr ""
+"这是一个自由软件： 你可以自由修改和重新发布它。 在法律允许的范围内， 不提供任"
+"何担保"
+
+#. type: SH
+#: rmdir.1:47
+#, no-wrap
+msgid "SEE ALSO"
+msgstr "请参阅"
+
+#. type: Plain text
+#: rmdir.1:49
+msgid "rmdir(2)"
+msgstr "rmdir(2)"
+
+#. type: Plain text
+#: rmdir.1:57
+msgid ""
+"The full documentation for B<rmdir> is maintained as a Texinfo manual.  If "
+"the B<info> and B<rmdir> programs are properly installed at your site, the "
+"command"
+msgstr ""
+"B<rmdir> 的完整文档使用 Texinfo 手册进行维护。如果 B<info> 和 B<rmdir> 程序已"
+"经正确地安装在了你的电脑上， 通过下述命令"
+
+#. type: Plain text
+#: rmdir.1:59
+msgid "B<info coreutils \\(aqrmdir invocation\\(aq>"
+msgstr "B<info coreutils \\(aqrmdir invocation\\(aq>"
+
+#. type: Plain text
+#: rmdir.1:61
+msgid "should give you access to the complete manual."
+msgstr "可以访问完整的使用手册"
+
+#. type: SH
+#: rmdir.1:61
+#, no-wrap
+msgid "翻译信息"
+msgstr "翻译信息"
+
+#. type: SS
+#: rmdir.1:62
+#, no-wrap
+msgid "翻译维护人"
+msgstr "翻译维护人"
+
+#. type: Plain text
+#: rmdir.1:64
+msgid "译者："
+msgstr "译者："
+
+#. type: Plain text
+#: rmdir.1:66
+msgid ""
+"此处为译者信息， 格式为： 译者名 B<E<lt>译者邮件@地址E<gt>>， 译者名 B<E<lt>"
+"译者邮件@地址E<gt>>"
+msgstr "flsf B<E<lt>jianmaflsf@gmail.comE<gt>>"
+
+#. type: Plain text
+#: rmdir.1:68
+msgid "校对："
+msgstr "校对："
+
+#. type: Plain text
+#: rmdir.1:70
+msgid ""
+"此处为校对者信息， 格式为： 校对者名 B<E<lt>校对者邮件@地址E<gt>>， 校对者名 "
+"B<E<lt>校对者邮件@地址E<gt>>"
+msgstr ""
+
+#. type: SS
+#: rmdir.1:71
+#, no-wrap
+msgid "翻译更新日期"
+msgstr "翻译更新日期"
+
+#. type: Plain text
+#: rmdir.1:73
+msgid "此处为最后更新日期， 格式为： 2013.10.20"
+msgstr ""
+
+#. type: SS
+#: rmdir.1:73
+#, no-wrap
+msgid "翻译组"
+msgstr "翻译组"
+
+#. type: Plain text
+#: rmdir.1:75
+msgid "man翻译项目 ： B<http://github.com/LCTT/man-pages/>"
+msgstr "man翻译项目 ： B<http://github.com/LCTT/man-pages/>"
+
+#. type: Plain text
+#: rmdir.1:77
+msgid "翻译组 ： B<http://lctt.github.io/ E<lt>lctt@linux.cnE<gt>>"
+msgstr "翻译组 ： B<http://lctt.github.io/ E<lt>lctt@linux.cnE<gt>>"
+
+#. type: Plain text
+#: rmdir.1:78
+msgid "Linux中国 ： B<http://linux.cn/>"
+msgstr "Linux中国 ： B<http://linux.cn/>"
