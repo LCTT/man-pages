@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: LCTT man-pages coreutils-8.21\n"
 "POT-Creation-Date: 2013-10-22 08:51+0800\n"
-"PO-Revision-Date: 2013-10-22 21:43+0800\n"
-"Last-Translator: SCUSJS <scusjs@foxmail.com>\n"
+"PO-Revision-Date: 2013-10-26 23:56-0800\n"
+"Last-Translator: Vic___ <vickers020@gmail.com>\n"
 "Language-Team: LCTT <lctt@linux.cn>\n"
 "Language: zh_CN.UTF-8\n"
 "MIME-Version: 1.0\n"
@@ -221,7 +221,7 @@ msgstr "译者："
 #. type: Plain text
 #: pwd.1:63
 msgid "此处为译者信息， 格式为： 译者名 B<E<lt>译者邮件@地址E<gt>>， 译者名 B<E<lt>译者邮件@地址E<gt>>"
-msgstr "Vic___"
+msgstr "Vic___ B<E<lt>vickers020@gmail.comE<gt>>"
 
 #. type: Plain text
 #: pwd.1:65
