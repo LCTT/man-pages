@@ -1,0 +1,306 @@
+# LCTT man-pages Translate Project
+# Copyright (C) 2013 LCTT
+# This file is distributed under the same license as the PACKAGE package.
+# LCTT <lctt@linux.cn>, 2013.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: LCTT man-pages coreutils-8.21\n"
+"POT-Creation-Date: 2013-10-22 08:51+0800\n"
+"PO-Revision-Date: 2013-10-27 17:55+0830\n"
+"Last-Translator: Vic___ <vickers020@gmail.com>\n"
+"Language-Team: LCTT <lctt@linux.cn>\n"
+"Language: zh_CN.UTF-8\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-Language: zh_CN.UTF-8\n"
+
+#. type: TH
+#: wc.1:2
+#, no-wrap
+msgid "WC"
+msgstr "WC"
+
+#. type: TH
+#: wc.1:2
+#, no-wrap
+msgid "October 2013"
+msgstr "2013年10月"
+
+#. type: TH
+#: wc.1:2
+#, no-wrap
+msgid "GNU coreutils 8.21"
+msgstr "GNU coreutils 8.21"
+
+#. type: TH
+#: wc.1:2
+#, no-wrap
+msgid "User Commands"
+msgstr "用户命令"
+
+#. type: SH
+#: wc.1:3
+#, no-wrap
+msgid "NAME"
+msgstr "名称"
+
+#. type: Plain text
+#: wc.1:5
+msgid "wc - print newline, word, and byte counts for each file"
+msgstr "wc-显示文件的行数、词数和字节数"
+
+#. type: SH
+#: wc.1:5
+#, no-wrap
+msgid "SYNOPSIS"
+msgstr "摘要"
+
+#. type: Plain text
+#: wc.1:8
+msgid "B<wc> [I<OPTION>]... [I<FILE>]..."
+msgstr "B<wc> [I<选项>]… [I<文件>]…"
+
+#. type: Plain text
+#: wc.1:11
+msgid "B<wc> [I<OPTION>]... I<--files0-from=F>"
+msgstr "B<wc> [I<选项>]... I<--files0-from=F>"
+
+#. type: SH
+#: wc.1:11
+#, no-wrap
+msgid "DESCRIPTION"
+msgstr "描述"
+
+#. type: Plain text
+#: wc.1:20
+msgid "Print newline, word, and byte counts for each FILE, and a total line if more than one FILE is specified.  With no FILE, or when FILE is -, read standard input.  A word is a non-zero-length sequence of characters delimited by white space.  The options below may be used to select which counts are printed, always in the following order: newline, word, character, byte, maximum line length."
+msgstr "显示文件的行数、词数和字节数，和一个统计行（若有多个文件被指定）。当没有文件或者文件为空的时候，读取标准输入。一个单词是指非零长度有序的通过空格限制长度的字符组。下列选项习惯用于选择那一个统计数被显示，总共有这些选项：行数、词数、字符数、字节数、最长行长度。"
+
+#. type: TP
+#: wc.1:20
+#, no-wrap
+msgid "B<-c>, B<--bytes>"
+msgstr "B<-c>, B<--bytes>"
+
+#. type: Plain text
+#: wc.1:23
+msgid "print the byte counts"
+msgstr "显示字节数"
+
+#. type: TP
+#: wc.1:23
+#, no-wrap
+msgid "B<-m>, B<--chars>"
+msgstr "B<-m>, B<--chars>"
+
+#. type: Plain text
+#: wc.1:26
+msgid "print the character counts"
+msgstr "显示字符数"
+
+#. type: TP
+#: wc.1:26
+#, no-wrap
+msgid "B<-l>, B<--lines>"
+msgstr "B<-l>, B<--lines>"
+
+#. type: Plain text
+#: wc.1:29
+msgid "print the newline counts"
+msgstr "显示行数"
+
+#. type: TP
+#: wc.1:29
+#, no-wrap
+msgid "B<--files0-from>=I<F>"
+msgstr "B<--files0-from>=I<F>"
+
+#. type: Plain text
+#: wc.1:34
+msgid "read input from the files specified by NUL-terminated names in file F; If F is - then read names from standard input"
+msgstr "读取来自文件F的指定以NULL结尾的名字；如果F文件是空，就读取来自标准输入的名字"
+
+#. type: TP
+#: wc.1:34
+#, no-wrap
+msgid "B<-L>, B<--max-line-length>"
+msgstr "B<-L>, B<--max-line-length>"
+
+#. type: Plain text
+#: wc.1:37
+msgid "print the length of the longest line"
+msgstr "显示最长行的长度"
+
+#. type: TP
+#: wc.1:37
+#, no-wrap
+msgid "B<-w>, B<--words>"
+msgstr "B<-w>, B<--words>"
+
+#. type: Plain text
+#: wc.1:40
+msgid "print the word counts"
+msgstr "显示字数"
+
+#. type: TP
+#: wc.1:40
+#, no-wrap
+msgid "B<--help>"
+msgstr "B<--help>"
+
+#. type: Plain text
+#: wc.1:43
+msgid "display this help and exit"
+msgstr "显示帮助并退出"
+
+#. type: TP
+#: wc.1:43
+#, no-wrap
+msgid "B<--version>"
+msgstr "B<--version>"
+
+#. type: Plain text
+#: wc.1:46
+msgid "output version information and exit"
+msgstr "显示版本信息并退出"
+
+#. type: SH
+#: wc.1:46
+#, no-wrap
+msgid "AUTHOR"
+msgstr "作者"
+
+#. type: Plain text
+#: wc.1:48
+msgid "Written by Paul Rubin and David MacKenzie."
+msgstr "由 Paul Rubin 和 David MacKenzie 撰写。 "
+
+#. type: SH
+#: wc.1:48
+#, no-wrap
+msgid "REPORTING BUGS"
+msgstr "报告错误"
+
+#. type: Plain text
+#: wc.1:50
+msgid "Report wc bugs to bug-coreutils@gnu.org"
+msgstr "发送错误信息到： bug-coreutils@gnu.org"
+
+#. type: Plain text
+#: wc.1:52
+msgid "GNU coreutils home page: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+msgstr "GNU coreutils 主页： E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+
+#. type: Plain text
+#: wc.1:54
+msgid "General help using GNU software: E<lt>http://www.gnu.org/gethelp/E<gt>"
+msgstr "使用GNU软件的常规帮助： E<lt>http://www.gnu.org/gethelp/E<gt>"
+
+#. type: Plain text
+#: wc.1:56
+msgid "Report wc translation bugs to E<lt>http://github.com/LCTT/man-pages/E<gt>"
+msgstr "发送翻译错误到 E<lt>http://github.com/LCTT/man-pages/E<gt>"
+
+#. type: SH
+#: wc.1:56
+#, no-wrap
+msgid "COPYRIGHT"
+msgstr "版权声明"
+
+#. type: Plain text
+#: wc.1:59
+msgid "Copyright \\(co 2013 Free Software Foundation, Inc.  License GPLv3+: GNU GPL version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
+msgstr "Copyright \\(co 2013 Free Software Foundation, Inc.  License GPLv3+: GNU GPL version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
+
+#. type: Plain text
+#: wc.1:62
+msgid "This is free software: you are free to change and redistribute it.  There is NO WARRANTY, to the extent permitted by law."
+msgstr "这是一个自由软件： 你可以自由修改和重新发布它。 在法律允许的范围内， 不提供任何担保"
+
+#. type: SH
+#: wc.1:62
+#, no-wrap
+msgid "SEE ALSO"
+msgstr "请参阅"
+
+#. type: Plain text
+#: wc.1:70
+msgid "The full documentation for B<wc> is maintained as a Texinfo manual.  If the B<info> and B<wc> programs are properly installed at your site, the command"
+msgstr "B<wc> 的完整文档使用 Texinfo 手册进行维护。如果 B<info> 和 B<wc> 程序已经正确地安装在了你的电脑上， 通过下述命令"
+
+#. type: Plain text
+#: wc.1:72
+msgid "B<info coreutils \\(aqwc invocation\\(aq>"
+msgstr "B<info coreutils \\(aqwc invocation\\(aq>"
+
+#. type: Plain text
+#: wc.1:74
+msgid "should give you access to the complete manual."
+msgstr "可以访问完整的使用手册"
+
+#. type: SH
+#: wc.1:74
+#, no-wrap
+msgid "翻译信息"
+msgstr "翻译信息"
+
+#. type: SS
+#: wc.1:75
+#, no-wrap
+msgid "翻译维护人"
+msgstr "翻译维护人"
+
+#. type: Plain text
+#: wc.1:77
+msgid "译者："
+msgstr "译者："
+
+#. type: Plain text
+#: wc.1:79
+msgid "此处为译者信息， 格式为： 译者名 B<E<lt>译者邮件@地址E<gt>>， 译者名 B<E<lt>译者邮件@地址E<gt>>"
+msgstr "Vic___ B<E<lt>vickers020@gmail.comE<gt>>"
+
+#. type: Plain text
+#: wc.1:81
+msgid "校对："
+msgstr "校对："
+
+#. type: Plain text
+#: wc.1:83
+msgid "此处为校对者信息， 格式为： 校对者名 B<E<lt>校对者邮件@地址E<gt>>， 校对者名 B<E<lt>校对者邮件@地址E<gt>>"
+msgstr "此处为校对者信息， 格式为： 校对者名 B<E<lt>校对者邮件@地址E<gt>>"
+
+#. type: SS
+#: wc.1:84
+#, no-wrap
+msgid "翻译更新日期"
+msgstr "翻译更新日期"
+
+#. type: Plain text
+#: wc.1:86
+msgid "此处为最后更新日期， 格式为： 2013.10.20"
+msgstr "2013.10.27"
+
+#. type: SS
+#: wc.1:86
+#, no-wrap
+msgid "翻译组"
+msgstr "翻译组"
+
+#. type: Plain text
+#: wc.1:88
+msgid "man翻译项目 ： B<http://github.com/LCTT/man-pages/>"
+msgstr "man翻译项目 ： B<http://github.com/LCTT/man-pages/>"
+
+#. type: Plain text
+#: wc.1:90
+msgid "翻译组 ： B<http://lctt.github.io/ E<lt>lctt@linux.cnE<gt>>"
+msgstr "翻译组 ： B<http://lctt.github.io/ E<lt>lctt@linux.cnE<gt>>"
+
+#. type: Plain text
+#: wc.1:91
+msgid "Linux中国 ： B<http://linux.cn/>"
+msgstr "Linux中国 ： B<http://linux.cn/>"
