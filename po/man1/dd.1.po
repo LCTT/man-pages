@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: LCTT man-pages coreutils-8.21\n"
 "POT-Creation-Date: 2013-10-29 23:04+0800\n"
-"PO-Revision-Date: 2013-10-19 17:50+0800\n"
-"Last-Translator: LCTT <lctt@linux.cn>\n"
+"PO-Revision-Date: 2013-10-29 23:05+0800\n"
+"Last-Translator: wxy <xingyu.wang@gmail.com>\n"
 "Language-Team: LCTT <lctt@linux.cn>\n"
 "Language: zh_CN.UTF-8\n"
 "MIME-Version: 1.0\n"
@@ -20,201 +20,201 @@ msgstr ""
 #: dd.1:2
 #, no-wrap
 msgid "DD"
-msgstr ""
+msgstr "DD"
 
 #. type: TH
 #: dd.1:2
 #, no-wrap
 msgid "October 2013"
-msgstr ""
+msgstr "2013年10月"
 
 #. type: TH
 #: dd.1:2
 #, no-wrap
 msgid "GNU coreutils 8.21"
-msgstr ""
+msgstr "GNU coreutils 8.21"
 
 #. type: TH
 #: dd.1:2
 #, no-wrap
 msgid "User Commands"
-msgstr ""
+msgstr "用户命令"
 
 #. type: SH
 #: dd.1:3
 #, no-wrap
 msgid "NAME"
-msgstr ""
+msgstr "名称"
 
 #. type: Plain text
 #: dd.1:5
 msgid "dd - convert and copy a file"
-msgstr ""
+msgstr "dd - 转换并复制一个文件"
 
 #. type: SH
 #: dd.1:5
 #, no-wrap
 msgid "SYNOPSIS"
-msgstr ""
+msgstr "摘要"
 
 #. type: Plain text
 #: dd.1:8
 msgid "B<dd> [I<OPERAND>]..."
-msgstr ""
+msgstr "B<dd> [I<操作>]..."
 
 #. type: Plain text
 #: dd.1:11
 msgid "B<dd> I<OPTION>"
-msgstr ""
+msgstr "B<dd> I<选项>"
 
 #. type: SH
 #: dd.1:11
 #, no-wrap
 msgid "DESCRIPTION"
-msgstr ""
+msgstr "描述"
 
 #. type: Plain text
 #: dd.1:15
 msgid "Copy a file, converting and formatting according to the operands."
-msgstr ""
+msgstr "复制一个文件，按照指定操作对其进行转换和格式化。"
 
 #. type: TP
 #: dd.1:15
 #, no-wrap
 msgid "bs=BYTES"
-msgstr ""
+msgstr "bs=字节数"
 
 #. type: Plain text
 #: dd.1:18
 msgid "read and write up to BYTES bytes at a time"
-msgstr ""
+msgstr "每次读/写指定的字节数"
 
 #. type: TP
 #: dd.1:18
 #, no-wrap
 msgid "cbs=BYTES"
-msgstr ""
+msgstr "cbs=字节数"
 
 #. type: Plain text
 #: dd.1:21
 msgid "convert BYTES bytes at a time"
-msgstr ""
+msgstr "每次转换的字节数"
 
 #. type: TP
 #: dd.1:21
 #, no-wrap
 msgid "conv=CONVS"
-msgstr ""
+msgstr "conv=转换方式"
 
 #. type: Plain text
 #: dd.1:24
 msgid "convert the file as per the comma separated symbol list"
-msgstr ""
+msgstr "转换方式，用逗号分隔"
 
 #. type: TP
 #: dd.1:24
 #, no-wrap
 msgid "count=N"
-msgstr ""
+msgstr "count=块数"
 
 #. type: Plain text
 #: dd.1:27
 msgid "copy only N input blocks"
-msgstr ""
+msgstr "只复制指定块数的输入数据"
 
 #. type: TP
 #: dd.1:27
 #, no-wrap
 msgid "ibs=BYTES"
-msgstr ""
+msgstr "ibs=字节数"
 
 #. type: Plain text
 #: dd.1:30
 msgid "read up to BYTES bytes at a time (default: 512)"
-msgstr ""
+msgstr "每次读取的字节数（默认：512字节）"
 
 #. type: TP
 #: dd.1:30
 #, no-wrap
 msgid "if=FILE"
-msgstr ""
+msgstr "if=文件"
 
 #. type: Plain text
 #: dd.1:33
 msgid "read from FILE instead of stdin"
-msgstr ""
+msgstr "读取文件而不是读取标准输入"
 
 #. type: TP
 #: dd.1:33
 #, no-wrap
 msgid "iflag=FLAGS"
-msgstr ""
+msgstr "iflag=读写标志"
 
 #. type: Plain text
 #: dd.1:36
 msgid "read as per the comma separated symbol list"
-msgstr ""
+msgstr "按照逗号分隔的读写标志列表进行读取"
 
 #. type: TP
 #: dd.1:36
 #, no-wrap
 msgid "obs=BYTES"
-msgstr ""
+msgstr "obs=字节数"
 
 #. type: Plain text
 #: dd.1:39
 msgid "write BYTES bytes at a time (default: 512)"
-msgstr ""
+msgstr "每次写入的字节数（默认：512字节）"
 
 #. type: TP
 #: dd.1:39
 #, no-wrap
 msgid "of=FILE"
-msgstr ""
+msgstr "of=文件"
 
 #. type: Plain text
 #: dd.1:42
 msgid "write to FILE instead of stdout"
-msgstr ""
+msgstr "写到文件而不是写入到标准输出"
 
 #. type: TP
 #: dd.1:42
 #, no-wrap
 msgid "oflag=FLAGS"
-msgstr ""
+msgstr "oflag=读写标志"
 
 #. type: Plain text
 #: dd.1:45
 msgid "write as per the comma separated symbol list"
-msgstr ""
+msgstr "按照逗号分隔的读写标志列表进行写入"
 
 #. type: TP
 #: dd.1:45
 #, no-wrap
 msgid "seek=N"
-msgstr ""
+msgstr "seek=数量"
 
 #. type: Plain text
 #: dd.1:48
 msgid "skip N obs-sized blocks at start of output"
-msgstr ""
+msgstr "输出时跳过指定数量的前几块数据 （每块大小由 obs 指定）"
 
 #. type: TP
 #: dd.1:48
 #, no-wrap
 msgid "skip=N"
-msgstr ""
+msgstr "skip=数量"
 
 #. type: Plain text
 #: dd.1:51
 msgid "skip N ibs-sized blocks at start of input"
-msgstr ""
+msgstr "输入时，跳过指定数量的前几块数据 （每块大小由 ibs 指定）"
 
 #. type: TP
 #: dd.1:51
 #, no-wrap
 msgid "status=WHICH"
-msgstr ""
+msgstr "status=屏蔽信息"
 
 #. type: Plain text
 #: dd.1:55
@@ -222,6 +222,7 @@ msgid ""
 "WHICH info to suppress outputting to stderr; \\&'noxfer' suppresses transfer "
 "stats, 'none' suppresses all"
 msgstr ""
+"屏蔽哪种stderr的输出； \\&'noxfer' 屏蔽传输统计数据， 'none' 则全部屏蔽l"
 
 #. type: Plain text
 #: dd.1:59
@@ -230,116 +231,122 @@ msgid ""
 "w =2, b =512, kB =1000, K =1024, MB =1000*1000, M =1024*1024, xM =M GB "
 "=1000*1000*1000, G =1024*1024*1024, and so on for T, P, E, Z, Y."
 msgstr ""
+"数量和字节数可以使用下列的多个后缀： c=1、 w=2、 b=512、 kB =1000、 K "
+"=1024、 MB =1000*1000、 M =1024*1024、 xM =乘以M、 GB =1000*1000*1000、 G "
+"=1024*1024*1024， 以及更多的T、 P、 E、 Z、 Y等。（译注：除了“b”以外，其它后"
+"缀大小写均可；“B”表示1000的倍率，而没有该后缀则表示1024的倍率。 “x”用于表示相"
+"乘，所以不能用0x这种16进制表示；“x”可以用于多个数字或后缀相乘，如2x4x1000、"
+"2xKxMB等）"
 
 #. type: Plain text
 #: dd.1:61
 msgid "Each CONV symbol may be:"
-msgstr ""
+msgstr "转换方式如下："
 
 #. type: TP
 #: dd.1:61
 #, no-wrap
 msgid "ascii"
-msgstr ""
+msgstr "ascii"
 
 #. type: Plain text
 #: dd.1:64
 msgid "from EBCDIC to ASCII"
-msgstr ""
+msgstr "从 EBCDIC 转换为 ASCII"
 
 #. type: TP
 #: dd.1:64
 #, no-wrap
 msgid "ebcdic"
-msgstr ""
+msgstr "ebcdic"
 
 #. type: Plain text
 #: dd.1:67
 msgid "from ASCII to EBCDIC"
-msgstr ""
+msgstr "从 ASCII 转换为 EBCDIC"
 
 #. type: TP
 #: dd.1:67
 #, no-wrap
 msgid "ibm"
-msgstr ""
+msgstr "ibm"
 
 #. type: Plain text
 #: dd.1:70
 msgid "from ASCII to alternate EBCDIC"
-msgstr ""
+msgstr "从 ASCII 转换到另一种 EBCDIC "
 
 #. type: TP
 #: dd.1:70
 #, no-wrap
 msgid "block"
-msgstr ""
+msgstr "block"
 
 #. type: Plain text
 #: dd.1:73
 msgid "pad newline-terminated records with spaces to cbs-size"
-msgstr ""
+msgstr "用空格填充满不足指定的转换字节数的行（以换行符作为一行的结束）"
 
 #. type: TP
 #: dd.1:73
 #, no-wrap
 msgid "unblock"
-msgstr ""
+msgstr "unblock"
 
 #. type: Plain text
 #: dd.1:76
 msgid "replace trailing spaces in cbs-size records with newline"
-msgstr ""
+msgstr "替换指定转换字节数的行的尾部填充的空格为换行符"
 
 #. type: TP
 #: dd.1:76
 #, no-wrap
 msgid "lcase"
-msgstr ""
+msgstr "lcase"
 
 #. type: Plain text
 #: dd.1:79
 msgid "change upper case to lower case"
-msgstr ""
+msgstr "将大写转换为小写"
 
 #. type: TP
 #: dd.1:79
 #, no-wrap
 msgid "ucase"
-msgstr ""
+msgstr "ucase"
 
 #. type: Plain text
 #: dd.1:82
 msgid "change lower case to upper case"
-msgstr ""
+msgstr "将小写转换为大写"
 
 #. type: TP
 #: dd.1:82
 #, no-wrap
 msgid "sparse"
-msgstr ""
+msgstr "sparse"
 
 #. type: Plain text
 #: dd.1:85
 msgid "try to seek rather than write the output for NUL input blocks"
-msgstr ""
+msgstr "试着搜索而不是将NUL输入块输出"
 
 #. type: TP
 #: dd.1:85
 #, no-wrap
 msgid "swab"
-msgstr ""
+msgstr "swab"
 
 #. type: Plain text
 #: dd.1:88
 msgid "swap every pair of input bytes"
-msgstr ""
+msgstr "交换每对输入字节"
 
 #. type: TP
 #: dd.1:88 dd.1:124
 #, no-wrap
 msgid "sync"
-msgstr ""
+msgstr "sync"
 
 #. type: Plain text
 #: dd.1:92
@@ -347,225 +354,226 @@ msgid ""
 "pad every input block with NULs to ibs-size; when used with block or "
 "unblock, pad with spaces rather than NULs"
 msgstr ""
+"按照输入字节数使用NUL填充输入块；当配合 block 和 unblock 使用时，使用空格填充"
 
 #. type: TP
 #: dd.1:92
 #, no-wrap
 msgid "excl"
-msgstr ""
+msgstr "excl"
 
 #. type: Plain text
 #: dd.1:95
 msgid "fail if the output file already exists"
-msgstr ""
+msgstr "如果输出文件已经存在时放弃"
 
 #. type: TP
 #: dd.1:95
 #, no-wrap
 msgid "nocreat"
-msgstr ""
+msgstr "nocreat"
 
 #. type: Plain text
 #: dd.1:98
 msgid "do not create the output file"
-msgstr ""
+msgstr "不创建输出文件"
 
 #. type: TP
 #: dd.1:98
 #, no-wrap
 msgid "notrunc"
-msgstr ""
+msgstr "notrunc"
 
 #. type: Plain text
 #: dd.1:101
 msgid "do not truncate the output file"
-msgstr ""
+msgstr "不截断输出文件"
 
 #. type: TP
 #: dd.1:101
 #, no-wrap
 msgid "noerror"
-msgstr ""
+msgstr "noerror"
 
 #. type: Plain text
 #: dd.1:104
 msgid "continue after read errors"
-msgstr ""
+msgstr "当读取错误时继续进行"
 
 #. type: TP
 #: dd.1:104
 #, no-wrap
 msgid "fdatasync"
-msgstr ""
+msgstr "fdatasync"
 
 #. type: Plain text
 #: dd.1:107
 msgid "physically write output file data before finishing"
-msgstr ""
+msgstr "在结束前真实的写入输出文件的数据"
 
 #. type: TP
 #: dd.1:107
 #, no-wrap
 msgid "fsync"
-msgstr ""
+msgstr "fsync"
 
 #. type: Plain text
 #: dd.1:110
 msgid "likewise, but also write metadata"
-msgstr ""
+msgstr "类似上面的选项，但是不写入元数据"
 
 #. type: Plain text
 #: dd.1:112
 msgid "Each FLAG symbol may be:"
-msgstr ""
+msgstr "读写标志如下："
 
 #. type: TP
 #: dd.1:112
 #, no-wrap
 msgid "append"
-msgstr ""
+msgstr "append"
 
 #. type: Plain text
 #: dd.1:115
 msgid "append mode (makes sense only for output; conv=notrunc suggested)"
-msgstr ""
+msgstr "附加模式 （注意仅用于输出； 建议配合 conv=notrunc  使用）"
 
 #. type: TP
 #: dd.1:115
 #, no-wrap
 msgid "direct"
-msgstr ""
+msgstr "direct"
 
 #. type: Plain text
 #: dd.1:118
 msgid "use direct I/O for data"
-msgstr ""
+msgstr "直接读写文件 （译注：不借助缓存机制，直接物理操作磁盘数据）"
 
 #. type: TP
 #: dd.1:118
 #, no-wrap
 msgid "directory"
-msgstr ""
+msgstr "directory"
 
 #. type: Plain text
 #: dd.1:121
 msgid "fail unless a directory"
-msgstr ""
+msgstr "除非是一个目录，否则放弃"
 
 #. type: TP
 #: dd.1:121
 #, no-wrap
 msgid "dsync"
-msgstr ""
+msgstr "dsync"
 
 #. type: Plain text
 #: dd.1:124
 msgid "use synchronized I/O for data"
-msgstr ""
+msgstr "使用同步方式读写数据"
 
 #. type: Plain text
 #: dd.1:127
 msgid "likewise, but also for metadata"
-msgstr ""
+msgstr "同上，但是也包括元数据"
 
 #. type: TP
 #: dd.1:127
 #, no-wrap
 msgid "fullblock"
-msgstr ""
+msgstr "fullblock"
 
 #. type: Plain text
 #: dd.1:130
 msgid "accumulate full blocks of input (iflag only)"
-msgstr ""
+msgstr "累积全部的输入数据后处理 （仅用于 iflag）"
 
 #. type: TP
 #: dd.1:130
 #, no-wrap
 msgid "nonblock"
-msgstr ""
+msgstr "nonblock"
 
 #. type: Plain text
 #: dd.1:133
 msgid "use non-blocking I/O"
-msgstr ""
+msgstr "使用非阻塞IO"
 
 #. type: TP
 #: dd.1:133
 #, no-wrap
 msgid "noatime"
-msgstr ""
+msgstr "noatime"
 
 #. type: Plain text
 #: dd.1:136
 msgid "do not update access time"
-msgstr ""
+msgstr "不更新访问时间"
 
 #. type: TP
 #: dd.1:136
 #, no-wrap
 msgid "nocache"
-msgstr ""
+msgstr "nocache"
 
 #. type: Plain text
 #: dd.1:139
 msgid "discard cached data"
-msgstr ""
+msgstr "丢弃缓存的数据"
 
 #. type: TP
 #: dd.1:139
 #, no-wrap
 msgid "noctty"
-msgstr ""
+msgstr "noctty"
 
 #. type: Plain text
 #: dd.1:142
 msgid "do not assign controlling terminal from file"
-msgstr ""
+msgstr "不指定文件的控制终端"
 
 #. type: TP
 #: dd.1:142
 #, no-wrap
 msgid "nofollow"
-msgstr ""
+msgstr "nofollow"
 
 #. type: Plain text
 #: dd.1:145
 msgid "do not follow symlinks"
-msgstr ""
+msgstr "不解析符号链接"
 
 #. type: TP
 #: dd.1:145
 #, no-wrap
 msgid "count_bytes"
-msgstr ""
+msgstr "count_bytes"
 
 #. type: Plain text
 #: dd.1:148
 msgid "treat 'count=N' as a byte count (iflag only)"
-msgstr ""
+msgstr "用 'count=数量' 指定输入字节数 （仅用于 iflag）"
 
 #. type: TP
 #: dd.1:148
 #, no-wrap
 msgid "skip_bytes"
-msgstr ""
+msgstr "skip_bytes"
 
 #. type: Plain text
 #: dd.1:151
 msgid "treat 'skip=N' as a byte count (iflag only)"
-msgstr ""
+msgstr "用 'skip=数量' 指定跳过的输入字节数（仅用于 iflag）"
 
 #. type: TP
 #: dd.1:151
 #, no-wrap
 msgid "seek_bytes"
-msgstr ""
+msgstr "seek_bytes"
 
 #. type: Plain text
 #: dd.1:154
 msgid "treat 'seek=N' as a byte count (oflag only)"
-msgstr ""
+msgstr "用 'seek=数量' 指定跳过的输出字节数（仅用于 oflag）"
 
 #. type: Plain text
 #: dd.1:157
@@ -573,103 +581,105 @@ msgid ""
 "Sending a USR1 signal to a running 'dd' process makes it print I/O "
 "statistics to standard error and then resume copying."
 msgstr ""
+"发送 USR1 信号到一个正在运行的 'dd' 进程，可以在标准错误输出上显示读写的统计"
+"数据，并继续复制操作。 "
 
 #. type: Plain text
 #: dd.1:159
 msgid "CW<$ dd if=/dev/zero of=/dev/null& pid=$!>"
-msgstr ""
+msgstr "CW<$ dd if=/dev/zero of=/dev/null& pid=$!>"
 
 #. type: Plain text
 #: dd.1:161
 msgid "CW<$ kill -USR1 $pid; sleep 1; kill $pid>"
-msgstr ""
+msgstr "CW<$ kill -USR1 $pid; sleep 1; kill $pid>"
 
 #. type: Plain text
 #: dd.1:163
 msgid "18335302+0 records in"
-msgstr ""
+msgstr "18335302+0 records in"
 
 #. type: Plain text
 #: dd.1:165
 msgid "18335302+0 records out"
-msgstr ""
+msgstr "18335302+0 records out"
 
 #. type: Plain text
 #: dd.1:167
 msgid "9387674624 bytes (9.4 GB) copied, 34.6279 seconds, 271 MB/s"
-msgstr ""
+msgstr "9387674624 bytes (9.4 GB) copied, 34.6279 seconds, 271 MB/s"
 
 #. type: Plain text
 #: dd.1:169
 msgid "Options are:"
-msgstr ""
+msgstr "选项："
 
 #. type: TP
 #: dd.1:169
 #, no-wrap
 msgid "B<--help>"
-msgstr ""
+msgstr "B<--help>"
 
 #. type: Plain text
 #: dd.1:172
 msgid "display this help and exit"
-msgstr ""
+msgstr "显示帮助并退出"
 
 #. type: TP
 #: dd.1:172
 #, no-wrap
 msgid "B<--version>"
-msgstr ""
+msgstr "B<--version>"
 
 #. type: Plain text
 #: dd.1:175
 msgid "output version information and exit"
-msgstr ""
+msgstr "输出版本信息并退出"
 
 #. type: SH
 #: dd.1:175
 #, no-wrap
 msgid "AUTHOR"
-msgstr ""
+msgstr "作者"
 
 #. type: Plain text
 #: dd.1:177
 msgid "Written by Paul Rubin, David MacKenzie, and Stuart Kemp."
-msgstr ""
+msgstr "由 Paul Rubin、 David MacKenzie 和 Stuart Kemp 撰写。"
 
 #. type: SH
 #: dd.1:177
 #, no-wrap
 msgid "REPORTING BUGS"
-msgstr ""
+msgstr "报告错误"
 
 #. type: Plain text
 #: dd.1:179
 msgid "Report dd bugs to bug-coreutils@gnu.org"
-msgstr ""
+msgstr "发送错误信息到： bug-coreutils@gnu.org"
 
 #. type: Plain text
 #: dd.1:181
 msgid ""
 "GNU coreutils home page: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
-msgstr ""
+msgstr "GNU coreutils 主页：  E<lt>http://www.gnu.org/software/coreutils/E<gt>"
 
 #. type: Plain text
 #: dd.1:183
 msgid "General help using GNU software: E<lt>http://www.gnu.org/gethelp/E<gt>"
-msgstr ""
+msgstr "使用GNU软件的常规帮助： E<lt>http://www.gnu.org/gethelp/E<gt>"
 
 #. type: Plain text
 #: dd.1:185
 msgid ""
 "Report dd translation bugs to E<lt>http://github.com/LCTT/man-pages/E<gt>"
-msgstr ""
+msgstr "发送翻译错误到 E<lt>http://github.com/LCTT/man-pages/E<gt>"
 
 #. type: SH
 #: dd.1:185
 #, no-wrap
 msgid "COPYRIGHT"
-msgstr ""
+msgstr "版权"
 
 #. type: Plain text
 #: dd.1:188
@@ -677,6 +687,8 @@ msgid ""
 "Copyright \\(co 2013 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
 "version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
 msgstr ""
+"Copyright \\(co 2013 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
 
 #. type: Plain text
 #: dd.1:191
@@ -684,12 +696,14 @@ msgid ""
 "This is free software: you are free to change and redistribute it.  There is "
 "NO WARRANTY, to the extent permitted by law."
 msgstr ""
+"这是一个自由软件： 你可以自由修改和重新发布它。 在法律允许的范围内， 不提供任"
+"何担保。"
 
 #. type: SH
 #: dd.1:191
 #, no-wrap
 msgid "SEE ALSO"
-msgstr ""
+msgstr "请参阅"
 
 #. type: Plain text
 #: dd.1:199
@@ -697,81 +711,83 @@ msgid ""
 "The full documentation for B<dd> is maintained as a Texinfo manual.  If the "
 "B<info> and B<dd> programs are properly installed at your site, the command"
 msgstr ""
+"本程序的完整文档使用 Texinfo 手册进行维护。如果 B<info> 和本程序已经正确地安"
+"装在了你的电脑上， 通过下述命令"
 
 #. type: Plain text
 #: dd.1:201
 msgid "B<info coreutils \\(aqdd invocation\\(aq>"
-msgstr ""
+msgstr "B<info coreutils \\(aqdd invocation\\(aq>"
 
 #. type: Plain text
 #: dd.1:203
 msgid "should give you access to the complete manual."
-msgstr ""
+msgstr "可以访问完整的使用手册。"
 
 #. type: SH
 #: dd.1:203
 #, no-wrap
 msgid "翻译信息"
-msgstr ""
+msgstr "翻译信息"
 
 #. type: SS
 #: dd.1:204
 #, no-wrap
 msgid "翻译维护人"
-msgstr ""
+msgstr "翻译维护人"
 
 #. type: Plain text
 #: dd.1:206
 msgid "译者："
-msgstr ""
+msgstr "译者："
 
 #. type: Plain text
 #: dd.1:208
 msgid ""
 "此处为译者信息， 格式为： 译者名 B<E<lt>译者邮件@地址E<gt>>， 译者名 B<E<lt>"
 "译者邮件@地址E<gt>>"
-msgstr ""
+msgstr "wxy B<E<lt>xingyu.wang@gmail.comE<gt>>"
 
 #. type: Plain text
 #: dd.1:210
 msgid "校对："
-msgstr ""
+msgstr "校对："
 
 #. type: Plain text
 #: dd.1:212
 msgid ""
 "此处为校对者信息， 格式为： 校对者名 B<E<lt>校对者邮件@地址E<gt>>， 校对者名 "
 "B<E<lt>校对者邮件@地址E<gt>>"
-msgstr ""
+msgstr "-"
 
 #. type: SS
 #: dd.1:213
 #, no-wrap
 msgid "翻译更新日期"
-msgstr ""
+msgstr "翻译更新日期"
 
 #. type: Plain text
 #: dd.1:215
 msgid "此处为最后更新日期， 格式为： 2013.10.20"
-msgstr ""
+msgstr "2013.10.24"
 
 #. type: SS
 #: dd.1:215
 #, no-wrap
 msgid "翻译组"
-msgstr ""
+msgstr "翻译组"
 
 #. type: Plain text
 #: dd.1:217
 msgid "man翻译项目 ： B<http://github.com/LCTT/man-pages/>"
-msgstr ""
+msgstr "man翻译项目 ： B<http://github.com/LCTT/man-pages/>"
 
 #. type: Plain text
 #: dd.1:219
 msgid "翻译组 ： B<http://lctt.github.io/ E<lt>lctt@linux.cnE<gt>>"
-msgstr ""
+msgstr "翻译组 ： B<http://lctt.github.io/ E<lt>lctt@linux.cnE<gt>>"
 
 #. type: Plain text
 #: dd.1:220
 msgid "Linux中国 ： B<http://linux.cn/>"
-msgstr ""
+msgstr "Linux中国 ： B<http://linux.cn/>"
