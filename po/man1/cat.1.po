@@ -6,16 +6,15 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: LCTT man-pages coreutils-8.21\n"
-"POT-Creation-Date: 2013-10-19 17:34+0800\n"
-"PO-Revision-Date: 2013-10-20 15:16+0800\n"
-"Last-Translator: vito-L <lidongxingit@gmail.com>\n"
+"POT-Creation-Date: 2013-10-22 08:51+0800\n"
+"PO-Revision-Date: 2013-10-30 10:23+0800\n"
+"Last-Translator: wxy <xingyu.wang@gmail.com>\n"
 "Language-Team: LCTT <lctt@linux.cn>\n"
 "Language: zh_CN.UTF-8\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 1.5.7\n"
-"X-Poedit-Language: zh_CN.UTF-8\n"
 
 #. type: TH
 #: cat.1:2
@@ -50,13 +49,13 @@ msgstr "名称"
 #. type: Plain text
 #: cat.1:5
 msgid "cat - concatenate files and print on the standard output"
-msgstr "cat-连接文件并在标准输出上打印"
+msgstr "cat - 连接文件并输出到标准输出"
 
 #. type: SH
 #: cat.1:5
 #, no-wrap
 msgid "SYNOPSIS"
-msgstr "简介"
+msgstr "摘要"
 
 #. type: Plain text
 #: cat.1:8
@@ -67,14 +66,15 @@ msgstr "B<cat> [I<选项>]... [I<文件>]..."
 #: cat.1:8
 #, no-wrap
 msgid "DESCRIPTION"
-msgstr "说明"
+msgstr "描述"
 
 #. type: Plain text
 #: cat.1:12
 msgid "Concatenate FILE(s), or standard input, to standard output."
-msgstr "连接文件，或标准输入到标准输出"
+msgstr "连接文件或标准输入， 输出到标准输出。 "
 
 # 这个show-all要不要翻译呀
+# A:参数不能翻，但是参数说明可翻
 #. type: TP
 #: cat.1:12
 #, no-wrap
@@ -95,7 +95,7 @@ msgstr "B<-b>, B<--number-nonblank>"
 #. type: Plain text
 #: cat.1:18
 msgid "number nonempty output lines, overrides B<-n>"
-msgstr "空行不输出编号，重写 B<-n>"
+msgstr "空行不输出编号， 即便设置了 B<-n> 选项"
 
 #. type: TP
 #: cat.1:18
@@ -117,7 +117,7 @@ msgstr "B<-E>, B<--show-ends>"
 #. type: Plain text
 #: cat.1:24
 msgid "display $ at end of each line"
-msgstr "在每一行结尾显示$"
+msgstr "在每一行结尾显示“$”"
 
 #. type: TP
 #: cat.1:24
@@ -128,7 +128,7 @@ msgstr "B<-n>, B<--number>"
 #. type: Plain text
 #: cat.1:27
 msgid "number all output lines"
-msgstr "所有行都输出编号"
+msgstr "在所有的行前输出行号"
 
 #. type: TP
 #: cat.1:27
@@ -139,7 +139,7 @@ msgstr "B<-s>, B<--squeeze-blank>"
 #. type: Plain text
 #: cat.1:30
 msgid "suppress repeated empty output lines"
-msgstr "禁止输出连续的重复空行"
+msgstr "忽略重复的多个空行"
 
 #. type: TP
 #: cat.1:30
@@ -150,7 +150,7 @@ msgstr "B<-t>"
 #. type: Plain text
 #: cat.1:33
 msgid "equivalent to B<-vT>"
-msgstr "相当于B<-vT>"
+msgstr "相当于 B<-vT>"
 
 #. type: TP
 #: cat.1:33
@@ -161,7 +161,7 @@ msgstr "B<-T>, B<--show-tabs>"
 #. type: Plain text
 #: cat.1:36
 msgid "display TAB characters as ^I"
-msgstr "显示TAB字符为^I"
+msgstr "显示制表符 TAB 为 ^I"
 
 #. type: TP
 #: cat.1:36
@@ -172,7 +172,7 @@ msgstr "B<-u>"
 #. type: Plain text
 #: cat.1:39
 msgid "(ignored)"
-msgstr "(忽略)"
+msgstr "（该参数已忽略）"
 
 #. type: TP
 #: cat.1:39
@@ -183,7 +183,7 @@ msgstr "B<-v>, B<--show-nonprinting>"
 #. type: Plain text
 #: cat.1:42
 msgid "use ^ and M- notation, except for LFD and TAB"
-msgstr "使用^和M-记号，除了LFD和TAB"
+msgstr "使用^和M-记号来显示不可显示的字符， 除换行符 LFD 和制表符 TAB 外"
 
 #. type: TP
 #: cat.1:42
@@ -194,7 +194,7 @@ msgstr "B<--help>"
 #. type: Plain text
 #: cat.1:45
 msgid "display this help and exit"
-msgstr "显示帮助并且退出"
+msgstr "显示帮助并退出"
 
 #. type: TP
 #: cat.1:45
@@ -205,12 +205,12 @@ msgstr "B<--version>"
 #. type: Plain text
 #: cat.1:48
 msgid "output version information and exit"
-msgstr "输出版本信息并且退出"
+msgstr "输出版本信息并退出"
 
 #. type: Plain text
 #: cat.1:50
 msgid "With no FILE, or when FILE is -, read standard input."
-msgstr "没有文件或当文件是-时，读取标准输入"
+msgstr "没有指定文件或当文件是 - 时， 读取标准输入。 "
 
 #. type: SH
 #: cat.1:50
@@ -227,7 +227,7 @@ msgstr "cat f - g"
 #. type: Plain text
 #: cat.1:54
 msgid "Output f's contents, then standard input, then g's contents."
-msgstr "输出f's内容，然后标准输入，加上g's内容"
+msgstr "输出文件 f 的内容， 然后是标准输入的内容， 再然后是文件 g 的内容。 "
 
 #. type: TP
 #: cat.1:54
@@ -238,7 +238,7 @@ msgstr "cat"
 #. type: Plain text
 #: cat.1:57
 msgid "Copy standard input to standard output."
-msgstr "复制标准输入到标准输出"
+msgstr "复制标准输入到标准输出。"
 
 #. type: SH
 #: cat.1:57
@@ -249,49 +249,59 @@ msgstr "作者"
 #. type: Plain text
 #: cat.1:59
 msgid "Written by Torbjorn Granlund and Richard M. Stallman."
-msgstr "由Torbjorn Granlund和Richard M. Stallman书写"
+msgstr "由 Torbjorn Granlund 和 Richard M. Stallman 撰写。"
 
 #. type: SH
 #: cat.1:59
 #, no-wrap
 msgid "REPORTING BUGS"
-msgstr "报告BUGS"
+msgstr "报告错误"
 
 #. type: Plain text
 #: cat.1:61
 msgid "Report cat bugs to bug-coreutils@gnu.org"
-msgstr "报告cat bugs到bug-coreutils@gnu.org"
+msgstr "发送错误信息到： bug-coreutils@gnu.org"
 
 #. type: Plain text
 #: cat.1:63
-msgid "GNU coreutils home page: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+msgid ""
+"GNU coreutils home page: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
 msgstr "GNU coreutils 主页: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
 
 #. type: Plain text
 #: cat.1:65
 msgid "General help using GNU software: E<lt>http://www.gnu.org/gethelp/E<gt>"
-msgstr "一般使用GNU软件的帮助: E<lt>http://www.gnu.org/gethelp/E<gt>"
+msgstr "使用GNU软件的常规帮助： E<lt>http://www.gnu.org/gethelp/E<gt>"
 
 #. type: Plain text
 #: cat.1:67
-msgid "Report cat translation bugs to E<lt>http://translationproject.org/team/E<gt>"
-msgstr "报告cat翻译bugs到 E<lt>http://translationproject.org/team/E<gt>"
+msgid ""
+"Report cat translation bugs to E<lt>http://github.com/LCTT/man-pages/E<gt>"
+msgstr "发送翻译错误到 E<lt>http://github.com/LCTT/man-pages/E<gt>"
 
 #. type: SH
 #: cat.1:67
 #, no-wrap
 msgid "COPYRIGHT"
-msgstr "版权所有"
+msgstr "版权声明"
 
 #. type: Plain text
 #: cat.1:70
-msgid "Copyright \\(co 2013 Free Software Foundation, Inc.  License GPLv3+: GNU GPL version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
-msgstr "版权所有 \\(co 2013 Free Software Foundation, Inc.  License GPLv3+: GNU GPL version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
+msgid ""
+"Copyright \\(co 2013 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
+msgstr ""
+"Copyright \\(co 2013 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
 
 #. type: Plain text
 #: cat.1:73
-msgid "This is free software: you are free to change and redistribute it.  There is NO WARRANTY, to the extent permitted by law."
-msgstr "这是自由软件：你可以自由更改并重新发布它。这是没有授权的，在法律所允许的范围内"
+msgid ""
+"This is free software: you are free to change and redistribute it.  There is "
+"NO WARRANTY, to the extent permitted by law."
+msgstr ""
+"这是一个自由软件： 你可以自由修改和重新发布它。 在法律允许的范围内， 不提供任"
+"何担保。"
 
 #. type: SH
 #: cat.1:73
@@ -306,8 +316,12 @@ msgstr "B<tac>(1)"
 
 #. type: Plain text
 #: cat.1:83
-msgid "The full documentation for B<cat> is maintained as a Texinfo manual.  If the B<info> and B<cat> programs are properly installed at your site, the command"
-msgstr "B<cat>的完整文档作为Texinfo手册进行维护。如果 B<info> 和B<cat>程序已正确安装在你的站点，此命令"
+msgid ""
+"The full documentation for B<cat> is maintained as a Texinfo manual.  If the "
+"B<info> and B<cat> programs are properly installed at your site, the command"
+msgstr ""
+"本程序的完整文档使用 Texinfo 手册进行维护。如果 B<info> 和本程序已经正确地安"
+"装在了你的电脑上， 通过下述命令"
 
 #. type: Plain text
 #: cat.1:85
@@ -315,7 +329,74 @@ msgid "B<info coreutils \\(aqcat invocation\\(aq>"
 msgstr "B<info coreutils \\(aqcat invocation\\(aq>"
 
 #. type: Plain text
-#: cat.1:86
+#: cat.1:87
 msgid "should give you access to the complete manual."
-msgstr "应给予你访问完整的手册"
+msgstr "可以访问完整的使用手册。"
 
+#. type: SH
+#: cat.1:87
+#, no-wrap
+msgid "翻译信息"
+msgstr "翻译信息"
+
+#. type: SS
+#: cat.1:88
+#, no-wrap
+msgid "翻译维护人"
+msgstr "翻译维护人"
+
+#. type: Plain text
+#: cat.1:90
+msgid "译者："
+msgstr "译者："
+
+#. type: Plain text
+#: cat.1:92
+msgid ""
+"此处为译者信息， 格式为： 译者名 B<E<lt>译者邮件@地址E<gt>>， 译者名 B<E<lt>"
+"译者邮件@地址E<gt>>"
+msgstr "Vito B<E<lt>lidongxingit@gmail.comE<gt>>"
+
+#. type: Plain text
+#: cat.1:94
+msgid "校对："
+msgstr "校对："
+
+#. type: Plain text
+#: cat.1:96
+msgid ""
+"此处为校对者信息， 格式为： 校对者名 B<E<lt>校对者邮件@地址E<gt>>， 校对者名 "
+"B<E<lt>校对者邮件@地址E<gt>>"
+msgstr "wxy B<E<lt>xingyu.wang@gmail.comE<gt>>"
+
+#. type: SS
+#: cat.1:97
+#, no-wrap
+msgid "翻译更新日期"
+msgstr "翻译更新日期"
+
+#. type: Plain text
+#: cat.1:99
+msgid "此处为最后更新日期， 格式为： 2013.10.20"
+msgstr "2013.10.30"
+
+#. type: SS
+#: cat.1:99
+#, no-wrap
+msgid "翻译组"
+msgstr "翻译组"
+
+#. type: Plain text
+#: cat.1:101
+msgid "man翻译项目 ： B<http://github.com/LCTT/man-pages/>"
+msgstr "man翻译项目 ： B<http://github.com/LCTT/man-pages/>"
+
+#. type: Plain text
+#: cat.1:103
+msgid "翻译组 ： B<http://lctt.github.io/ E<lt>lctt@linux.cnE<gt>>"
+msgstr "翻译组 ： B<http://lctt.github.io/ E<lt>lctt@linux.cnE<gt>>"
+
+#. type: Plain text
+#: cat.1:104
+msgid "Linux中国 ： B<http://linux.cn/>"
+msgstr "Linux中国 ： B<http://linux.cn/>"

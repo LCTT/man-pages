@@ -51,6 +51,9 @@ msgstr "发送翻译错误到 E<lt>http://github.com/LCTT/man-pages/E<gt>"
 msgid "COPYRIGHT"
 msgstr "版权声明"
 
+msgid "EXAMPLES"
+msgstr "例子"
+
 msgid "Copyright \\(co 2013 Free Software Foundation, Inc. License GPLv3+: GNU GPL version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
 msgstr "Copyright \\(co 2013 Free Software Foundation, Inc. License GPLv3+: GNU GPL version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
 
