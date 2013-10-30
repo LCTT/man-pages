@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: LCTT man-pages coreutils-8.21\n"
 "POT-Creation-Date: 2013-10-22 08:51+0800\n"
-"PO-Revision-Date: 2013-10-23 16:42+0800\n"
+"PO-Revision-Date: 2013-10-30 18:01+0800\n"
 "Last-Translator: Luoxcat <lcqzero7@163.com>\n"
 "Language-Team: LCTT <lctt@linux.cn>\n"
 "Language: zh_CN.UTF-8\n"
@@ -84,7 +84,7 @@ msgstr "B<-c>, B<-C>, B<--complement>"
 #. type: Plain text
 #: tr.1:16
 msgid "use the complement of SET1"
-msgstr " 用字符集1的补集    (注意换行符)"
+msgstr " 用字符集1的补集    (译注:注意换行符)"
 
 #. type: TP
 #: tr.1:16
@@ -95,7 +95,7 @@ msgstr "B<-d>, B<--delete>"
 #. type: Plain text
 #: tr.1:19
 msgid "delete characters in SET1, do not translate"
-msgstr " 删除匹配字符集1的字符，不需要添加字符集2"
+msgstr " 删除匹配字符集1的字符，没有转换（译注：不需要指定字符集2）"
 
 #. type: TP
 #: tr.1:19
@@ -106,7 +106,7 @@ msgstr "B<-s>, B<--squeeze-repeats>"
 #. type: Plain text
 #: tr.1:24
 msgid "replace each input sequence of a repeated character that is listed in SET1 with a single occurrence of that character"
-msgstr "合并字符集2替换字符集1后重复的字符"
+msgstr "字符集2转换字符集1后，合并重复的字符"
 
 #. type: TP
 #: tr.1:24
@@ -144,7 +144,7 @@ msgstr "输出版本信息并退出"
 #. type: Plain text
 #: tr.1:36
 msgid "SETs are specified as strings of characters.  Most represent themselves.  Interpreted sequences are:"
-msgstr "集合可以指定为字符串.更能代表它们的解释型字符码有 :"
+msgstr "集合可以指定为字符串。可替代字符串的解释型字符码有 :"
 
 #. type: TP
 #: tr.1:36
