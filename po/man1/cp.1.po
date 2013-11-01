@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: LCTT man-pages coreutils-8.21\n"
 "POT-Creation-Date: 2013-10-22 08:51+0800\n"
-"PO-Revision-Date: 2013-10-23 20:48+0800\n"
+"PO-Revision-Date: 2013-10-24 12:31+0800\n"
 "Last-Translator: l3b2w1 <l3b2w1_linux@163.com>\n"
 "Language-Team: LCTT <lctt@linux.cn>\n"
 "MIME-Version: 1.0\n"
@@ -60,7 +60,7 @@ msgstr "摘要"
 #. type: Plain text
 #: cp.1:8
 msgid "B<cp> [I<OPTION>]... [I<-T>] I<SOURCE DEST>"
-msgstr "B<cp> [I<选项>]... [I<-T>] I<源文件 目标文件>"
+msgstr "B<cp> [I<选项>]... [I<-T>] I<源 目标>"
 
 #. type: Plain text
 #: cp.1:11
@@ -81,7 +81,7 @@ msgstr "描述"
 #. type: Plain text
 #: cp.1:18
 msgid "Copy SOURCE to DEST, or multiple SOURCE(s) to DIRECTORY."
-msgstr "拷贝 源文件 到 目标文件， 或者多个源文件 到 (指定)目录"
+msgstr "拷贝 源 到 目标， 或者多个 源  到 (指定)目录"
 
 #. type: Plain text
 #: cp.1:20
@@ -109,7 +109,7 @@ msgstr "B<--attributes-only>"
 #. type: Plain text
 #: cp.1:26
 msgid "don't copy the file data, just the attributes"
-msgstr "不要拷贝文件数据， 只拷贝属性值"
+msgstr "不要拷贝文件数据， 只拷贝属性"
 
 #. type: TP
 #: cp.1:26
@@ -178,7 +178,6 @@ msgstr "B<-i>, B<--interactive>"
 
 #. type: Plain text
 #: cp.1:47
-#, fuzzy
 msgid "prompt before overwrite (overrides a previous B<-n> option)"
 msgstr "覆盖前提示(忽略前面的 B<-n> 选项)"
 
@@ -190,9 +189,10 @@ msgstr "B<-H>"
 
 #. type: Plain text
 #: cp.1:50
-#, fuzzy
 msgid "follow command-line symbolic links in SOURCE"
-msgstr "遵循源文件中的命令行符号链接"
+msgstr ""
+"追溯命令行符号链接至源文件 (译者注: 不是拷贝符号链接文件本身，而是拷贝符号链"
+"接文件指向的文件)"
 
 #. type: TP
 #: cp.1:50
@@ -257,7 +257,6 @@ msgstr "B<--preserve>[=I<ATTR_LIST>]"
 
 #. type: Plain text
 #: cp.1:72
-#, fuzzy
 msgid ""
 "preserve the specified attributes (default: mode,ownership,timestamps), if "
 "possible additional attributes: context, links, xattr, all"
@@ -284,7 +283,6 @@ msgstr "B<--parents>"
 
 #. type: Plain text
 #: cp.1:78
-#, fuzzy
 msgid "use full source file name under DIRECTORY"
 msgstr "在指定目录下使用全路径文件名"
 
@@ -364,9 +362,8 @@ msgstr "B<-S>, B<--suffix>=I<后缀>"
 
 #. type: Plain text
 #: cp.1:101
-#, fuzzy
 msgid "override the usual backup suffix"
-msgstr "忽略通常的备份后缀"
+msgstr "忽略常用的备份后缀"
 
 #. type: TP
 #: cp.1:101
@@ -514,9 +511,8 @@ msgstr "existing, nil"
 
 #. type: Plain text
 #: cp.1:147
-#, fuzzy
 msgid "numbered if numbered backups exist, simple otherwise"
-msgstr "编号，如果编号备份存在， 否则什么都不做"
+msgstr "编号，如果编号备份存在的话， 否则就简单了"
 
 #. type: TP
 #: cp.1:147
@@ -536,51 +532,53 @@ msgid ""
 "options are given and SOURCE and DEST are the same name for an existing, "
 "regular file."
 msgstr ""
+"作为一种特殊情况，如果指定强制备份选项， 并且对现有常规文件源和目标针使用相同"
+"的名称， 则cp对 源 进行备份。"
 
 #. type: SH
 #: cp.1:154
 #, no-wrap
 msgid "AUTHOR"
-msgstr ""
+msgstr "作者"
 
 #. type: Plain text
 #: cp.1:156
 msgid "Written by Torbjorn Granlund, David MacKenzie, and Jim Meyering."
-msgstr ""
+msgstr "由 Torbjorn Granlund, David MacKenzie, and Jim Meyering 撰写"
 
 #. type: SH
 #: cp.1:156
 #, no-wrap
 msgid "REPORTING BUGS"
-msgstr ""
+msgstr "报告错误"
 
 #. type: Plain text
 #: cp.1:158
 msgid "Report cp bugs to bug-coreutils@gnu.org"
-msgstr ""
+msgstr "发送错误信息到： bug-coreutils@gnu.org"
 
 #. type: Plain text
 #: cp.1:160
 msgid ""
 "GNU coreutils home page: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
-msgstr ""
+msgstr "GNU coreutils 主页： E<lt>http://www.gnu.org/software/coreutils/E<gt>"
 
 #. type: Plain text
 #: cp.1:162
 msgid "General help using GNU software: E<lt>http://www.gnu.org/gethelp/E<gt>"
-msgstr ""
+msgstr "使用GNU软件的常规帮助： E<lt>http://www.gnu.org/gethelp/E<gt>"
 
 #. type: Plain text
 #: cp.1:164
 msgid ""
 "Report cp translation bugs to E<lt>http://github.com/LCTT/man-pages/E<gt>"
-msgstr ""
+msgstr "发送翻译错误到 E<lt>http://github.com/LCTT/man-pages/E<gt>"
 
 #. type: SH
 #: cp.1:164
 #, no-wrap
 msgid "COPYRIGHT"
-msgstr ""
+msgstr "版权声明"
 
 #. type: Plain text
 #: cp.1:167
@@ -588,6 +586,8 @@ msgid ""
 "Copyright \\(co 2013 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
 "version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
 msgstr ""
+"Copyright \\(co 2013 Free Software Foundation, Inc. License GPLv3+: GNU GPL "
+"version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>"
 
 #. type: Plain text
 #: cp.1:170
@@ -595,12 +595,14 @@ msgid ""
 "This is free software: you are free to change and redistribute it.  There is "
 "NO WARRANTY, to the extent permitted by law."
 msgstr ""
+"这是一个自由软件： 你可以自由修改和重新发布它。 在法律允许的范围内， 不提供任"
+"何担保。"
 
 #. type: SH
 #: cp.1:170
 #, no-wrap
 msgid "SEE ALSO"
-msgstr ""
+msgstr "请参阅"
 
 #. type: Plain text
 #: cp.1:178
@@ -608,45 +610,47 @@ msgid ""
 "The full documentation for B<cp> is maintained as a Texinfo manual.  If the "
 "B<info> and B<cp> programs are properly installed at your site, the command"
 msgstr ""
+"B<cp>的完整文档作为Texinfo手册进行维护。如果 B<info> 和B<cp>程序已正确安装在"
+"你的站点，此命令"
 
 #. type: Plain text
 #: cp.1:180
 msgid "B<info coreutils \\(aqcp invocation\\(aq>"
-msgstr ""
+msgstr "B<info coreutils \\(aqcp invocation\\(aq>"
 
 #. type: Plain text
 #: cp.1:182
 msgid "should give you access to the complete manual."
-msgstr ""
+msgstr "可以访问完整的使用手册"
 
 #. type: SH
 #: cp.1:182
 #, no-wrap
 msgid "翻译信息"
-msgstr ""
+msgstr "翻译信息"
 
 #. type: SS
 #: cp.1:183
 #, no-wrap
 msgid "翻译维护人"
-msgstr ""
+msgstr "翻译维护人"
 
 #. type: Plain text
 #: cp.1:185
 msgid "译者："
-msgstr ""
+msgstr "译者："
 
 #. type: Plain text
 #: cp.1:187
 msgid ""
 "此处为译者信息， 格式为： 译者名 B<E<lt>译者邮件@地址E<gt>>， 译者名 B<E<lt>"
 "译者邮件@地址E<gt>>"
-msgstr ""
+msgstr "l3b2w1 B<E<lt>l3b2w1linux@gmail.comE<gt>>"
 
 #. type: Plain text
 #: cp.1:189
 msgid "校对："
-msgstr ""
+msgstr "校对："
 
 #. type: Plain text
 #: cp.1:191
@@ -654,35 +658,37 @@ msgid ""
 "此处为校对者信息， 格式为： 校对者名 B<E<lt>校对者邮件@地址E<gt>>， 校对者名 "
 "B<E<lt>校对者邮件@地址E<gt>>"
 msgstr ""
+"此处为校对者信息， 格式为： 校对者名 B<E<lt>校对者邮件@地址E<gt>>， 校对者名 "
+"B<E<lt>校对者邮件@地址E<gt>>"
 
 #. type: SS
 #: cp.1:192
 #, no-wrap
 msgid "翻译更新日期"
-msgstr ""
+msgstr "翻译更新日期"
 
 #. type: Plain text
 #: cp.1:194
 msgid "此处为最后更新日期， 格式为： 2013.10.20"
-msgstr ""
+msgstr "此处为最后更新日期， 格式为： 2013.10.24"
 
 #. type: SS
 #: cp.1:194
 #, no-wrap
 msgid "翻译组"
-msgstr ""
+msgstr "翻译组"
 
 #. type: Plain text
 #: cp.1:196
 msgid "man翻译项目 ： B<http://github.com/LCTT/man-pages/>"
-msgstr ""
+msgstr "man翻译项目 ： B<http://github.com/LCTT/man-pages/>"
 
 #. type: Plain text
 #: cp.1:198
 msgid "翻译组 ： B<http://lctt.github.io/ E<lt>lctt@linux.cnE<gt>>"
-msgstr ""
+msgstr "翻译组 ： B<http://lctt.github.io/ E<lt>lctt@linux.cnE<gt>>"
 
 #. type: Plain text
 #: cp.1:199
 msgid "Linux中国 ： B<http://linux.cn/>"
-msgstr ""
+msgstr "Linux中国 ： B<http://linux.cn/>"
