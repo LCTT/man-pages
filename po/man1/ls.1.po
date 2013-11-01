@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: LCTT man-pages coreutils-8.21\n"
 "POT-Creation-Date: 2013-10-22 08:51+0800\n"
-"PO-Revision-Date: 2013-10-23 11:10+0800\n"
+"PO-Revision-Date: 2013-10-30 10:22+0800\n"
 "Last-Translator: wxy <xingyu.wang@gmail.com>\n"
 "Language-Team: LCTT <lctt@linux.cn>\n"
 "Language: zh_CN.UTF-8\n"
@@ -890,7 +890,7 @@ msgstr "GNU coreutils 主页： E<lt>http://www.gnu.org/software/coreutils/E<gt>
 #. type: Plain text
 #: ls.1:248
 msgid "General help using GNU software: E<lt>http://www.gnu.org/gethelp/E<gt>"
-msgstr "使用GNU软件的一般性帮助： E<lt>http://www.gnu.org/gethelp/E<gt>"
+msgstr "使用GNU软件的常规帮助： E<lt>http://www.gnu.org/gethelp/E<gt>"
 
 #. type: Plain text
 #: ls.1:250
@@ -902,7 +902,7 @@ msgstr "发送翻译错误到 E<lt>http://github.com/LCTT/man-pages/E<gt>"
 #: ls.1:250
 #, no-wrap
 msgid "COPYRIGHT"
-msgstr "版权申明"
+msgstr "版权声明"
 
 #. type: Plain text
 #: ls.1:253
@@ -919,8 +919,8 @@ msgid ""
 "This is free software: you are free to change and redistribute it.  There is "
 "NO WARRANTY, to the extent permitted by law."
 msgstr ""
-"这是一个自由软件：你可以自由修改和重新发布它。 在法律允许范围内， 本文档不提"
-"供任何担保。 "
+"这是一个自由软件： 你可以自由修改和重新发布它。 在法律允许的范围内， 不提供任"
+"何担保。"
 
 #. type: SH
 #: ls.1:256
@@ -934,8 +934,8 @@ msgid ""
 "The full documentation for B<ls> is maintained as a Texinfo manual.  If the "
 "B<info> and B<ls> programs are properly installed at your site, the command"
 msgstr ""
-"B<ls> 的完整文档使用 Textinfo 手册维护。 如果 B<info> 和 B<ls> 已经正确安装到"
-"了你的机器， 通过下述命令"
+"本程序的完整文档使用 Texinfo 手册进行维护。如果 B<info> 和本程序已经正确地安"
+"装在了你的电脑上， 通过下述命令"
 
 #. type: Plain text
 #: ls.1:266
@@ -992,7 +992,7 @@ msgstr "翻译更新日期"
 #. type: Plain text
 #: ls.1:280
 msgid "此处为最后更新日期， 格式为： 2013.10.20"
-msgstr "2013.10.23"
+msgstr "2013.10.30"
 
 #. type: SS
 #: ls.1:280

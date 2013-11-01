@@ -1,0 +1,566 @@
+# LCTT man-pages Translate Project
+# Copyright (C) 2013 LCTT
+# This file is distributed under the same license as the PACKAGE package.
+# LCTT <lctt@linux.cn>, 2013.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: LCTT man-pages coreutils-8.21\n"
+"POT-Creation-Date: 2013-10-22 08:51+0800\n"
+"PO-Revision-Date: 2013-10-30 18:01+0800\n"
+"Last-Translator: Luoxcat <lcqzero7@163.com>\n"
+"Language-Team: LCTT <lctt@linux.cn>\n"
+"Language: zh_CN.UTF-8\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-Language: zh_CN.UTF-8\n"
+"X-Poedit-Country: CHINA\n"
+
+#. type: TH
+#: tr.1:2
+#, no-wrap
+msgid "TR"
+msgstr "TR"
+
+#. type: TH
+#: tr.1:2
+#, no-wrap
+msgid "October 2013"
+msgstr "2013年10月"
+
+#. type: TH
+#: tr.1:2
+#, no-wrap
+msgid "GNU coreutils 8.21"
+msgstr "GNU coreutils 8.21"
+
+#. type: TH
+#: tr.1:2
+#, no-wrap
+msgid "User Commands"
+msgstr "用户命令"
+
+#. type: SH
+#: tr.1:3
+#, no-wrap
+msgid "NAME"
+msgstr "名称"
+
+#. type: Plain text
+#: tr.1:5
+msgid "tr - translate or delete characters"
+msgstr "tr    -    转换或删除字符"
+
+#. type: SH
+#: tr.1:5
+#, no-wrap
+msgid "SYNOPSIS"
+msgstr "摘要"
+
+#. type: Plain text
+#: tr.1:8
+msgid "B<tr> [I<OPTION>]... I<SET1 >[I<SET2>]"
+msgstr "B<tr> [I<选项>]... I<字符集1 >[I<字符集2>]"
+
+#. type: SH
+#: tr.1:8
+#, no-wrap
+msgid "DESCRIPTION"
+msgstr "描述"
+
+#. type: Plain text
+#: tr.1:13
+msgid "Translate, squeeze, and/or delete characters from standard input, writing to standard output."
+msgstr "转换，合并，删除来自标准流的字符，并写入到输出流中。"
+
+#. type: TP
+#: tr.1:13
+#, no-wrap
+msgid "B<-c>, B<-C>, B<--complement>"
+msgstr "B<-c>, B<-C>, B<--complement>"
+
+#. type: Plain text
+#: tr.1:16
+msgid "use the complement of SET1"
+msgstr " 用字符集1的补集    (译注:注意换行符)"
+
+#. type: TP
+#: tr.1:16
+#, no-wrap
+msgid "B<-d>, B<--delete>"
+msgstr "B<-d>, B<--delete>"
+
+#. type: Plain text
+#: tr.1:19
+msgid "delete characters in SET1, do not translate"
+msgstr " 删除匹配字符集1的字符，没有转换（译注：不需要指定字符集2）"
+
+#. type: TP
+#: tr.1:19
+#, no-wrap
+msgid "B<-s>, B<--squeeze-repeats>"
+msgstr "B<-s>, B<--squeeze-repeats>"
+
+#. type: Plain text
+#: tr.1:24
+msgid "replace each input sequence of a repeated character that is listed in SET1 with a single occurrence of that character"
+msgstr "字符集2转换字符集1后，合并重复的字符"
+
+#. type: TP
+#: tr.1:24
+#, no-wrap
+msgid "B<-t>, B<--truncate-set1>"
+msgstr "B<-t>, B<--truncate-set1>"
+
+#. type: Plain text
+#: tr.1:27
+msgid "first truncate SET1 to length of SET2"
+msgstr "截断字符集1的长度与字符集2一致"
+
+#. type: TP
+#: tr.1:27
+#, no-wrap
+msgid "B<--help>"
+msgstr "B<--help>"
+
+#. type: Plain text
+#: tr.1:30
+msgid "display this help and exit"
+msgstr "显示帮助并退出"
+
+#. type: TP
+#: tr.1:30
+#, no-wrap
+msgid "B<--version>"
+msgstr "B<--version>"
+
+#. type: Plain text
+#: tr.1:33
+msgid "output version information and exit"
+msgstr "输出版本信息并退出"
+
+#. type: Plain text
+#: tr.1:36
+msgid "SETs are specified as strings of characters.  Most represent themselves.  Interpreted sequences are:"
+msgstr "集合可以指定为字符串。可替代字符串的解释型字符码有 :"
+
+#. type: TP
+#: tr.1:36
+#, no-wrap
+msgid "\\eNNN"
+msgstr "\\eNNN"
+
+#. type: Plain text
+#: tr.1:39
+msgid "character with octal value NNN (1 to 3 octal digits)"
+msgstr "用NNN（1到3个八进制数）来表示字符"
+
+#. type: TP
+#: tr.1:39
+#, no-wrap
+msgid "\\e\\e"
+msgstr "\\e\\e"
+
+#. type: Plain text
+#: tr.1:42
+msgid "backslash"
+msgstr "反斜杠"
+
+#. type: TP
+#: tr.1:42
+#, no-wrap
+msgid "\\ea"
+msgstr "\\ea"
+
+#. type: Plain text
+#: tr.1:45
+msgid "audible BEL"
+msgstr "自动响铃"
+
+#. type: TP
+#: tr.1:45
+#, no-wrap
+msgid "\\eb"
+msgstr "\\eb"
+
+#. type: Plain text
+#: tr.1:48
+msgid "backspace"
+msgstr "退格"
+
+#. type: TP
+#: tr.1:48
+#, no-wrap
+msgid "\\ef"
+msgstr "\\ef"
+
+#. type: Plain text
+#: tr.1:51
+msgid "form feed"
+msgstr "换页"
+
+#. type: TP
+#: tr.1:51
+#, no-wrap
+msgid "\\en"
+msgstr "\\en"
+
+#. type: Plain text
+#: tr.1:54
+msgid "new line"
+msgstr "换行"
+
+#. type: TP
+#: tr.1:54
+#, no-wrap
+msgid "\\er"
+msgstr "\\er"
+
+#. type: Plain text
+#: tr.1:57
+msgid "return"
+msgstr "返回"
+
+#. type: TP
+#: tr.1:57
+#, no-wrap
+msgid "\\et"
+msgstr "\\et"
+
+#. type: Plain text
+#: tr.1:60
+msgid "horizontal tab"
+msgstr "水平制表符"
+
+#. type: TP
+#: tr.1:60
+#, no-wrap
+msgid "\\ev"
+msgstr "\\ev"
+
+#. type: Plain text
+#: tr.1:63
+msgid "vertical tab"
+msgstr "垂直制表符"
+
+#. type: TP
+#: tr.1:63
+#, no-wrap
+msgid "CHAR1-CHAR2"
+msgstr "CHAR1-CHAR2"
+
+#. type: Plain text
+#: tr.1:66
+msgid "all characters from CHAR1 to CHAR2 in ascending order"
+msgstr "从字符1 到 字符2的所有字符(译注:按照ASCII字符的顺序)"
+
+#. type: TP
+#: tr.1:66
+#, no-wrap
+msgid "[CHAR*]"
+msgstr "[CHAR*]"
+
+#. type: Plain text
+#: tr.1:69
+msgid "in SET2, copies of CHAR until length of SET1"
+msgstr "用在集合2中, 填充字符直到跟集合1的长度一致"
+
+#. type: TP
+#: tr.1:69
+#, no-wrap
+msgid "[CHAR*REPEAT]"
+msgstr "[CHAR*REPEAT]"
+
+#. type: Plain text
+#: tr.1:72
+msgid "REPEAT copies of CHAR, REPEAT octal if starting with 0"
+msgstr "重复CHAR字符REPEAT次，以0开始的REPEAT解析为八进制数"
+
+#. type: TP
+#: tr.1:72
+#, no-wrap
+msgid "[:alnum:]"
+msgstr "[:alnum:]"
+
+#. type: Plain text
+#: tr.1:75
+msgid "all letters and digits"
+msgstr "全部字母和数字"
+
+#. type: TP
+#: tr.1:75
+#, no-wrap
+msgid "[:alpha:]"
+msgstr "[:alpha:]"
+
+#. type: Plain text
+#: tr.1:78
+msgid "all letters"
+msgstr "全部字母"
+
+#. type: TP
+#: tr.1:78
+#, no-wrap
+msgid "[:blank:]"
+msgstr "[:blank:]"
+
+#. type: Plain text
+#: tr.1:81
+msgid "all horizontal whitespace"
+msgstr "全部水平空白"
+
+#. type: TP
+#: tr.1:81
+#, no-wrap
+msgid "[:cntrl:]"
+msgstr "[:cntrl:]"
+
+#. type: Plain text
+#: tr.1:84
+msgid "all control characters"
+msgstr "全部控制字符"
+
+#. type: TP
+#: tr.1:84
+#, no-wrap
+msgid "[:digit:]"
+msgstr "[:digit:]"
+
+#. type: Plain text
+#: tr.1:87
+msgid "all digits"
+msgstr "全部数字"
+
+#. type: TP
+#: tr.1:87
+#, no-wrap
+msgid "[:graph:]"
+msgstr "[:graph:]"
+
+#. type: Plain text
+#: tr.1:90
+msgid "all printable characters, not including space"
+msgstr "全部可打印字符,不包括空格"
+
+#. type: TP
+#: tr.1:90
+#, no-wrap
+msgid "[:lower:]"
+msgstr "[:lower:]"
+
+#. type: Plain text
+#: tr.1:93
+msgid "all lower case letters"
+msgstr "全部小写字母"
+
+#. type: TP
+#: tr.1:93
+#, no-wrap
+msgid "[:print:]"
+msgstr "[:print:]"
+
+#. type: Plain text
+#: tr.1:96
+msgid "all printable characters, including space"
+msgstr "全部可打印字符,包括空格"
+
+#. type: TP
+#: tr.1:96
+#, no-wrap
+msgid "[:punct:]"
+msgstr "[:punct:]"
+
+#. type: Plain text
+#: tr.1:99
+msgid "all punctuation characters"
+msgstr "全部标点字符"
+
+#. type: TP
+#: tr.1:99
+#, no-wrap
+msgid "[:space:]"
+msgstr "[:space:]"
+
+#. type: Plain text
+#: tr.1:102
+msgid "all horizontal or vertical whitespace"
+msgstr "全部水平或垂直空白"
+
+#. type: TP
+#: tr.1:102
+#, no-wrap
+msgid "[:upper:]"
+msgstr "[:upper:]"
+
+#. type: Plain text
+#: tr.1:105
+msgid "all upper case letters"
+msgstr "全部大写字母"
+
+#. type: TP
+#: tr.1:105
+#, no-wrap
+msgid "[:xdigit:]"
+msgstr "[:xdigit:]"
+
+#. type: Plain text
+#: tr.1:108
+msgid "all hexadecimal digits"
+msgstr "全部十六进制数字"
+
+#. type: TP
+#: tr.1:108
+#, no-wrap
+msgid "[=CHAR=]"
+msgstr "[=CHAR=]"
+
+#. type: Plain text
+#: tr.1:111
+msgid "all characters which are equivalent to CHAR"
+msgstr "全部字符相当于CHAR"
+
+#. type: Plain text
+#: tr.1:120
+msgid "Translation occurs if B<-d> is not given and both SET1 and SET2 appear.  B<-t> may be used only when translating.  SET2 is extended to length of SET1 by repeating its last character as necessary.  Excess characters of SET2 are ignored.  Only [:lower:] and [:upper:] are guaranteed to expand in ascending order; used in SET2 while translating, they may only be used in pairs to specify case conversion.  B<-s> uses SET1 if not translating nor deleting; else squeezing uses SET2 and occurs after translation or deletion."
+msgstr "如果使用B<-d>参数，不需要同时给定字符集１和字符集２。B<-t>参数可能只能在转换中使用。字符集２会必要重复最后一个字符，使其延长至字符集１的长度。字符集2多出字符集1的部分将会被忽略。只有当[:lower:]和[:upper:]时能保证升序延长;当转换时用在字符集2中，使匹配的字符大小写转换。如果不翻译也不删除那么B<-s>将用字符集1压缩;其他的压缩用字符集2。"
+
+#. type: SH
+#: tr.1:120
+#, no-wrap
+msgid "AUTHOR"
+msgstr "作者"
+
+#. type: Plain text
+#: tr.1:122
+msgid "Written by Jim Meyering."
+msgstr "由Jim Meyering 撰写。 "
+
+#. type: SH
+#: tr.1:122
+#, no-wrap
+msgid "REPORTING BUGS"
+msgstr "报告错误"
+
+#. type: Plain text
+#: tr.1:124
+msgid "Report tr bugs to bug-coreutils@gnu.org"
+msgstr "发送错误信息到： bug-coreutils@gnu.org"
+
+#. type: Plain text
+#: tr.1:126
+msgid "GNU coreutils home page: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+msgstr "GNU coreutils 主页： E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+
+#. type: Plain text
+#: tr.1:128
+msgid "General help using GNU software: E<lt>http://www.gnu.org/gethelp/E<gt>"
+msgstr "使用GNU软件的常规帮助： E<lt>http://www.gnu.org/gethelp/E<gt>"
+
+#. type: Plain text
+#: tr.1:130
+msgid "Report tr translation bugs to E<lt>http://github.com/LCTT/man-pages/E<gt>"
+msgstr "发送翻译错误到 E<lt>http://github.com/LCTT/man-pages/E<gt>"
+
+#. type: SH
+#: tr.1:130
+#, no-wrap
+msgid "COPYRIGHT"
+msgstr "版权申明"
+
+#. type: Plain text
+#: tr.1:133
+msgid "Copyright \\(co 2013 Free Software Foundation, Inc.  License GPLv3+: GNU GPL version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
+msgstr "Copyright \\(co 2013 Free Software Foundation, Inc.  License GPLv3+: GNU GPL version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
+
+#. type: Plain text
+#: tr.1:136
+msgid "This is free software: you are free to change and redistribute it.  There is NO WARRANTY, to the extent permitted by law."
+msgstr "这是一个自由软件： 你可以自由修改和重新发布它。 在法律允许的范围内， 不提供任何担保。"
+
+#. type: SH
+#: tr.1:136
+#, no-wrap
+msgid "SEE ALSO"
+msgstr "请参阅"
+
+#. type: Plain text
+#: tr.1:144
+msgid "The full documentation for B<tr> is maintained as a Texinfo manual.  If the B<info> and B<tr> programs are properly installed at your site, the command"
+msgstr "B<tr>的完整文档使用 Texinfo 手册进行维护。如果 B<info> 和 B<tr> 程序已经正确地安装在了你的电脑上，通过下述命令"
+
+#. type: Plain text
+#: tr.1:146
+msgid "B<info coreutils \\(aqtr invocation\\(aq>"
+msgstr "B<info coreutils \\(aqtr invocation\\(aq>"
+
+#. type: Plain text
+#: tr.1:148
+msgid "should give you access to the complete manual."
+msgstr "可以访问完整的使用手册。 "
+
+#. type: SH
+#: tr.1:148
+#, no-wrap
+msgid "翻译信息"
+msgstr "翻译信息"
+
+#. type: SS
+#: tr.1:149
+#, no-wrap
+msgid "翻译维护人"
+msgstr "翻译维护人"
+
+#. type: Plain text
+#: tr.1:151
+msgid "译者："
+msgstr "译者："
+
+#. type: Plain text
+#: tr.1:153
+msgid "此处为译者信息， 格式为： 译者名 B<E<lt>译者邮件@地址E<gt>>， 译者名 B<E<lt>译者邮件@地址E<gt>>"
+msgstr "Luox B<E<lt>lcqzero7@163.comE<gt>>"
+
+#. type: Plain text
+#: tr.1:155
+msgid "校对："
+msgstr "校对："
+
+#. type: Plain text
+#: tr.1:157
+msgid "此处为校对者信息， 格式为： 校对者名 B<E<lt>校对者邮件@地址E<gt>>， 校对者名 B<E<lt>校对者邮件@地址E<gt>>"
+msgstr "-"
+
+#. type: SS
+#: tr.1:158
+#, no-wrap
+msgid "翻译更新日期"
+msgstr "翻译更新日期"
+
+#. type: Plain text
+#: tr.1:160
+msgid "此处为最后更新日期， 格式为： 2013.10.20"
+msgstr " 2013.10.23"
+
+#. type: SS
+#: tr.1:160
+#, no-wrap
+msgid "翻译组"
+msgstr "翻译组"
+
+#. type: Plain text
+#: tr.1:162
+msgid "man翻译项目 ： B<http://github.com/LCTT/man-pages/>"
+msgstr "man翻译项目 ： B<http://github.com/LCTT/man-pages/>"
+
+#. type: Plain text
+#: tr.1:164
+msgid "翻译组 ： B<http://lctt.github.io/ E<lt>lctt@linux.cnE<gt>>"
+msgstr "翻译组 ： B<http://lctt.github.io/ E<lt>lctt@linux.cnE<gt>>"
+
+#. type: Plain text
+#: tr.1:165
+msgid "Linux中国 ： B<http://linux.cn/>"
+msgstr "Linux中国 ： B<http://linux.cn/>"
+

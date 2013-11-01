@@ -4,32 +4,35 @@
 .\" This file was generated with po4a. Translate the source file.
 .\"
 .\"*******************************************************************
-.TH PWD 1 2013年10月 "GNU coreutils 8.21" 用户命令
+.TH RMDIR 1 2013年10月 "GNU coreutils 8.21" 用户命令
 .SH 名称
-pwd \- 显示当前目录或者工作目录
+rmdir \- 移除空目录
 .SH 摘要
-\fBpwd\fP [\fI选项\fP]…
+\fBrmdir\fP [\fI选项\fP]... \fI目录\fP...
 .SH 描述
 .\" Add any additional description here
 .PP
-打印当前工作目录的完整文件名
+如果目录是空的，就移除它(它们)
+.HP
+\fB\-\-ignore\-fail\-on\-non\-empty\fP
+.IP
+忽略因为目录
+.IP
+非空导致的失败 (译注：就是会忽略非空目录而进行删除)
 .TP 
-\fB\-L\fP, \fB\-\-logical\fP
-显示环境变量PWD的值，甚至它包含符号链接
+\fB\-p\fP, \fB\-\-parents\fP
+移除目录及其祖先；例如，'rmdir \fB\-p\fP a/b/c' is similar to 'rmdir a/b/c a/b a'
 .TP 
-\fB\-P\fP, \fB\-\-physical\fP
-忽略全部的符号链接
+\fB\-v\fP, \fB\-\-verbose\fP
+输出每个目录操作的处理信息
 .TP 
 \fB\-\-help\fP
 显示帮助并退出
 .TP 
 \fB\-\-version\fP
 输出版本信息并退出
-.PP
-注意： 你的 shell 也许有自己版本的 pwd 命令， 他们通常会取代这里描述的版本。 请参考你的 shell
-提供的文档来了解它所支持的选项的细节。
 .SH 作者
-由 Jim Meyering 撰写
+由 David MacKenzie 撰写。
 .SH 报告错误
 发送错误信息到： bug\-coreutils@gnu.org
 .br
@@ -44,25 +47,26 @@ version 3 or later <http://gnu.org/licenses/gpl.html>.
 .br
 这是一个自由软件： 你可以自由修改和重新发布它。 在法律允许的范围内， 不提供任何担保
 .SH 请参阅
-getcwd(3)
+rmdir(2)
 .PP
-\fBpwd\fP 的完整文档使用 Texinfo 手册进行维护。如果 \fBinfo\fP 和 \fBpwd\fP 程序已经正确地安装在了你的电脑上， 通过下述命令
+\fBrmdir\fP 的完整文档使用 Texinfo 手册进行维护。如果 \fBinfo\fP 和 \fBrmdir\fP 程序已经正确地安装在了你的电脑上，
+通过下述命令
 .IP
-\fBinfo coreutils \(aqpwd invocation\(aq\fP
+\fBinfo coreutils \(aqrmdir invocation\(aq\fP
 .PP
 可以访问完整的使用手册
 .SH 翻译信息
 .SS 翻译维护人
 译者：
 .ta 
-Vic___ \fB<vickers020@gmail.com>\fP
+flsf \fB<jianmaflsf@gmail.com>\fP
 .br
 校对：
 .ta 
-wxy \fB<xingyu.wang@gmail.com>\fP
+此处为校对者信息， 格式为： 校对者名 \fB<校对者邮件@地址>\fP， 校对者名 \fB<校对者邮件@地址>\fP
 .br
 .SS 翻译更新日期
-2013.10.22
+此处为最后更新日期， 格式为： 2013.10.20
 .SS 翻译组
 man翻译项目 ： \fBhttp://github.com/LCTT/man\-pages/\fP
 .br
