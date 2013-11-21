@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: LCTT man-pages coreutils-8.21\n"
 "POT-Creation-Date: 2013-10-22 08:51+0800\n"
-"PO-Revision-Date: 2013-11-05 23:13+0800\n"
+"PO-Revision-Date: 2013-11-19 23:34+0800\n"
 "Last-Translator: Linchenguang <1215412538@qq.com>\n"
 "Language-Team: LCTT <lctt@linux.cn>\n"
 "Language: zh_CN.UTF-8\n"
@@ -21,258 +21,258 @@ msgstr ""
 #: tac.1:2
 #, no-wrap
 msgid "TAC"
-msgstr ""
+msgstr "TAC"
 
 #. type: TH
 #: tac.1:2
 #, no-wrap
 msgid "October 2013"
-msgstr ""
+msgstr "2013年10月"
 
 #. type: TH
 #: tac.1:2
 #, no-wrap
 msgid "GNU coreutils 8.21"
-msgstr ""
+msgstr "GNU coreutils 8.21"
 
 #. type: TH
 #: tac.1:2
 #, no-wrap
 msgid "User Commands"
-msgstr ""
+msgstr "用户命令"
 
 #. type: SH
 #: tac.1:3
 #, no-wrap
 msgid "NAME"
-msgstr ""
+msgstr "名称"
 
 #. type: Plain text
 #: tac.1:5
 msgid "tac - concatenate and print files in reverse"
-msgstr ""
+msgstr "tac - 串接并以相反的顺序打印文件"
 
 #. type: SH
 #: tac.1:5
 #, no-wrap
 msgid "SYNOPSIS"
-msgstr ""
+msgstr "摘要"
 
 #. type: Plain text
 #: tac.1:8
 msgid "B<tac> [I<OPTION>]... [I<FILE>]..."
-msgstr ""
+msgstr "B<tac> [I< 选项 >]...[I< 文件 >]..."
 
 #. type: SH
 #: tac.1:8
 #, no-wrap
 msgid "DESCRIPTION"
-msgstr ""
+msgstr "描述"
 
 #. type: Plain text
 #: tac.1:13
 msgid "Write each FILE to standard output, last line first.  With no FILE, or when FILE is -, read standard input."
-msgstr ""
+msgstr "将每个文件按行倒置写到标准输出，不指定文件或者文件为“-” 时，读标准输入。"
 
 #. type: Plain text
 #: tac.1:15
 msgid "Mandatory arguments to long options are mandatory for short options too."
-msgstr ""
+msgstr "长选项的强制性参数也是短选项的强制性参数"
 
 #. type: TP
 #: tac.1:15
 #, no-wrap
 msgid "B<-b>, B<--before>"
-msgstr ""
+msgstr "B<-b>,B<--before>"
 
 #. type: Plain text
 #: tac.1:18
 msgid "attach the separator before instead of after"
-msgstr ""
+msgstr "分隔符放在行首而不是行尾"
 
 #. type: TP
 #: tac.1:18
 #, no-wrap
 msgid "B<-r>, B<--regex>"
-msgstr ""
+msgstr "B<-r>,B<--regex>"
 
 #. type: Plain text
 #: tac.1:21
 msgid "interpret the separator as a regular expression"
-msgstr ""
+msgstr "将分隔符解释为正则表达式"
 
 #. type: TP
 #: tac.1:21
 #, no-wrap
 msgid "B<-s>, B<--separator>=I<STRING>"
-msgstr ""
+msgstr "B<-s>,B<--separator>=I< 字符串 >"
 
 #. type: Plain text
 #: tac.1:24
 msgid "use STRING as the separator instead of newline"
-msgstr ""
+msgstr "将字符串而不是换行符用作分隔符"
 
 #. type: TP
 #: tac.1:24
 #, no-wrap
 msgid "B<--help>"
-msgstr ""
+msgstr "B<--help>"
 
 #. type: Plain text
 #: tac.1:27
 msgid "display this help and exit"
-msgstr ""
+msgstr "显示帮助并退出"
 
 #. type: TP
 #: tac.1:27
 #, no-wrap
 msgid "B<--version>"
-msgstr ""
+msgstr "B<--version>"
 
 #. type: Plain text
 #: tac.1:30
 msgid "output version information and exit"
-msgstr ""
+msgstr "输出版本信息并退出"
 
 #. type: SH
 #: tac.1:30
 #, no-wrap
 msgid "AUTHOR"
-msgstr ""
+msgstr "作者"
 
 #. type: Plain text
 #: tac.1:32
 msgid "Written by Jay Lepreau and David MacKenzie."
-msgstr ""
+msgstr "由 Jay Lepreau 和 David MacKenzie撰写"
 
 #. type: SH
 #: tac.1:32
 #, no-wrap
 msgid "REPORTING BUGS"
-msgstr ""
+msgstr "报告错误"
 
 #. type: Plain text
 #: tac.1:34
 msgid "Report tac bugs to bug-coreutils@gnu.org"
-msgstr ""
+msgstr "发送错误信息到： bug-coreutils@gnu.org"
 
 #. type: Plain text
 #: tac.1:36
 msgid "GNU coreutils home page: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
-msgstr ""
+msgstr "GNU coreutils home page: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
 
 #. type: Plain text
 #: tac.1:38
 msgid "General help using GNU software: E<lt>http://www.gnu.org/gethelp/E<gt>"
-msgstr ""
+msgstr "使用GNU软件的常规帮助： E<lt>http://www.gnu.org/gethelp/E<gt>"
 
 #. type: Plain text
 #: tac.1:40
 msgid "Report tac translation bugs to E<lt>http://github.com/LCTT/man-pages/E<gt>"
-msgstr ""
+msgstr "发送翻译错误到 E<lt>http://github.com/LCTT/man-pages/E<gt>"
 
 #. type: SH
 #: tac.1:40
 #, no-wrap
 msgid "COPYRIGHT"
-msgstr ""
+msgstr "版权声明"
 
 #. type: Plain text
 #: tac.1:43
 msgid "Copyright \\(co 2013 Free Software Foundation, Inc.  License GPLv3+: GNU GPL version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
-msgstr ""
+msgstr "Copyright \\(co 2013 Free Software Foundation, Inc. License GPLv3+: GNU GPL version 3 or later E<lt>http://gnu.org/licenses/gpl."
 
 #. type: Plain text
 #: tac.1:46
 msgid "This is free software: you are free to change and redistribute it.  There is NO WARRANTY, to the extent permitted by law."
-msgstr ""
+msgstr "这是一个自由软件： 你可以自由修改和重新发布它。 在法律允许的范围内， 不提供任何担保"
 
 #. type: SH
 #: tac.1:46
 #, no-wrap
 msgid "SEE ALSO"
-msgstr ""
+msgstr "请参阅"
 
 #. type: Plain text
 #: tac.1:48
 msgid "B<rev>(1)"
-msgstr ""
+msgstr "B<rev>(1)"
 
 #. type: Plain text
 #: tac.1:56
 msgid "The full documentation for B<tac> is maintained as a Texinfo manual.  If the B<info> and B<tac> programs are properly installed at your site, the command"
-msgstr ""
+msgstr "本程序的完整文档使用 Texinfo 手册进行维护。如果 B<info> 和本程序已经正确地安装在了你的电脑上，通过下述命令"
 
 #. type: Plain text
 #: tac.1:58
 msgid "B<info coreutils \\(aqtac invocation\\(aq>"
-msgstr ""
+msgstr "B<info coreutils \\(aqtac invocation\\(aq>"
 
 #. type: Plain text
 #: tac.1:60
 msgid "should give you access to the complete manual."
-msgstr ""
+msgstr "可以访问完整的使用手册"
 
 #. type: SH
 #: tac.1:60
 #, no-wrap
 msgid "翻译信息"
-msgstr ""
+msgstr "翻译信息"
 
 #. type: SS
 #: tac.1:61
 #, no-wrap
 msgid "翻译维护人"
-msgstr ""
+msgstr "翻译维护人"
 
 #. type: Plain text
 #: tac.1:63
 msgid "译者："
-msgstr ""
+msgstr "译者："
 
 #. type: Plain text
 #: tac.1:65
 msgid "此处为译者信息， 格式为： 译者名 B<E<lt>译者邮件@地址E<gt>>， 译者名 B<E<lt>译者邮件@地址E<gt>>"
-msgstr ""
+msgstr "Linchenguang B<E<lt>1215412538@qq.comE<gt>>"
 
 #. type: Plain text
 #: tac.1:67
 msgid "校对："
-msgstr ""
+msgstr "校对："
 
 #. type: Plain text
 #: tac.1:69
 msgid "此处为校对者信息， 格式为： 校对者名 B<E<lt>校对者邮件@地址E<gt>>， 校对者名 B<E<lt>校对者邮件@地址E<gt>>"
-msgstr ""
+msgstr "此处为校对者信息， 格式为： 校对者名 B<E<lt>校对者邮件@地址E<gt>>， 校对者名 B<E<lt>校对者邮件@地址E<gt>>"
 
 #. type: SS
 #: tac.1:70
 #, no-wrap
 msgid "翻译更新日期"
-msgstr ""
+msgstr "翻译更新日期"
 
 #. type: Plain text
 #: tac.1:72
 msgid "此处为最后更新日期， 格式为： 2013.10.20"
-msgstr ""
+msgstr "2013.11.16"
 
 #. type: SS
 #: tac.1:72
 #, no-wrap
 msgid "翻译组"
-msgstr ""
+msgstr "翻译组"
 
 #. type: Plain text
 #: tac.1:74
 msgid "man翻译项目 ： B<http://github.com/LCTT/man-pages/>"
-msgstr ""
+msgstr "man翻译项目 ： B<http://github.com/LCTT/man-pages/>"
 
 #. type: Plain text
 #: tac.1:76
 msgid "翻译组 ： B<http://lctt.github.io/ E<lt>lctt@linux.cnE<gt>>"
-msgstr ""
+msgstr "翻译组 ： B<http://lctt.github.io/ E<lt>lctt@linux.cnE<gt>>"
 
 #. type: Plain text
 #: tac.1:77
 msgid "Linux中国 ： B<http://linux.cn/>"
-msgstr ""
+msgstr "Linux中国 ： B<http://linux.cn/>"
