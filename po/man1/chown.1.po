@@ -7,71 +7,71 @@ msgid ""
 msgstr ""
 "Project-Id-Version: LCTT man-pages coreutils-8.21\n"
 "POT-Creation-Date: 2013-10-22 08:51+0800\n"
-"PO-Revision-Date: 2013-12-25 21:56+0800\n"
-"Last-Translator: \n"
+"PO-Revision-Date: 2013-12-26 21:10+0800\n"
+"Last-Translator: wxy <xingyu.wang@gmail.com>\n"
 "Language-Team: LCTT <lctt@linux.cn>\n"
+"Language: zh_CN.UTF-8\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 1.5.7\n"
-"Language: zh_CN.UTF-8\n"
 
 #. type: TH
 #: chown.1:2
 #, no-wrap
 msgid "CHOWN"
-msgstr ""
+msgstr "CHOWN"
 
 #. type: TH
 #: chown.1:2
 #, no-wrap
 msgid "October 2013"
-msgstr ""
+msgstr "2013年10月"
 
 #. type: TH
 #: chown.1:2
 #, no-wrap
 msgid "GNU coreutils 8.21"
-msgstr ""
+msgstr "GNU coreutils 8.21"
 
 #. type: TH
 #: chown.1:2
 #, no-wrap
 msgid "User Commands"
-msgstr ""
+msgstr "用户命令"
 
 #. type: SH
 #: chown.1:3
 #, no-wrap
 msgid "NAME"
-msgstr ""
+msgstr "名称"
 
 #. type: Plain text
 #: chown.1:5
 msgid "chown - change file owner and group"
-msgstr ""
+msgstr "chown - 改变文件所有者和所属组"
 
 #. type: SH
 #: chown.1:5
 #, no-wrap
 msgid "SYNOPSIS"
-msgstr ""
+msgstr "摘要"
 
 #. type: Plain text
 #: chown.1:8
 msgid "B<chown> [I<OPTION>]... [I<OWNER>][I<:>[I<GROUP>]] I<FILE>..."
-msgstr ""
+msgstr "B<chown> [I<选项>]... [I<所有者>][I<:>[I<所属组>]] I<文件>..."
 
 #. type: Plain text
 #: chown.1:11
 msgid "B<chown> [I<OPTION>]... I<--reference=RFILE FILE>..."
-msgstr ""
+msgstr "B<chown> [I<选项>]... I<--reference=参考文件 文件>..."
 
 #. type: SH
 #: chown.1:11
 #, no-wrap
 msgid "DESCRIPTION"
-msgstr ""
+msgstr "描述"
 
 #. type: Plain text
 #: chown.1:31
@@ -89,12 +89,21 @@ msgid ""
 "B<chgrp>.  If only a colon is given, or if the entire operand is empty, "
 "neither the owner nor the group is changed."
 msgstr ""
+"本手册页记录了 GNU 版本的 B<chown> 。 B<chown> 修改每一个指定文件的所有者和 "
+"（或）所属组。 当仅指定了所有者 （用户名或者数字用户 ID ）， 那个用户将成为每"
+"一个指定文件的所有者， 同时文件的所属组不会发生改变。 如果所有者后紧跟着一个"
+"冒号和一个所属组名 （或数字所属组 ID ）， 并且之间没有任何空格时， 这些文件的"
+"所属组也会发生改变。 如果用户名和冒号后面并没有所属组名， 那个用户将成为这些"
+"文件的所有者， 并且这些文件的所属组改变为那个用户的登录所属组。 如果冒号和所"
+"属组都指定了， 但是没有指定所有者， 这些文件只有所属组会发生改变。 这种情况"
+"下， B<chown> 和 B<chgrp> 效果一样。 如果只有一个冒号， 或者什么也没有指定， "
+"文件的所有者和所属组都不会改变。"
 
 #. type: SH
 #: chown.1:31
 #, no-wrap
 msgid "OPTIONS"
-msgstr ""
+msgstr "选项"
 
 #. type: Plain text
 #: chown.1:35
@@ -102,58 +111,61 @@ msgid ""
 "Change the owner and/or group of each FILE to OWNER and/or GROUP.  With B<--"
 "reference>, change the owner and group of each FILE to those of RFILE."
 msgstr ""
+"修改每个文件的所有者和 （或）所属组为OWNER和 （或）GROUP。 使用参数 B<--"
+"reference> 时， 修改每个文件的所有者和 （或）所属组为参考文件的所有者和 "
+"（或）所属组。"
 
 #. type: TP
 #: chown.1:35
 #, no-wrap
 msgid "B<-c>, B<--changes>"
-msgstr ""
+msgstr "B<-c>, B<--changes>"
 
 #. type: Plain text
 #: chown.1:38
 msgid "like verbose but report only when a change is made"
-msgstr ""
+msgstr "类似 verbose 参数， 但只会在发生变化时才会报告"
 
 #. type: TP
 #: chown.1:38
 #, no-wrap
 msgid "B<-f>, B<--silent>, B<--quiet>"
-msgstr ""
+msgstr "B<-f>, B<--silent>, B<--quiet>"
 
 #. type: Plain text
 #: chown.1:41
 msgid "suppress most error messages"
-msgstr ""
+msgstr "禁止大部分的错误消息"
 
 #. type: TP
 #: chown.1:41
 #, no-wrap
 msgid "B<-v>, B<--verbose>"
-msgstr ""
+msgstr "B<-v>, B<--verbose>"
 
 #. type: Plain text
 #: chown.1:44
 msgid "output a diagnostic for every file processed"
-msgstr ""
+msgstr "对于每个文件的处理， 都会打印分析报告"
 
 #. type: TP
 #: chown.1:44
 #, no-wrap
 msgid "B<--dereference>"
-msgstr ""
+msgstr "B<--dereference>"
 
 #. type: Plain text
 #: chown.1:48
 msgid ""
 "affect the referent of each symbolic link (this is the default), rather than "
 "the symbolic link itself"
-msgstr ""
+msgstr "影响每个符号链接所引用的文件 （默认设置）， 而不是符号链接本身"
 
 #. type: TP
 #: chown.1:48
 #, no-wrap
 msgid "B<-h>, B<--no-dereference>"
-msgstr ""
+msgstr "B<-h>, B<--no-dereference>"
 
 #. type: Plain text
 #: chown.1:53
@@ -161,12 +173,13 @@ msgid ""
 "affect symbolic links instead of any referenced file (useful only on systems "
 "that can change the ownership of a symlink)"
 msgstr ""
+"影响符号链接本身而不是其引用的文件 （只在可以修改符号链接所有权的系统上有效）"
 
 #. type: TP
 #: chown.1:53
 #, no-wrap
 msgid "B<--from>=I<CURRENT_OWNER>:CURRENT_GROUP"
-msgstr ""
+msgstr "B<--from>=I<当前所有者>:当前所属组"
 
 #. type: Plain text
 #: chown.1:59
@@ -175,50 +188,53 @@ msgid ""
 "group match those specified here.  Either may be omitted, in which case a "
 "match is not required for the omitted attribute"
 msgstr ""
+"当指定的文件的所有者和 （或）所属组符合指定的当前所有者和 （或）当前所属组"
+"时， 修改这些文件的所有者和 （或）所属组。 也可以省略所有者或所属组， 当这个"
+"属性没必要进行匹配时。"
 
 #. type: TP
 #: chown.1:59
 #, no-wrap
 msgid "B<--no-preserve-root>"
-msgstr ""
+msgstr "B<--no-preserve-root>"
 
 #. type: Plain text
 #: chown.1:62
 msgid "do not treat '/' specially (the default)"
-msgstr ""
+msgstr "不对 '/' 特殊处理 （默认设置） "
 
 #. type: TP
 #: chown.1:62
 #, no-wrap
 msgid "B<--preserve-root>"
-msgstr ""
+msgstr "B<--preserve-root>"
 
 #. type: Plain text
 #: chown.1:65
 msgid "fail to operate recursively on '/'"
-msgstr ""
+msgstr "不允许递归执行于 '/' 。"
 
 #. type: TP
 #: chown.1:65
 #, no-wrap
 msgid "B<--reference>=I<RFILE>"
-msgstr ""
+msgstr "B<--reference>=I<参考文件>"
 
 #. type: Plain text
 #: chown.1:69
 msgid "use RFILE's owner and group rather than specifying OWNER:GROUP values"
-msgstr ""
+msgstr "使用参考文件的所有者和所属组代替指定所有者和所属组"
 
 #. type: TP
 #: chown.1:69
 #, no-wrap
 msgid "B<-R>, B<--recursive>"
-msgstr ""
+msgstr "B<-R>, B<--recursive>"
 
 #. type: Plain text
 #: chown.1:72
 msgid "operate on files and directories recursively"
-msgstr ""
+msgstr "递归执行于文件和目录"
 
 #. type: Plain text
 #: chown.1:76
@@ -227,62 +243,64 @@ msgid ""
 "option is also specified.  If more than one is specified, only the final one "
 "takes effect."
 msgstr ""
+"当指定了 B<-R> 选项时， 下面的几个选项会修改遍历层次目录的方式。 如果指定了以"
+"下多个选项， 只有最后一个选项才会生效。"
 
 #. type: TP
 #: chown.1:76
 #, no-wrap
 msgid "B<-H>"
-msgstr ""
+msgstr "B<-H>"
 
 #. type: Plain text
 #: chown.1:80
 msgid ""
 "if a command line argument is a symbolic link to a directory, traverse it"
-msgstr ""
+msgstr "如果命令行参数是一个指向目录的符号链接， 则遍历该目录"
 
 #. type: TP
 #: chown.1:80
 #, no-wrap
 msgid "B<-L>"
-msgstr ""
+msgstr "B<-L>"
 
 #. type: Plain text
 #: chown.1:84
 msgid "traverse every symbolic link to a directory encountered"
-msgstr ""
+msgstr "遍历目录中的每一个符号链接"
 
 #. type: TP
 #: chown.1:84
 #, no-wrap
 msgid "B<-P>"
-msgstr ""
+msgstr "B<-P>"
 
 #. type: Plain text
 #: chown.1:87
 msgid "do not traverse any symbolic links (default)"
-msgstr ""
+msgstr "不遍历任何一个符号链接 （默认设置）"
 
 #. type: TP
 #: chown.1:87
 #, no-wrap
 msgid "B<--help>"
-msgstr ""
+msgstr "B<--help>"
 
 #. type: Plain text
 #: chown.1:90
 msgid "display this help and exit"
-msgstr ""
+msgstr "显示帮助然后退出"
 
 #. type: TP
 #: chown.1:90
 #, no-wrap
 msgid "B<--version>"
-msgstr ""
+msgstr "B<--version>"
 
 #. type: Plain text
 #: chown.1:93
 msgid "output version information and exit"
-msgstr ""
+msgstr "输出版本信息然后退出"
 
 #. type: Plain text
 #: chown.1:97
@@ -291,90 +309,93 @@ msgid ""
 "to login group if implied by a ':' following a symbolic OWNER.  OWNER and "
 "GROUP may be numeric as well as symbolic."
 msgstr ""
+"当没有指定所有者时， 所有者不会发生改变。 当没有指定所属组时， 一般情况下， "
+"所属组不会发生改变， 除非一个所有者符号后面跟着一个冒号，那么此时所属组将会改"
+"变为该用户登录的所属组。 所有者和所属组既可以是数字也可以是符号。 "
 
 #. type: SH
 #: chown.1:97
 #, no-wrap
 msgid "EXAMPLES"
-msgstr ""
+msgstr "例子"
 
 #. type: TP
 #: chown.1:98
 #, no-wrap
 msgid "chown root /u"
-msgstr ""
+msgstr "chown root /u"
 
 #. type: Plain text
 #: chown.1:101
 msgid "Change the owner of /u to \"root\"."
-msgstr ""
+msgstr "修改 /u 的所有者为 \"root\" 。"
 
 #. type: TP
 #: chown.1:101
 #, no-wrap
 msgid "chown root:staff /u"
-msgstr ""
+msgstr "chown root:staff /u"
 
 #. type: Plain text
 #: chown.1:104
 msgid "Likewise, but also change its group to \"staff\"."
-msgstr ""
+msgstr "同样地， 但还会修改它的所属组为 \"staff\" 。"
 
 #. type: TP
 #: chown.1:104
 #, no-wrap
 msgid "chown B<-hR> root /u"
-msgstr ""
+msgstr "chown B<-hR> root /u"
 
 #. type: Plain text
 #: chown.1:107
 msgid "Change the owner of /u and subfiles to \"root\"."
-msgstr ""
+msgstr "修改 /u 和其子文件的所有者为 \"root\" 。"
 
 #. type: SH
 #: chown.1:107
 #, no-wrap
 msgid "AUTHOR"
-msgstr ""
+msgstr "作者"
 
 #. type: Plain text
 #: chown.1:109
 msgid "Written by David MacKenzie and Jim Meyering."
-msgstr ""
+msgstr "由 David MacKenzie 和 Jim Meyering 撰写"
 
 #. type: SH
 #: chown.1:109
 #, no-wrap
 msgid "REPORTING BUGS"
-msgstr ""
+msgstr "报告错误"
 
 #. type: Plain text
 #: chown.1:111
 msgid "Report chown bugs to bug-coreutils@gnu.org"
-msgstr ""
+msgstr "发送 chown 错误信息到： bug-coreutils@gnu.org"
 
 #. type: Plain text
 #: chown.1:113
 msgid ""
 "GNU coreutils home page: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
-msgstr ""
+msgstr "GNU coreutils 主页： E<lt>http://www.gnu.org/software/coreutils/E<gt>"
 
 #. type: Plain text
 #: chown.1:115
 msgid "General help using GNU software: E<lt>http://www.gnu.org/gethelp/E<gt>"
-msgstr ""
+msgstr "使用GNU软件的常规帮助： E<lt>http://www.gnu.org/gethelp/E<gt>"
 
 #. type: Plain text
 #: chown.1:117
 msgid ""
 "Report chown translation bugs to E<lt>http://github.com/LCTT/man-pages/E<gt>"
-msgstr ""
+msgstr "发送 chown 翻译错误到 E<lt>http://github.com/LCTT/man-pages/E<gt>"
 
 #. type: SH
 #: chown.1:117
 #, no-wrap
 msgid "COPYRIGHT"
-msgstr ""
+msgstr "版权声明"
 
 #. type: Plain text
 #: chown.1:120
@@ -382,6 +403,8 @@ msgid ""
 "Copyright \\(co 2013 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
 "version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
 msgstr ""
+"Copyright \\(co 2013 Free Software Foundation, Inc. License GPLv3+: GNU GPL "
+"version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
 
 #. type: Plain text
 #: chown.1:123
@@ -389,17 +412,19 @@ msgid ""
 "This is free software: you are free to change and redistribute it.  There is "
 "NO WARRANTY, to the extent permitted by law."
 msgstr ""
+"这是一个自由软件： 你可以自由修改和重新发布它。 在法律允许的范围内， 不提供任"
+"何担保。"
 
 #. type: SH
 #: chown.1:123
 #, no-wrap
 msgid "SEE ALSO"
-msgstr ""
+msgstr "请参阅"
 
 #. type: Plain text
 #: chown.1:125
 msgid "chown(2)"
-msgstr ""
+msgstr "chown(2)"
 
 #. type: Plain text
 #: chown.1:133
@@ -408,45 +433,47 @@ msgid ""
 "the B<info> and B<chown> programs are properly installed at your site, the "
 "command"
 msgstr ""
+"B<chown> 的完整文档使用 Texinfo 手册进行维护。 如果 B<info> 和 B<chown> 已经"
+"正确地安装在了你的电脑上，通过下述命令"
 
 #. type: Plain text
 #: chown.1:135
 msgid "B<info coreutils \\(aqchown invocation\\(aq>"
-msgstr ""
+msgstr "B<info coreutils \\(aqchown invocation\\(aq>"
 
 #. type: Plain text
 #: chown.1:137
 msgid "should give you access to the complete manual."
-msgstr ""
+msgstr "可以访问完整的使用手册。"
 
 #. type: SH
 #: chown.1:137
 #, no-wrap
 msgid "翻译信息"
-msgstr ""
+msgstr "翻译信息"
 
 #. type: SS
 #: chown.1:138
 #, no-wrap
 msgid "翻译维护人"
-msgstr ""
+msgstr "翻译维护人"
 
 #. type: Plain text
 #: chown.1:140
 msgid "译者："
-msgstr ""
+msgstr "译者："
 
 #. type: Plain text
 #: chown.1:142
 msgid ""
 "此处为译者信息， 格式为： 译者名 B<E<lt>译者邮件@地址E<gt>>， 译者名 B<E<lt>"
 "译者邮件@地址E<gt>>"
-msgstr ""
+msgstr "will.qian B<E<lt>controlqsw@gmail.comE<gt>>"
 
 #. type: Plain text
 #: chown.1:144
 msgid "校对："
-msgstr ""
+msgstr "校对："
 
 #. type: Plain text
 #: chown.1:146
@@ -454,35 +481,40 @@ msgid ""
 "此处为校对者信息， 格式为： 校对者名 B<E<lt>校对者邮件@地址E<gt>>， 校对者名 "
 "B<E<lt>校对者邮件@地址E<gt>>"
 msgstr ""
+"此处为校对者信息， 格式为： 校对者名 B<E<lt>校对者邮件@地址E<gt>>， 校对者名 "
+"B<E<lt>校对者邮件@地址E<gt>>"
 
 #. type: SS
 #: chown.1:147
 #, no-wrap
 msgid "翻译更新日期"
-msgstr ""
+msgstr "翻译更新日期"
 
 #. type: Plain text
 #: chown.1:149
 msgid "此处为最后更新日期， 格式为： 2013.10.20"
-msgstr ""
+msgstr "2013.12.26"
 
 #. type: SS
 #: chown.1:149
 #, no-wrap
 msgid "翻译组"
-msgstr ""
+msgstr "翻译组"
 
 #. type: Plain text
 #: chown.1:151
 msgid "man翻译项目 ： B<http://github.com/LCTT/man-pages/>"
-msgstr ""
+msgstr "man翻译项目 ： B<http://github.com/LCTT/man-pages/>"
 
 #. type: Plain text
 #: chown.1:153
 msgid "翻译组 ： B<http://lctt.github.io/ E<lt>lctt@linux.cnE<gt>>"
-msgstr ""
+msgstr "翻译组 ： B<http://lctt.github.io/ E<lt>lctt@linux.cnE<gt>>"
 
 #. type: Plain text
 #: chown.1:154
 msgid "Linux中国 ： B<http://linux.cn/>"
-msgstr ""
+msgstr "Linux中国 ： B<http://linux.cn/>"
+
+#~ msgid "Written by"
+#~ msgstr "由 ??? 撰写"
