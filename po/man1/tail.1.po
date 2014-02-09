@@ -1,0 +1,403 @@
+# LCTT man-pages Translate Project
+# Copyright (C) 2013 LCTT
+# This file is distributed under the same license as the PACKAGE package.
+# LCTT <lctt@linux.cn>, 2013.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: LCTT man-pages coreutils-8.21\n"
+"POT-Creation-Date: 2013-10-22 08:51+0800\n"
+"PO-Revision-Date: 2014-02-09 14:27+0800\n"
+"Last-Translator: \n"
+"Language-Team: LCTT <lctt@linux.cn>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"Language: zh_CN.UTF-8\n"
+
+#. type: TH
+#: tail.1:2
+#, no-wrap
+msgid "TAIL"
+msgstr ""
+
+#. type: TH
+#: tail.1:2
+#, no-wrap
+msgid "October 2013"
+msgstr ""
+
+#. type: TH
+#: tail.1:2
+#, no-wrap
+msgid "GNU coreutils 8.21"
+msgstr ""
+
+#. type: TH
+#: tail.1:2
+#, no-wrap
+msgid "User Commands"
+msgstr ""
+
+#. type: SH
+#: tail.1:3
+#, no-wrap
+msgid "NAME"
+msgstr ""
+
+#. type: Plain text
+#: tail.1:5
+msgid "tail - output the last part of files"
+msgstr ""
+
+#. type: SH
+#: tail.1:5
+#, no-wrap
+msgid "SYNOPSIS"
+msgstr ""
+
+#. type: Plain text
+#: tail.1:8
+msgid "B<tail> [I<OPTION>]... [I<FILE>]..."
+msgstr ""
+
+#. type: SH
+#: tail.1:8
+#, no-wrap
+msgid "DESCRIPTION"
+msgstr ""
+
+#. type: Plain text
+#: tail.1:14
+msgid ""
+"Print the last 10 lines of each FILE to standard output.  With more than one "
+"FILE, precede each with a header giving the file name.  With no FILE, or "
+"when FILE is -, read standard input."
+msgstr ""
+
+#. type: Plain text
+#: tail.1:16
+msgid ""
+"Mandatory arguments to long options are mandatory for short options too."
+msgstr ""
+
+#. type: TP
+#: tail.1:16
+#, no-wrap
+msgid "B<-c>, B<--bytes>=I<K>"
+msgstr ""
+
+#. type: Plain text
+#: tail.1:20
+msgid ""
+"output the last K bytes; alternatively, use B<-c> +K to output bytes "
+"starting with the Kth of each file"
+msgstr ""
+
+#. type: TP
+#: tail.1:20
+#, no-wrap
+msgid "B<-f>, B<--follow[=>{name|descriptor}]"
+msgstr ""
+
+#. type: Plain text
+#: tail.1:25
+msgid ""
+"output appended data as the file grows; B<-f>, B<--follow>, and B<--"
+"follow>=I<descriptor> are equivalent"
+msgstr ""
+
+#. type: TP
+#: tail.1:25
+#, no-wrap
+msgid "B<-F>"
+msgstr ""
+
+#. type: Plain text
+#: tail.1:28
+msgid "same as B<--follow>=I<name> B<--retry>"
+msgstr ""
+
+#. type: TP
+#: tail.1:28
+#, no-wrap
+msgid "B<-n>, B<--lines>=I<K>"
+msgstr ""
+
+#. type: Plain text
+#: tail.1:32
+msgid ""
+"output the last K lines, instead of the last 10; or use B<-n> +K to output "
+"lines starting with the Kth"
+msgstr ""
+
+#. type: TP
+#: tail.1:32
+#, no-wrap
+msgid "B<--max-unchanged-stats>=I<N>"
+msgstr ""
+
+#. type: Plain text
+#: tail.1:39
+msgid ""
+"with B<--follow>=I<name>, reopen a FILE which has not changed size after N "
+"(default 5) iterations to see if it has been unlinked or renamed (this is "
+"the usual case of rotated log files).  With inotify, this option is rarely "
+"useful."
+msgstr ""
+
+#. type: TP
+#: tail.1:39
+#, no-wrap
+msgid "B<--pid>=I<PID>"
+msgstr ""
+
+#. type: Plain text
+#: tail.1:42
+msgid "with B<-f>, terminate after process ID, PID dies"
+msgstr ""
+
+#. type: TP
+#: tail.1:42
+#, no-wrap
+msgid "B<-q>, B<--quiet>, B<--silent>"
+msgstr ""
+
+#. type: Plain text
+#: tail.1:45
+msgid "never output headers giving file names"
+msgstr ""
+
+#. type: TP
+#: tail.1:45
+#, no-wrap
+msgid "B<--retry>"
+msgstr ""
+
+#. type: Plain text
+#: tail.1:50
+msgid ""
+"keep trying to open a file even when it is or becomes inaccessible; useful "
+"when following by name, i.e., with B<--follow>=I<name>"
+msgstr ""
+
+#. type: TP
+#: tail.1:50
+#, no-wrap
+msgid "B<-s>, B<--sleep-interval>=I<N>"
+msgstr ""
+
+#. type: Plain text
+#: tail.1:56
+msgid ""
+"with B<-f>, sleep for approximately N seconds (default 1.0) between "
+"iterations.  With inotify and B<--pid>=I<P>, check process P at least once "
+"every N seconds."
+msgstr ""
+
+#. type: TP
+#: tail.1:56
+#, no-wrap
+msgid "B<-v>, B<--verbose>"
+msgstr ""
+
+#. type: Plain text
+#: tail.1:59
+msgid "always output headers giving file names"
+msgstr ""
+
+#. type: TP
+#: tail.1:59
+#, no-wrap
+msgid "B<--help>"
+msgstr ""
+
+#. type: Plain text
+#: tail.1:62
+msgid "display this help and exit"
+msgstr ""
+
+#. type: TP
+#: tail.1:62
+#, no-wrap
+msgid "B<--version>"
+msgstr ""
+
+#. type: Plain text
+#: tail.1:65
+msgid "output version information and exit"
+msgstr ""
+
+#. type: Plain text
+#: tail.1:71
+msgid ""
+"If the first character of K (the number of bytes or lines) is a '+', print "
+"beginning with the Kth item from the start of each file, otherwise, print "
+"the last K items in the file.  K may have a multiplier suffix: b 512, kB "
+"1000, K 1024, MB 1000*1000, M 1024*1024, GB 1000*1000*1000, G "
+"1024*1024*1024, and so on for T, P, E, Z, Y."
+msgstr ""
+
+#. type: Plain text
+#: tail.1:78
+msgid ""
+"With B<--follow> (B<-f>), tail defaults to following the file descriptor, "
+"which means that even if a tail'ed file is renamed, tail will continue to "
+"track its end.  This default behavior is not desirable when you really want "
+"to track the actual name of the file, not the file descriptor (e.g., log "
+"rotation).  Use B<--follow>=I<name> in that case.  That causes tail to track "
+"the named file in a way that accommodates renaming, removal and creation."
+msgstr ""
+
+#. type: SH
+#: tail.1:78
+#, no-wrap
+msgid "AUTHOR"
+msgstr ""
+
+#. type: Plain text
+#: tail.1:81
+msgid ""
+"Written by Paul Rubin, David MacKenzie, Ian Lance Taylor, and Jim Meyering."
+msgstr ""
+
+#. type: SH
+#: tail.1:81
+#, no-wrap
+msgid "REPORTING BUGS"
+msgstr ""
+
+#. type: Plain text
+#: tail.1:83
+msgid "Report tail bugs to bug-coreutils@gnu.org"
+msgstr ""
+
+#. type: Plain text
+#: tail.1:85
+msgid ""
+"GNU coreutils home page: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+msgstr ""
+
+#. type: Plain text
+#: tail.1:87
+msgid "General help using GNU software: E<lt>http://www.gnu.org/gethelp/E<gt>"
+msgstr ""
+
+#. type: Plain text
+#: tail.1:89
+msgid ""
+"Report tail translation bugs to E<lt>http://github.com/LCTT/man-pages/E<gt>"
+msgstr ""
+
+#. type: SH
+#: tail.1:89
+#, no-wrap
+msgid "COPYRIGHT"
+msgstr ""
+
+#. type: Plain text
+#: tail.1:92
+msgid ""
+"Copyright \\(co 2013 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
+msgstr ""
+
+#. type: Plain text
+#: tail.1:95
+msgid ""
+"This is free software: you are free to change and redistribute it.  There is "
+"NO WARRANTY, to the extent permitted by law."
+msgstr ""
+
+#. type: SH
+#: tail.1:95
+#, no-wrap
+msgid "SEE ALSO"
+msgstr ""
+
+#. type: Plain text
+#: tail.1:103
+msgid ""
+"The full documentation for B<tail> is maintained as a Texinfo manual.  If "
+"the B<info> and B<tail> programs are properly installed at your site, the "
+"command"
+msgstr ""
+
+#. type: Plain text
+#: tail.1:105
+msgid "B<info coreutils \\(aqtail invocation\\(aq>"
+msgstr ""
+
+#. type: Plain text
+#: tail.1:107
+msgid "should give you access to the complete manual."
+msgstr ""
+
+#. type: SH
+#: tail.1:107
+#, no-wrap
+msgid "翻译信息"
+msgstr ""
+
+#. type: SS
+#: tail.1:108
+#, no-wrap
+msgid "翻译维护人"
+msgstr ""
+
+#. type: Plain text
+#: tail.1:110
+msgid "译者："
+msgstr ""
+
+#. type: Plain text
+#: tail.1:112
+msgid ""
+"此处为译者信息， 格式为： 译者名 B<E<lt>译者邮件@地址E<gt>>， 译者名 B<E<lt>"
+"译者邮件@地址E<gt>>"
+msgstr ""
+
+#. type: Plain text
+#: tail.1:114
+msgid "校对："
+msgstr ""
+
+#. type: Plain text
+#: tail.1:116
+msgid ""
+"此处为校对者信息， 格式为： 校对者名 B<E<lt>校对者邮件@地址E<gt>>， 校对者名 "
+"B<E<lt>校对者邮件@地址E<gt>>"
+msgstr ""
+
+#. type: SS
+#: tail.1:117
+#, no-wrap
+msgid "翻译更新日期"
+msgstr ""
+
+#. type: Plain text
+#: tail.1:119
+msgid "此处为最后更新日期， 格式为： 2013.10.20"
+msgstr ""
+
+#. type: SS
+#: tail.1:119
+#, no-wrap
+msgid "翻译组"
+msgstr ""
+
+#. type: Plain text
+#: tail.1:121
+msgid "man翻译项目 ： B<http://github.com/LCTT/man-pages/>"
+msgstr ""
+
+#. type: Plain text
+#: tail.1:123
+msgid "翻译组 ： B<http://lctt.github.io/ E<lt>lctt@linux.cnE<gt>>"
+msgstr ""
+
+#. type: Plain text
+#: tail.1:124
+msgid "Linux中国 ： B<http://linux.cn/>"
+msgstr ""
