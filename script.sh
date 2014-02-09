@@ -9,4 +9,4 @@ rm -rf ../../po/man1/*.pot~
 
 # 使用PO生成MAN
 cd man/man1
-po4a-translate -f man -m ls.1 -M utf8 -p ../../man1/ls.1.po -l ../zh_CN.UTF-8/man1/ls.1 -k 10
+po4a-translate -f man -m ls.1 -M utf8 -p ../../po/man1/ls.1.po -l ../zh_CN.UTF-8/man1/ls.1 -k 10
