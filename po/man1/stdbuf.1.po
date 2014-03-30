@@ -1,0 +1,364 @@
+# LCTT man-pages Translate Project
+# Copyright (C) 2013 LCTT
+# This file is distributed under the same license as the PACKAGE package.
+# LCTT <lctt@linux.cn>, 2013.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: LCTT man-pages coreutils-8.21\n"
+"POT-Creation-Date: 2013-10-22 08:51+0800\n"
+"PO-Revision-Date: 2014-03-30 00:51+0800\n"
+"Last-Translator: \n"
+"Language-Team: LCTT <lctt@linux.cn>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"Language: zh_CN.UTF-8\n"
+
+#. type: TH
+#: stdbuf.1:2
+#, no-wrap
+msgid "STDBUF"
+msgstr "STDBUF"
+
+#. type: TH
+#: stdbuf.1:2
+#, no-wrap
+msgid "October 2013"
+msgstr "2013年10月"
+
+#. type: TH
+#: stdbuf.1:2
+#, no-wrap
+msgid "GNU coreutils 8.21"
+msgstr "GNU coreutils 8.21"
+
+#. type: TH
+#: stdbuf.1:2
+#, no-wrap
+msgid "User Commands"
+msgstr "用户命令"
+
+#. type: SH
+#: stdbuf.1:3
+#, no-wrap
+msgid "NAME"
+msgstr "名称"
+
+#. type: Plain text
+#: stdbuf.1:6
+msgid ""
+"stdbuf - Run COMMAND, with modified buffering operations for its standard "
+"streams."
+msgstr "stdbuf - 运行命令， 修改标准流的缓冲操作。"
+
+#. type: SH
+#: stdbuf.1:6
+#, no-wrap
+msgid "SYNOPSIS"
+msgstr "摘要"
+
+#. type: Plain text
+#: stdbuf.1:9
+msgid "B<stdbuf> I<OPTION>... I<COMMAND>"
+msgstr "B<stdbuf> I<选项>... I<命令>"
+
+#. type: SH
+#: stdbuf.1:9
+#, no-wrap
+msgid "DESCRIPTION"
+msgstr "描述"
+
+#. type: Plain text
+#: stdbuf.1:13
+msgid ""
+"Run COMMAND, with modified buffering operations for its standard streams."
+msgstr "运行命令， 修改标准流的缓冲操作。"
+
+#. type: Plain text
+#: stdbuf.1:15
+msgid ""
+"Mandatory arguments to long options are mandatory for short options too."
+msgstr "长选项必须用的参数在短选项中也是必须的。"
+
+#. type: TP
+#: stdbuf.1:15
+#, no-wrap
+msgid "B<-i>, B<--input>=I<MODE>"
+msgstr "B<-i>, B<--input>=I<模式>"
+
+#. type: Plain text
+#: stdbuf.1:18
+msgid "adjust standard input stream buffering"
+msgstr "调整标准输入流缓冲"
+
+#. type: TP
+#: stdbuf.1:18
+#, no-wrap
+msgid "B<-o>, B<--output>=I<MODE>"
+msgstr "B<-o>, B<--output>=I<模式>"
+
+#. type: Plain text
+#: stdbuf.1:21
+msgid "adjust standard output stream buffering"
+msgstr "调整标准输出流缓冲"
+
+#. type: TP
+#: stdbuf.1:21
+#, no-wrap
+msgid "B<-e>, B<--error>=I<MODE>"
+msgstr "B<-e>, B<--error>=I<模式>"
+
+#. type: Plain text
+#: stdbuf.1:24
+msgid "adjust standard error stream buffering"
+msgstr "调整标准错误流缓冲"
+
+#. type: TP
+#: stdbuf.1:24
+#, no-wrap
+msgid "B<--help>"
+msgstr "B<--help>"
+
+#. type: Plain text
+#: stdbuf.1:27
+msgid "display this help and exit"
+msgstr "显示帮助然后退出"
+
+#. type: TP
+#: stdbuf.1:27
+#, no-wrap
+msgid "B<--version>"
+msgstr "B<--version>"
+
+#. type: Plain text
+#: stdbuf.1:30
+msgid "output version information and exit"
+msgstr "输出版本信息然后退出"
+
+#. type: Plain text
+#: stdbuf.1:33
+msgid ""
+"If MODE is 'L' the corresponding stream will be line buffered.  This option "
+"is invalid with standard input."
+msgstr ""
+"如果指定的模式是 'L'， 对应的流设为行缓冲。 这个选项不能用于标准输入。 "
+
+#. type: Plain text
+#: stdbuf.1:35
+msgid "If MODE is '0' the corresponding stream will be unbuffered."
+msgstr "如果指定的模式是 '0'， 对应的流设为不缓冲。 "
+
+#. type: Plain text
+#: stdbuf.1:40
+msgid ""
+"Otherwise MODE is a number which may be followed by one of the following: KB "
+"1000, K 1024, MB 1000*1000, M 1024*1024, and so on for G, T, P, E, Z, Y.  In "
+"this case the corresponding stream will be fully buffered with the buffer "
+"size set to MODE bytes."
+msgstr ""
+"另外， 指定的模式可以是如下这些数： KB 1000， K 1024， MB 1000*1000， M "
+"1024*1024， 以及 G， T， P， E， Z， Y。 在这种情况下， 对应的流会设置为完全"
+"缓冲到指定的字节数。"
+
+#. type: Plain text
+#: stdbuf.1:45
+msgid ""
+"NOTE: If COMMAND adjusts the buffering of its standard streams ('tee' does "
+"for e.g.) then that will override corresponding settings changed by "
+"'stdbuf'.  Also some filters (like 'dd' and 'cat' etc.) don't use streams "
+"for I/O, and are thus unaffected by 'stdbuf' settings."
+msgstr ""
+"注意： 如果指定的命令调整了标准输入的缓冲 （例如命令 'tee' ）， 那么被 "
+"'stdbuf' 修改的设置会被覆盖。 然后， 例如 'dd' 和 'cat' 等不会使用输入输出流"
+"的过滤器， 不会受到 'stdbuf' 设置的影响。"
+
+#. type: SH
+#: stdbuf.1:45
+#, no-wrap
+msgid "EXAMPLES"
+msgstr "示例"
+
+#. type: Plain text
+#: stdbuf.1:47
+msgid "B<tail -f access.log | stdbuf -oL cut -d \\(aq \\(aq -f1 | uniq>"
+msgstr "B<tail -f access.log | stdbuf -oL cut -d \\(aq \\(aq -f1 | uniq>"
+
+#. type: Plain text
+#: stdbuf.1:49
+msgid "This will immedidately display unique entries from access.log"
+msgstr "马上显示 access.log 中特定的条目"
+
+#. type: SH
+#: stdbuf.1:49
+#, no-wrap
+msgid "BUGS"
+msgstr "BUGS"
+
+#. type: Plain text
+#: stdbuf.1:52
+msgid ""
+"On GLIBC platforms, specifying a buffer size, i.e. using fully buffered mode "
+"will result in undefined operation."
+msgstr ""
+"在 GLIBC 平台上， 指定缓冲大小， 也就是使用完全缓冲模式是未定义的操作。"
+
+#. type: SH
+#: stdbuf.1:52
+#, no-wrap
+msgid "AUTHOR"
+msgstr "作者"
+
+#. type: Plain text
+#: stdbuf.1:54
+msgid "Written by Padraig Brady."
+msgstr "由 Padraig Brady 撰写。"
+
+#. type: SH
+#: stdbuf.1:54
+#, no-wrap
+msgid "REPORTING BUGS"
+msgstr "报告错误"
+
+#. type: Plain text
+#: stdbuf.1:56
+msgid "Report stdbuf bugs to bug-coreutils@gnu.org"
+msgstr "发送 stdbuf 的错误信息到： bug-coreutils@gnu.org"
+
+#. type: Plain text
+#: stdbuf.1:58
+msgid ""
+"GNU coreutils home page: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+msgstr "GNU coreutils 主页： E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+
+#. type: Plain text
+#: stdbuf.1:60
+msgid "General help using GNU software: E<lt>http://www.gnu.org/gethelp/E<gt>"
+msgstr "使用GNU软件的常规帮助： E<lt>http://www.gnu.org/gethelp/E<gt>"
+
+#. type: Plain text
+#: stdbuf.1:62
+msgid ""
+"Report stdbuf translation bugs to E<lt>http://github.com/LCTT/man-pages/E<gt>"
+msgstr "发送 stdbuf 的翻译错误到 E<lt>http://github.com/LCTT/man-pages/E<gt>"
+
+#. type: SH
+#: stdbuf.1:62
+#, no-wrap
+msgid "COPYRIGHT"
+msgstr "版权声明"
+
+#. type: Plain text
+#: stdbuf.1:65
+msgid ""
+"Copyright \\(co 2013 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
+msgstr ""
+"Copyright \\(co 2013 Free Software Foundation, Inc. License GPLv3+: GNU GPL "
+"version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
+
+#. type: Plain text
+#: stdbuf.1:68
+msgid ""
+"This is free software: you are free to change and redistribute it.  There is "
+"NO WARRANTY, to the extent permitted by law."
+msgstr ""
+"这是一个自由软件： 你可以自由修改和重新发布它。 在法律允许的范围内， 不提供任"
+"何担保。"
+
+#. type: SH
+#: stdbuf.1:68
+#, no-wrap
+msgid "SEE ALSO"
+msgstr "请参阅"
+
+#. type: Plain text
+#: stdbuf.1:76
+msgid ""
+"The full documentation for B<stdbuf> is maintained as a Texinfo manual.  If "
+"the B<info> and B<stdbuf> programs are properly installed at your site, the "
+"command"
+msgstr ""
+"本程序的完整文档使用 Texinfo 手册进行维护。如果 B<info> 和本程序已经正确地安"
+"装在了你的电脑上，通过下述命令"
+
+#. type: Plain text
+#: stdbuf.1:78
+msgid "B<info coreutils \\(aqstdbuf invocation\\(aq>"
+msgstr "B<info coreutils \\(aqtail invocation\\(aq>"
+
+#. type: Plain text
+#: stdbuf.1:80
+msgid "should give you access to the complete manual."
+msgstr "可以访问完整的使用手册。"
+
+#. type: SH
+#: stdbuf.1:80
+#, no-wrap
+msgid "翻译信息"
+msgstr "翻译信息"
+
+#. type: SS
+#: stdbuf.1:81
+#, no-wrap
+msgid "翻译维护人"
+msgstr "翻译维护人"
+
+#. type: Plain text
+#: stdbuf.1:83
+msgid "译者："
+msgstr "译者："
+
+#. type: Plain text
+#: stdbuf.1:85
+msgid ""
+"此处为译者信息， 格式为： 译者名 B<E<lt>译者邮件@地址E<gt>>， 译者名 B<E<lt>"
+"译者邮件@地址E<gt>>"
+msgstr "will.qian B<E<lt>controlqsw@gmail.comE<gt>>"
+
+#. type: Plain text
+#: stdbuf.1:87
+msgid "校对："
+msgstr "校对："
+
+#. type: Plain text
+#: stdbuf.1:89
+msgid ""
+"此处为校对者信息， 格式为： 校对者名 B<E<lt>校对者邮件@地址E<gt>>， 校对者名 "
+"B<E<lt>校对者邮件@地址E<gt>>"
+msgstr ""
+"此处为校对者信息， 格式为： 校对者名 B<E<lt>校对者邮件@地址E<gt>>， 校对者名 "
+"B<E<lt>校对者邮件@地址E<gt>>"
+
+#. type: SS
+#: stdbuf.1:90
+#, no-wrap
+msgid "翻译更新日期"
+msgstr "翻译更新日期"
+
+#. type: Plain text
+#: stdbuf.1:92
+msgid "此处为最后更新日期， 格式为： 2013.10.20"
+msgstr "2014.03.29"
+
+#. type: SS
+#: stdbuf.1:92
+#, no-wrap
+msgid "翻译组"
+msgstr "翻译组"
+
+#. type: Plain text
+#: stdbuf.1:94
+msgid "man翻译项目 ： B<http://github.com/LCTT/man-pages/>"
+msgstr "man翻译项目 ： B<http://github.com/LCTT/man-pages/>"
+
+#. type: Plain text
+#: stdbuf.1:96
+msgid "翻译组 ： B<http://lctt.github.io/ E<lt>lctt@linux.cnE<gt>>"
+msgstr "翻译组 ： B<http://lctt.github.io/ E<lt>lctt@linux.cnE<gt>>"
+
+#. type: Plain text
+#: stdbuf.1:97
+msgid "Linux中国 ： B<http://linux.cn/>"
+msgstr "Linux中国 ： B<http://linux.cn/>"
