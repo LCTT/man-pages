@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: LCTT man-pages coreutils-8.21\n"
 "POT-Creation-Date: 2013-10-22 08:51+0800\n"
-"PO-Revision-Date: 2014-04-11 21:16+0800\n"
+"PO-Revision-Date: 2014-04-12 00:20+0800\n"
 "Last-Translator: \n"
 "Language-Team: LCTT <lctt@linux.cn>\n"
 "MIME-Version: 1.0\n"
@@ -320,7 +320,7 @@ msgstr ""
 #. type: Plain text
 #: uniq.1:87
 msgid "B<info coreutils \\(aquniq invocation\\(aq>"
-msgstr "B<info coreutils \\(aqtail invocation\\(aq>"
+msgstr "B<info coreutils \\(aquniq invocation\\(aq>"
 
 #. type: Plain text
 #: uniq.1:89
@@ -374,7 +374,7 @@ msgstr "翻译更新日期"
 #. type: Plain text
 #: uniq.1:101
 msgid "此处为最后更新日期， 格式为： 2013.10.20"
-msgstr "2014.02.09"
+msgstr "2014.04.11"
 
 #. type: SS
 #: uniq.1:101
