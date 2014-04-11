@@ -1,0 +1,398 @@
+# LCTT man-pages Translate Project
+# Copyright (C) 2013 LCTT
+# This file is distributed under the same license as the PACKAGE package.
+# LCTT <lctt@linux.cn>, 2013.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: LCTT man-pages coreutils-8.21\n"
+"POT-Creation-Date: 2013-10-22 08:51+0800\n"
+"PO-Revision-Date: 2014-04-11 21:09+0800\n"
+"Last-Translator: \n"
+"Language-Team: LCTT <lctt@linux.cn>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"Language: zh_CN.UTF-8\n"
+
+#. type: TH
+#: uniq.1:2
+#, no-wrap
+msgid "UNIQ"
+msgstr "UNIQ"
+
+#. type: TH
+#: uniq.1:2
+#, no-wrap
+msgid "October 2013"
+msgstr "2013年10月"
+
+#. type: TH
+#: uniq.1:2
+#, no-wrap
+msgid "GNU coreutils 8.21"
+msgstr "GNU coreutils 8.21"
+
+#. type: TH
+#: uniq.1:2
+#, no-wrap
+msgid "User Commands"
+msgstr "用户命令"
+
+#. type: SH
+#: uniq.1:3
+#, no-wrap
+msgid "NAME"
+msgstr "名称"
+
+#. type: Plain text
+#: uniq.1:5
+msgid "uniq - report or omit repeated lines"
+msgstr "uniq - 报告或者忽略重复行"
+
+#. type: SH
+#: uniq.1:5
+#, no-wrap
+msgid "SYNOPSIS"
+msgstr "摘要"
+
+#. type: Plain text
+#: uniq.1:8
+msgid "B<uniq> [I<OPTION>]... [I<INPUT >[I<OUTPUT>]]"
+msgstr "B<uniq> [I<选项>]... [I<输入文件 >[I<输出文件>]]"
+
+#. type: SH
+#: uniq.1:8
+#, no-wrap
+msgid "DESCRIPTION"
+msgstr "描述"
+
+#. type: Plain text
+#: uniq.1:13
+msgid ""
+"Filter adjacent matching lines from INPUT (or standard input), writing to "
+"OUTPUT (or standard output)."
+msgstr ""
+"从指定的输入文件 （或者标准输入）过滤掉相邻的匹配 （相同）行， 然后写到指定的"
+"输出文件 （或者标准输出）中。"
+
+#. type: Plain text
+#: uniq.1:15
+msgid "With no options, matching lines are merged to the first occurrence."
+msgstr "不使用任何选项时， 匹配行会被合并到该匹配的第一行中。"
+
+#. type: Plain text
+#: uniq.1:17
+msgid ""
+"Mandatory arguments to long options are mandatory for short options too."
+msgstr "长选项必须用的参数在短选项中也是必须的。"
+
+#. type: TP
+#: uniq.1:17
+#, no-wrap
+msgid "B<-c>, B<--count>"
+msgstr "B<-c>, B<--count>"
+
+#. type: Plain text
+#: uniq.1:20
+msgid "prefix lines by the number of occurrences"
+msgstr "在输出的每行前面加上该行重复出现的次数"
+
+#. type: TP
+#: uniq.1:20
+#, no-wrap
+msgid "B<-d>, B<--repeated>"
+msgstr "B<-d>, B<--repeated>"
+
+#. type: Plain text
+#: uniq.1:23
+msgid "only print duplicate lines"
+msgstr "只打印重复出现的行"
+
+#. type: TP
+#: uniq.1:23
+#, no-wrap
+msgid "B<-D>, B<--all-repeated>[=I<delimit-method>]"
+msgstr "B<-D>, B<--all-repeated>[=I<delimit-method>]"
+
+#. type: Plain text
+#: uniq.1:28
+msgid ""
+"print all duplicate lines delimit-method={none(default),prepend,separate} "
+"Delimiting is done with blank lines"
+msgstr ""
+"打印所有重复的行，设置 delimit-method={none(default),prepend,separate} 可以用"
+"空行分隔不同的行 （ 默认为 none， prepend 在不同行的前面加上空行， separate "
+"在不同行的中间加上空行）。"
+
+#. type: TP
+#: uniq.1:28
+#, no-wrap
+msgid "B<-f>, B<--skip-fields>=I<N>"
+msgstr "B<-f>, B<--skip-fields>=I<N>"
+
+#. type: Plain text
+#: uniq.1:31
+msgid "avoid comparing the first N fields"
+msgstr "不比较每行前面的 N 个字段"
+
+#. type: TP
+#: uniq.1:31
+#, no-wrap
+msgid "B<-i>, B<--ignore-case>"
+msgstr "B<-i>, B<--ignore-case>"
+
+#. type: Plain text
+#: uniq.1:34
+msgid "ignore differences in case when comparing"
+msgstr "比较时忽略大小写的差异"
+
+#. type: TP
+#: uniq.1:34
+#, no-wrap
+msgid "B<-s>, B<--skip-chars>=I<N>"
+msgstr "B<-s>, B<--skip-chars>=I<N>"
+
+#. type: Plain text
+#: uniq.1:37
+msgid "avoid comparing the first N characters"
+msgstr "不比较每行前面的 N 个字符"
+
+#. type: TP
+#: uniq.1:37
+#, no-wrap
+msgid "B<-u>, B<--unique>"
+msgstr "B<-u>, B<--unique>"
+
+#. type: Plain text
+#: uniq.1:40
+msgid "only print unique lines"
+msgstr "仅打印不重复的行"
+
+#. type: TP
+#: uniq.1:40
+#, no-wrap
+msgid "B<-z>, B<--zero-terminated>"
+msgstr "B<-z>, B<--zero-terminated>"
+
+#. type: Plain text
+#: uniq.1:43
+msgid "end lines with 0 byte, not newline"
+msgstr "以字节 0 代替换行符判定每行的结束 "
+
+#. type: TP
+#: uniq.1:43
+#, no-wrap
+msgid "B<-w>, B<--check-chars>=I<N>"
+msgstr "B<-w>, B<--check-chars>=I<N>"
+
+#. type: Plain text
+#: uniq.1:46
+msgid "compare no more than N characters in lines"
+msgstr "每行至多比较 N 个字符"
+
+#. type: TP
+#: uniq.1:46
+#, no-wrap
+msgid "B<--help>"
+msgstr "B<--help>"
+
+#. type: Plain text
+#: uniq.1:49
+msgid "display this help and exit"
+msgstr "显示帮助然后退出"
+
+#. type: TP
+#: uniq.1:49
+#, no-wrap
+msgid "B<--version>"
+msgstr "B<--version>"
+
+#. type: Plain text
+#: uniq.1:52
+msgid "output version information and exit"
+msgstr "输出版本信息然后退出"
+
+#. type: Plain text
+#: uniq.1:55
+msgid ""
+"A field is a run of blanks (usually spaces and/or TABs), then non-blank "
+"characters.  Fields are skipped before chars."
+msgstr ""
+"字段是指一串的空白符号 （一般来说有空格符和 / 或制表符）再加上非空白字符。 字"
+"段会调过字符前的空白符号。"
+
+#. type: Plain text
+#: uniq.1:59
+msgid ""
+"Note: 'uniq' does not detect repeated lines unless they are adjacent.  You "
+"may want to sort the input first, or use 'sort B<-u>' without 'uniq'.  Also, "
+"comparisons honor the rules specified by 'LC_COLLATE'."
+msgstr ""
+"注： 'uniq' 只会检测相邻的重复行。 您可以先对输入进行排序， 或者使用 'sort "
+"B<-u>' 代替 'uniq'。 并且， 排序算法遵守 'LC_COLLATE' 指定的规则。"
+
+#. type: SH
+#: uniq.1:59
+#, no-wrap
+msgid "AUTHOR"
+msgstr "作者"
+
+#. type: Plain text
+#: uniq.1:61
+msgid "Written by Richard M. Stallman and David MacKenzie."
+msgstr "由 Richard M. Stallman 和 David MacKenzie 撰写。"
+
+#. type: SH
+#: uniq.1:61
+#, no-wrap
+msgid "REPORTING BUGS"
+msgstr "报告错误"
+
+#. type: Plain text
+#: uniq.1:63
+msgid "Report uniq bugs to bug-coreutils@gnu.org"
+msgstr "发送 uniq 的错误信息到： bug-coreutils@gnu.org"
+
+#. type: Plain text
+#: uniq.1:65
+msgid ""
+"GNU coreutils home page: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+msgstr "GNU coreutils 主页： E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+
+#. type: Plain text
+#: uniq.1:67
+msgid "General help using GNU software: E<lt>http://www.gnu.org/gethelp/E<gt>"
+msgstr "使用GNU软件的常规帮助： E<lt>http://www.gnu.org/gethelp/E<gt>"
+
+#. type: Plain text
+#: uniq.1:69
+msgid ""
+"Report uniq translation bugs to E<lt>http://github.com/LCTT/man-pages/E<gt>"
+msgstr "发送 uniq 的翻译错误到 E<lt>http://github.com/LCTT/man-pages/E<gt>"
+
+#. type: SH
+#: uniq.1:69
+#, no-wrap
+msgid "COPYRIGHT"
+msgstr "版权声明"
+
+#. type: Plain text
+#: uniq.1:72
+msgid ""
+"Copyright \\(co 2013 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
+msgstr ""
+"Copyright \\(co 2013 Free Software Foundation, Inc. License GPLv3+: GNU GPL "
+"version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
+
+#. type: Plain text
+#: uniq.1:75
+msgid ""
+"This is free software: you are free to change and redistribute it.  There is "
+"NO WARRANTY, to the extent permitted by law."
+msgstr ""
+"这是一个自由软件： 你可以自由修改和重新发布它。 在法律允许的范围内， 不提供任"
+"何担保。"
+
+#. type: SH
+#: uniq.1:75
+#, no-wrap
+msgid "SEE ALSO"
+msgstr "请参阅"
+
+#. type: Plain text
+#: uniq.1:77
+msgid "comm(1), join(1), sort(1)"
+msgstr "comm(1), join(1), sort(1)"
+
+#. type: Plain text
+#: uniq.1:85
+msgid ""
+"The full documentation for B<uniq> is maintained as a Texinfo manual.  If "
+"the B<info> and B<uniq> programs are properly installed at your site, the "
+"command"
+msgstr ""
+"本程序的完整文档使用 Texinfo 手册进行维护。如果 B<info> 和本程序已经正确地安"
+"装在了你的电脑上，通过下述命令"
+
+#. type: Plain text
+#: uniq.1:87
+msgid "B<info coreutils \\(aquniq invocation\\(aq>"
+msgstr "B<info coreutils \\(aqtail invocation\\(aq>"
+
+#. type: Plain text
+#: uniq.1:89
+msgid "should give you access to the complete manual."
+msgstr "可以访问完整的使用手册。"
+
+#. type: SH
+#: uniq.1:89
+#, no-wrap
+msgid "翻译信息"
+msgstr "翻译信息"
+
+#. type: SS
+#: uniq.1:90
+#, no-wrap
+msgid "翻译维护人"
+msgstr "翻译维护人"
+
+#. type: Plain text
+#: uniq.1:92
+msgid "译者："
+msgstr "译者："
+
+#. type: Plain text
+#: uniq.1:94
+msgid ""
+"此处为译者信息， 格式为： 译者名 B<E<lt>译者邮件@地址E<gt>>， 译者名 B<E<lt>"
+"译者邮件@地址E<gt>>"
+msgstr "will.qian B<E<lt>controlqsw@gmail.comE<gt>>"
+
+#. type: Plain text
+#: uniq.1:96
+msgid "校对："
+msgstr "校对："
+
+#. type: Plain text
+#: uniq.1:98
+msgid ""
+"此处为校对者信息， 格式为： 校对者名 B<E<lt>校对者邮件@地址E<gt>>， 校对者名 "
+"B<E<lt>校对者邮件@地址E<gt>>"
+msgstr ""
+"此处为校对者信息， 格式为： 校对者名 B<E<lt>校对者邮件@地址E<gt>>， 校对者名 "
+"B<E<lt>校对者邮件@地址E<gt>>"
+
+#. type: SS
+#: uniq.1:99
+#, no-wrap
+msgid "翻译更新日期"
+msgstr "翻译更新日期"
+
+#. type: Plain text
+#: uniq.1:101
+msgid "此处为最后更新日期， 格式为： 2013.10.20"
+msgstr "2014.02.09"
+
+#. type: SS
+#: uniq.1:101
+#, no-wrap
+msgid "翻译组"
+msgstr "翻译组"
+
+#. type: Plain text
+#: uniq.1:103
+msgid "man翻译项目 ： B<http://github.com/LCTT/man-pages/>"
+msgstr "man翻译项目 ： B<http://github.com/LCTT/man-pages/>"
+
+#. type: Plain text
+#: uniq.1:105
+msgid "翻译组 ： B<http://lctt.github.io/ E<lt>lctt@linux.cnE<gt>>"
+msgstr "翻译组 ： B<http://lctt.github.io/ E<lt>lctt@linux.cnE<gt>>"
+
+#. type: Plain text
+#: uniq.1:106
+msgid "Linux中国 ： B<http://linux.cn/>"
+msgstr "Linux中国 ： B<http://linux.cn/>"
