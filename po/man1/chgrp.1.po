@@ -1,0 +1,440 @@
+# LCTT man-pages Translate Project
+# Copyright (C) 2013 LCTT
+# This file is distributed under the same license as the PACKAGE package.
+# LCTT <lctt@linux.cn>, 2013.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: LCTT man-pages coreutils-8.21\n"
+"POT-Creation-Date: 2013-10-22 08:51+0800\n"
+"PO-Revision-Date: 2014-04-27 11:51+0800\n"
+"Last-Translator: \n"
+"Language-Team: LCTT <lctt@linux.cn>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"Language: zh_CN.UTF-8\n"
+
+#. type: TH
+#: chgrp.1:2
+#, no-wrap
+msgid "CHGRP"
+msgstr "CHGRP"
+
+#. type: TH
+#: chgrp.1:2
+#, no-wrap
+msgid "October 2013"
+msgstr "2013年10月"
+
+#. type: TH
+#: chgrp.1:2
+#, no-wrap
+msgid "GNU coreutils 8.21"
+msgstr "GNU coreutils 8.21"
+
+#. type: TH
+#: chgrp.1:2
+#, no-wrap
+msgid "User Commands"
+msgstr "用户命令"
+
+#. type: SH
+#: chgrp.1:3
+#, no-wrap
+msgid "NAME"
+msgstr "名称"
+
+#. type: Plain text
+#: chgrp.1:5
+msgid "chgrp - change group ownership"
+msgstr "chgrp - 修改文件所属组"
+
+#. type: SH
+#: chgrp.1:5
+#, no-wrap
+msgid "SYNOPSIS"
+msgstr "摘要"
+
+#. type: Plain text
+#: chgrp.1:8
+msgid "B<chgrp> [I<OPTION>]... I<GROUP FILE>..."
+msgstr "B<chgrp> [I<选项>]... I<组 文件>..."
+
+#. type: Plain text
+#: chgrp.1:11
+msgid "B<chgrp> [I<OPTION>]... I<--reference=RFILE FILE>..."
+msgstr "B<chgrp> [I<选项>]... I<--reference=参考文件 文件>..."
+
+#. type: SH
+#: chgrp.1:11
+#, no-wrap
+msgid "DESCRIPTION"
+msgstr "描述"
+
+#. type: Plain text
+#: chgrp.1:16
+msgid ""
+"Change the group of each FILE to GROUP.  With B<--reference>, change the "
+"group of each FILE to that of RFILE."
+msgstr ""
+"修改每个文件的所属组为指定的组。 使用参数 B<--reference> 时， 修改每个文件的"
+"所属组为参考文件的所属组。"
+
+#. type: TP
+#: chgrp.1:16
+#, no-wrap
+msgid "B<-c>, B<--changes>"
+msgstr "B<-c>, B<--changes>"
+
+#. type: Plain text
+#: chgrp.1:19
+msgid "like verbose but report only when a change is made"
+msgstr "类似 verbose 参数， 但只会在发生变化时才会报告"
+
+#. type: TP
+#: chgrp.1:19
+#, no-wrap
+msgid "B<-f>, B<--silent>, B<--quiet>"
+msgstr "B<-f>, B<--silent>, B<--quiet>"
+
+#. type: Plain text
+#: chgrp.1:22
+msgid "suppress most error messages"
+msgstr "禁止大部分的错误消息"
+
+#. type: TP
+#: chgrp.1:22
+#, no-wrap
+msgid "B<-v>, B<--verbose>"
+msgstr "B<-v>, B<--verbose>"
+
+#. type: Plain text
+#: chgrp.1:25
+msgid "output a diagnostic for every file processed"
+msgstr "对于每个文件的处理， 都会打印分析报告"
+
+#. type: TP
+#: chgrp.1:25
+#, no-wrap
+msgid "B<--dereference>"
+msgstr "B<--dereference>"
+
+#. type: Plain text
+#: chgrp.1:29
+msgid ""
+"affect the referent of each symbolic link (this is the default), rather than "
+"the symbolic link itself"
+msgstr "影响每个符号链接所引用的文件 （默认设置）， 而不是符号链接本身"
+
+#. type: TP
+#: chgrp.1:29
+#, no-wrap
+msgid "B<-h>, B<--no-dereference>"
+msgstr "B<-h>, B<--no-dereference>"
+
+#. type: Plain text
+#: chgrp.1:34
+msgid ""
+"affect symbolic links instead of any referenced file (useful only on systems "
+"that can change the ownership of a symlink)"
+msgstr ""
+"影响符号链接本身而不是其引用的文件 （只在可以修改符号链接所有权的系统上有效）"
+
+#. type: TP
+#: chgrp.1:34
+#, no-wrap
+msgid "B<--no-preserve-root>"
+msgstr "B<--no-preserve-root>"
+
+#. type: Plain text
+#: chgrp.1:37
+msgid "do not treat '/' specially (the default)"
+msgstr "不对 '/' 特殊处理 （默认设置） "
+
+#. type: TP
+#: chgrp.1:37
+#, no-wrap
+msgid "B<--preserve-root>"
+msgstr "B<--preserve-root>"
+
+#. type: Plain text
+#: chgrp.1:40
+msgid "fail to operate recursively on '/'"
+msgstr "不允许递归执行于 '/' "
+
+#. type: TP
+#: chgrp.1:40
+#, no-wrap
+msgid "B<--reference>=I<RFILE>"
+msgstr "B<--reference>=I<参考文件>"
+
+#. type: Plain text
+#: chgrp.1:44
+msgid "use RFILE's group rather than specifying a GROUP value"
+msgstr "使用参考文件的所属组代替指定所属组"
+
+#. type: TP
+#: chgrp.1:44
+#, no-wrap
+msgid "B<-R>, B<--recursive>"
+msgstr "B<-R>, B<--recursive>"
+
+#. type: Plain text
+#: chgrp.1:47
+msgid "operate on files and directories recursively"
+msgstr "递归执行于文件和目录"
+
+#. type: Plain text
+#: chgrp.1:51
+msgid ""
+"The following options modify how a hierarchy is traversed when the B<-R> "
+"option is also specified.  If more than one is specified, only the final one "
+"takes effect."
+msgstr ""
+"当指定了 B<-R> 选项时， 下面的几个选项会修改遍历层次目录的方式。 如果指定了以"
+"下多个选项， 只有最后一个选项才会生效。"
+
+#. type: TP
+#: chgrp.1:51
+#, no-wrap
+msgid "B<-H>"
+msgstr "B<-H>"
+
+#. type: Plain text
+#: chgrp.1:55
+msgid ""
+"if a command line argument is a symbolic link to a directory, traverse it"
+msgstr "如果命令行参数是一个指向目录的符号链接， 则遍历该目录"
+
+#. type: TP
+#: chgrp.1:55
+#, no-wrap
+msgid "B<-L>"
+msgstr "B<-L>"
+
+#. type: Plain text
+#: chgrp.1:59
+msgid "traverse every symbolic link to a directory encountered"
+msgstr "遍历目录中的每一个符号链接"
+
+#. type: TP
+#: chgrp.1:59
+#, no-wrap
+msgid "B<-P>"
+msgstr "B<-P>"
+
+#. type: Plain text
+#: chgrp.1:62
+msgid "do not traverse any symbolic links (default)"
+msgstr "不遍历任何一个符号链接 （默认设置）"
+
+#. type: TP
+#: chgrp.1:62
+#, no-wrap
+msgid "B<--help>"
+msgstr "B<--help>"
+
+#. type: Plain text
+#: chgrp.1:65
+msgid "display this help and exit"
+msgstr "显示帮助然后退出"
+
+#. type: TP
+#: chgrp.1:65
+#, no-wrap
+msgid "B<--version>"
+msgstr "B<--version>"
+
+#. type: Plain text
+#: chgrp.1:68
+msgid "output version information and exit"
+msgstr "输出版本信息然后退出"
+
+#. type: SH
+#: chgrp.1:68
+#, no-wrap
+msgid "EXAMPLES"
+msgstr "示例"
+
+#. type: TP
+#: chgrp.1:69
+#, no-wrap
+msgid "chgrp staff /u"
+msgstr "chgrp staff /u"
+
+#. type: Plain text
+#: chgrp.1:72
+msgid "Change the group of /u to \"staff\"."
+msgstr "修改 /u 的所属组为 \"staff\" 。"
+
+#. type: TP
+#: chgrp.1:72
+#, no-wrap
+msgid "chgrp B<-hR> staff /u"
+msgstr "chgrp B<-hR> staff /u"
+
+#. type: Plain text
+#: chgrp.1:75
+msgid "Change the group of /u and subfiles to \"staff\"."
+msgstr "修改 /u 和其子文件的所属组为 \"staff\" 。"
+
+#. type: SH
+#: chgrp.1:75
+#, no-wrap
+msgid "AUTHOR"
+msgstr "作者"
+
+#. type: Plain text
+#: chgrp.1:77
+msgid "Written by David MacKenzie and Jim Meyering."
+msgstr "由 David MacKenzie 和 Jim Meyering 撰写。"
+
+#. type: SH
+#: chgrp.1:77
+#, no-wrap
+msgid "REPORTING BUGS"
+msgstr "报告错误"
+
+#. type: Plain text
+#: chgrp.1:79
+msgid "Report chgrp bugs to bug-coreutils@gnu.org"
+msgstr "发送 chgrp 错误信息到： bug-coreutils@gnu.org"
+
+#. type: Plain text
+#: chgrp.1:81
+msgid ""
+"GNU coreutils home page: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+msgstr "GNU coreutils 主页： E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+
+#. type: Plain text
+#: chgrp.1:83
+msgid "General help using GNU software: E<lt>http://www.gnu.org/gethelp/E<gt>"
+msgstr "使用GNU软件的常规帮助： E<lt>http://www.gnu.org/gethelp/E<gt>"
+
+#. type: Plain text
+#: chgrp.1:85
+msgid ""
+"Report chgrp translation bugs to E<lt>http://github.com/LCTT/man-pages/E<gt>"
+msgstr "发送 chgrp 翻译错误到 E<lt>http://github.com/LCTT/man-pages/E<gt>"
+
+#. type: SH
+#: chgrp.1:85
+#, no-wrap
+msgid "COPYRIGHT"
+msgstr "版权声明"
+
+#. type: Plain text
+#: chgrp.1:88
+msgid ""
+"Copyright \\(co 2013 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
+msgstr ""
+"Copyright \\(co 2013 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
+
+#. type: Plain text
+#: chgrp.1:91
+msgid ""
+"This is free software: you are free to change and redistribute it.  There is "
+"NO WARRANTY, to the extent permitted by law."
+msgstr ""
+"这是一个自由软件： 你可以自由修改和重新发布它。 在法律允许的范围内， 不提供任"
+"何担保。"
+
+#. type: SH
+#: chgrp.1:91
+#, no-wrap
+msgid "SEE ALSO"
+msgstr "请参阅"
+
+#. type: Plain text
+#: chgrp.1:99
+msgid ""
+"The full documentation for B<chgrp> is maintained as a Texinfo manual.  If "
+"the B<info> and B<chgrp> programs are properly installed at your site, the "
+"command"
+msgstr ""
+"本程序的完整文档使用 Texinfo 手册进行维护。如果 B<info> 和本程序已经正确地安"
+"装在了你的电脑上，通过下述命令"
+
+#. type: Plain text
+#: chgrp.1:101
+msgid "B<info coreutils \\(aqchgrp invocation\\(aq>"
+msgstr "B<info coreutils \\(aqchgrp invocation\\(aq>"
+
+#. type: Plain text
+#: chgrp.1:103
+msgid "should give you access to the complete manual."
+msgstr "可以访问完整的使用手册。"
+
+#. type: SH
+#: chgrp.1:103
+#, no-wrap
+msgid "翻译信息"
+msgstr "翻译信息"
+
+#. type: SS
+#: chgrp.1:104
+#, no-wrap
+msgid "翻译维护人"
+msgstr "翻译维护人"
+
+#. type: Plain text
+#: chgrp.1:106
+msgid "译者："
+msgstr "译者："
+
+#. type: Plain text
+#: chgrp.1:108
+msgid ""
+"此处为译者信息， 格式为： 译者名 B<E<lt>译者邮件@地址E<gt>>， 译者名 B<E<lt>"
+"译者邮件@地址E<gt>>"
+msgstr "will.qian B<E<lt>controlqsw@gmail.comE<gt>>"
+
+#. type: Plain text
+#: chgrp.1:110
+msgid "校对："
+msgstr "校对："
+
+#. type: Plain text
+#: chgrp.1:112
+msgid ""
+"此处为校对者信息， 格式为： 校对者名 B<E<lt>校对者邮件@地址E<gt>>， 校对者名 "
+"B<E<lt>校对者邮件@地址E<gt>>"
+msgstr ""
+"此处为校对者信息， 格式为： 校对者名 B<E<lt>校对者邮件@地址E<gt>>， 校对者名 "
+"B<E<lt>校对者邮件@地址E<gt>>"
+
+#. type: SS
+#: chgrp.1:113
+#, no-wrap
+msgid "翻译更新日期"
+msgstr "翻译更新日期"
+
+#. type: Plain text
+#: chgrp.1:115
+msgid "此处为最后更新日期， 格式为： 2013.10.20"
+msgstr "2014.04.27"
+
+#. type: SS
+#: chgrp.1:115
+#, no-wrap
+msgid "翻译组"
+msgstr "翻译组"
+
+#. type: Plain text
+#: chgrp.1:117
+msgid "man翻译项目 ： B<http://github.com/LCTT/man-pages/>"
+msgstr "man翻译项目 ： B<http://github.com/LCTT/man-pages/>"
+
+#. type: Plain text
+#: chgrp.1:119
+msgid "翻译组 ： B<http://lctt.github.io/ E<lt>lctt@linux.cnE<gt>>"
+msgstr "翻译组 ： B<http://lctt.github.io/ E<lt>lctt@linux.cnE<gt>>"
+
+#. type: Plain text
+#: chgrp.1:120
+msgid "Linux中国 ： B<http://linux.cn/>"
+msgstr "Linux中国 ： B<http://linux.cn/>"
