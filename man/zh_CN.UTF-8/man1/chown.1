@@ -20,7 +20,7 @@ chown \- 改变文件所有者和所属组
 文件的所有者和所属组都不会改变。
 .SH 选项
 .PP
-修改每个文件的所有者和 （或）所属组为OWNER和 （或）GROUP。 使用参数 \fB\-\-reference\fP 时， 修改每个文件的所有者和
+修改每个文件的所有者和 （或）所属组为指定的所有者和 （或）所属组。 使用参数 \fB\-\-reference\fP 时， 修改每个文件的所有者和
 （或）所属组为参考文件的所有者和 （或）所属组。
 .TP 
 \fB\-c\fP, \fB\-\-changes\fP
@@ -46,7 +46,7 @@ chown \- 改变文件所有者和所属组
 不对 '/' 特殊处理 （默认设置）
 .TP 
 \fB\-\-preserve\-root\fP
-不允许递归执行于 '/' 。
+不允许递归执行于 '/'
 .TP 
 \fB\-\-reference\fP=\fI参考文件\fP
 使用参考文件的所有者和所属组代替指定所有者和所属组
@@ -73,7 +73,7 @@ chown \- 改变文件所有者和所属组
 .PP
 当没有指定所有者时， 所有者不会发生改变。 当没有指定所属组时， 一般情况下， 所属组不会发生改变，
 除非一个所有者符号后面跟着一个冒号，那么此时所属组将会改变为该用户登录的所属组。 所有者和所属组既可以是数字也可以是符号。
-.SH 例子
+.SH 示例
 .TP 
 chown root /u
 修改 /u 的所有者为 "root" 。
@@ -84,7 +84,7 @@ chown root:staff /u
 chown \fB\-hR\fP root /u
 修改 /u 和其子文件的所有者为 "root" 。
 .SH 作者
-由 David MacKenzie 和 Jim Meyering 撰写
+由 David MacKenzie 和 Jim Meyering 撰写。
 .SH 报告错误
 发送 chown 错误信息到： bug\-coreutils@gnu.org
 .br
@@ -101,7 +101,7 @@ version 3 or later <http://gnu.org/licenses/gpl.html>.
 .SH 请参阅
 chown(2)
 .PP
-\fBchown\fP 的完整文档使用 Texinfo 手册进行维护。 如果 \fBinfo\fP 和 \fBchown\fP 已经正确地安装在了你的电脑上，通过下述命令
+本程序的完整文档使用 Texinfo 手册进行维护。如果 \fBinfo\fP 和本程序已经正确地安装在了你的电脑上，通过下述命令
 .IP
 \fBinfo coreutils \(aqchown invocation\(aq\fP
 .PP

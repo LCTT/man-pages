@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: LCTT man-pages coreutils-8.21\n"
 "POT-Creation-Date: 2013-10-22 08:51+0800\n"
-"PO-Revision-Date: 2013-12-26 21:10+0800\n"
-"Last-Translator: wxy <xingyu.wang@gmail.com>\n"
+"PO-Revision-Date: 2014-04-27 11:51+0800\n"
+"Last-Translator: \n"
 "Language-Team: LCTT <lctt@linux.cn>\n"
 "Language: zh_CN.UTF-8\n"
 "MIME-Version: 1.0\n"
@@ -111,8 +111,8 @@ msgid ""
 "Change the owner and/or group of each FILE to OWNER and/or GROUP.  With B<--"
 "reference>, change the owner and group of each FILE to those of RFILE."
 msgstr ""
-"修改每个文件的所有者和 （或）所属组为OWNER和 （或）GROUP。 使用参数 B<--"
-"reference> 时， 修改每个文件的所有者和 （或）所属组为参考文件的所有者和 "
+"修改每个文件的所有者和 （或）所属组为指定的所有者和 （或）所属组。 使用参数 "
+"B<--reference> 时， 修改每个文件的所有者和 （或）所属组为参考文件的所有者和 "
 "（或）所属组。"
 
 #. type: TP
@@ -212,7 +212,7 @@ msgstr "B<--preserve-root>"
 #. type: Plain text
 #: chown.1:65
 msgid "fail to operate recursively on '/'"
-msgstr "不允许递归执行于 '/' 。"
+msgstr "不允许递归执行于 '/' "
 
 #. type: TP
 #: chown.1:65
@@ -317,7 +317,7 @@ msgstr ""
 #: chown.1:97
 #, no-wrap
 msgid "EXAMPLES"
-msgstr "例子"
+msgstr "示例"
 
 #. type: TP
 #: chown.1:98
@@ -361,7 +361,7 @@ msgstr "作者"
 #. type: Plain text
 #: chown.1:109
 msgid "Written by David MacKenzie and Jim Meyering."
-msgstr "由 David MacKenzie 和 Jim Meyering 撰写"
+msgstr "由 David MacKenzie 和 Jim Meyering 撰写。"
 
 #. type: SH
 #: chown.1:109
@@ -433,8 +433,8 @@ msgid ""
 "the B<info> and B<chown> programs are properly installed at your site, the "
 "command"
 msgstr ""
-"B<chown> 的完整文档使用 Texinfo 手册进行维护。 如果 B<info> 和 B<chown> 已经"
-"正确地安装在了你的电脑上，通过下述命令"
+"本程序的完整文档使用 Texinfo 手册进行维护。如果 B<info> 和本程序已经正确地安"
+"装在了你的电脑上，通过下述命令"
 
 #. type: Plain text
 #: chown.1:135
