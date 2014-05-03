@@ -1,0 +1,339 @@
+# LCTT man-pages Translate Project
+# Copyright (C) 2013 LCTT
+# This file is distributed under the same license as the PACKAGE package.
+# LCTT <lctt@linux.cn>, 2013.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: LCTT man-pages coreutils-8.21\n"
+"POT-Creation-Date: 2013-10-22 08:51+0800\n"
+"PO-Revision-Date: 2014-05-03 18:54+0800\n"
+"Last-Translator: vito-L <lidongxingit@gmail.com>\n"
+"Language-Team: LCTT <lctt@linux.cn>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"Language: zh_CN.UTF-8\n"
+
+#. type: TH
+#: id.1:2
+#, no-wrap
+msgid "ID"
+msgstr "ID"
+
+#. type: TH
+#: id.1:2
+#, no-wrap
+msgid "October 2013"
+msgstr "2013年10月"
+
+#. type: TH
+#: id.1:2
+#, no-wrap
+msgid "GNU coreutils 8.21"
+msgstr "GNU coreutils 8.21"
+
+#. type: TH
+#: id.1:2
+#, no-wrap
+msgid "User Commands"
+msgstr "用户命令"
+
+#. type: SH
+#: id.1:3
+#, no-wrap
+msgid "NAME"
+msgstr "名称"
+
+#. type: Plain text
+#: id.1:5
+msgid "id - print real and effective user and group IDs"
+msgstr "id-打印真实有效的用户和组ID"
+
+#. type: SH
+#: id.1:5
+#, no-wrap
+msgid "SYNOPSIS"
+msgstr "摘要"
+
+#. type: Plain text
+#: id.1:8
+msgid "B<id> [I<OPTION>]... [I<USERNAME>]"
+msgstr "B<id> [I<选项>]... [I<用户名>]"
+
+#. type: SH
+#: id.1:8
+#, no-wrap
+msgid "DESCRIPTION"
+msgstr "描述"
+
+#. type: Plain text
+#: id.1:13
+msgid ""
+"Print user and group information for the specified USERNAME, or (when "
+"USERNAME omitted) for the current user."
+msgstr ""
+"打印指定用户名的用户信息和组信息，或（当用户名省略时）默认打印当前用户信息"
+
+#. type: TP
+#: id.1:13
+#, no-wrap
+msgid "B<-a>"
+msgstr "B<-a>"
+
+#. type: Plain text
+#: id.1:16
+msgid "ignore, for compatibility with other versions"
+msgstr "忽略，与其他版本的兼容性"
+
+#. type: TP
+#: id.1:16
+#, no-wrap
+msgid "B<-Z>, B<--context>"
+msgstr "B<-Z>, B<--context>"
+
+#. type: Plain text
+#: id.1:19
+msgid "print only the security context of the current user"
+msgstr "只打印当前用户的安全上下文"
+
+#. type: TP
+#: id.1:19
+#, no-wrap
+msgid "B<-g>, B<--group>"
+msgstr "B<-g>, B<--group>"
+
+#. type: Plain text
+#: id.1:22
+msgid "print only the effective group ID"
+msgstr "只打印有效的组ID"
+
+#. type: TP
+#: id.1:22
+#, no-wrap
+msgid "B<-G>, B<--groups>"
+msgstr "B<-G>, B<--groups>"
+
+#. type: Plain text
+#: id.1:25
+msgid "print all group IDs"
+msgstr "打印所有组ID"
+
+#. type: TP
+#: id.1:25
+#, no-wrap
+msgid "B<-n>, B<--name>"
+msgstr "B<-n>, B<--name>"
+
+#. type: Plain text
+#: id.1:28
+msgid "print a name instead of a number, for B<-ugG>"
+msgstr "打印名称而不是数字，B<-ugG>"
+
+#. type: TP
+#: id.1:28
+#, no-wrap
+msgid "B<-r>, B<--real>"
+msgstr "B<-r>, B<--real>"
+
+#. type: Plain text
+#: id.1:31
+msgid "print the real ID instead of the effective ID, with B<-ugG>"
+msgstr "打印真实的ID而不是有效的ID，B<-ugG>"
+
+#. type: TP
+#: id.1:31
+#, no-wrap
+msgid "B<-u>, B<--user>"
+msgstr "B<-u>, B<--user>"
+
+#. type: Plain text
+#: id.1:34
+msgid "print only the effective user ID"
+msgstr "只打印有效的用户ID"
+
+#. type: TP
+#: id.1:34
+#, no-wrap
+msgid "B<--help>"
+msgstr "B<--help>"
+
+#. type: Plain text
+#: id.1:37
+msgid "display this help and exit"
+msgstr "显示帮助并退出"
+
+#. type: TP
+#: id.1:37
+#, no-wrap
+msgid "B<--version>"
+msgstr "B<--version>"
+
+#. type: Plain text
+#: id.1:40
+msgid "output version information and exit"
+msgstr "输出版本信息并退出"
+
+#. type: Plain text
+#: id.1:42
+msgid "Without any OPTION, print some useful set of identified information."
+msgstr "没有任何选项，打印一些有用的辨认信息"
+
+#. type: SH
+#: id.1:42
+#, no-wrap
+msgid "AUTHOR"
+msgstr "作者"
+
+#. type: Plain text
+#: id.1:44
+msgid "Written by Arnold Robbins and David MacKenzie."
+msgstr "由Arnold Robbins和David MacKenzie撰写"
+
+#. type: SH
+#: id.1:44
+#, no-wrap
+msgid "REPORTING BUGS"
+msgstr "报告错误"
+
+#. type: Plain text
+#: id.1:46
+msgid "Report id bugs to bug-coreutils@gnu.org"
+msgstr "发送id的错误信息到： bug-coreutils@gnu.org"
+
+#. type: Plain text
+#: id.1:48
+msgid ""
+"GNU coreutils home page: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+msgstr "GNU coreutils 主页： E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+
+#. type: Plain text
+#: id.1:50
+msgid "General help using GNU software: E<lt>http://www.gnu.org/gethelp/E<gt>"
+msgstr "使用GNU软件的常规帮助： E<lt>http://www.gnu.org/gethelp/E<gt>"
+
+#. type: Plain text
+#: id.1:52
+msgid ""
+"Report id translation bugs to E<lt>http://github.com/LCTT/man-pages/E<gt>"
+msgstr "发送id的翻译错误到 E<lt>http://github.com/LCTT/man-pages/E<gt>"
+
+#. type: SH
+#: id.1:52
+#, no-wrap
+msgid "COPYRIGHT"
+msgstr "版权声明"
+
+#. type: Plain text
+#: id.1:55
+msgid ""
+"Copyright \\(co 2013 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
+msgstr ""
+"Copyright \\(co 2013 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
+
+#. type: Plain text
+#: id.1:58
+msgid ""
+"This is free software: you are free to change and redistribute it.  There is "
+"NO WARRANTY, to the extent permitted by law."
+msgstr ""
+"这是一个自由软件： 你可以自由修改和重新发布它。 在法律允许的范围内， 不提供任"
+"何担保。"
+
+#. type: SH
+#: id.1:58
+#, no-wrap
+msgid "SEE ALSO"
+msgstr "请参阅"
+
+#. type: Plain text
+#: id.1:66
+msgid ""
+"The full documentation for B<id> is maintained as a Texinfo manual.  If the "
+"B<info> and B<id> programs are properly installed at your site, the command"
+msgstr ""
+"本程序的完整文档使用 Texinfo 手册进行维护。如果 B<info> 和本程序已经正确地安"
+"装在了你的电脑上，通过下述命令"
+
+#. type: Plain text
+#: id.1:68
+msgid "B<info coreutils \\(aqid invocation\\(aq>"
+msgstr "B<info coreutils \\(aqid invocation\\(aq>"
+
+#. type: Plain text
+#: id.1:70
+msgid "should give you access to the complete manual."
+msgstr "可以访问完整的使用手册。"
+
+#. type: SH
+#: id.1:70
+#, no-wrap
+msgid "翻译信息"
+msgstr "翻译信息"
+
+#. type: SS
+#: id.1:71
+#, no-wrap
+msgid "翻译维护人"
+msgstr "翻译维护人"
+
+#. type: Plain text
+#: id.1:73
+msgid "译者："
+msgstr "译者："
+
+#. type: Plain text
+#: id.1:75
+msgid ""
+"此处为译者信息， 格式为： 译者名 B<E<lt>译者邮件@地址E<gt>>， 译者名 B<E<lt>"
+"译者邮件@地址E<gt>>"
+msgstr "vito-L B<E<lt>lidongxingit@gmail.comE<gt>>"
+
+#. type: Plain text
+#: id.1:77
+msgid "校对："
+msgstr "校对："
+
+#. type: Plain text
+#: id.1:79
+msgid ""
+"此处为校对者信息， 格式为： 校对者名 B<E<lt>校对者邮件@地址E<gt>>， 校对者名 "
+"B<E<lt>校对者邮件@地址E<gt>>"
+msgstr ""
+"此处为校对者信息， 格式为： 校对者名 B<E<lt>校对者邮件@地址E<gt>>， 校对者名 "
+"B<E<lt>校对者邮件@地址E<gt>>"
+
+#. type: SS
+#: id.1:80
+#, no-wrap
+msgid "翻译更新日期"
+msgstr "翻译更新日期"
+
+#. type: Plain text
+#: id.1:82
+msgid "此处为最后更新日期， 格式为： 2013.10.20"
+msgstr "2014.05.03"
+
+#. type: SS
+#: id.1:82
+#, no-wrap
+msgid "翻译组"
+msgstr "翻译组"
+
+#. type: Plain text
+#: id.1:84
+msgid "man翻译项目 ： B<http://github.com/LCTT/man-pages/>"
+msgstr "man翻译项目 ： B<http://github.com/LCTT/man-pages/>"
+
+#. type: Plain text
+#: id.1:86
+msgid "翻译组 ： B<http://lctt.github.io/ E<lt>lctt@linux.cnE<gt>>"
+msgstr "翻译组 ： B<http://lctt.github.io/ E<lt>lctt@linux.cnE<gt>>"
+
+#. type: Plain text
+#: id.1:87
+msgid "Linux中国 ： B<http://linux.cn/>"
+msgstr "Linux中国 ： B<http://linux.cn/>"
