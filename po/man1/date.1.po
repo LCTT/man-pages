@@ -1,0 +1,1005 @@
+# LCTT man-pages Translate Project
+# Copyright (C) 2013 LCTT
+# This file is distributed under the same license as the PACKAGE package.
+# LCTT <lctt@linux.cn>, 2013.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: LCTT man-pages coreutils-8.21\n"
+"POT-Creation-Date: 2013-10-22 08:51+0800\n"
+"PO-Revision-Date: 2014-05-11 00:56+0800\n"
+"Last-Translator: \n"
+"Language-Team: LCTT <lctt@linux.cn>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"Language: zh_CN.UTF-8\n"
+
+#. type: TH
+#: date.1:2
+#, no-wrap
+msgid "DATE"
+msgstr "DATE"
+
+#. type: TH
+#: date.1:2
+#, no-wrap
+msgid "October 2013"
+msgstr "2013年10月"
+
+#. type: TH
+#: date.1:2
+#, no-wrap
+msgid "GNU coreutils 8.21"
+msgstr "GNU coreutils 8.21"
+
+#. type: TH
+#: date.1:2
+#, no-wrap
+msgid "User Commands"
+msgstr "用户命令"
+
+#. type: SH
+#: date.1:3
+#, no-wrap
+msgid "NAME"
+msgstr "名称"
+
+#. type: Plain text
+#: date.1:5
+msgid "date - print or set the system date and time"
+msgstr "date - 打印或者设置系统日期和时间"
+
+#. type: SH
+#: date.1:5
+#, no-wrap
+msgid "SYNOPSIS"
+msgstr "摘要"
+
+#. type: Plain text
+#: date.1:8
+msgid "B<date> [I<OPTION>]... [I<+FORMAT>]"
+msgstr "B<date> [I<选项>]... [I<+格式>]"
+
+#. type: Plain text
+#: date.1:11
+msgid "B<date> [I<-u|--utc|--universal>] [I<MMDDhhmm>[[I<CC>]I<YY>][I<.ss>]]"
+msgstr "B<date> [I<-u|--utc|--universal>] [I<MMDDhhmm>[[I<CC>]I<YY>][I<.ss>]]"
+
+#. type: SH
+#: date.1:11
+#, no-wrap
+msgid "DESCRIPTION"
+msgstr "描述"
+
+#. type: Plain text
+#: date.1:15
+msgid "Display the current time in the given FORMAT, or set the system date."
+msgstr "以指定的格式显示当前时间， 或者设置系统时间。"
+
+#. type: Plain text
+#: date.1:17
+msgid ""
+"Mandatory arguments to long options are mandatory for short options too."
+msgstr "长选项必须用的参数在短选项中也是必须的。"
+
+#. type: TP
+#: date.1:17
+#, no-wrap
+msgid "B<-d>, B<--date>=I<STRING>"
+msgstr "B<-d>, B<--date>=I<字符串>"
+
+#. type: Plain text
+#: date.1:20
+msgid "display time described by STRING, not 'now'"
+msgstr "按照字符串的描述来显示时间"
+
+#. type: TP
+#: date.1:20
+#, no-wrap
+msgid "B<-f>, B<--file>=I<DATEFILE>"
+msgstr "B<-f>, B<--file>=I<日期文件>"
+
+#. type: Plain text
+#: date.1:23
+msgid "like B<--date> once for each line of DATEFILE"
+msgstr "与 B<--date> 功能类似， 日期文件的每一行描述都显示对应的时间"
+
+#. type: TP
+#: date.1:23
+#, no-wrap
+msgid "B<-I[TIMESPEC]>, B<--iso-8601>[=I<TIMESPEC>]"
+msgstr "B<-I[TIMESPEC]>, B<--iso-8601>[=I<TIMESPEC>]"
+
+#. type: Plain text
+#: date.1:29
+msgid ""
+"output date/time in ISO 8601 format.  TIMESPEC='date' for date only (the "
+"default), \\&'hours', 'minutes', 'seconds', or 'ns' for date and time to the "
+"indicated precision."
+msgstr ""
+"以 ISO 8601 格式输出日期或时间。 TIMESPEC='date' 只显示日期 （默认）， "
+"\\&'hours'， 'minutes'， 'seconds'， 或者 'ns' 则按照对应的精度显示日期和时"
+"间。"
+
+#. type: TP
+#: date.1:29
+#, no-wrap
+msgid "B<-r>, B<--reference>=I<FILE>"
+msgstr "B<-r>, B<--reference>=I<文件>"
+
+#. type: Plain text
+#: date.1:32
+msgid "display the last modification time of FILE"
+msgstr "显示文件的最后修改时间"
+
+#. type: TP
+#: date.1:32
+#, no-wrap
+msgid "B<-R>, B<--rfc-2822>"
+msgstr "B<-R>, B<--rfc-2822>"
+
+#. type: Plain text
+#: date.1:36
+msgid ""
+"output date and time in RFC 2822 format.  Example: Mon, 07 Aug 2006 12:34:56 "
+"B<-0600>"
+msgstr ""
+"以 RFC 2822 格式输出日期和时间。 例如： Mon, 07 Aug 2006 12:34:56 B<-0600>"
+
+#. type: TP
+#: date.1:36
+#, no-wrap
+msgid "B<--rfc-3339>=I<TIMESPEC>"
+msgstr "B<--rfc-3339>=I<TIMESPEC>"
+
+#. type: Plain text
+#: date.1:43
+msgid ""
+"output date and time in RFC 3339 format.  TIMESPEC='date', 'seconds', or "
+"'ns' for date and time to the indicated precision.  Date and time components "
+"are separated by a single space: 2006-08-07 12:34:56-06:00"
+msgstr ""
+"以 RFC 3339 格式输出日期和时间。 TIMESPEC='date'， 'seconds'， 或者 'ns' 按照"
+"对应的精度显示日期和时间。日期和时间以单个空格分开， 例如： 2006-08-07 "
+"12:34:56-06:00"
+
+#. type: TP
+#: date.1:43
+#, no-wrap
+msgid "B<-s>, B<--set>=I<STRING>"
+msgstr "B<-s>, B<--set>=I<字符串>"
+
+#. type: Plain text
+#: date.1:46
+msgid "set time described by STRING"
+msgstr "按照字符串的描述设置时间"
+
+#. type: TP
+#: date.1:46
+#, no-wrap
+msgid "B<-u>, B<--utc>, B<--universal>"
+msgstr "B<-u>, B<--utc>, B<--universal>"
+
+#. type: Plain text
+#: date.1:49
+msgid "print or set Coordinated Universal Time"
+msgstr "打印或者设置协调世界时 （Coordinated Universal Time）"
+
+#. type: TP
+#: date.1:49
+#, no-wrap
+msgid "B<--help>"
+msgstr "B<--help>"
+
+#. type: Plain text
+#: date.1:52
+msgid "display this help and exit"
+msgstr "显示帮助然后退出"
+
+#. type: TP
+#: date.1:52
+#, no-wrap
+msgid "B<--version>"
+msgstr "B<--version>"
+
+#. type: Plain text
+#: date.1:55
+msgid "output version information and exit"
+msgstr "输出版本信息然后退出"
+
+#. type: Plain text
+#: date.1:57
+msgid "FORMAT controls the output.  Interpreted sequences are:"
+msgstr "参数中指定的格式控制输出的形式。 解释序列如下："
+
+#. type: TP
+#: date.1:57
+#, no-wrap
+msgid "%%"
+msgstr "%%"
+
+#. type: Plain text
+#: date.1:60
+msgid "a literal %"
+msgstr "一个字母 %"
+
+#. type: TP
+#: date.1:60
+#, no-wrap
+msgid "%a"
+msgstr "%a"
+
+#. type: Plain text
+#: date.1:63
+msgid "locale's abbreviated weekday name (e.g., Sun)"
+msgstr "本土语言中星期的简称 （例如， Sun）"
+
+#. type: TP
+#: date.1:63
+#, no-wrap
+msgid "%A"
+msgstr "%A"
+
+#. type: Plain text
+#: date.1:66
+msgid "locale's full weekday name (e.g., Sunday)"
+msgstr "本土语言中星期的全称 （例如， Sunday）"
+
+#. type: TP
+#: date.1:66
+#, no-wrap
+msgid "%b"
+msgstr "%b"
+
+#. type: Plain text
+#: date.1:69
+msgid "locale's abbreviated month name (e.g., Jan)"
+msgstr "本土语言中月份的简称 （例如， Jan）"
+
+#. type: TP
+#: date.1:69
+#, no-wrap
+msgid "%B"
+msgstr "%B"
+
+#. type: Plain text
+#: date.1:72
+msgid "locale's full month name (e.g., January)"
+msgstr "本土语言中月份的全称 （例如， January）"
+
+#. type: TP
+#: date.1:72
+#, no-wrap
+msgid "%c"
+msgstr "%c"
+
+#. type: Plain text
+#: date.1:75
+msgid "locale's date and time (e.g., Thu Mar 3 23:05:25 2005)"
+msgstr "本土语言的日期和时间 （例如， Thu Mar 3 23:05:25 2005）"
+
+#. type: TP
+#: date.1:75
+#, no-wrap
+msgid "%C"
+msgstr "%C"
+
+#. type: Plain text
+#: date.1:78
+msgid "century; like %Y, except omit last two digits (e.g., 20)"
+msgstr "世纪； 类似 %Y， 但是会省略最后两个数字 （例如， 20）"
+
+#. type: TP
+#: date.1:78
+#, no-wrap
+msgid "%d"
+msgstr "%d"
+
+#. type: Plain text
+#: date.1:81
+msgid "day of month (e.g., 01)"
+msgstr "该月中的第几天 （例如， 01）"
+
+#. type: TP
+#: date.1:81
+#, no-wrap
+msgid "%D"
+msgstr "%D"
+
+#. type: Plain text
+#: date.1:84
+msgid "date; same as %m/%d/%y"
+msgstr "日期； 与 %m/%d/%y 一样"
+
+#. type: TP
+#: date.1:84
+#, no-wrap
+msgid "%e"
+msgstr "%e"
+
+#. type: Plain text
+#: date.1:87
+msgid "day of month, space padded; same as %_d"
+msgstr "该月中的第几天， 空白填充； 与 %_d 一样"
+
+#. type: TP
+#: date.1:87
+#, no-wrap
+msgid "%F"
+msgstr "%F"
+
+#. type: Plain text
+#: date.1:90
+msgid "full date; same as %Y-%m-%d"
+msgstr "完整日期； 与 %Y-%m-%d 一样"
+
+#. type: TP
+#: date.1:90
+#, no-wrap
+msgid "%g"
+msgstr "%g"
+
+#. type: Plain text
+#: date.1:93
+msgid "last two digits of year of ISO week number (see %G)"
+msgstr "按 ISO 的周数标准显示年份的后两个数字 （请参考 %G）"
+
+#. type: TP
+#: date.1:93
+#, no-wrap
+msgid "%G"
+msgstr "%G"
+
+#. type: Plain text
+#: date.1:96
+msgid "year of ISO week number (see %V); normally useful only with %V"
+msgstr "按 ISO 周数标准的年份 （请参考 %V）； 一般与 %V 一起使用"
+
+#. type: TP
+#: date.1:96
+#, no-wrap
+msgid "%h"
+msgstr "%h"
+
+#. type: Plain text
+#: date.1:99
+msgid "same as %b"
+msgstr "与 %b 一样"
+
+#. type: TP
+#: date.1:99
+#, no-wrap
+msgid "%H"
+msgstr "%H"
+
+#. type: Plain text
+#: date.1:102
+msgid "hour (00..23)"
+msgstr "小时 （00..23）"
+
+#. type: TP
+#: date.1:102
+#, no-wrap
+msgid "%I"
+msgstr "%I"
+
+#. type: Plain text
+#: date.1:105
+msgid "hour (01..12)"
+msgstr "小时 （01..12）"
+
+#. type: TP
+#: date.1:105
+#, no-wrap
+msgid "%j"
+msgstr "%j"
+
+#. type: Plain text
+#: date.1:108
+msgid "day of year (001..366)"
+msgstr "该年中的第几天 （001..366）"
+
+#. type: TP
+#: date.1:108
+#, no-wrap
+msgid "%k"
+msgstr "%k"
+
+#. type: Plain text
+#: date.1:111
+msgid "hour, space padded ( 0..23); same as %_H"
+msgstr "小时， 空白填充 （0..23）； 与 %_H 一样"
+
+#. type: TP
+#: date.1:111
+#, no-wrap
+msgid "%l"
+msgstr "%l"
+
+#. type: Plain text
+#: date.1:114
+msgid "hour, space padded ( 1..12); same as %_I"
+msgstr "小时， 空白填充 （1..12）； 与 %_I 一样"
+
+#. type: TP
+#: date.1:114
+#, no-wrap
+msgid "%m"
+msgstr "%m"
+
+#. type: Plain text
+#: date.1:117
+msgid "month (01..12)"
+msgstr "月份 （01..12）"
+
+#. type: TP
+#: date.1:117
+#, no-wrap
+msgid "%M"
+msgstr "%M"
+
+#. type: Plain text
+#: date.1:120
+msgid "minute (00..59)"
+msgstr "分钟 （00..59）"
+
+#. type: TP
+#: date.1:120
+#, no-wrap
+msgid "%n"
+msgstr "%n"
+
+#. type: Plain text
+#: date.1:123
+msgid "a newline"
+msgstr "换行"
+
+#. type: TP
+#: date.1:123
+#, no-wrap
+msgid "%N"
+msgstr "%N"
+
+#. type: Plain text
+#: date.1:126
+msgid "nanoseconds (000000000..999999999)"
+msgstr "纳秒 （000000000..999999999）"
+
+#. type: TP
+#: date.1:126
+#, no-wrap
+msgid "%p"
+msgstr "%p"
+
+#. type: Plain text
+#: date.1:129
+msgid "locale's equivalent of either AM or PM; blank if not known"
+msgstr "本土语言中对应的上午或者下午的简称； 未知则不显示"
+
+#. type: TP
+#: date.1:129
+#, no-wrap
+msgid "%P"
+msgstr "%P"
+
+#. type: Plain text
+#: date.1:132
+msgid "like %p, but lower case"
+msgstr "类似 %p， 但使用小写"
+
+#. type: TP
+#: date.1:132
+#, no-wrap
+msgid "%r"
+msgstr "%r"
+
+#. type: Plain text
+#: date.1:135
+msgid "locale's 12-hour clock time (e.g., 11:11:04 PM)"
+msgstr "本土语言中的 12 小时制 （例如， 11:11:04 PM）"
+
+#. type: TP
+#: date.1:135
+#, no-wrap
+msgid "%R"
+msgstr "%R"
+
+#. type: Plain text
+#: date.1:138
+msgid "24-hour hour and minute; same as %H:%M"
+msgstr "24 小时的时间和分钟； 与 %H:%M 一样"
+
+#. type: TP
+#: date.1:138
+#, no-wrap
+msgid "%s"
+msgstr "%s"
+
+#. type: Plain text
+#: date.1:141
+msgid "seconds since 1970-01-01 00:00:00 UTC"
+msgstr "距离 1970-01-01 00:00:00 UTC 的秒数"
+
+#. type: TP
+#: date.1:141
+#, no-wrap
+msgid "%S"
+msgstr "%S"
+
+#. type: Plain text
+#: date.1:144
+msgid "second (00..60)"
+msgstr "秒 （00..60）"
+
+#. type: TP
+#: date.1:144
+#, no-wrap
+msgid "%t"
+msgstr "%t"
+
+#. type: Plain text
+#: date.1:147
+msgid "a tab"
+msgstr "制表符"
+
+#. type: TP
+#: date.1:147
+#, no-wrap
+msgid "%T"
+msgstr "%T"
+
+#. type: Plain text
+#: date.1:150
+msgid "time; same as %H:%M:%S"
+msgstr "时间； 与 %H:%M:%S 一样"
+
+#. type: TP
+#: date.1:150
+#, no-wrap
+msgid "%u"
+msgstr "%u"
+
+#. type: Plain text
+#: date.1:153
+msgid "day of week (1..7); 1 is Monday"
+msgstr "该周中的第几天 （1..7）； 1 是星期一"
+
+#. type: TP
+#: date.1:153
+#, no-wrap
+msgid "%U"
+msgstr "%U"
+
+#. type: Plain text
+#: date.1:156
+msgid "week number of year, with Sunday as first day of week (00..53)"
+msgstr "该年中的第几周， 以星期日为一周的第一天 （00..53）"
+
+#. type: TP
+#: date.1:156
+#, no-wrap
+msgid "%V"
+msgstr "%V"
+
+#. type: Plain text
+#: date.1:159
+msgid "ISO week number, with Monday as first day of week (01..53)"
+msgstr "ISO 标准的周数， 以星期一为一周的第一天 （01..53）"
+
+#. type: TP
+#: date.1:159
+#, no-wrap
+msgid "%w"
+msgstr "%w"
+
+#. type: Plain text
+#: date.1:162
+msgid "day of week (0..6); 0 is Sunday"
+msgstr "该周中的第几天 （0..6）； 0 是星期天"
+
+#. type: TP
+#: date.1:162
+#, no-wrap
+msgid "%W"
+msgstr "%W"
+
+#. type: Plain text
+#: date.1:165
+msgid "week number of year, with Monday as first day of week (00..53)"
+msgstr "该年中的第几周， 以星期一为一周的第一天 （00..53）"
+
+#. type: TP
+#: date.1:165
+#, no-wrap
+msgid "%x"
+msgstr "%x"
+
+#. type: Plain text
+#: date.1:168
+msgid "locale's date representation (e.g., 12/31/99)"
+msgstr "本土语言中日期的描述 （例如， 12/31/99）"
+
+#. type: TP
+#: date.1:168
+#, no-wrap
+msgid "%X"
+msgstr "%X"
+
+#. type: Plain text
+#: date.1:171
+msgid "locale's time representation (e.g., 23:13:48)"
+msgstr "本土语言中时间的描述 （例如， 23:13:48）"
+
+#. type: TP
+#: date.1:171
+#, no-wrap
+msgid "%y"
+msgstr "%y"
+
+#. type: Plain text
+#: date.1:174
+msgid "last two digits of year (00..99)"
+msgstr "年份的最后两个数字 （00..99）"
+
+#. type: TP
+#: date.1:174
+#, no-wrap
+msgid "%Y"
+msgstr "%Y"
+
+#. type: Plain text
+#: date.1:177
+msgid "year"
+msgstr "年份"
+
+#. type: TP
+#: date.1:177
+#, no-wrap
+msgid "%z"
+msgstr "%z"
+
+#. type: Plain text
+#: date.1:180
+msgid "+hhmm numeric time zone (e.g., B<-0400>)"
+msgstr "+hhmm 格式显示的数值时区 （例如， B<-0400>）"
+
+#. type: TP
+#: date.1:180
+#, no-wrap
+msgid "%:z"
+msgstr "%:z"
+
+#. type: Plain text
+#: date.1:183
+msgid "+hh:mm numeric time zone (e.g., B<-04>:00)"
+msgstr "+hh:mm 格式显示的数值时区 （例如， B<-04>:00）"
+
+#. type: TP
+#: date.1:183
+#, no-wrap
+msgid "%::z"
+msgstr "%::z"
+
+#. type: Plain text
+#: date.1:186
+msgid "+hh:mm:ss numeric time zone (e.g., B<-04>:00:00)"
+msgstr "+hh:mm:ss 格式显示的数值时区 （例如， B<-04>:00:00）"
+
+#. type: TP
+#: date.1:186
+#, no-wrap
+msgid "%:::z"
+msgstr "%:::z"
+
+#. type: Plain text
+#: date.1:189
+msgid "numeric time zone with : to necessary precision (e.g., B<-04>, +05:30)"
+msgstr "用 : 表示数值时区中必要的精度 （例如， B<-04>, +05:30）"
+
+#. type: TP
+#: date.1:189
+#, no-wrap
+msgid "%Z"
+msgstr "%Z"
+
+#. type: Plain text
+#: date.1:192
+msgid "alphabetic time zone abbreviation (e.g., EDT)"
+msgstr "字母时区的简称 （例如， EDT）"
+
+#. type: Plain text
+#: date.1:195
+msgid ""
+"By default, date pads numeric fields with zeroes.  The following optional "
+"flags may follow '%':"
+msgstr ""
+"默认情况， 日期中数字字段的空白使用零填充。 在 '%' 之后可以有如下可选的标志"
+"位："
+
+#. type: TP
+#: date.1:195
+#, no-wrap
+msgid "-"
+msgstr "-"
+
+#. type: Plain text
+#: date.1:198
+msgid "(hyphen) do not pad the field"
+msgstr "（连字符） 不填充该字段"
+
+#. type: TP
+#: date.1:198
+#, no-wrap
+msgid "_"
+msgstr "_"
+
+#. type: Plain text
+#: date.1:201
+msgid "(underscore) pad with spaces"
+msgstr "（下划线） 用空格填充"
+
+#. type: TP
+#: date.1:201
+#, no-wrap
+msgid "0"
+msgstr "0"
+
+#. type: Plain text
+#: date.1:204
+msgid "(zero) pad with zeros"
+msgstr "（zero） 用零填充"
+
+#. type: TP
+#: date.1:204
+#, no-wrap
+msgid "^"
+msgstr "^"
+
+#. type: Plain text
+#: date.1:207
+msgid "use upper case if possible"
+msgstr "尽可能使用大写"
+
+#. type: TP
+#: date.1:207
+#, no-wrap
+msgid "#"
+msgstr "#"
+
+#. type: Plain text
+#: date.1:210
+msgid "use opposite case if possible"
+msgstr "尽可能使用相反的大小写"
+
+#. type: Plain text
+#: date.1:215
+msgid ""
+"After any flags comes an optional field width, as a decimal number; then an "
+"optional modifier, which is either E to use the locale's alternate "
+"representations if available, or O to use the locale's alternate numeric "
+"symbols if available."
+msgstr ""
+"在任意一个标志位后都可以有一个可选的宽度字段， 为十进制数； 还有一个可选的修"
+"饰符， 为 E 时， 如果可行， 使用本土语言中的表述方法， 为 O 时， 如果可行， "
+"使用本土语言中的数字符号。"
+
+#. type: SH
+#: date.1:215
+#, no-wrap
+msgid "EXAMPLES"
+msgstr "示例"
+
+#. type: Plain text
+#: date.1:217
+msgid "Convert seconds since the epoch (1970-01-01 UTC) to a date"
+msgstr "距离纪元 （1970-01-01 UTC） 的秒数转换为日期数。"
+
+#. type: Plain text
+#: date.1:219
+msgid "CW<$ date --date='@2147483647'>"
+msgstr "CW<$ date --date='@2147483647'>"
+
+#. type: Plain text
+#: date.1:221
+msgid "Show the time on the west coast of the US (use tzselect(1) to find TZ)"
+msgstr "显示美国西海岸的时间 （使用 tzselect(1) 得到时区）"
+
+#. type: Plain text
+#: date.1:223
+msgid "CW<$ TZ='America/Los_Angeles' date>"
+msgstr "CW<$ TZ='America/Los_Angeles' date>"
+
+#. type: Plain text
+#: date.1:225
+msgid "Show the local time for 9AM next Friday on the west coast of the US"
+msgstr "显示美国西海岸下个星期五早上 9 点时对应的本地时间"
+
+#. type: Plain text
+#: date.1:227
+msgid "CW<$ date --date='TZ=\"America/Los_Angeles\" 09:00 next Fri'>"
+msgstr "CW<$ date --date='TZ=\"America/Los_Angeles\" 09:00 next Fri'>"
+
+#. type: SH
+#: date.1:227
+#, no-wrap
+msgid "DATE STRING"
+msgstr "日期字符串"
+
+#. NOTE: keep this paragraph in sync with the one in touch.x
+#. type: Plain text
+#: date.1:236
+msgid ""
+"The --date=STRING is a mostly free format human readable date string such as "
+"\"Sun, 29 Feb 2004 16:21:42 -0800\" or \"2004-02-29 16:21:42\" or even "
+"\"next Thursday\".  A date string may contain items indicating calendar "
+"date, time of day, time zone, day of week, relative time, relative date, and "
+"numbers.  An empty string indicates the beginning of the day.  The date "
+"string format is more complex than is easily documented here but is fully "
+"described in the info documentation."
+msgstr ""
+"--date=STRING 大多都是没有格式并且可读的日期字符串， 例如 \"Sun, 29 Feb 2004 "
+"16:21:42 -0800\" 或者 \"2004-02-29 16:21:42\" 甚至 \"next Thursday\"。日期字"
+"符串可以包含如下项： 日历日期， 该天的时间， 时区， 该周的第几天， 相对时"
+"间， 相对日期以及数字。 空字符串表示当天的开始。 日期字符串的格式很难在此简单"
+"地写下来， 但您可以在 info 文档中找到其完整的描述。"
+
+#. type: SH
+#: date.1:236
+#, no-wrap
+msgid "AUTHOR"
+msgstr "作者"
+
+#. type: Plain text
+#: date.1:238
+msgid "Written by David MacKenzie."
+msgstr "由 David MacKenzie 撰写。"
+
+#. type: SH
+#: date.1:238
+#, no-wrap
+msgid "REPORTING BUGS"
+msgstr "报告错误"
+
+#. type: Plain text
+#: date.1:240
+msgid "Report date bugs to bug-coreutils@gnu.org"
+msgstr "发送 date 的错误信息到： bug-coreutils@gnu.org"
+
+#. type: Plain text
+#: date.1:242
+msgid ""
+"GNU coreutils home page: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+msgstr "GNU coreutils 主页： E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+
+#. type: Plain text
+#: date.1:244
+msgid "General help using GNU software: E<lt>http://www.gnu.org/gethelp/E<gt>"
+msgstr "使用GNU软件的常规帮助： E<lt>http://www.gnu.org/gethelp/E<gt>"
+
+#. type: Plain text
+#: date.1:246
+msgid ""
+"Report date translation bugs to E<lt>http://github.com/LCTT/man-pages/E<gt>"
+msgstr "发送 date 的翻译错误到 E<lt>http://github.com/LCTT/man-pages/E<gt>"
+
+#. type: SH
+#: date.1:246
+#, no-wrap
+msgid "COPYRIGHT"
+msgstr "版权声明"
+
+#. type: Plain text
+#: date.1:249
+msgid ""
+"Copyright \\(co 2013 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
+msgstr ""
+"Copyright \\(co 2013 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
+
+#. type: Plain text
+#: date.1:252
+msgid ""
+"This is free software: you are free to change and redistribute it.  There is "
+"NO WARRANTY, to the extent permitted by law."
+msgstr ""
+"这是一个自由软件： 你可以自由修改和重新发布它。 在法律允许的范围内， 不提供任"
+"何担保。"
+
+#. type: SH
+#: date.1:252
+#, no-wrap
+msgid "SEE ALSO"
+msgstr "请参阅"
+
+#. type: Plain text
+#: date.1:260
+msgid ""
+"The full documentation for B<date> is maintained as a Texinfo manual.  If "
+"the B<info> and B<date> programs are properly installed at your site, the "
+"command"
+msgstr ""
+"本程序的完整文档使用 Texinfo 手册进行维护。如果 B<info> 和本程序已经正确地安"
+"装在了你的电脑上，通过下述命令"
+
+#. type: Plain text
+#: date.1:262
+msgid "B<info coreutils \\(aqdate invocation\\(aq>"
+msgstr "B<info coreutils \\(aqdate invocation\\(aq>"
+
+#. type: Plain text
+#: date.1:264
+msgid "should give you access to the complete manual."
+msgstr "可以访问完整的使用手册。"
+
+#. type: SH
+#: date.1:264
+#, no-wrap
+msgid "翻译信息"
+msgstr "翻译信息"
+
+#. type: SS
+#: date.1:265
+#, no-wrap
+msgid "翻译维护人"
+msgstr "翻译维护人"
+
+#. type: Plain text
+#: date.1:267
+msgid "译者："
+msgstr "译者："
+
+#. type: Plain text
+#: date.1:269
+msgid ""
+"此处为译者信息， 格式为： 译者名 B<E<lt>译者邮件@地址E<gt>>， 译者名 B<E<lt>"
+"译者邮件@地址E<gt>>"
+msgstr "will.qian B<E<lt>controlqsw@gmail.comE<gt>>"
+
+#. type: Plain text
+#: date.1:271
+msgid "校对："
+msgstr "校对："
+
+#. type: Plain text
+#: date.1:273
+msgid ""
+"此处为校对者信息， 格式为： 校对者名 B<E<lt>校对者邮件@地址E<gt>>， 校对者名 "
+"B<E<lt>校对者邮件@地址E<gt>>"
+msgstr ""
+"此处为校对者信息， 格式为： 校对者名 B<E<lt>校对者邮件@地址E<gt>>， 校对者名 "
+"B<E<lt>校对者邮件@地址E<gt>>"
+
+#. type: SS
+#: date.1:274
+#, no-wrap
+msgid "翻译更新日期"
+msgstr "翻译更新日期"
+
+#. type: Plain text
+#: date.1:276
+msgid "此处为最后更新日期， 格式为： 2013.10.20"
+msgstr "2014.05.11"
+
+#. type: SS
+#: date.1:276
+#, no-wrap
+msgid "翻译组"
+msgstr "翻译组"
+
+#. type: Plain text
+#: date.1:278
+msgid "man翻译项目 ： B<http://github.com/LCTT/man-pages/>"
+msgstr "man翻译项目 ： B<http://github.com/LCTT/man-pages/>"
+
+#. type: Plain text
+#: date.1:280
+msgid "翻译组 ： B<http://lctt.github.io/ E<lt>lctt@linux.cnE<gt>>"
+msgstr "翻译组 ： B<http://lctt.github.io/ E<lt>lctt@linux.cnE<gt>>"
+
+#. type: Plain text
+#: date.1:281
+msgid "Linux中国 ： B<http://linux.cn/>"
+msgstr "Linux中国 ： B<http://linux.cn/>"
