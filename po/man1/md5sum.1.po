@@ -1,0 +1,380 @@
+# LCTT man-pages Translate Project
+# Copyright (C) 2013 LCTT
+# This file is distributed under the same license as the PACKAGE package.
+# LCTT <lctt@linux.cn>, 2013.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: LCTT man-pages coreutils-8.21\n"
+"POT-Creation-Date: 2013-10-22 08:51+0800\n"
+"PO-Revision-Date: 2014-05-12 23:33+0800\n"
+"Last-Translator: vito-L <lidongxingit@gmail.com>\n"
+"Language-Team: LCTT <lctt@linux.cn>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"Language: zh_CN.UTF-8\n"
+
+#. type: TH
+#: md5sum.1:2
+#, no-wrap
+msgid "MD5SUM"
+msgstr "MD5SUM"
+
+#. type: TH
+#: md5sum.1:2
+#, no-wrap
+msgid "October 2013"
+msgstr "2013年10月"
+
+#. type: TH
+#: md5sum.1:2
+#, no-wrap
+msgid "GNU coreutils 8.21"
+msgstr "GNU coreutils 8.21"
+
+#. type: TH
+#: md5sum.1:2
+#, no-wrap
+msgid "User Commands"
+msgstr "用户命令"
+
+#. type: SH
+#: md5sum.1:3
+#, no-wrap
+msgid "NAME"
+msgstr "名称"
+
+#. type: Plain text
+#: md5sum.1:5
+msgid "md5sum - compute and check MD5 message digest"
+msgstr "md5sum-计算和校对MD5信息"
+
+#. type: SH
+#: md5sum.1:5
+#, no-wrap
+msgid "SYNOPSIS"
+msgstr "摘要"
+
+#. type: Plain text
+#: md5sum.1:8
+msgid "B<md5sum> [I<OPTION>]... [I<FILE>]..."
+msgstr "B<md5sum> [I<选项>]... [I<文件>]..."
+
+#. type: SH
+#: md5sum.1:8
+#, no-wrap
+msgid "DESCRIPTION"
+msgstr "描述"
+
+#. type: Plain text
+#: md5sum.1:13
+msgid ""
+"Print or check MD5 (128-bit) checksums.  With no FILE, or when FILE is -, "
+"read standard input."
+msgstr ""
+"打印或检查MD5（128-bit）校验和。没有指定文件，或当文件是-，从标准输入读取。"
+
+#. type: TP
+#: md5sum.1:13
+#, no-wrap
+msgid "B<-b>, B<--binary>"
+msgstr "B<-b>, B<--binary>"
+
+#. type: Plain text
+#: md5sum.1:16
+msgid "read in binary mode"
+msgstr "以二进制模式读取"
+
+#. type: TP
+#: md5sum.1:16
+#, no-wrap
+msgid "B<-c>, B<--check>"
+msgstr "B<-c>, B<--check>"
+
+#. type: Plain text
+#: md5sum.1:19
+msgid "read MD5 sums from the FILEs and check them"
+msgstr "从文件读取MD5校验和并检查"
+
+#. type: TP
+#: md5sum.1:19
+#, no-wrap
+msgid "B<--tag>"
+msgstr "B<--tag>"
+
+#. type: Plain text
+#: md5sum.1:22
+msgid "create a BSD-style checksum"
+msgstr "创建BSD风格的校验和"
+
+#. type: TP
+#: md5sum.1:22
+#, no-wrap
+msgid "B<-t>, B<--text>"
+msgstr "B<-t>, B<--text>"
+
+#. type: Plain text
+#: md5sum.1:25
+msgid "read in text mode (default)"
+msgstr "以文本模式读取（默认）"
+
+#. type: SS
+#: md5sum.1:25
+#, no-wrap
+msgid "The following three options are useful only when verifying checksums:"
+msgstr "以下三个选项在进行校验时有用："
+
+#. type: TP
+#: md5sum.1:26
+#, no-wrap
+msgid "B<--quiet>"
+msgstr "B<--quiet>"
+
+#. type: Plain text
+#: md5sum.1:29
+msgid "don't print OK for each successfully verified file"
+msgstr "对每个校验成功的文件不打印OK"
+
+#. type: TP
+#: md5sum.1:29
+#, no-wrap
+msgid "B<--status>"
+msgstr "B<--status>"
+
+#. type: Plain text
+#: md5sum.1:32
+msgid "don't output anything, status code shows success"
+msgstr "不输出任何内容，通过返回值显示成功"
+
+#. type: TP
+#: md5sum.1:32
+#, no-wrap
+msgid "B<-w>, B<--warn>"
+msgstr "B<-w>, B<--warn>"
+
+#. type: Plain text
+#: md5sum.1:35
+msgid "warn about improperly formatted checksum lines"
+msgstr "对格式不正确的校验和行发出警告"
+
+#. type: TP
+#: md5sum.1:35
+#, no-wrap
+msgid "B<--strict>"
+msgstr "B<--strict>"
+
+#. type: Plain text
+#: md5sum.1:38
+msgid "with B<--check>, exit non-zero for any invalid input"
+msgstr "与B<--check>连用，任何无效的非零输入时退出"
+
+#. type: TP
+#: md5sum.1:38
+#, no-wrap
+msgid "B<--help>"
+msgstr "B<--help>"
+
+#. type: Plain text
+#: md5sum.1:41
+msgid "display this help and exit"
+msgstr "显示帮助并退出"
+
+#. type: TP
+#: md5sum.1:41
+#, no-wrap
+msgid "B<--version>"
+msgstr "B<--version>"
+
+#. type: Plain text
+#: md5sum.1:44
+msgid "output version information and exit"
+msgstr "输出版本信息并退出"
+
+#. type: Plain text
+#: md5sum.1:49
+msgid ""
+"The sums are computed as described in RFC 1321.  When checking, the input "
+"should be a former output of this program.  The default mode is to print a "
+"line with checksum, a character indicating input mode ('*' for binary, space "
+"for text), and name for each FILE."
+msgstr ""
+"在RFC 1321计算所描述的校验和中。当检查时，此程序的输入应该在输出前。默认模式"
+"是打印一行校验和，一个字符表示输入模式（‘*’为二进制，空格为文本），并以每个文"
+"件起名。"
+
+#. type: SH
+#: md5sum.1:49
+#, no-wrap
+msgid "BUGS"
+msgstr "错误"
+
+#. type: Plain text
+#: md5sum.1:53
+msgid ""
+"The MD5 algorithm should not be used any more for security related "
+"purposes.  Instead, better use an SHA-2 algorithm, implemented in the "
+"programs sha224sum(1), sha256sum(1), sha384sum(1), sha512sum(1)"
+msgstr ""
+"MD5算法不应用于任何安全有关的用途。反之，最好使用SHA-2算法，在程序中贯彻"
+"sha224sum(1),，sha256sum(1)， sha384sum(1)，sha512sum(1)"
+
+#. type: SH
+#: md5sum.1:53
+#, no-wrap
+msgid "AUTHOR"
+msgstr "作者"
+
+#. type: Plain text
+#: md5sum.1:55
+msgid "Written by Ulrich Drepper, Scott Miller, and David Madore."
+msgstr "由Ulrich Drepper，Scott Miller和David Madore撰写"
+
+#. type: SH
+#: md5sum.1:55
+#, no-wrap
+msgid "REPORTING BUGS"
+msgstr "报告错误"
+
+#. type: Plain text
+#: md5sum.1:57
+msgid "Report md5sum bugs to bug-coreutils@gnu.org"
+msgstr "发送 md5sum 的错误信息到： bug-coreutils@gnu.org"
+
+#. type: Plain text
+#: md5sum.1:59
+msgid ""
+"GNU coreutils home page: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+msgstr "GNU coreutils 主页 : E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+
+#. type: Plain text
+#: md5sum.1:61
+msgid "General help using GNU software: E<lt>http://www.gnu.org/gethelp/E<gt>"
+msgstr "使用GNU软件的常规帮助： E<lt>http://www.gnu.org/gethelp/E<gt>"
+
+#. type: Plain text
+#: md5sum.1:63
+msgid ""
+"Report md5sum translation bugs to E<lt>http://github.com/LCTT/man-pages/E<gt>"
+msgstr "发送 md5sum 的翻译错误到 E<lt>http://github.com/LCTT/man-pages/E<gt>"
+
+#. type: SH
+#: md5sum.1:63
+#, no-wrap
+msgid "COPYRIGHT"
+msgstr "版权声明"
+
+#. type: Plain text
+#: md5sum.1:66
+msgid ""
+"Copyright \\(co 2013 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
+msgstr ""
+"Copyright \\(co 2013 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
+
+#. type: Plain text
+#: md5sum.1:69
+msgid ""
+"This is free software: you are free to change and redistribute it.  There is "
+"NO WARRANTY, to the extent permitted by law."
+msgstr ""
+"这是一个自由软件： 你可以自由修改和重新发布它。 在法律允许的范围内， 不提供任"
+"何担保。"
+
+#. type: SH
+#: md5sum.1:69
+#, no-wrap
+msgid "SEE ALSO"
+msgstr "请参阅"
+
+#. type: Plain text
+#: md5sum.1:77
+msgid ""
+"The full documentation for B<md5sum> is maintained as a Texinfo manual.  If "
+"the B<info> and B<md5sum> programs are properly installed at your site, the "
+"command"
+msgstr ""
+"本程序的完整文档使用 Texinfo 手册进行维护。如果 B<info> 和本程序已经正确地安"
+"装在了你的电脑上，通过下述命令"
+
+#. type: Plain text
+#: md5sum.1:79
+msgid "B<info coreutils \\(aqmd5sum invocation\\(aq>"
+msgstr "B<info coreutils \\(aqmd5sum invocation\\(aq>"
+
+#. type: Plain text
+#: md5sum.1:81
+msgid "should give you access to the complete manual."
+msgstr "可以访问完整的使用手册。"
+
+#. type: SH
+#: md5sum.1:81
+#, no-wrap
+msgid "翻译信息"
+msgstr "翻译信息"
+
+#. type: SS
+#: md5sum.1:82
+#, no-wrap
+msgid "翻译维护人"
+msgstr "翻译维护人"
+
+#. type: Plain text
+#: md5sum.1:84
+msgid "译者："
+msgstr "译者："
+
+#. type: Plain text
+#: md5sum.1:86
+msgid ""
+"此处为译者信息， 格式为： 译者名 B<E<lt>译者邮件@地址E<gt>>， 译者名 B<E<lt>"
+"译者邮件@地址E<gt>>"
+msgstr "vito-L B<E<lt>lidongxingit@gmail.comE<gt>>"
+
+#. type: Plain text
+#: md5sum.1:88
+msgid "校对："
+msgstr "校对："
+
+#. type: Plain text
+#: md5sum.1:90
+msgid ""
+"此处为校对者信息， 格式为： 校对者名 B<E<lt>校对者邮件@地址E<gt>>， 校对者名 "
+"B<E<lt>校对者邮件@地址E<gt>>"
+msgstr ""
+"此处为校对者信息， 格式为： 校对者名 B<E<lt>校对者邮件@地址E<gt>>， 校对者名 "
+"B<E<lt>校对者邮件@地址E<gt>>"
+
+#. type: SS
+#: md5sum.1:91
+#, no-wrap
+msgid "翻译更新日期"
+msgstr "翻译更新日期"
+
+#. type: Plain text
+#: md5sum.1:93
+msgid "此处为最后更新日期， 格式为： 2013.10.20"
+msgstr "2014.05.12"
+
+#. type: SS
+#: md5sum.1:93
+#, no-wrap
+msgid "翻译组"
+msgstr "翻译组"
+
+#. type: Plain text
+#: md5sum.1:95
+msgid "man翻译项目 ： B<http://github.com/LCTT/man-pages/>"
+msgstr "man翻译项目 ： B<http://github.com/LCTT/man-pages/>"
+
+#. type: Plain text
+#: md5sum.1:97
+msgid "翻译组 ： B<http://lctt.github.io/ E<lt>lctt@linux.cnE<gt>>"
+msgstr "翻译组 ： B<http://lctt.github.io/ E<lt>lctt@linux.cnE<gt>>"
+
+#. type: Plain text
+#: md5sum.1:98
+msgid "Linux中国 ： B<http://linux.cn/>"
+msgstr "Linux中国 ： B<http://linux.cn/>"
