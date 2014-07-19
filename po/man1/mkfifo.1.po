@@ -1,0 +1,288 @@
+# LCTT man-pages Translate Project
+# Copyright (C) 2013 LCTT
+# This file is distributed under the same license as the PACKAGE package.
+# LCTT <lctt@linux.cn>, 2013.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: LCTT man-pages coreutils-8.21\n"
+"POT-Creation-Date: 2013-10-22 08:51+0800\n"
+"PO-Revision-Date: 2014-06-29 18:26+0800\n"
+"Last-Translator: vito-L <lidongxingit@gmail.com>\n"
+"Language-Team: LCTT <lctt@linux.cn>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"Language: zh_CN.UTF-8\n"
+
+#. type: TH
+#: mkfifo.1:2
+#, no-wrap
+msgid "MKFIFO"
+msgstr "MKFIFO"
+
+#. type: TH
+#: mkfifo.1:2
+#, no-wrap
+msgid "October 2013"
+msgstr "2013年10月"
+
+#. type: TH
+#: mkfifo.1:2
+#, no-wrap
+msgid "GNU coreutils 8.21"
+msgstr "GNU coreutils 8.21"
+
+#. type: TH
+#: mkfifo.1:2
+#, no-wrap
+msgid "User Commands"
+msgstr "用户命令"
+
+#. type: SH
+#: mkfifo.1:3
+#, no-wrap
+msgid "NAME"
+msgstr "名称"
+
+#. type: Plain text
+#: mkfifo.1:5
+msgid "mkfifo - make FIFOs (named pipes)"
+msgstr "mkfifo - 创建 FIFOs （命名管道）"
+
+#. type: SH
+#: mkfifo.1:5
+#, no-wrap
+msgid "SYNOPSIS"
+msgstr "摘要"
+
+#. type: Plain text
+#: mkfifo.1:8
+msgid "B<mkfifo> [I<OPTION>]... I<NAME>..."
+msgstr "B<mkfifo> [I<选项>]... I<名称>..."
+
+#. type: SH
+#: mkfifo.1:8
+#, no-wrap
+msgid "DESCRIPTION"
+msgstr "描述"
+
+#. type: Plain text
+#: mkfifo.1:12
+msgid "Create named pipes (FIFOs) with the given NAMEs."
+msgstr "用指定的文件名创建命名管道（FIFOs）"
+
+#. type: Plain text
+#: mkfifo.1:14
+msgid ""
+"Mandatory arguments to long options are mandatory for short options too."
+msgstr "长选项必须用的参数在短选项中也是必须的。"
+
+#. type: TP
+#: mkfifo.1:14
+#, no-wrap
+msgid "B<-m>, B<--mode>=I<MODE>"
+msgstr "B<-m>, B<--mode>=I<模式>"
+
+#. type: Plain text
+#: mkfifo.1:17
+msgid "set file permission bits to MODE, not a=rw - umask"
+msgstr "设置文件的权限位为MODE，不是a=rw - umask"
+
+#. type: TP
+#: mkfifo.1:17
+#, no-wrap
+msgid "B<-Z>, B<--context>=I<CTX>"
+msgstr "B<-Z>, B<--context>=I<CTX>"
+
+#. type: Plain text
+#: mkfifo.1:20
+msgid "set the SELinux security context of each NAME to CTX"
+msgstr "设置每个CTX名称的SELinux的安全上下文"
+
+#. type: TP
+#: mkfifo.1:20
+#, no-wrap
+msgid "B<--help>"
+msgstr "B<--help>"
+
+#. type: Plain text
+#: mkfifo.1:23
+msgid "display this help and exit"
+msgstr "显示帮助并退出"
+
+#. type: TP
+#: mkfifo.1:23
+#, no-wrap
+msgid "B<--version>"
+msgstr "B<--version>"
+
+#. type: Plain text
+#: mkfifo.1:26
+msgid "output version information and exit"
+msgstr "输出版本信息并退出"
+
+#. type: SH
+#: mkfifo.1:26
+#, no-wrap
+msgid "AUTHOR"
+msgstr "作者"
+
+#. type: Plain text
+#: mkfifo.1:28
+msgid "Written by David MacKenzie."
+msgstr "由David MacKenzie撰写"
+
+#. type: SH
+#: mkfifo.1:28
+#, no-wrap
+msgid "REPORTING BUGS"
+msgstr "报告错误"
+
+#. type: Plain text
+#: mkfifo.1:30
+msgid "Report mkfifo bugs to bug-coreutils@gnu.org"
+msgstr "发送 mkfifo 的错误信息到： bug-coreutils@gnu.org"
+
+#. type: Plain text
+#: mkfifo.1:32
+msgid ""
+"GNU coreutils home page: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+msgstr "GNU coreutils 主页： E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+
+#. type: Plain text
+#: mkfifo.1:34
+msgid "General help using GNU software: E<lt>http://www.gnu.org/gethelp/E<gt>"
+msgstr "使用GNU软件的常规帮助： E<lt>http://www.gnu.org/gethelp/E<gt>"
+
+#. type: Plain text
+#: mkfifo.1:36
+msgid ""
+"Report mkfifo translation bugs to E<lt>http://github.com/LCTT/man-pages/E<gt>"
+msgstr "发送 mkfifo 的翻译错误到 E<lt>http://github.com/LCTT/man-pages/E<gt>"
+
+#. type: SH
+#: mkfifo.1:36
+#, no-wrap
+msgid "COPYRIGHT"
+msgstr "版权声明"
+
+#. type: Plain text
+#: mkfifo.1:39
+msgid ""
+"Copyright \\(co 2013 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
+msgstr ""
+"Copyright \\(co 2013 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
+
+#. type: Plain text
+#: mkfifo.1:42
+msgid ""
+"This is free software: you are free to change and redistribute it.  There is "
+"NO WARRANTY, to the extent permitted by law."
+msgstr ""
+"这是一个自由软件： 你可以自由修改和重新发布它。 在法律允许的范围内， 不提供任"
+"何担保。"
+
+#. type: SH
+#: mkfifo.1:42
+#, no-wrap
+msgid "SEE ALSO"
+msgstr "请参阅"
+
+#. type: Plain text
+#: mkfifo.1:44
+msgid "mkfifo(3)"
+msgstr "mkfifo(3)"
+
+#. type: Plain text
+#: mkfifo.1:52
+msgid ""
+"The full documentation for B<mkfifo> is maintained as a Texinfo manual.  If "
+"the B<info> and B<mkfifo> programs are properly installed at your site, the "
+"command"
+msgstr ""
+"本程序的完整文档使用 Texinfo 手册进行维护。如果 B<info> 和本程序已经正确地安"
+"装在了你的电脑上，通过下述命令"
+
+#. type: Plain text
+#: mkfifo.1:54
+msgid "B<info coreutils \\(aqmkfifo invocation\\(aq>"
+msgstr "B<info coreutils \\(aqmkfifo invocation\\(aq>"
+
+#. type: Plain text
+#: mkfifo.1:56
+msgid "should give you access to the complete manual."
+msgstr "可以访问完整的使用手册。"
+
+#. type: SH
+#: mkfifo.1:56
+#, no-wrap
+msgid "翻译信息"
+msgstr "翻译信息"
+
+#. type: SS
+#: mkfifo.1:57
+#, no-wrap
+msgid "翻译维护人"
+msgstr "翻译维护人"
+
+#. type: Plain text
+#: mkfifo.1:59
+msgid "译者："
+msgstr "译者："
+
+#. type: Plain text
+#: mkfifo.1:61
+msgid ""
+"此处为译者信息， 格式为： 译者名 B<E<lt>译者邮件@地址E<gt>>， 译者名 B<E<lt>"
+"译者邮件@地址E<gt>>"
+msgstr "vito-L B<E<lt>lidongxingit@gmail.comE<gt>>"
+
+#. type: Plain text
+#: mkfifo.1:63
+msgid "校对："
+msgstr "校对："
+
+#. type: Plain text
+#: mkfifo.1:65
+msgid ""
+"此处为校对者信息， 格式为： 校对者名 B<E<lt>校对者邮件@地址E<gt>>， 校对者名 "
+"B<E<lt>校对者邮件@地址E<gt>>"
+msgstr ""
+"此处为校对者信息， 格式为： 校对者名 B<E<lt>校对者邮件@地址E<gt>>， 校对者名 "
+"B<E<lt>校对者邮件@地址E<gt>>"
+
+#. type: SS
+#: mkfifo.1:66
+#, no-wrap
+msgid "翻译更新日期"
+msgstr "翻译更新日期"
+
+#. type: Plain text
+#: mkfifo.1:68
+msgid "此处为最后更新日期， 格式为： 2013.10.20"
+msgstr "2014.06.29"
+
+#. type: SS
+#: mkfifo.1:68
+#, no-wrap
+msgid "翻译组"
+msgstr "翻译组"
+
+#. type: Plain text
+#: mkfifo.1:70
+msgid "man翻译项目 ： B<http://github.com/LCTT/man-pages/>"
+msgstr "man翻译项目 ： B<http://github.com/LCTT/man-pages/>"
+
+#. type: Plain text
+#: mkfifo.1:72
+msgid "翻译组 ： B<http://lctt.github.io/ E<lt>lctt@linux.cnE<gt>>"
+msgstr "翻译组 ： B<http://lctt.github.io/ E<lt>lctt@linux.cnE<gt>>"
+
+#. type: Plain text
+#: mkfifo.1:73
+msgid "Linux中国 ： B<http://linux.cn/>"
+msgstr "Linux中国 ： B<http://linux.cn/>"
